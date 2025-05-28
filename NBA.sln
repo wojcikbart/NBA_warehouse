@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "NBA", "NBA\NBA.dtproj", "{C222BE3D-23FF-1C8D-4AAE-671FC35E24C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Azure|Default = Azure|Default
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C222BE3D-23FF-1C8D-4AAE-671FC35E24C1}.Azure|Default.ActiveCfg = Azure
+		{C222BE3D-23FF-1C8D-4AAE-671FC35E24C1}.Azure|Default.Build.0 = Azure
+		{C222BE3D-23FF-1C8D-4AAE-671FC35E24C1}.Development|Default.ActiveCfg = Development
+		{C222BE3D-23FF-1C8D-4AAE-671FC35E24C1}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C3E554A-D514-417E-8E68-1C9247DDC8A6}
+	EndGlobalSection
+EndGlobal
