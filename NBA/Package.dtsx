@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 <DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:refId="Package"
   DTS:CreationDate="5/28/2025 4:36:17 PM"
@@ -11,9 +11,2026 @@
   DTS:LocaleID="2057"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionGUID="{0D16D180-0795-48A7-BEB2-25388489171F}">
+  DTS:VersionBuild="7"
+  DTS:VersionGUID="{DC327704-9718-4737-85EA-47902466299F}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Flat File Connection Manager]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{951E8662-1EA9-4D7C-A37A-B2AFC8E2F828}"
+      DTS:ObjectName="Flat File Connection Manager">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="2057"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="C:\Users\barte\source\repos\NBA\csv\Player Career Info.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="player_id"
+              DTS:DTSID="{D1A4E446-4313-41FC-9127-758B3CE3BFE0}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="player"
+              DTS:DTSID="{E9490FCF-505C-4722-A5C9-464C1E9EDCB6}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="birth_year"
+              DTS:DTSID="{22F4B80F-4CCF-4DAF-89CE-50A5D389C173}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="hof"
+              DTS:DTSID="{4B2B1D7B-AAF6-44F2-86EB-9168E518B8CB}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="num_seasons"
+              DTS:DTSID="{454F11EE-CD5A-4974-B4DB-0CEBC0BF22EF}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="first_seas"
+              DTS:DTSID="{14CCC5DB-CF14-44F7-86E4-32CE5419F5EF}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="last_seas"
+              DTS:DTSID="{3103C6B6-7B4C-4A6A-A91C-9E983DCEEB63}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Flat File Connection Manager 1]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{A9D7BEA3-6B2E-4032-B920-30FCB4267C45}"
+      DTS:ObjectName="Flat File Connection Manager 1">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="2057"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="C:\Users\barte\source\repos\NBA\csv\Player Directory.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="player"
+              DTS:DTSID="{E35A9947-0A6A-4A54-B1B7-CC040CE7415C}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="from"
+              DTS:DTSID="{E0ED9CBA-4ED5-4354-9CBA-C72EB2DB23B3}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="to"
+              DTS:DTSID="{B9BA56BA-37D3-4CC2-BDFE-4E495876266A}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="pos"
+              DTS:DTSID="{8636C298-0F0E-42A8-AFA4-327167C62761}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ht_in_in"
+              DTS:DTSID="{123B3E91-E57D-4395-983F-8803BC03E273}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="wt"
+              DTS:DTSID="{25C50F81-AF87-45FA-AF4D-1C50834940B3}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="birth_date"
+              DTS:DTSID="{B8142DC3-C6E3-4AF2-B271-9ED64C482AE2}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="colleges"
+              DTS:DTSID="{3D3387FB-E0F3-423D-9FD6-7604EFC778FF}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="hof"
+              DTS:DTSID="{1F46E93C-F9C6-4332-8D1A-11CD5890DE9B}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="slug"
+              DTS:DTSID="{03890DBB-B0A2-46DD-B88F-3930AECA47B8}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
   <DTS:Variables />
-  <DTS:Executables />
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Load Player Info"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Data Flow Task"
+      DTS:DTSID="{DB181908-9950-4E15-A8C6-B62A4FB11603}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Load Player Info"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\Load Player Info\CommonInfo"
+              componentClassID="Microsoft.FlatFileSource"
+              contactInfo="Flat File Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Flat File Source"
+              localeId="2057"
+              name="CommonInfo"
+              usesDispositions="true"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Specifies whether zero-length columns are treated as null."
+                  name="RetainNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of an output column containing the file name. If no name is specified, no output column containing the file name will be generated."
+                  name="FileNameColumnName"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Load Player Info\CommonInfo.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[Flat File Connection Manager]"
+                  connectionManagerRefId="Package.ConnectionManagers[Flat File Connection Manager]"
+                  name="FlatFileConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Load Player Info\CommonInfo.Outputs[Flat File Source Output]"
+                  name="Flat File Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load Player Info\CommonInfo.Outputs[Flat File Source Output].Columns[player_id]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Player Info\CommonInfo.Outputs[Flat File Source Output].ExternalColumns[player_id]"
+                      length="50"
+                      lineageId="Package\Load Player Info\CommonInfo.Outputs[Flat File Source Output].Columns[player_id]"
+                      name="player_id"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Player Info\CommonInfo.Outputs[Flat File Source Output].Columns[player]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Player Info\CommonInfo.Outputs[Flat File Source Output].ExternalColumns[player]"
+                      length="50"
+                      lineageId="Package\Load Player Info\CommonInfo.Outputs[Flat File Source Output].Columns[player]"
+                      name="player"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Player Info\CommonInfo.Outputs[Flat File Source Output].Columns[birth_year]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Player Info\CommonInfo.Outputs[Flat File Source Output].ExternalColumns[birth_year]"
+                      length="50"
+                      lineageId="Package\Load Player Info\CommonInfo.Outputs[Flat File Source Output].Columns[birth_year]"
+                      name="birth_year"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Player Info\CommonInfo.Outputs[Flat File Source Output].Columns[hof]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Player Info\CommonInfo.Outputs[Flat File Source Output].ExternalColumns[hof]"
+                      length="50"
+                      lineageId="Package\Load Player Info\CommonInfo.Outputs[Flat File Source Output].Columns[hof]"
+                      name="hof"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Player Info\CommonInfo.Outputs[Flat File Source Output].Columns[num_seasons]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Player Info\CommonInfo.Outputs[Flat File Source Output].ExternalColumns[num_seasons]"
+                      length="50"
+                      lineageId="Package\Load Player Info\CommonInfo.Outputs[Flat File Source Output].Columns[num_seasons]"
+                      name="num_seasons"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Player Info\CommonInfo.Outputs[Flat File Source Output].Columns[first_seas]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Player Info\CommonInfo.Outputs[Flat File Source Output].ExternalColumns[first_seas]"
+                      length="50"
+                      lineageId="Package\Load Player Info\CommonInfo.Outputs[Flat File Source Output].Columns[first_seas]"
+                      name="first_seas"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Player Info\CommonInfo.Outputs[Flat File Source Output].Columns[last_seas]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Player Info\CommonInfo.Outputs[Flat File Source Output].ExternalColumns[last_seas]"
+                      length="50"
+                      lineageId="Package\Load Player Info\CommonInfo.Outputs[Flat File Source Output].Columns[last_seas]"
+                      name="last_seas"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Load Player Info\CommonInfo.Outputs[Flat File Source Output].ExternalColumns[player_id]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="player_id" />
+                    <externalMetadataColumn
+                      refId="Package\Load Player Info\CommonInfo.Outputs[Flat File Source Output].ExternalColumns[player]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="player" />
+                    <externalMetadataColumn
+                      refId="Package\Load Player Info\CommonInfo.Outputs[Flat File Source Output].ExternalColumns[birth_year]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="birth_year" />
+                    <externalMetadataColumn
+                      refId="Package\Load Player Info\CommonInfo.Outputs[Flat File Source Output].ExternalColumns[hof]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="hof" />
+                    <externalMetadataColumn
+                      refId="Package\Load Player Info\CommonInfo.Outputs[Flat File Source Output].ExternalColumns[num_seasons]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="num_seasons" />
+                    <externalMetadataColumn
+                      refId="Package\Load Player Info\CommonInfo.Outputs[Flat File Source Output].ExternalColumns[first_seas]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="first_seas" />
+                    <externalMetadataColumn
+                      refId="Package\Load Player Info\CommonInfo.Outputs[Flat File Source Output].ExternalColumns[last_seas]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="last_seas" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Load Player Info\CommonInfo.Outputs[Flat File Source Error Output]"
+                  isErrorOut="true"
+                  name="Flat File Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load Player Info\CommonInfo.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      codePage="1252"
+                      dataType="text"
+                      description="Flat File Source Error Output Column"
+                      lineageId="Package\Load Player Info\CommonInfo.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      name="Flat File Source Error Output Column" />
+                    <outputColumn
+                      refId="Package\Load Player Info\CommonInfo.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Load Player Info\CommonInfo.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Load Player Info\CommonInfo.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Load Player Info\CommonInfo.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Load Player Info\Merge Join"
+              componentClassID="Microsoft.MergeJoin"
+              contactInfo="Merge Join;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Combine two sorted data flows into one using the FULL, LEFT, or INNER join. We recommend this transformation when data flows can be sorted at their sources."
+              name="Merge Join"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the type of join to perform."
+                  name="JoinType"
+                  typeConverter="JoinType">2</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the number of columns in the ordering key."
+                  name="NumKeyColumns">1</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the null values are treated as equal values."
+                  name="TreatNullsAsEqual">true</property>
+                <property
+                  dataType="System.Int32"
+                  description="Indicates the requested maximum buffers per input before blocking."
+                  name="MaxBuffersPerInput">5</property>
+              </properties>
+              <inputs>
+                <input
+                  refId="Package\Load Player Info\Merge Join.Inputs[Merge Join Left Input]"
+                  hasSideEffects="true"
+                  name="Merge Join Left Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Load Player Info\Merge Join.Inputs[Merge Join Left Input].Columns[player]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="player"
+                      cachedSortKeyPosition="1"
+                      lineageId="Package\Load Player Info\Sort.Outputs[Sort Output].Columns[player]" />
+                    <inputColumn
+                      refId="Package\Load Player Info\Merge Join.Inputs[Merge Join Left Input].Columns[player_id]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="player_id"
+                      lineageId="Package\Load Player Info\Sort.Outputs[Sort Output].Columns[player_id]" />
+                    <inputColumn
+                      refId="Package\Load Player Info\Merge Join.Inputs[Merge Join Left Input].Columns[birth_year]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="birth_year"
+                      lineageId="Package\Load Player Info\Sort.Outputs[Sort Output].Columns[birth_year]" />
+                    <inputColumn
+                      refId="Package\Load Player Info\Merge Join.Inputs[Merge Join Left Input].Columns[hof]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="hof"
+                      lineageId="Package\Load Player Info\Sort.Outputs[Sort Output].Columns[hof]" />
+                    <inputColumn
+                      refId="Package\Load Player Info\Merge Join.Inputs[Merge Join Left Input].Columns[num_seasons]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="num_seasons"
+                      lineageId="Package\Load Player Info\Sort.Outputs[Sort Output].Columns[num_seasons]" />
+                    <inputColumn
+                      refId="Package\Load Player Info\Merge Join.Inputs[Merge Join Left Input].Columns[first_seas]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="first_seas"
+                      lineageId="Package\Load Player Info\Sort.Outputs[Sort Output].Columns[first_seas]" />
+                    <inputColumn
+                      refId="Package\Load Player Info\Merge Join.Inputs[Merge Join Left Input].Columns[last_seas]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="last_seas"
+                      lineageId="Package\Load Player Info\Sort.Outputs[Sort Output].Columns[last_seas]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+                <input
+                  refId="Package\Load Player Info\Merge Join.Inputs[Merge Join Right Input]"
+                  hasSideEffects="true"
+                  name="Merge Join Right Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Load Player Info\Merge Join.Inputs[Merge Join Right Input].Columns[player]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="player"
+                      cachedSortKeyPosition="1"
+                      lineageId="Package\Load Player Info\Sort 1.Outputs[Sort Output].Columns[player]" />
+                    <inputColumn
+                      refId="Package\Load Player Info\Merge Join.Inputs[Merge Join Right Input].Columns[from]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="from"
+                      lineageId="Package\Load Player Info\Sort 1.Outputs[Sort Output].Columns[from]" />
+                    <inputColumn
+                      refId="Package\Load Player Info\Merge Join.Inputs[Merge Join Right Input].Columns[to]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="to"
+                      lineageId="Package\Load Player Info\Sort 1.Outputs[Sort Output].Columns[to]" />
+                    <inputColumn
+                      refId="Package\Load Player Info\Merge Join.Inputs[Merge Join Right Input].Columns[ht_in_in]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="ht_in_in"
+                      lineageId="Package\Load Player Info\Sort 1.Outputs[Sort Output].Columns[ht_in_in]" />
+                    <inputColumn
+                      refId="Package\Load Player Info\Merge Join.Inputs[Merge Join Right Input].Columns[pos]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="pos"
+                      lineageId="Package\Load Player Info\Sort 1.Outputs[Sort Output].Columns[pos]" />
+                    <inputColumn
+                      refId="Package\Load Player Info\Merge Join.Inputs[Merge Join Right Input].Columns[birth_date]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="birth_date"
+                      lineageId="Package\Load Player Info\Sort 1.Outputs[Sort Output].Columns[birth_date]" />
+                    <inputColumn
+                      refId="Package\Load Player Info\Merge Join.Inputs[Merge Join Right Input].Columns[colleges]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="colleges"
+                      lineageId="Package\Load Player Info\Sort 1.Outputs[Sort Output].Columns[colleges]" />
+                    <inputColumn
+                      refId="Package\Load Player Info\Merge Join.Inputs[Merge Join Right Input].Columns[hof]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="hof"
+                      lineageId="Package\Load Player Info\Sort 1.Outputs[Sort Output].Columns[hof]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Load Player Info\Merge Join.Outputs[Merge Join Output]"
+                  isSorted="true"
+                  name="Merge Join Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load Player Info\Merge Join.Outputs[Merge Join Output].Columns[player_id]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Load Player Info\Merge Join.Outputs[Merge Join Output].Columns[player_id]"
+                      name="player_id">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\Load Player Info\Merge Join.Inputs[Merge Join Left Input].Columns[player_id]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Player Info\Merge Join.Outputs[Merge Join Output].Columns[player]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Load Player Info\Merge Join.Outputs[Merge Join Output].Columns[player]"
+                      name="player"
+                      sortKeyPosition="1">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\Load Player Info\Merge Join.Inputs[Merge Join Left Input].Columns[player]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Player Info\Merge Join.Outputs[Merge Join Output].Columns[birth_year]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Load Player Info\Merge Join.Outputs[Merge Join Output].Columns[birth_year]"
+                      name="birth_year">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\Load Player Info\Merge Join.Inputs[Merge Join Left Input].Columns[birth_year]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Player Info\Merge Join.Outputs[Merge Join Output].Columns[hof]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Load Player Info\Merge Join.Outputs[Merge Join Output].Columns[hof]"
+                      name="hof">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\Load Player Info\Merge Join.Inputs[Merge Join Left Input].Columns[hof]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Player Info\Merge Join.Outputs[Merge Join Output].Columns[num_seasons]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Load Player Info\Merge Join.Outputs[Merge Join Output].Columns[num_seasons]"
+                      name="num_seasons">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\Load Player Info\Merge Join.Inputs[Merge Join Left Input].Columns[num_seasons]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Player Info\Merge Join.Outputs[Merge Join Output].Columns[from]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Load Player Info\Merge Join.Outputs[Merge Join Output].Columns[from]"
+                      name="from">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\Load Player Info\Merge Join.Inputs[Merge Join Right Input].Columns[from]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Player Info\Merge Join.Outputs[Merge Join Output].Columns[to]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Load Player Info\Merge Join.Outputs[Merge Join Output].Columns[to]"
+                      name="to">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\Load Player Info\Merge Join.Inputs[Merge Join Right Input].Columns[to]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Player Info\Merge Join.Outputs[Merge Join Output].Columns[ht_in_in]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Load Player Info\Merge Join.Outputs[Merge Join Output].Columns[ht_in_in]"
+                      name="ht_in_in">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\Load Player Info\Merge Join.Inputs[Merge Join Right Input].Columns[ht_in_in]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Player Info\Merge Join.Outputs[Merge Join Output].Columns[pos]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Load Player Info\Merge Join.Outputs[Merge Join Output].Columns[pos]"
+                      name="pos">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\Load Player Info\Merge Join.Inputs[Merge Join Right Input].Columns[pos]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Player Info\Merge Join.Outputs[Merge Join Output].Columns[birth_date]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Load Player Info\Merge Join.Outputs[Merge Join Output].Columns[birth_date]"
+                      name="birth_date">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\Load Player Info\Merge Join.Inputs[Merge Join Right Input].Columns[birth_date]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Player Info\Merge Join.Outputs[Merge Join Output].Columns[colleges]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Load Player Info\Merge Join.Outputs[Merge Join Output].Columns[colleges]"
+                      name="colleges">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\Load Player Info\Merge Join.Inputs[Merge Join Right Input].Columns[colleges]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Player Info\Merge Join.Outputs[Merge Join Output].Columns[hof (1)]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Load Player Info\Merge Join.Outputs[Merge Join Output].Columns[hof (1)]"
+                      name="hof (1)">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\Load Player Info\Merge Join.Inputs[Merge Join Right Input].Columns[hof]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Player Info\Merge Join.Outputs[Merge Join Output].Columns[first_seas]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Load Player Info\Merge Join.Outputs[Merge Join Output].Columns[first_seas]"
+                      name="first_seas">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\Load Player Info\Merge Join.Inputs[Merge Join Left Input].Columns[first_seas]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Player Info\Merge Join.Outputs[Merge Join Output].Columns[last_seas]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Load Player Info\Merge Join.Outputs[Merge Join Output].Columns[last_seas]"
+                      name="last_seas">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\Load Player Info\Merge Join.Inputs[Merge Join Left Input].Columns[last_seas]}</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Load Player Info\Multicast"
+              componentClassID="Microsoft.Multicast"
+              contactInfo="Multicast;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Distributes every input row to every row in one or more outputs. For example, branch your data flow to make a copy of data so that some values can be masked before sharing with external partners."
+              name="Multicast">
+              <inputs>
+                <input
+                  refId="Package\Load Player Info\Multicast.Inputs[Multicast Input 1]"
+                  name="Multicast Input 1">
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Load Player Info\Multicast.Outputs[Multicast Output 1]"
+                  dangling="true"
+                  deleteOutputOnPathDetached="true"
+                  name="Multicast Output 1"
+                  synchronousInputId="Package\Load Player Info\Multicast.Inputs[Multicast Input 1]">
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Load Player Info\PlayerDirectory"
+              componentClassID="Microsoft.FlatFileSource"
+              contactInfo="Flat File Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Flat File Source"
+              localeId="2057"
+              name="PlayerDirectory"
+              usesDispositions="true"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Specifies whether zero-length columns are treated as null."
+                  name="RetainNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of an output column containing the file name. If no name is specified, no output column containing the file name will be generated."
+                  name="FileNameColumnName"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Load Player Info\PlayerDirectory.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[Flat File Connection Manager 1]"
+                  connectionManagerRefId="Package.ConnectionManagers[Flat File Connection Manager 1]"
+                  name="FlatFileConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Load Player Info\PlayerDirectory.Outputs[Flat File Source Output]"
+                  name="Flat File Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load Player Info\PlayerDirectory.Outputs[Flat File Source Output].Columns[player]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Player Info\PlayerDirectory.Outputs[Flat File Source Output].ExternalColumns[player]"
+                      length="50"
+                      lineageId="Package\Load Player Info\PlayerDirectory.Outputs[Flat File Source Output].Columns[player]"
+                      name="player"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Player Info\PlayerDirectory.Outputs[Flat File Source Output].Columns[from]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Player Info\PlayerDirectory.Outputs[Flat File Source Output].ExternalColumns[from]"
+                      length="50"
+                      lineageId="Package\Load Player Info\PlayerDirectory.Outputs[Flat File Source Output].Columns[from]"
+                      name="from"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Player Info\PlayerDirectory.Outputs[Flat File Source Output].Columns[to]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Player Info\PlayerDirectory.Outputs[Flat File Source Output].ExternalColumns[to]"
+                      length="50"
+                      lineageId="Package\Load Player Info\PlayerDirectory.Outputs[Flat File Source Output].Columns[to]"
+                      name="to"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Player Info\PlayerDirectory.Outputs[Flat File Source Output].Columns[pos]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Player Info\PlayerDirectory.Outputs[Flat File Source Output].ExternalColumns[pos]"
+                      length="50"
+                      lineageId="Package\Load Player Info\PlayerDirectory.Outputs[Flat File Source Output].Columns[pos]"
+                      name="pos"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Player Info\PlayerDirectory.Outputs[Flat File Source Output].Columns[ht_in_in]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Player Info\PlayerDirectory.Outputs[Flat File Source Output].ExternalColumns[ht_in_in]"
+                      length="50"
+                      lineageId="Package\Load Player Info\PlayerDirectory.Outputs[Flat File Source Output].Columns[ht_in_in]"
+                      name="ht_in_in"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Player Info\PlayerDirectory.Outputs[Flat File Source Output].Columns[wt]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Player Info\PlayerDirectory.Outputs[Flat File Source Output].ExternalColumns[wt]"
+                      length="50"
+                      lineageId="Package\Load Player Info\PlayerDirectory.Outputs[Flat File Source Output].Columns[wt]"
+                      name="wt"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Player Info\PlayerDirectory.Outputs[Flat File Source Output].Columns[birth_date]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Player Info\PlayerDirectory.Outputs[Flat File Source Output].ExternalColumns[birth_date]"
+                      length="50"
+                      lineageId="Package\Load Player Info\PlayerDirectory.Outputs[Flat File Source Output].Columns[birth_date]"
+                      name="birth_date"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Player Info\PlayerDirectory.Outputs[Flat File Source Output].Columns[colleges]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Player Info\PlayerDirectory.Outputs[Flat File Source Output].ExternalColumns[colleges]"
+                      length="50"
+                      lineageId="Package\Load Player Info\PlayerDirectory.Outputs[Flat File Source Output].Columns[colleges]"
+                      name="colleges"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Player Info\PlayerDirectory.Outputs[Flat File Source Output].Columns[hof]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Player Info\PlayerDirectory.Outputs[Flat File Source Output].ExternalColumns[hof]"
+                      length="50"
+                      lineageId="Package\Load Player Info\PlayerDirectory.Outputs[Flat File Source Output].Columns[hof]"
+                      name="hof"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Load Player Info\PlayerDirectory.Outputs[Flat File Source Output].ExternalColumns[player]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="player" />
+                    <externalMetadataColumn
+                      refId="Package\Load Player Info\PlayerDirectory.Outputs[Flat File Source Output].ExternalColumns[from]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="from" />
+                    <externalMetadataColumn
+                      refId="Package\Load Player Info\PlayerDirectory.Outputs[Flat File Source Output].ExternalColumns[to]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="to" />
+                    <externalMetadataColumn
+                      refId="Package\Load Player Info\PlayerDirectory.Outputs[Flat File Source Output].ExternalColumns[pos]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="pos" />
+                    <externalMetadataColumn
+                      refId="Package\Load Player Info\PlayerDirectory.Outputs[Flat File Source Output].ExternalColumns[ht_in_in]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="ht_in_in" />
+                    <externalMetadataColumn
+                      refId="Package\Load Player Info\PlayerDirectory.Outputs[Flat File Source Output].ExternalColumns[wt]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="wt" />
+                    <externalMetadataColumn
+                      refId="Package\Load Player Info\PlayerDirectory.Outputs[Flat File Source Output].ExternalColumns[birth_date]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="birth_date" />
+                    <externalMetadataColumn
+                      refId="Package\Load Player Info\PlayerDirectory.Outputs[Flat File Source Output].ExternalColumns[colleges]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="colleges" />
+                    <externalMetadataColumn
+                      refId="Package\Load Player Info\PlayerDirectory.Outputs[Flat File Source Output].ExternalColumns[hof]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="hof" />
+                    <externalMetadataColumn
+                      refId="Package\Load Player Info\PlayerDirectory.Outputs[Flat File Source Output].ExternalColumns[slug]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="slug" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Load Player Info\PlayerDirectory.Outputs[Flat File Source Error Output]"
+                  isErrorOut="true"
+                  name="Flat File Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load Player Info\PlayerDirectory.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      codePage="1252"
+                      dataType="text"
+                      description="Flat File Source Error Output Column"
+                      lineageId="Package\Load Player Info\PlayerDirectory.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      name="Flat File Source Error Output Column" />
+                    <outputColumn
+                      refId="Package\Load Player Info\PlayerDirectory.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Load Player Info\PlayerDirectory.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Load Player Info\PlayerDirectory.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Load Player Info\PlayerDirectory.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Load Player Info\Sort"
+              componentClassID="Microsoft.Sort"
+              contactInfo="Sort;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Sorts input data in ascending or descending order when it cannot be sorted at its source. For example, sort sales data by 'customer id' before it is written to a flat file and delivered to another department. Note: We do not recommend this transformation for large data flows."
+              name="Sort"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the Sort transformation removes rows with duplicate sort values."
+                  name="EliminateDuplicates">true</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the maximum number of threads to use for sorting."
+                  expressionType="Notify"
+                  name="MaximumThreads">-1</property>
+              </properties>
+              <inputs>
+                <input
+                  refId="Package\Load Player Info\Sort.Inputs[Sort Input]"
+                  name="Sort Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Load Player Info\Sort.Inputs[Sort Input].Columns[player_id]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="player_id"
+                      lineageId="Package\Load Player Info\CommonInfo.Outputs[Flat File Source Output].Columns[player_id]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Player Info\Sort.Inputs[Sort Input].Columns[player]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="player"
+                      lineageId="Package\Load Player Info\CommonInfo.Outputs[Flat File Source Output].Columns[player]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">1</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Player Info\Sort.Inputs[Sort Input].Columns[birth_year]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="birth_year"
+                      lineageId="Package\Load Player Info\CommonInfo.Outputs[Flat File Source Output].Columns[birth_year]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Player Info\Sort.Inputs[Sort Input].Columns[hof]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="hof"
+                      lineageId="Package\Load Player Info\CommonInfo.Outputs[Flat File Source Output].Columns[hof]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Player Info\Sort.Inputs[Sort Input].Columns[num_seasons]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="num_seasons"
+                      lineageId="Package\Load Player Info\CommonInfo.Outputs[Flat File Source Output].Columns[num_seasons]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Player Info\Sort.Inputs[Sort Input].Columns[first_seas]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="first_seas"
+                      lineageId="Package\Load Player Info\CommonInfo.Outputs[Flat File Source Output].Columns[first_seas]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Player Info\Sort.Inputs[Sort Input].Columns[last_seas]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="last_seas"
+                      lineageId="Package\Load Player Info\CommonInfo.Outputs[Flat File Source Output].Columns[last_seas]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Load Player Info\Sort.Outputs[Sort Output]"
+                  isSorted="true"
+                  name="Sort Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load Player Info\Sort.Outputs[Sort Output].Columns[player_id]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Load Player Info\Sort.Outputs[Sort Output].Columns[player_id]"
+                      name="player_id">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Load Player Info\CommonInfo.Outputs[Flat File Source Output].Columns[player_id]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Player Info\Sort.Outputs[Sort Output].Columns[player]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Load Player Info\Sort.Outputs[Sort Output].Columns[player]"
+                      name="player"
+                      sortKeyPosition="1">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Load Player Info\CommonInfo.Outputs[Flat File Source Output].Columns[player]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Player Info\Sort.Outputs[Sort Output].Columns[birth_year]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Load Player Info\Sort.Outputs[Sort Output].Columns[birth_year]"
+                      name="birth_year">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Load Player Info\CommonInfo.Outputs[Flat File Source Output].Columns[birth_year]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Player Info\Sort.Outputs[Sort Output].Columns[hof]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Load Player Info\Sort.Outputs[Sort Output].Columns[hof]"
+                      name="hof">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Load Player Info\CommonInfo.Outputs[Flat File Source Output].Columns[hof]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Player Info\Sort.Outputs[Sort Output].Columns[num_seasons]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Load Player Info\Sort.Outputs[Sort Output].Columns[num_seasons]"
+                      name="num_seasons">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Load Player Info\CommonInfo.Outputs[Flat File Source Output].Columns[num_seasons]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Player Info\Sort.Outputs[Sort Output].Columns[first_seas]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Load Player Info\Sort.Outputs[Sort Output].Columns[first_seas]"
+                      name="first_seas">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Load Player Info\CommonInfo.Outputs[Flat File Source Output].Columns[first_seas]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Player Info\Sort.Outputs[Sort Output].Columns[last_seas]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Load Player Info\Sort.Outputs[Sort Output].Columns[last_seas]"
+                      name="last_seas">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Load Player Info\CommonInfo.Outputs[Flat File Source Output].Columns[last_seas]}</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Load Player Info\Sort 1"
+              componentClassID="Microsoft.Sort"
+              contactInfo="Sort;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Sorts input data in ascending or descending order when it cannot be sorted at its source. For example, sort sales data by 'customer id' before it is written to a flat file and delivered to another department. Note: We do not recommend this transformation for large data flows."
+              name="Sort 1"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the Sort transformation removes rows with duplicate sort values."
+                  name="EliminateDuplicates">true</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the maximum number of threads to use for sorting."
+                  expressionType="Notify"
+                  name="MaximumThreads">-1</property>
+              </properties>
+              <inputs>
+                <input
+                  refId="Package\Load Player Info\Sort 1.Inputs[Sort Input]"
+                  name="Sort Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Load Player Info\Sort 1.Inputs[Sort Input].Columns[player]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="player"
+                      lineageId="Package\Load Player Info\PlayerDirectory.Outputs[Flat File Source Output].Columns[player]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">1</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Player Info\Sort 1.Inputs[Sort Input].Columns[from]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="from"
+                      lineageId="Package\Load Player Info\PlayerDirectory.Outputs[Flat File Source Output].Columns[from]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Player Info\Sort 1.Inputs[Sort Input].Columns[to]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="to"
+                      lineageId="Package\Load Player Info\PlayerDirectory.Outputs[Flat File Source Output].Columns[to]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Player Info\Sort 1.Inputs[Sort Input].Columns[pos]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="pos"
+                      lineageId="Package\Load Player Info\PlayerDirectory.Outputs[Flat File Source Output].Columns[pos]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Player Info\Sort 1.Inputs[Sort Input].Columns[ht_in_in]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="ht_in_in"
+                      lineageId="Package\Load Player Info\PlayerDirectory.Outputs[Flat File Source Output].Columns[ht_in_in]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Player Info\Sort 1.Inputs[Sort Input].Columns[wt]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="wt"
+                      lineageId="Package\Load Player Info\PlayerDirectory.Outputs[Flat File Source Output].Columns[wt]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Player Info\Sort 1.Inputs[Sort Input].Columns[birth_date]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="birth_date"
+                      lineageId="Package\Load Player Info\PlayerDirectory.Outputs[Flat File Source Output].Columns[birth_date]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Player Info\Sort 1.Inputs[Sort Input].Columns[colleges]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="colleges"
+                      lineageId="Package\Load Player Info\PlayerDirectory.Outputs[Flat File Source Output].Columns[colleges]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Player Info\Sort 1.Inputs[Sort Input].Columns[hof]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="hof"
+                      lineageId="Package\Load Player Info\PlayerDirectory.Outputs[Flat File Source Output].Columns[hof]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Load Player Info\Sort 1.Outputs[Sort Output]"
+                  isSorted="true"
+                  name="Sort Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load Player Info\Sort 1.Outputs[Sort Output].Columns[player]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Load Player Info\Sort 1.Outputs[Sort Output].Columns[player]"
+                      name="player"
+                      sortKeyPosition="1">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Load Player Info\PlayerDirectory.Outputs[Flat File Source Output].Columns[player]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Player Info\Sort 1.Outputs[Sort Output].Columns[from]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Load Player Info\Sort 1.Outputs[Sort Output].Columns[from]"
+                      name="from">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Load Player Info\PlayerDirectory.Outputs[Flat File Source Output].Columns[from]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Player Info\Sort 1.Outputs[Sort Output].Columns[to]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Load Player Info\Sort 1.Outputs[Sort Output].Columns[to]"
+                      name="to">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Load Player Info\PlayerDirectory.Outputs[Flat File Source Output].Columns[to]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Player Info\Sort 1.Outputs[Sort Output].Columns[pos]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Load Player Info\Sort 1.Outputs[Sort Output].Columns[pos]"
+                      name="pos">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Load Player Info\PlayerDirectory.Outputs[Flat File Source Output].Columns[pos]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Player Info\Sort 1.Outputs[Sort Output].Columns[ht_in_in]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Load Player Info\Sort 1.Outputs[Sort Output].Columns[ht_in_in]"
+                      name="ht_in_in">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Load Player Info\PlayerDirectory.Outputs[Flat File Source Output].Columns[ht_in_in]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Player Info\Sort 1.Outputs[Sort Output].Columns[wt]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Load Player Info\Sort 1.Outputs[Sort Output].Columns[wt]"
+                      name="wt">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Load Player Info\PlayerDirectory.Outputs[Flat File Source Output].Columns[wt]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Player Info\Sort 1.Outputs[Sort Output].Columns[birth_date]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Load Player Info\Sort 1.Outputs[Sort Output].Columns[birth_date]"
+                      name="birth_date">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Load Player Info\PlayerDirectory.Outputs[Flat File Source Output].Columns[birth_date]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Player Info\Sort 1.Outputs[Sort Output].Columns[colleges]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Load Player Info\Sort 1.Outputs[Sort Output].Columns[colleges]"
+                      name="colleges">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Load Player Info\PlayerDirectory.Outputs[Flat File Source Output].Columns[colleges]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Player Info\Sort 1.Outputs[Sort Output].Columns[hof]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Load Player Info\Sort 1.Outputs[Sort Output].Columns[hof]"
+                      name="hof">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Load Player Info\PlayerDirectory.Outputs[Flat File Source Output].Columns[hof]}</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\Load Player Info.Paths[Flat File Source Output]"
+              endId="Package\Load Player Info\Sort.Inputs[Sort Input]"
+              name="Flat File Source Output"
+              startId="Package\Load Player Info\CommonInfo.Outputs[Flat File Source Output]" />
+            <path
+              refId="Package\Load Player Info.Paths[Flat File Source Output1]"
+              endId="Package\Load Player Info\Sort 1.Inputs[Sort Input]"
+              name="Flat File Source Output"
+              startId="Package\Load Player Info\PlayerDirectory.Outputs[Flat File Source Output]" />
+            <path
+              refId="Package\Load Player Info.Paths[Merge Join Output]"
+              endId="Package\Load Player Info\Multicast.Inputs[Multicast Input 1]"
+              name="Merge Join Output"
+              startId="Package\Load Player Info\Merge Join.Outputs[Merge Join Output]" />
+            <path
+              refId="Package\Load Player Info.Paths[Sort Output]"
+              endId="Package\Load Player Info\Merge Join.Inputs[Merge Join Left Input]"
+              name="Sort Output"
+              startId="Package\Load Player Info\Sort.Outputs[Sort Output]" />
+            <path
+              refId="Package\Load Player Info.Paths[Sort Output1]"
+              endId="Package\Load Player Info\Merge Join.Inputs[Merge Join Right Input]"
+              name="Sort Output"
+              startId="Package\Load Player Info\Sort 1.Outputs[Sort Output]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<Objects
+  Version="8">
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        <NodeLayout
+          Size="156,42"
+          Id="Package\Load Player Info"
+          TopLeft="324,125" />
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+  <TaskHost
+    design-time-name="Package\Load Player Info">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="140,42"
+          Id="Package\Load Player Info\CommonInfo"
+          TopLeft="133,52" />
+        <NodeLayout
+          Size="150,42"
+          Id="Package\Load Player Info\PlayerDirectory"
+          TopLeft="350,60" />
+        <NodeLayout
+          Size="98,42"
+          Id="Package\Load Player Info\Sort"
+          TopLeft="158,128" />
+        <EdgeLayout
+          Id="Package\Load Player Info.Paths[Flat File Source Output]"
+          TopLeft="205,94">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,34"
+              Start="0,0"
+              End="0,26.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,26.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="107,42"
+          Id="Package\Load Player Info\Sort 1"
+          TopLeft="369,132" />
+        <EdgeLayout
+          Id="Package\Load Player Info.Paths[Flat File Source Output1]"
+          TopLeft="423.75,102">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,30"
+              Start="0,0"
+              End="0,22.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,22.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="130,42"
+          Id="Package\Load Player Info\Merge Join"
+          TopLeft="245,244" />
+        <EdgeLayout
+          Id="Package\Load Player Info.Paths[Sort Output]"
+          TopLeft="207,170">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="82.6666666666667,74"
+              Start="0,0"
+              End="82.6666666666667,66.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,39.8601823708207" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,39.8601823708207"
+                    Point2="0,43.8601823708207"
+                    Point3="4,43.8601823708207" />
+                  <mssgle:LineSegment
+                    End="78.6666666666667,43.8601823708207" />
+                  <mssgle:CubicBezierSegment
+                    Point1="78.6666666666667,43.8601823708207"
+                    Point2="82.6666666666667,43.8601823708207"
+                    Point3="82.6666666666667,47.8601823708207" />
+                  <mssgle:LineSegment
+                    End="82.6666666666667,66.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load Player Info.Paths[Sort Output1]"
+          TopLeft="422.5,174">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-92.1666666666667,70"
+              Start="0,0"
+              End="-92.1666666666667,62.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,37.4893617021277" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,37.4893617021277"
+                    Point2="0,41.4893617021277"
+                    Point3="-4,41.4893617021277" />
+                  <mssgle:LineSegment
+                    End="-88.1666666666667,41.4893617021277" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-88.1666666666667,41.4893617021277"
+                    Point2="-92.1666666666667,41.4893617021277"
+                    Point3="-92.1666666666667,45.4893617021277" />
+                  <mssgle:LineSegment
+                    End="-92.1666666666667,62.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="120,42"
+          Id="Package\Load Player Info\Multicast"
+          TopLeft="246,337" />
+        <EdgeLayout
+          Id="Package\Load Player Info.Paths[Merge Join Output]"
+          TopLeft="308,286">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,51"
+              Start="0,0"
+              End="0,43.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,43.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-8,13.75,16,16"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+</Objects>]]></DTS:DesignTimeProperties>
 </DTS:Executable>
