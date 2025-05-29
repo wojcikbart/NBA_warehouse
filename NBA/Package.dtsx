@@ -11,8 +11,8 @@
   DTS:LocaleID="2057"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="20"
-  DTS:VersionGUID="{782AB5CC-4D00-4F0D-AA99-6F356A4D7697}">
+  DTS:VersionBuild="89"
+  DTS:VersionGUID="{5A5F876E-0C3F-4B3C-9412-830DFD700C8D}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -243,6 +243,219 @@
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
           DTS:ConnectionString="Data Source=localhost;Initial Catalog=NBA;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-Package-{FD055DCE-7795-4519-9C74-A60C339A2FA5}localhost.NBA;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Team]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{CE84633B-E943-4992-A2F1-AAB138C5C8DE}"
+      DTS:ObjectName="Team">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="2057"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="C:\Users\barte\Desktop\studia\SEM6\magazyny\NBA_warehouse\data\team.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="id"
+              DTS:DTSID="{B27D9990-D857-4A79-965E-742C21BF3B0C}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="full_name"
+              DTS:DTSID="{E7BBF489-DB8E-4743-9D6C-FFBA403F6C41}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="abbreviation"
+              DTS:DTSID="{1931B504-12C9-4A69-A305-077737728CD2}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="nickname"
+              DTS:DTSID="{24FACE75-F157-4C47-85E8-4B68C7FA51C9}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="city"
+              DTS:DTSID="{A18F3A0A-E315-419F-819A-633B4001C811}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="state"
+              DTS:DTSID="{3EF7144F-57A1-443E-B04A-B940ACE3142D}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="year_founded"
+              DTS:DTSID="{1E7702B4-97BC-4647-AD0D-BD4D4A1B4D99}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Team Abbrev]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{0C1FA5B1-E105-4A0F-8969-1F910841086F}"
+      DTS:ObjectName="Team Abbrev">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="2057"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="C:\Users\barte\Desktop\studia\SEM6\magazyny\NBA_warehouse\data\Team Abbrev.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="season"
+              DTS:DTSID="{FA048E46-67F1-497D-A695-45C70BD1F806}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="lg"
+              DTS:DTSID="{61E882EA-9617-4BE4-AB68-31B7F343847C}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="team"
+              DTS:DTSID="{CC92FFDB-2162-48A8-99A1-EDFA324AB0B7}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="playoffs"
+              DTS:DTSID="{0757D9AA-CBFE-4B12-B545-273ED43AF46B}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="abbreviation"
+              DTS:DTSID="{6847271B-102D-4F71-A127-774DCB044F31}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Team History]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{7D767D1F-BB4C-4A7A-88AD-396E30522CA5}"
+      DTS:ObjectName="Team History">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="2057"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="C:\Users\barte\Desktop\studia\SEM6\magazyny\NBA_warehouse\data\team_history.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="team_id"
+              DTS:DTSID="{27A06C64-9517-4794-B880-464D51344F16}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="city"
+              DTS:DTSID="{456B4D8C-B954-48E6-BEBD-A71715122A38}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="nickname"
+              DTS:DTSID="{D9A928FC-D209-4C4E-A6BE-04D5B699205C}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="year_founded"
+              DTS:DTSID="{87015722-764E-4BCA-B141-954D5F61B111}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="year_active_till"
+              DTS:DTSID="{3043515D-9346-4CCA-94DF-266D439EC0DE}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -2575,105 +2788,11 @@
                 </output>
               </outputs>
             </component>
-            <component
-              refId="Package\Generate Seasons\Year &gt; 1980"
-              componentClassID="Microsoft.ConditionalSplit"
-              contactInfo="Conditional Split;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
-              description="Routes data rows to different outputs depending on the content of the data. Use conditions (SSIS expressions) to specify which rows are routed. For example, separate records that need to be cleaned from those that are ready to be loaded or route only a subset of records."
-              name="Year &gt; 1980"
-              usesDispositions="true">
-              <inputs>
-                <input
-                  refId="Package\Generate Seasons\Year &gt; 1980.Inputs[Conditional Split Input]"
-                  description="Input to the Conditional Split Transformation"
-                  name="Conditional Split Input">
-                  <inputColumns>
-                    <inputColumn
-                      refId="Package\Generate Seasons\Year &gt; 1980.Inputs[Conditional Split Input].Columns[Year]"
-                      cachedDataType="i4"
-                      cachedName="Year"
-                      lineageId="Package\Generate Seasons\Derived Column.Outputs[Derived Column Output].Columns[Year]" />
-                  </inputColumns>
-                  <externalMetadataColumns />
-                </input>
-              </inputs>
-              <outputs>
-                <output
-                  refId="Package\Generate Seasons\Year &gt; 1980.Outputs[Case 1]"
-                  description="Output 1 of the Conditional Split Transformation"
-                  errorOrTruncationOperation="Computation"
-                  errorRowDisposition="FailComponent"
-                  exclusionGroup="1"
-                  name="Case 1"
-                  synchronousInputId="Package\Generate Seasons\Year &gt; 1980.Inputs[Conditional Split Input]"
-                  truncationRowDisposition="FailComponent">
-                  <properties>
-                    <property
-                      containsID="true"
-                      dataType="System.String"
-                      description="Specifies the expression. This expression version uses lineage identifiers instead of column names."
-                      name="Expression">#{Package\Generate Seasons\Derived Column.Outputs[Derived Column Output].Columns[Year]} &lt; 1980</property>
-                    <property
-                      containsID="true"
-                      dataType="System.String"
-                      description="Specifies the friendly version of the expression. This expression version uses column names."
-                      expressionType="Notify"
-                      name="FriendlyExpression">Year &lt; 1980</property>
-                    <property
-                      dataType="System.Int32"
-                      description="Specifies the position of the condition in the list of conditions that the transformation evaluates. The evaluation order is from the lowest to the highest value."
-                      name="EvaluationOrder">0</property>
-                  </properties>
-                  <externalMetadataColumns />
-                </output>
-                <output
-                  refId="Package\Generate Seasons\Year &gt; 1980.Outputs[Conditional Split Default Output]"
-                  description="Default Output of the Conditional Split Transformation"
-                  exclusionGroup="1"
-                  name="Conditional Split Default Output"
-                  synchronousInputId="Package\Generate Seasons\Year &gt; 1980.Inputs[Conditional Split Input]">
-                  <properties>
-                    <property
-                      dataType="System.Boolean"
-                      name="IsDefaultOut">true</property>
-                  </properties>
-                  <externalMetadataColumns />
-                </output>
-                <output
-                  refId="Package\Generate Seasons\Year &gt; 1980.Outputs[Conditional Split Error Output]"
-                  description="Error Output of the Conditional Split Transformation"
-                  exclusionGroup="1"
-                  isErrorOut="true"
-                  name="Conditional Split Error Output"
-                  synchronousInputId="Package\Generate Seasons\Year &gt; 1980.Inputs[Conditional Split Input]">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Generate Seasons\Year &gt; 1980.Outputs[Conditional Split Error Output].Columns[ErrorCode]"
-                      dataType="i4"
-                      lineageId="Package\Generate Seasons\Year &gt; 1980.Outputs[Conditional Split Error Output].Columns[ErrorCode]"
-                      name="ErrorCode"
-                      specialFlags="1" />
-                    <outputColumn
-                      refId="Package\Generate Seasons\Year &gt; 1980.Outputs[Conditional Split Error Output].Columns[ErrorColumn]"
-                      dataType="i4"
-                      lineageId="Package\Generate Seasons\Year &gt; 1980.Outputs[Conditional Split Error Output].Columns[ErrorColumn]"
-                      name="ErrorColumn"
-                      specialFlags="2" />
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-              </outputs>
-            </component>
           </components>
           <paths>
             <path
-              refId="Package\Generate Seasons.Paths[Conditional Split Default Output]"
-              endId="Package\Generate Seasons\Sort.Inputs[Sort Input]"
-              name="Conditional Split Default Output"
-              startId="Package\Generate Seasons\Year &gt; 1980.Outputs[Conditional Split Default Output]" />
-            <path
               refId="Package\Generate Seasons.Paths[Derived Column Output]"
-              endId="Package\Generate Seasons\Year &gt; 1980.Inputs[Conditional Split Input]"
+              endId="Package\Generate Seasons\Sort.Inputs[Sort Input]"
               name="Derived Column Output"
               startId="Package\Generate Seasons\Derived Column.Outputs[Derived Column Output]" />
             <path
@@ -4322,6 +4441,2210 @@
         </pipeline>
       </DTS:ObjectData>
     </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Load Team Info"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Data Flow Task"
+      DTS:DTSID="{2A89A95F-616D-4022-A2D5-FEE0D101ED71}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Load Team Info"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\Load Team Info\Conditional Split"
+              componentClassID="Microsoft.ConditionalSplit"
+              contactInfo="Conditional Split;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Routes data rows to different outputs depending on the content of the data. Use conditions (SSIS expressions) to specify which rows are routed. For example, separate records that need to be cleaned from those that are ready to be loaded or route only a subset of records."
+              name="Conditional Split"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Load Team Info\Conditional Split.Inputs[Conditional Split Input]"
+                  description="Input to the Conditional Split Transformation"
+                  name="Conditional Split Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Load Team Info\Conditional Split.Inputs[Conditional Split Input].Columns[LastSeason]"
+                      cachedDataType="i4"
+                      cachedName="LastSeason"
+                      lineageId="Package\Load Team Info\Derived Column.Outputs[Derived Column Output].Columns[LastSeason]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Load Team Info\Conditional Split.Outputs[Case 1]"
+                  description="Output 1 of the Conditional Split Transformation"
+                  errorOrTruncationOperation="Computation"
+                  errorRowDisposition="FailComponent"
+                  exclusionGroup="1"
+                  name="Case 1"
+                  synchronousInputId="Package\Load Team Info\Conditional Split.Inputs[Conditional Split Input]"
+                  truncationRowDisposition="FailComponent">
+                  <properties>
+                    <property
+                      containsID="true"
+                      dataType="System.String"
+                      description="Specifies the expression. This expression version uses lineage identifiers instead of column names."
+                      name="Expression">#{Package\Load Team Info\Derived Column.Outputs[Derived Column Output].Columns[LastSeason]} &lt; 1980</property>
+                    <property
+                      containsID="true"
+                      dataType="System.String"
+                      description="Specifies the friendly version of the expression. This expression version uses column names."
+                      expressionType="Notify"
+                      name="FriendlyExpression">LastSeason &lt; 1980</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the position of the condition in the list of conditions that the transformation evaluates. The evaluation order is from the lowest to the highest value."
+                      name="EvaluationOrder">0</property>
+                  </properties>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Load Team Info\Conditional Split.Outputs[Conditional Split Default Output]"
+                  description="Default Output of the Conditional Split Transformation"
+                  exclusionGroup="1"
+                  name="Conditional Split Default Output"
+                  synchronousInputId="Package\Load Team Info\Conditional Split.Inputs[Conditional Split Input]">
+                  <properties>
+                    <property
+                      dataType="System.Boolean"
+                      name="IsDefaultOut">true</property>
+                  </properties>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Load Team Info\Conditional Split.Outputs[Conditional Split Error Output]"
+                  description="Error Output of the Conditional Split Transformation"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Conditional Split Error Output"
+                  synchronousInputId="Package\Load Team Info\Conditional Split.Inputs[Conditional Split Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load Team Info\Conditional Split.Outputs[Conditional Split Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Load Team Info\Conditional Split.Outputs[Conditional Split Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Load Team Info\Conditional Split.Outputs[Conditional Split Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Load Team Info\Conditional Split.Outputs[Conditional Split Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Load Team Info\Data Conversion"
+              componentClassID="Microsoft.DataConvert"
+              contactInfo="Data Conversion;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Data Conversion"
+              name="Data Conversion"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Load Team Info\Data Conversion.Inputs[Data Conversion Input]"
+                  name="Data Conversion Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Load Team Info\Data Conversion.Inputs[Data Conversion Input].Columns[LastSeason]"
+                      cachedDataType="i4"
+                      cachedName="LastSeason"
+                      lineageId="Package\Load Team Info\Derived Column.Outputs[Derived Column Output].Columns[LastSeason]" />
+                    <inputColumn
+                      refId="Package\Load Team Info\Data Conversion.Inputs[Data Conversion Input].Columns[FirstSeason]"
+                      cachedDataType="i4"
+                      cachedName="FirstSeason"
+                      lineageId="Package\Load Team Info\Derived Column.Outputs[Derived Column Output].Columns[FirstSeason]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Load Team Info\Data Conversion.Outputs[Data Conversion Output]"
+                  exclusionGroup="1"
+                  name="Data Conversion Output"
+                  synchronousInputId="Package\Load Team Info\Data Conversion.Inputs[Data Conversion Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load Team Info\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of FirstSeason]"
+                      dataType="i2"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Load Team Info\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of FirstSeason]"
+                      name="Copy of FirstSeason"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\Load Team Info\Derived Column.Outputs[Derived Column Output].Columns[FirstSeason]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Team Info\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of LastSeason]"
+                      dataType="i2"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Load Team Info\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of LastSeason]"
+                      name="Copy of LastSeason"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\Load Team Info\Derived Column.Outputs[Derived Column Output].Columns[LastSeason]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Load Team Info\Data Conversion.Outputs[Data Conversion Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Data Conversion Error Output"
+                  synchronousInputId="Package\Load Team Info\Data Conversion.Inputs[Data Conversion Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load Team Info\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Load Team Info\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Load Team Info\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Load Team Info\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Load Team Info\Derived Column"
+              componentClassID="Microsoft.DerivedColumn"
+              contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Creates new column values by applying expressions to transformation input columns. Create new columns or overwrite existing ones. For example, concatenate the values from the 'first name' and 'last name' column to make a 'full name' column."
+              name="Derived Column"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Load Team Info\Derived Column.Inputs[Derived Column Input]"
+                  description="Input to the Derived Column Transformation"
+                  name="Derived Column Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Load Team Info\Derived Column.Inputs[Derived Column Input].Columns[year_active_till]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="year_active_till"
+                      lineageId="Package\Load Team Info\Merge Join.Outputs[Merge Join Output].Columns[year_active_till]" />
+                    <inputColumn
+                      refId="Package\Load Team Info\Derived Column.Inputs[Derived Column Input].Columns[year_founded]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="year_founded"
+                      lineageId="Package\Load Team Info\Merge Join.Outputs[Merge Join Output].Columns[year_founded]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Load Team Info\Derived Column.Outputs[Derived Column Output]"
+                  description="Default Output of the Derived Column Transformation"
+                  exclusionGroup="1"
+                  name="Derived Column Output"
+                  synchronousInputId="Package\Load Team Info\Derived Column.Inputs[Derived Column Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load Team Info\Derived Column.Outputs[Derived Column Output].Columns[LastSeason]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Load Team Info\Derived Column.Outputs[Derived Column Output].Columns[LastSeason]"
+                      name="LastSeason"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">[ISNULL](#{Package\Load Team Info\Merge Join.Outputs[Merge Join Output].Columns[year_active_till]}) || (DT_I4)#{Package\Load Team Info\Merge Join.Outputs[Merge Join Output].Columns[year_active_till]} == 2019 ? 2025 : (DT_I4)#{Package\Load Team Info\Merge Join.Outputs[Merge Join Output].Columns[year_active_till]}</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">ISNULL(year_active_till) || (DT_I4)year_active_till == 2019 ? 2025 : (DT_I4)year_active_till</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Team Info\Derived Column.Outputs[Derived Column Output].Columns[isActive]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      length="3"
+                      lineageId="Package\Load Team Info\Derived Column.Outputs[Derived Column Output].Columns[isActive]"
+                      name="isActive"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">[ISNULL](#{Package\Load Team Info\Merge Join.Outputs[Merge Join Output].Columns[year_active_till]}) || (DT_I4)#{Package\Load Team Info\Merge Join.Outputs[Merge Join Output].Columns[year_active_till]} == 2019 ? "Yes" : "No"</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">ISNULL(year_active_till) || (DT_I4)year_active_till == 2019 ? "Yes" : "No"</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Team Info\Derived Column.Outputs[Derived Column Output].Columns[FirstSeason]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Load Team Info\Derived Column.Outputs[Derived Column Output].Columns[FirstSeason]"
+                      name="FirstSeason"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">[ISNULL](#{Package\Load Team Info\Merge Join.Outputs[Merge Join Output].Columns[year_founded]}) ? (DT_I4)2008 : (DT_I4)#{Package\Load Team Info\Merge Join.Outputs[Merge Join Output].Columns[year_founded]}</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">ISNULL(year_founded) ? (DT_I4)2008 : (DT_I4)year_founded</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Load Team Info\Derived Column.Outputs[Derived Column Error Output]"
+                  description="Error Output of the Derived Column Transformation"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Derived Column Error Output"
+                  synchronousInputId="Package\Load Team Info\Derived Column.Inputs[Derived Column Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load Team Info\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Load Team Info\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Load Team Info\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Load Team Info\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Load Team Info\Fixing datatypes"
+              componentClassID="Microsoft.DataConvert"
+              contactInfo="Data Conversion;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Data Conversion"
+              name="Fixing datatypes"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Load Team Info\Fixing datatypes.Inputs[Data Conversion Input]"
+                  name="Data Conversion Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Load Team Info\Fixing datatypes.Inputs[Data Conversion Input].Columns[full_name]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="full_name"
+                      lineageId="Package\Load Team Info\Merge Join.Outputs[Merge Join Output].Columns[full_name]" />
+                    <inputColumn
+                      refId="Package\Load Team Info\Fixing datatypes.Inputs[Data Conversion Input].Columns[city]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="city"
+                      lineageId="Package\Load Team Info\Merge Join.Outputs[Merge Join Output].Columns[city]" />
+                    <inputColumn
+                      refId="Package\Load Team Info\Fixing datatypes.Inputs[Data Conversion Input].Columns[state]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="state"
+                      lineageId="Package\Load Team Info\Merge Join.Outputs[Merge Join Output].Columns[state]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Load Team Info\Fixing datatypes.Outputs[Data Conversion Output]"
+                  exclusionGroup="1"
+                  name="Data Conversion Output"
+                  synchronousInputId="Package\Load Team Info\Fixing datatypes.Inputs[Data Conversion Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load Team Info\Fixing datatypes.Outputs[Data Conversion Output].Columns[Copy of full_name]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="50"
+                      lineageId="Package\Load Team Info\Fixing datatypes.Outputs[Data Conversion Output].Columns[Copy of full_name]"
+                      name="Copy of full_name"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\Load Team Info\Merge Join.Outputs[Merge Join Output].Columns[full_name]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Team Info\Fixing datatypes.Outputs[Data Conversion Output].Columns[Copy of city]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="50"
+                      lineageId="Package\Load Team Info\Fixing datatypes.Outputs[Data Conversion Output].Columns[Copy of city]"
+                      name="Copy of city"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\Load Team Info\Merge Join.Outputs[Merge Join Output].Columns[city]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Team Info\Fixing datatypes.Outputs[Data Conversion Output].Columns[Copy of state]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="50"
+                      lineageId="Package\Load Team Info\Fixing datatypes.Outputs[Data Conversion Output].Columns[Copy of state]"
+                      name="Copy of state"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\Load Team Info\Merge Join.Outputs[Merge Join Output].Columns[state]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Load Team Info\Fixing datatypes.Outputs[Data Conversion Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Data Conversion Error Output"
+                  synchronousInputId="Package\Load Team Info\Fixing datatypes.Inputs[Data Conversion Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load Team Info\Fixing datatypes.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Load Team Info\Fixing datatypes.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Load Team Info\Fixing datatypes.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Load Team Info\Fixing datatypes.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Load Team Info\Lookup FirstSeasonID"
+              componentClassID="Microsoft.Lookup"
+              contactInfo="Lookup;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;6"
+              description="Joins additional columns to the data flow by looking up values in a table. For example, join to the 'employee id' column the employees table to get 'hire date' and 'employee name'. We recommend this transformation when the lookup table can fit into memory."
+              name="Lookup FirstSeasonID"
+              usesDispositions="true"
+              version="6">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="Specifies the SQL statement that generates the lookup table."
+                  expressionType="Notify"
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=16.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from [dbo].[dimSeason]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies a SQL statement that uses parameters to generate the lookup table."
+                  expressionType="Notify"
+                  name="SqlCommandParam"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=16.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from (select * from [dbo].[dimSeason]) [refTable]
+where [refTable].[Year] = ?</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the type of connection used to access the reference dataset."
+                  name="ConnectionType"
+                  typeConverter="LookupConnectionType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the cache type of the lookup table."
+                  name="CacheType"
+                  typeConverter="CacheType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies how the Lookup transformation handles rows without matching entries in the reference data set."
+                  name="NoMatchBehavior"
+                  typeConverter="LookupNoMatchBehavior">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the percentage of the cache that is allocated for rows with no matching entries in the reference dataset."
+                  name="NoMatchCachePercentage">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Maximum Memory Usage for Reference Cache on a 32 bit platform."
+                  name="MaxMemoryUsage">25</property>
+                <property
+                  dataType="System.Int64"
+                  description="Maximum Memory Usage for Reference Cache on a 64 bit platform."
+                  name="MaxMemoryUsage64">25</property>
+                <property
+                  dataType="System.String"
+                  description="Indicates whether to reference metadata in an XML format."
+                  name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="SeasonID" dataType="DT_I8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Year" dataType="DT_I2" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
+                <property
+                  containsID="true"
+                  dataType="System.String"
+                  description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
+                  name="ParameterMap">#{Package\Load Team Info\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of FirstSeason]};</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Determines whether duplicate keys in the reference data should be treated as errors when full cache mode is used."
+                  name="TreatDuplicateKeysAsError">false</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Load Team Info\Lookup FirstSeasonID.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[localhost.NBA]"
+                  connectionManagerRefId="Package.ConnectionManagers[localhost.NBA]"
+                  description="Connection manager used to access lookup data."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Load Team Info\Lookup FirstSeasonID.Inputs[Lookup Input]"
+                  name="Lookup Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Load Team Info\Lookup FirstSeasonID.Inputs[Lookup Input].Columns[Copy of FirstSeason]"
+                      cachedDataType="i2"
+                      cachedName="Copy of FirstSeason"
+                      lineageId="Package\Load Team Info\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of FirstSeason]">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table that a column joins."
+                          name="JoinToReferenceColumn">Year</property>
+                        <property
+                          dataType="System.Null"
+                          description="Specifies the column in the reference table from which a column is copied."
+                          name="CopyFromReferenceColumn" />
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Load Team Info\Lookup FirstSeasonID.Outputs[Lookup Match Output]"
+                  errorOrTruncationOperation="Lookup"
+                  errorRowDisposition="FailComponent"
+                  exclusionGroup="1"
+                  name="Lookup Match Output"
+                  synchronousInputId="Package\Load Team Info\Lookup FirstSeasonID.Inputs[Lookup Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load Team Info\Lookup FirstSeasonID.Outputs[Lookup Match Output].Columns[FirstSeasonID]"
+                      dataType="i8"
+                      errorOrTruncationOperation="Copy Column"
+                      lineageId="Package\Load Team Info\Lookup FirstSeasonID.Outputs[Lookup Match Output].Columns[FirstSeasonID]"
+                      name="FirstSeasonID"
+                      truncationRowDisposition="RedirectRow">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table from which a column is copied."
+                          name="CopyFromReferenceColumn">SeasonID</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Load Team Info\Lookup FirstSeasonID.Outputs[Lookup No Match Output]"
+                  description="The Lookup output that handles rows with no matching entries in the reference dataset. Use this output when the NoMatchBehavior property is set to &quot;Send rows with no matching entries to the no match output.&quot;"
+                  exclusionGroup="1"
+                  name="Lookup No Match Output"
+                  synchronousInputId="Package\Load Team Info\Lookup FirstSeasonID.Inputs[Lookup Input]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Load Team Info\Lookup FirstSeasonID.Outputs[Lookup Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Lookup Error Output"
+                  synchronousInputId="Package\Load Team Info\Lookup FirstSeasonID.Inputs[Lookup Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load Team Info\Lookup FirstSeasonID.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Load Team Info\Lookup FirstSeasonID.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Load Team Info\Lookup FirstSeasonID.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Load Team Info\Lookup FirstSeasonID.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Load Team Info\Lookup LastSeasonID"
+              componentClassID="Microsoft.Lookup"
+              contactInfo="Lookup;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;6"
+              description="Joins additional columns to the data flow by looking up values in a table. For example, join to the 'employee id' column the employees table to get 'hire date' and 'employee name'. We recommend this transformation when the lookup table can fit into memory."
+              name="Lookup LastSeasonID"
+              usesDispositions="true"
+              version="6">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="Specifies the SQL statement that generates the lookup table."
+                  expressionType="Notify"
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=16.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from [dbo].[dimSeason]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies a SQL statement that uses parameters to generate the lookup table."
+                  expressionType="Notify"
+                  name="SqlCommandParam"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=16.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from (select * from [dbo].[dimSeason]) [refTable]
+where [refTable].[Year] = ?</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the type of connection used to access the reference dataset."
+                  name="ConnectionType"
+                  typeConverter="LookupConnectionType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the cache type of the lookup table."
+                  name="CacheType"
+                  typeConverter="CacheType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies how the Lookup transformation handles rows without matching entries in the reference data set."
+                  name="NoMatchBehavior"
+                  typeConverter="LookupNoMatchBehavior">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the percentage of the cache that is allocated for rows with no matching entries in the reference dataset."
+                  name="NoMatchCachePercentage">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Maximum Memory Usage for Reference Cache on a 32 bit platform."
+                  name="MaxMemoryUsage">25</property>
+                <property
+                  dataType="System.Int64"
+                  description="Maximum Memory Usage for Reference Cache on a 64 bit platform."
+                  name="MaxMemoryUsage64">25</property>
+                <property
+                  dataType="System.String"
+                  description="Indicates whether to reference metadata in an XML format."
+                  name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="SeasonID" dataType="DT_I8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Year" dataType="DT_I2" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
+                <property
+                  containsID="true"
+                  dataType="System.String"
+                  description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
+                  name="ParameterMap">#{Package\Load Team Info\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of LastSeason]};</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Determines whether duplicate keys in the reference data should be treated as errors when full cache mode is used."
+                  name="TreatDuplicateKeysAsError">false</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Load Team Info\Lookup LastSeasonID.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[localhost.NBA]"
+                  connectionManagerRefId="Package.ConnectionManagers[localhost.NBA]"
+                  description="Connection manager used to access lookup data."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Load Team Info\Lookup LastSeasonID.Inputs[Lookup Input]"
+                  name="Lookup Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Load Team Info\Lookup LastSeasonID.Inputs[Lookup Input].Columns[Copy of LastSeason]"
+                      cachedDataType="i2"
+                      cachedName="Copy of LastSeason"
+                      lineageId="Package\Load Team Info\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of LastSeason]">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table that a column joins."
+                          name="JoinToReferenceColumn">Year</property>
+                        <property
+                          dataType="System.Null"
+                          description="Specifies the column in the reference table from which a column is copied."
+                          name="CopyFromReferenceColumn" />
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Load Team Info\Lookup LastSeasonID.Outputs[Lookup Match Output]"
+                  errorOrTruncationOperation="Lookup"
+                  errorRowDisposition="FailComponent"
+                  exclusionGroup="1"
+                  name="Lookup Match Output"
+                  synchronousInputId="Package\Load Team Info\Lookup LastSeasonID.Inputs[Lookup Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load Team Info\Lookup LastSeasonID.Outputs[Lookup Match Output].Columns[LastSeasonID]"
+                      dataType="i8"
+                      errorOrTruncationOperation="Copy Column"
+                      lineageId="Package\Load Team Info\Lookup LastSeasonID.Outputs[Lookup Match Output].Columns[LastSeasonID]"
+                      name="LastSeasonID"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table from which a column is copied."
+                          name="CopyFromReferenceColumn">SeasonID</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Load Team Info\Lookup LastSeasonID.Outputs[Lookup No Match Output]"
+                  description="The Lookup output that handles rows with no matching entries in the reference dataset. Use this output when the NoMatchBehavior property is set to &quot;Send rows with no matching entries to the no match output.&quot;"
+                  exclusionGroup="1"
+                  name="Lookup No Match Output"
+                  synchronousInputId="Package\Load Team Info\Lookup LastSeasonID.Inputs[Lookup Input]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Load Team Info\Lookup LastSeasonID.Outputs[Lookup Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Lookup Error Output"
+                  synchronousInputId="Package\Load Team Info\Lookup LastSeasonID.Inputs[Lookup Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load Team Info\Lookup LastSeasonID.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Load Team Info\Lookup LastSeasonID.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Load Team Info\Lookup LastSeasonID.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Load Team Info\Lookup LastSeasonID.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Load Team Info\Merge Join"
+              componentClassID="Microsoft.MergeJoin"
+              contactInfo="Merge Join;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Combine two sorted data flows into one using the FULL, LEFT, or INNER join. We recommend this transformation when data flows can be sorted at their sources."
+              name="Merge Join"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the type of join to perform."
+                  name="JoinType"
+                  typeConverter="JoinType">1</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the number of columns in the ordering key."
+                  name="NumKeyColumns">1</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the null values are treated as equal values."
+                  name="TreatNullsAsEqual">true</property>
+                <property
+                  dataType="System.Int32"
+                  description="Indicates the requested maximum buffers per input before blocking."
+                  name="MaxBuffersPerInput">5</property>
+              </properties>
+              <inputs>
+                <input
+                  refId="Package\Load Team Info\Merge Join.Inputs[Merge Join Right Input]"
+                  hasSideEffects="true"
+                  name="Merge Join Right Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Load Team Info\Merge Join.Inputs[Merge Join Right Input].Columns[id]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="id"
+                      cachedSortKeyPosition="1"
+                      lineageId="Package\Load Team Info\Sort 1.Outputs[Sort Output].Columns[id]" />
+                    <inputColumn
+                      refId="Package\Load Team Info\Merge Join.Inputs[Merge Join Right Input].Columns[full_name]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="full_name"
+                      lineageId="Package\Load Team Info\Sort 1.Outputs[Sort Output].Columns[full_name]" />
+                    <inputColumn
+                      refId="Package\Load Team Info\Merge Join.Inputs[Merge Join Right Input].Columns[nickname]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="nickname"
+                      lineageId="Package\Load Team Info\Sort 1.Outputs[Sort Output].Columns[nickname]" />
+                    <inputColumn
+                      refId="Package\Load Team Info\Merge Join.Inputs[Merge Join Right Input].Columns[city]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="city"
+                      lineageId="Package\Load Team Info\Sort 1.Outputs[Sort Output].Columns[city]" />
+                    <inputColumn
+                      refId="Package\Load Team Info\Merge Join.Inputs[Merge Join Right Input].Columns[state]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="state"
+                      lineageId="Package\Load Team Info\Sort 1.Outputs[Sort Output].Columns[state]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+                <input
+                  refId="Package\Load Team Info\Merge Join.Inputs[Merge Join Left Input]"
+                  hasSideEffects="true"
+                  name="Merge Join Left Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Load Team Info\Merge Join.Inputs[Merge Join Left Input].Columns[team_id]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="team_id"
+                      cachedSortKeyPosition="1"
+                      lineageId="Package\Load Team Info\Sort.Outputs[Sort Output].Columns[team_id]" />
+                    <inputColumn
+                      refId="Package\Load Team Info\Merge Join.Inputs[Merge Join Left Input].Columns[nickname]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="nickname"
+                      lineageId="Package\Load Team Info\Sort.Outputs[Sort Output].Columns[nickname]" />
+                    <inputColumn
+                      refId="Package\Load Team Info\Merge Join.Inputs[Merge Join Left Input].Columns[year_founded]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="year_founded"
+                      lineageId="Package\Load Team Info\Sort.Outputs[Sort Output].Columns[year_founded]" />
+                    <inputColumn
+                      refId="Package\Load Team Info\Merge Join.Inputs[Merge Join Left Input].Columns[year_active_till]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="year_active_till"
+                      lineageId="Package\Load Team Info\Sort.Outputs[Sort Output].Columns[year_active_till]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Load Team Info\Merge Join.Outputs[Merge Join Output]"
+                  isSorted="true"
+                  name="Merge Join Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load Team Info\Merge Join.Outputs[Merge Join Output].Columns[team_id]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Load Team Info\Merge Join.Outputs[Merge Join Output].Columns[team_id]"
+                      name="team_id"
+                      sortKeyPosition="1">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\Load Team Info\Merge Join.Inputs[Merge Join Left Input].Columns[team_id]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Team Info\Merge Join.Outputs[Merge Join Output].Columns[full_name]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Load Team Info\Merge Join.Outputs[Merge Join Output].Columns[full_name]"
+                      name="full_name">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\Load Team Info\Merge Join.Inputs[Merge Join Right Input].Columns[full_name]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Team Info\Merge Join.Outputs[Merge Join Output].Columns[nickname]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Load Team Info\Merge Join.Outputs[Merge Join Output].Columns[nickname]"
+                      name="nickname">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\Load Team Info\Merge Join.Inputs[Merge Join Right Input].Columns[nickname]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Team Info\Merge Join.Outputs[Merge Join Output].Columns[city]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Load Team Info\Merge Join.Outputs[Merge Join Output].Columns[city]"
+                      name="city">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\Load Team Info\Merge Join.Inputs[Merge Join Right Input].Columns[city]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Team Info\Merge Join.Outputs[Merge Join Output].Columns[state]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Load Team Info\Merge Join.Outputs[Merge Join Output].Columns[state]"
+                      name="state">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\Load Team Info\Merge Join.Inputs[Merge Join Right Input].Columns[state]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Team Info\Merge Join.Outputs[Merge Join Output].Columns[nickname (1)]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Load Team Info\Merge Join.Outputs[Merge Join Output].Columns[nickname (1)]"
+                      name="nickname (1)">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\Load Team Info\Merge Join.Inputs[Merge Join Left Input].Columns[nickname]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Team Info\Merge Join.Outputs[Merge Join Output].Columns[year_founded]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Load Team Info\Merge Join.Outputs[Merge Join Output].Columns[year_founded]"
+                      name="year_founded">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\Load Team Info\Merge Join.Inputs[Merge Join Left Input].Columns[year_founded]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Team Info\Merge Join.Outputs[Merge Join Output].Columns[year_active_till]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Load Team Info\Merge Join.Outputs[Merge Join Output].Columns[year_active_till]"
+                      name="year_active_till">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The input column associated with this output column"
+                          name="InputColumnID">#{Package\Load Team Info\Merge Join.Inputs[Merge Join Left Input].Columns[year_active_till]}</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Load Team Info\OLE DB Destination"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+              description="OLE DB Destination"
+              name="OLE DB Destination"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[dbo].[dimTeam]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=16.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">3</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Load Team Info\OLE DB Destination.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[localhost.NBA]"
+                  connectionManagerRefId="Package.ConnectionManagers[localhost.NBA]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Load Team Info\OLE DB Destination.Inputs[OLE DB Destination Input]"
+                  errorOrTruncationOperation="Insert"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="OLE DB Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Load Team Info\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[isActive]"
+                      cachedDataType="wstr"
+                      cachedLength="3"
+                      cachedName="isActive"
+                      externalMetadataColumnId="Package\Load Team Info\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[isActive]"
+                      lineageId="Package\Load Team Info\Derived Column.Outputs[Derived Column Output].Columns[isActive]" />
+                    <inputColumn
+                      refId="Package\Load Team Info\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[FirstSeasonID]"
+                      cachedDataType="i8"
+                      cachedName="FirstSeasonID"
+                      externalMetadataColumnId="Package\Load Team Info\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[FirstSeasonID]"
+                      lineageId="Package\Load Team Info\Lookup FirstSeasonID.Outputs[Lookup Match Output].Columns[FirstSeasonID]" />
+                    <inputColumn
+                      refId="Package\Load Team Info\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[LastSeasonID]"
+                      cachedDataType="i8"
+                      cachedName="LastSeasonID"
+                      externalMetadataColumnId="Package\Load Team Info\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[LastSeasonID]"
+                      lineageId="Package\Load Team Info\Lookup LastSeasonID.Outputs[Lookup Match Output].Columns[LastSeasonID]" />
+                    <inputColumn
+                      refId="Package\Load Team Info\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Copy of full_name]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="Copy of full_name"
+                      externalMetadataColumnId="Package\Load Team Info\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[TeamName]"
+                      lineageId="Package\Load Team Info\Fixing datatypes.Outputs[Data Conversion Output].Columns[Copy of full_name]" />
+                    <inputColumn
+                      refId="Package\Load Team Info\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Copy of city]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="Copy of city"
+                      externalMetadataColumnId="Package\Load Team Info\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[City]"
+                      lineageId="Package\Load Team Info\Fixing datatypes.Outputs[Data Conversion Output].Columns[Copy of city]" />
+                    <inputColumn
+                      refId="Package\Load Team Info\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Copy of state]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="Copy of state"
+                      externalMetadataColumnId="Package\Load Team Info\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[State]"
+                      lineageId="Package\Load Team Info\Fixing datatypes.Outputs[Data Conversion Output].Columns[Copy of state]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Load Team Info\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[TeamID]"
+                      dataType="i8"
+                      name="TeamID" />
+                    <externalMetadataColumn
+                      refId="Package\Load Team Info\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[TeamName]"
+                      dataType="wstr"
+                      length="50"
+                      name="TeamName" />
+                    <externalMetadataColumn
+                      refId="Package\Load Team Info\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[FirstSeasonID]"
+                      dataType="i8"
+                      name="FirstSeasonID" />
+                    <externalMetadataColumn
+                      refId="Package\Load Team Info\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[LastSeasonID]"
+                      dataType="i8"
+                      name="LastSeasonID" />
+                    <externalMetadataColumn
+                      refId="Package\Load Team Info\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[isActive]"
+                      dataType="wstr"
+                      length="50"
+                      name="isActive" />
+                    <externalMetadataColumn
+                      refId="Package\Load Team Info\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[City]"
+                      dataType="wstr"
+                      length="50"
+                      name="City" />
+                    <externalMetadataColumn
+                      refId="Package\Load Team Info\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[State]"
+                      dataType="wstr"
+                      length="50"
+                      name="State" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Load Team Info\OLE DB Destination.Outputs[OLE DB Destination Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="OLE DB Destination Error Output"
+                  synchronousInputId="Package\Load Team Info\OLE DB Destination.Inputs[OLE DB Destination Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load Team Info\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Load Team Info\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Load Team Info\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Load Team Info\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Load Team Info\Sort"
+              componentClassID="Microsoft.Sort"
+              contactInfo="Sort;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Sorts input data in ascending or descending order when it cannot be sorted at its source. For example, sort sales data by 'customer id' before it is written to a flat file and delivered to another department. Note: We do not recommend this transformation for large data flows."
+              name="Sort"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the Sort transformation removes rows with duplicate sort values."
+                  name="EliminateDuplicates">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the maximum number of threads to use for sorting."
+                  expressionType="Notify"
+                  name="MaximumThreads">-1</property>
+              </properties>
+              <inputs>
+                <input
+                  refId="Package\Load Team Info\Sort.Inputs[Sort Input]"
+                  name="Sort Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Load Team Info\Sort.Inputs[Sort Input].Columns[team_id]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="team_id"
+                      lineageId="Package\Load Team Info\Team History.Outputs[Flat File Source Output].Columns[team_id]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">1</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Team Info\Sort.Inputs[Sort Input].Columns[city]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="city"
+                      lineageId="Package\Load Team Info\Team History.Outputs[Flat File Source Output].Columns[city]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Team Info\Sort.Inputs[Sort Input].Columns[nickname]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="nickname"
+                      lineageId="Package\Load Team Info\Team History.Outputs[Flat File Source Output].Columns[nickname]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Team Info\Sort.Inputs[Sort Input].Columns[year_founded]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="year_founded"
+                      lineageId="Package\Load Team Info\Team History.Outputs[Flat File Source Output].Columns[year_founded]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Team Info\Sort.Inputs[Sort Input].Columns[year_active_till]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="year_active_till"
+                      lineageId="Package\Load Team Info\Team History.Outputs[Flat File Source Output].Columns[year_active_till]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Load Team Info\Sort.Outputs[Sort Output]"
+                  isSorted="true"
+                  name="Sort Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load Team Info\Sort.Outputs[Sort Output].Columns[team_id]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Load Team Info\Sort.Outputs[Sort Output].Columns[team_id]"
+                      name="team_id"
+                      sortKeyPosition="1">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Load Team Info\Team History.Outputs[Flat File Source Output].Columns[team_id]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Team Info\Sort.Outputs[Sort Output].Columns[city]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Load Team Info\Sort.Outputs[Sort Output].Columns[city]"
+                      name="city">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Load Team Info\Team History.Outputs[Flat File Source Output].Columns[city]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Team Info\Sort.Outputs[Sort Output].Columns[nickname]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Load Team Info\Sort.Outputs[Sort Output].Columns[nickname]"
+                      name="nickname">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Load Team Info\Team History.Outputs[Flat File Source Output].Columns[nickname]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Team Info\Sort.Outputs[Sort Output].Columns[year_founded]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Load Team Info\Sort.Outputs[Sort Output].Columns[year_founded]"
+                      name="year_founded">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Load Team Info\Team History.Outputs[Flat File Source Output].Columns[year_founded]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Team Info\Sort.Outputs[Sort Output].Columns[year_active_till]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Load Team Info\Sort.Outputs[Sort Output].Columns[year_active_till]"
+                      name="year_active_till">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Load Team Info\Team History.Outputs[Flat File Source Output].Columns[year_active_till]}</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Load Team Info\Sort 1"
+              componentClassID="Microsoft.Sort"
+              contactInfo="Sort;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Sorts input data in ascending or descending order when it cannot be sorted at its source. For example, sort sales data by 'customer id' before it is written to a flat file and delivered to another department. Note: We do not recommend this transformation for large data flows."
+              name="Sort 1"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the Sort transformation removes rows with duplicate sort values."
+                  name="EliminateDuplicates">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the maximum number of threads to use for sorting."
+                  expressionType="Notify"
+                  name="MaximumThreads">-1</property>
+              </properties>
+              <inputs>
+                <input
+                  refId="Package\Load Team Info\Sort 1.Inputs[Sort Input]"
+                  name="Sort Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Load Team Info\Sort 1.Inputs[Sort Input].Columns[id]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="id"
+                      lineageId="Package\Load Team Info\Team.Outputs[Flat File Source Output].Columns[id]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">1</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Team Info\Sort 1.Inputs[Sort Input].Columns[full_name]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="full_name"
+                      lineageId="Package\Load Team Info\Team.Outputs[Flat File Source Output].Columns[full_name]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Team Info\Sort 1.Inputs[Sort Input].Columns[abbreviation]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="abbreviation"
+                      lineageId="Package\Load Team Info\Team.Outputs[Flat File Source Output].Columns[abbreviation]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Team Info\Sort 1.Inputs[Sort Input].Columns[nickname]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="nickname"
+                      lineageId="Package\Load Team Info\Team.Outputs[Flat File Source Output].Columns[nickname]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Team Info\Sort 1.Inputs[Sort Input].Columns[city]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="city"
+                      lineageId="Package\Load Team Info\Team.Outputs[Flat File Source Output].Columns[city]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Team Info\Sort 1.Inputs[Sort Input].Columns[state]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="state"
+                      lineageId="Package\Load Team Info\Team.Outputs[Flat File Source Output].Columns[state]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load Team Info\Sort 1.Inputs[Sort Input].Columns[year_founded]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="year_founded"
+                      lineageId="Package\Load Team Info\Team.Outputs[Flat File Source Output].Columns[year_founded]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Load Team Info\Sort 1.Outputs[Sort Output]"
+                  isSorted="true"
+                  name="Sort Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load Team Info\Sort 1.Outputs[Sort Output].Columns[id]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Load Team Info\Sort 1.Outputs[Sort Output].Columns[id]"
+                      name="id"
+                      sortKeyPosition="1">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Load Team Info\Team.Outputs[Flat File Source Output].Columns[id]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Team Info\Sort 1.Outputs[Sort Output].Columns[full_name]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Load Team Info\Sort 1.Outputs[Sort Output].Columns[full_name]"
+                      name="full_name">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Load Team Info\Team.Outputs[Flat File Source Output].Columns[full_name]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Team Info\Sort 1.Outputs[Sort Output].Columns[abbreviation]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Load Team Info\Sort 1.Outputs[Sort Output].Columns[abbreviation]"
+                      name="abbreviation">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Load Team Info\Team.Outputs[Flat File Source Output].Columns[abbreviation]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Team Info\Sort 1.Outputs[Sort Output].Columns[nickname]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Load Team Info\Sort 1.Outputs[Sort Output].Columns[nickname]"
+                      name="nickname">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Load Team Info\Team.Outputs[Flat File Source Output].Columns[nickname]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Team Info\Sort 1.Outputs[Sort Output].Columns[city]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Load Team Info\Sort 1.Outputs[Sort Output].Columns[city]"
+                      name="city">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Load Team Info\Team.Outputs[Flat File Source Output].Columns[city]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Team Info\Sort 1.Outputs[Sort Output].Columns[state]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Load Team Info\Sort 1.Outputs[Sort Output].Columns[state]"
+                      name="state">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Load Team Info\Team.Outputs[Flat File Source Output].Columns[state]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Team Info\Sort 1.Outputs[Sort Output].Columns[year_founded]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Load Team Info\Sort 1.Outputs[Sort Output].Columns[year_founded]"
+                      name="year_founded">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Load Team Info\Team.Outputs[Flat File Source Output].Columns[year_founded]}</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Load Team Info\Team"
+              componentClassID="Microsoft.FlatFileSource"
+              contactInfo="Flat File Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Flat File Source"
+              localeId="2057"
+              name="Team"
+              usesDispositions="true"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Specifies whether zero-length columns are treated as null."
+                  name="RetainNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of an output column containing the file name. If no name is specified, no output column containing the file name will be generated."
+                  name="FileNameColumnName"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Load Team Info\Team.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[Team]"
+                  connectionManagerRefId="Package.ConnectionManagers[Team]"
+                  name="FlatFileConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Load Team Info\Team.Outputs[Flat File Source Output]"
+                  name="Flat File Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load Team Info\Team.Outputs[Flat File Source Output].Columns[id]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Team Info\Team.Outputs[Flat File Source Output].ExternalColumns[id]"
+                      length="50"
+                      lineageId="Package\Load Team Info\Team.Outputs[Flat File Source Output].Columns[id]"
+                      name="id"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Team Info\Team.Outputs[Flat File Source Output].Columns[full_name]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Team Info\Team.Outputs[Flat File Source Output].ExternalColumns[full_name]"
+                      length="50"
+                      lineageId="Package\Load Team Info\Team.Outputs[Flat File Source Output].Columns[full_name]"
+                      name="full_name"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Team Info\Team.Outputs[Flat File Source Output].Columns[abbreviation]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Team Info\Team.Outputs[Flat File Source Output].ExternalColumns[abbreviation]"
+                      length="50"
+                      lineageId="Package\Load Team Info\Team.Outputs[Flat File Source Output].Columns[abbreviation]"
+                      name="abbreviation"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Team Info\Team.Outputs[Flat File Source Output].Columns[nickname]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Team Info\Team.Outputs[Flat File Source Output].ExternalColumns[nickname]"
+                      length="50"
+                      lineageId="Package\Load Team Info\Team.Outputs[Flat File Source Output].Columns[nickname]"
+                      name="nickname"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Team Info\Team.Outputs[Flat File Source Output].Columns[city]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Team Info\Team.Outputs[Flat File Source Output].ExternalColumns[city]"
+                      length="50"
+                      lineageId="Package\Load Team Info\Team.Outputs[Flat File Source Output].Columns[city]"
+                      name="city"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Team Info\Team.Outputs[Flat File Source Output].Columns[state]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Team Info\Team.Outputs[Flat File Source Output].ExternalColumns[state]"
+                      length="50"
+                      lineageId="Package\Load Team Info\Team.Outputs[Flat File Source Output].Columns[state]"
+                      name="state"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Team Info\Team.Outputs[Flat File Source Output].Columns[year_founded]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Team Info\Team.Outputs[Flat File Source Output].ExternalColumns[year_founded]"
+                      length="50"
+                      lineageId="Package\Load Team Info\Team.Outputs[Flat File Source Output].Columns[year_founded]"
+                      name="year_founded"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Load Team Info\Team.Outputs[Flat File Source Output].ExternalColumns[id]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="id" />
+                    <externalMetadataColumn
+                      refId="Package\Load Team Info\Team.Outputs[Flat File Source Output].ExternalColumns[full_name]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="full_name" />
+                    <externalMetadataColumn
+                      refId="Package\Load Team Info\Team.Outputs[Flat File Source Output].ExternalColumns[abbreviation]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="abbreviation" />
+                    <externalMetadataColumn
+                      refId="Package\Load Team Info\Team.Outputs[Flat File Source Output].ExternalColumns[nickname]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="nickname" />
+                    <externalMetadataColumn
+                      refId="Package\Load Team Info\Team.Outputs[Flat File Source Output].ExternalColumns[city]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="city" />
+                    <externalMetadataColumn
+                      refId="Package\Load Team Info\Team.Outputs[Flat File Source Output].ExternalColumns[state]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="state" />
+                    <externalMetadataColumn
+                      refId="Package\Load Team Info\Team.Outputs[Flat File Source Output].ExternalColumns[year_founded]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="year_founded" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Load Team Info\Team.Outputs[Flat File Source Error Output]"
+                  isErrorOut="true"
+                  name="Flat File Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load Team Info\Team.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      codePage="1252"
+                      dataType="text"
+                      description="Flat File Source Error Output Column"
+                      lineageId="Package\Load Team Info\Team.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      name="Flat File Source Error Output Column" />
+                    <outputColumn
+                      refId="Package\Load Team Info\Team.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Load Team Info\Team.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Load Team Info\Team.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Load Team Info\Team.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Load Team Info\Team History"
+              componentClassID="Microsoft.FlatFileSource"
+              contactInfo="Flat File Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Flat File Source"
+              localeId="2057"
+              name="Team History"
+              usesDispositions="true"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Specifies whether zero-length columns are treated as null."
+                  name="RetainNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of an output column containing the file name. If no name is specified, no output column containing the file name will be generated."
+                  name="FileNameColumnName"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Load Team Info\Team History.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[Team History]"
+                  connectionManagerRefId="Package.ConnectionManagers[Team History]"
+                  name="FlatFileConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Load Team Info\Team History.Outputs[Flat File Source Output]"
+                  name="Flat File Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load Team Info\Team History.Outputs[Flat File Source Output].Columns[team_id]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Team Info\Team History.Outputs[Flat File Source Output].ExternalColumns[team_id]"
+                      length="50"
+                      lineageId="Package\Load Team Info\Team History.Outputs[Flat File Source Output].Columns[team_id]"
+                      name="team_id"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Team Info\Team History.Outputs[Flat File Source Output].Columns[city]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Team Info\Team History.Outputs[Flat File Source Output].ExternalColumns[city]"
+                      length="50"
+                      lineageId="Package\Load Team Info\Team History.Outputs[Flat File Source Output].Columns[city]"
+                      name="city"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Team Info\Team History.Outputs[Flat File Source Output].Columns[nickname]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Team Info\Team History.Outputs[Flat File Source Output].ExternalColumns[nickname]"
+                      length="50"
+                      lineageId="Package\Load Team Info\Team History.Outputs[Flat File Source Output].Columns[nickname]"
+                      name="nickname"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Team Info\Team History.Outputs[Flat File Source Output].Columns[year_founded]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Team Info\Team History.Outputs[Flat File Source Output].ExternalColumns[year_founded]"
+                      length="50"
+                      lineageId="Package\Load Team Info\Team History.Outputs[Flat File Source Output].Columns[year_founded]"
+                      name="year_founded"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Team Info\Team History.Outputs[Flat File Source Output].Columns[year_active_till]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load Team Info\Team History.Outputs[Flat File Source Output].ExternalColumns[year_active_till]"
+                      length="50"
+                      lineageId="Package\Load Team Info\Team History.Outputs[Flat File Source Output].Columns[year_active_till]"
+                      name="year_active_till"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Load Team Info\Team History.Outputs[Flat File Source Output].ExternalColumns[team_id]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="team_id" />
+                    <externalMetadataColumn
+                      refId="Package\Load Team Info\Team History.Outputs[Flat File Source Output].ExternalColumns[city]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="city" />
+                    <externalMetadataColumn
+                      refId="Package\Load Team Info\Team History.Outputs[Flat File Source Output].ExternalColumns[nickname]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="nickname" />
+                    <externalMetadataColumn
+                      refId="Package\Load Team Info\Team History.Outputs[Flat File Source Output].ExternalColumns[year_founded]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="year_founded" />
+                    <externalMetadataColumn
+                      refId="Package\Load Team Info\Team History.Outputs[Flat File Source Output].ExternalColumns[year_active_till]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="year_active_till" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Load Team Info\Team History.Outputs[Flat File Source Error Output]"
+                  isErrorOut="true"
+                  name="Flat File Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load Team Info\Team History.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      codePage="1252"
+                      dataType="text"
+                      description="Flat File Source Error Output Column"
+                      lineageId="Package\Load Team Info\Team History.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      name="Flat File Source Error Output Column" />
+                    <outputColumn
+                      refId="Package\Load Team Info\Team History.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Load Team Info\Team History.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Load Team Info\Team History.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Load Team Info\Team History.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\Load Team Info.Paths[Conditional Split Default Output]"
+              endId="Package\Load Team Info\Data Conversion.Inputs[Data Conversion Input]"
+              name="Conditional Split Default Output"
+              startId="Package\Load Team Info\Conditional Split.Outputs[Conditional Split Default Output]" />
+            <path
+              refId="Package\Load Team Info.Paths[Data Conversion Output]"
+              endId="Package\Load Team Info\Lookup FirstSeasonID.Inputs[Lookup Input]"
+              name="Data Conversion Output"
+              startId="Package\Load Team Info\Data Conversion.Outputs[Data Conversion Output]" />
+            <path
+              refId="Package\Load Team Info.Paths[Data Conversion Output1]"
+              endId="Package\Load Team Info\OLE DB Destination.Inputs[OLE DB Destination Input]"
+              name="Data Conversion Output"
+              startId="Package\Load Team Info\Fixing datatypes.Outputs[Data Conversion Output]" />
+            <path
+              refId="Package\Load Team Info.Paths[Derived Column Output]"
+              endId="Package\Load Team Info\Conditional Split.Inputs[Conditional Split Input]"
+              name="Derived Column Output"
+              startId="Package\Load Team Info\Derived Column.Outputs[Derived Column Output]" />
+            <path
+              refId="Package\Load Team Info.Paths[Flat File Source Output]"
+              endId="Package\Load Team Info\Sort.Inputs[Sort Input]"
+              name="Flat File Source Output"
+              startId="Package\Load Team Info\Team History.Outputs[Flat File Source Output]" />
+            <path
+              refId="Package\Load Team Info.Paths[Flat File Source Output1]"
+              endId="Package\Load Team Info\Sort 1.Inputs[Sort Input]"
+              name="Flat File Source Output"
+              startId="Package\Load Team Info\Team.Outputs[Flat File Source Output]" />
+            <path
+              refId="Package\Load Team Info.Paths[Lookup Match Output]"
+              endId="Package\Load Team Info\Fixing datatypes.Inputs[Data Conversion Input]"
+              name="Lookup Match Output"
+              startId="Package\Load Team Info\Lookup LastSeasonID.Outputs[Lookup Match Output]" />
+            <path
+              refId="Package\Load Team Info.Paths[Lookup Match Output1]"
+              endId="Package\Load Team Info\Lookup LastSeasonID.Inputs[Lookup Input]"
+              name="Lookup Match Output"
+              startId="Package\Load Team Info\Lookup FirstSeasonID.Outputs[Lookup Match Output]" />
+            <path
+              refId="Package\Load Team Info.Paths[Merge Join Output]"
+              endId="Package\Load Team Info\Derived Column.Inputs[Derived Column Input]"
+              name="Merge Join Output"
+              startId="Package\Load Team Info\Merge Join.Outputs[Merge Join Output]" />
+            <path
+              refId="Package\Load Team Info.Paths[Sort Output]"
+              endId="Package\Load Team Info\Merge Join.Inputs[Merge Join Left Input]"
+              name="Sort Output"
+              startId="Package\Load Team Info\Sort.Outputs[Sort Output]" />
+            <path
+              refId="Package\Load Team Info.Paths[Sort Output1]"
+              endId="Package\Load Team Info\Merge Join.Inputs[Merge Join Right Input]"
+              name="Sort Output"
+              startId="Package\Load Team Info\Sort 1.Outputs[Sort Output]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
   </DTS:Executables>
   <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
 <!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
@@ -4336,43 +6659,180 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
         <NodeLayout
-          Size="156,41.6"
-          Id="Package\Load Player Info"
-          TopLeft="324,125" />
-        <NodeLayout
-          Size="163.2,41.6"
+          Size="163,42"
           Id="Package\Generate Seasons"
-          TopLeft="605.714287003693,134.588235176146" />
+          TopLeft="125.714287003693,77.588235176146" />
+        <NodeLayout
+          Size="156,42"
+          Id="Package\Load Player Info"
+          TopLeft="344,84" />
+        <NodeLayout
+          Size="154,42"
+          Id="Package\Load Team Info"
+          TopLeft="556,82" />
       </GraphLayout>
     </LayoutInfo>
   </Package>
+  <TaskHost
+    design-time-name="Package\Generate Seasons">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="98,42"
+          Id="Package\Generate Seasons\Sort"
+          TopLeft="222.57142915379,254.988235050801" />
+        <NodeLayout
+          Size="150,42"
+          Id="Package\Generate Seasons\Flat File Source"
+          TopLeft="392.428571942509,37.2941175994679" />
+        <NodeLayout
+          Size="153,42"
+          Id="Package\Generate Seasons\Derived Column"
+          TopLeft="256.428571974441,127.705882241002" />
+        <NodeLayout
+          Size="170,42"
+          Id="Package\Generate Seasons\OLE DB Destination"
+          TopLeft="183.285714752516,393.788235062196" />
+        <EdgeLayout
+          Id="Package\Generate Seasons.Paths[Sort Output]"
+          TopLeft="269.928571953153,296.988235050801">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,96.800000011395"
+              Start="0,0"
+              End="0,89.300000011395">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,89.300000011395" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Generate Seasons.Paths[Flat File Source Output]"
+          TopLeft="467.428571942509,79.2941175994679">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-134.499999968068,48.4117646415341"
+              Start="0,0"
+              End="-134.499999968068,40.9117646415341">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,20.205882320767" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,20.205882320767"
+                    Point2="0,24.205882320767"
+                    Point3="-4,24.205882320767" />
+                  <mssgle:LineSegment
+                    End="-130.499999968068,24.205882320767" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-130.499999968068,24.205882320767"
+                    Point2="-134.499999968068,24.205882320767"
+                    Point3="-134.499999968068,28.205882320767" />
+                  <mssgle:LineSegment
+                    End="-134.499999968068,40.9117646415341" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Generate Seasons.Paths[Derived Column Output]"
+          TopLeft="332.928571974441,169.705882241002">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-61.357142820651,85.282352809799"
+              Start="0,0"
+              End="-61.357142820651,77.782352809799">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,38.6411764048995" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,38.6411764048995"
+                    Point2="0,42.6411764048995"
+                    Point3="-4,42.6411764048995" />
+                  <mssgle:LineSegment
+                    End="-57.357142820651,42.6411764048995" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-57.357142820651,42.6411764048995"
+                    Point2="-61.357142820651,42.6411764048995"
+                    Point3="-61.357142820651,46.6411764048995" />
+                  <mssgle:LineSegment
+                    End="-61.357142820651,77.782352809799" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Generate Seasons\OLE DB Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <TaskHost
     design-time-name="Package\Load Player Info">
     <LayoutInfo>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="120,41.6"
+          Size="120,42"
           Id="Package\Load Player Info\Multicast"
           TopLeft="246,337" />
         <NodeLayout
-          Size="107.2,41.6"
+          Size="107,42"
           Id="Package\Load Player Info\Sort 1"
           TopLeft="369,132" />
         <NodeLayout
-          Size="150.4,41.6"
+          Size="150,42"
           Id="Package\Load Player Info\PlayerDirectory"
           TopLeft="350,60" />
         <NodeLayout
-          Size="129.6,41.6"
+          Size="130,42"
           Id="Package\Load Player Info\Merge Join"
           TopLeft="245,244" />
         <NodeLayout
-          Size="97.6,41.6"
+          Size="98,42"
           Id="Package\Load Player Info\Sort"
-          TopLeft="158,128" />
+          TopLeft="159,137" />
         <NodeLayout
-          Size="140,41.6"
+          Size="140,42"
           Id="Package\Load Player Info\CommonInfo"
           TopLeft="133,52" />
         <EdgeLayout
@@ -4406,41 +6866,45 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Load Player Info.Paths[Sort Output]"
-          TopLeft="207,170">
+          TopLeft="208,179">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="82.6666666666667,74"
+              EndConnector="81.6666666666667,65"
               Start="0,0"
-              End="82.6666666666667,66.5">
+              End="81.6666666666667,57.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,39.8601823708207" />
+                    End="0,34.5258358662614" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,39.8601823708207"
-                    Point2="0,43.8601823708207"
-                    Point3="4,43.8601823708207" />
+                    Point1="0,34.5258358662614"
+                    Point2="0,38.5258358662614"
+                    Point3="4,38.5258358662614" />
                   <mssgle:LineSegment
-                    End="78.6666666666667,43.8601823708207" />
+                    End="77.6666666666667,38.5258358662614" />
                   <mssgle:CubicBezierSegment
-                    Point1="78.6666666666667,43.8601823708207"
-                    Point2="82.6666666666667,43.8601823708207"
-                    Point3="82.6666666666667,47.8601823708207" />
+                    Point1="77.6666666666667,38.5258358662614"
+                    Point2="81.6666666666667,38.5258358662614"
+                    Point3="81.6666666666667,42.5258358662614" />
                   <mssgle:LineSegment
-                    End="82.6666666666667,66.5" />
+                    End="81.6666666666667,57.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -4463,7 +6927,7 @@
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-8,13.75,16,16"
+              BoundingBox="0,0,0,0"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -4486,165 +6950,415 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Load Player Info.Paths[Flat File Source Output]"
-          TopLeft="205,94">
+          TopLeft="205.5,94">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,34"
+              EndConnector="0,43"
               Start="0,0"
-              End="0,26.5">
+              End="0,35.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,26.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-      </GraphLayout>
-    </LayoutInfo>
-  </TaskHost>
-  <TaskHost
-    design-time-name="Package\Generate Seasons">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
-        <NodeLayout
-          Size="150.4,41.6"
-          Id="Package\Generate Seasons\Flat File Source"
-          TopLeft="241.428571942509,54.2941175994679" />
-        <NodeLayout
-          Size="137.6,41.6"
-          Id="Package\Generate Seasons\Year &gt; 1980"
-          TopLeft="257.142857690247,220.999999806285" />
-        <NodeLayout
-          Size="152.8,41.6"
-          Id="Package\Generate Seasons\Derived Column"
-          TopLeft="256.428571974441,127.705882241002" />
-        <EdgeLayout
-          Id="Package\Generate Seasons.Paths[Flat File Source Output]"
-          TopLeft="316.628571942509,95.8941175994679">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="16.200000031931,31.8117646415341"
-              Start="0,0"
-              End="16.200000031931,24.3117646415341">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,11.905882320767" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,11.905882320767"
-                    Point2="0,15.905882320767"
-                    Point3="4,15.905882320767" />
-                  <mssgle:LineSegment
-                    End="12.200000031931,15.905882320767" />
-                  <mssgle:CubicBezierSegment
-                    Point1="12.200000031931,15.905882320767"
-                    Point2="16.200000031931,15.905882320767"
-                    Point3="16.200000031931,19.905882320767" />
-                  <mssgle:LineSegment
-                    End="16.200000031931,24.3117646415341" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Generate Seasons.Paths[Derived Column Output]"
-          TopLeft="329.385714832344,169.305882241002">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,51.694117565283"
-              Start="0,0"
-              End="0,44.194117565283">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,44.194117565283" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="97.6,41.6"
-          Id="Package\Generate Seasons\Sort"
-          TopLeft="273.57142915379,303.988235050801" />
-        <EdgeLayout
-          Id="Package\Generate Seasons.Paths[Conditional Split Default Output]"
-          TopLeft="324.157143422019,262.599999806285">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,41.3882352445158"
-              Start="0,0"
-              End="0,33.8882352445158">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,33.8882352445158" />
+                    End="0,35.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-70.61390625,11.1150160597579,141.2278125,11.658203125"
+              BoundingBox="0,0,0,0"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <TaskHost
+    design-time-name="Package\Load Team Info">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="170.4,41.6"
-          Id="Package\Generate Seasons\OLE DB Destination"
-          TopLeft="219.285714752516,383.788235062196" />
+          Size="142,42"
+          Id="Package\Load Team Info\Team History"
+          TopLeft="371,104" />
+        <NodeLayout
+          Size="107,42"
+          Id="Package\Load Team Info\Sort 1"
+          TopLeft="575,224" />
+        <NodeLayout
+          Size="181,48"
+          Id="Package\Load Team Info\Lookup FirstSeasonID"
+          TopLeft="251,545" />
+        <NodeLayout
+          Size="154,42"
+          Id="Package\Load Team Info\Derived Column"
+          TopLeft="226,329" />
+        <NodeLayout
+          Size="180,42"
+          Id="Package\Load Team Info\Lookup LastSeasonID"
+          TopLeft="250,652" />
+        <NodeLayout
+          Size="156,42"
+          Id="Package\Load Team Info\Data Conversion"
+          TopLeft="235,468" />
+        <NodeLayout
+          Size="156,42"
+          Id="Package\Load Team Info\Fixing datatypes"
+          TopLeft="266,724" />
+        <NodeLayout
+          Size="130,42"
+          Id="Package\Load Team Info\Merge Join"
+          TopLeft="230,246" />
+        <NodeLayout
+          Size="98,42"
+          Id="Package\Load Team Info\Sort"
+          TopLeft="399,174" />
+        <NodeLayout
+          Size="155,42"
+          Id="Package\Load Team Info\Conditional Split"
+          TopLeft="239,411" />
+        <NodeLayout
+          Size="105,42"
+          Id="Package\Load Team Info\Team"
+          TopLeft="583,121" />
         <EdgeLayout
-          Id="Package\Generate Seasons.Paths[Sort Output]"
-          TopLeft="322.37142915379,345.588235050801">
+          Id="Package\Load Team Info.Paths[Sort Output1]"
+          TopLeft="575,245">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-17.8857144012744,38.200000011395"
+              EndConnector="-215,22"
               Start="0,0"
-              End="-17.8857144012744,30.700000011395">
+              End="-207.5,22">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,15.1000000056975" />
+                    End="-103.5,0" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,15.1000000056975"
-                    Point2="0,19.1000000056975"
-                    Point3="-4,19.1000000056975" />
+                    Point1="-103.5,0"
+                    Point2="-107.5,0"
+                    Point3="-107.5,4" />
                   <mssgle:LineSegment
-                    End="-13.8857144012744,19.1000000056975" />
+                    End="-107.5,18" />
                   <mssgle:CubicBezierSegment
-                    Point1="-13.8857144012744,19.1000000056975"
-                    Point2="-17.8857144012744,19.1000000056975"
-                    Point3="-17.8857144012744,23.1000000056975" />
+                    Point1="-107.5,18"
+                    Point2="-107.5,22"
+                    Point3="-111.5,22" />
                   <mssgle:LineSegment
-                    End="-17.8857144012744,30.700000011395" />
+                    End="-207.5,22" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load Team Info.Paths[Sort Output]"
+          TopLeft="448,216">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-153,30"
+              Start="0,0"
+              End="-153,22.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,11" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,11"
+                    Point2="0,15"
+                    Point3="-4,15" />
+                  <mssgle:LineSegment
+                    End="-149,15" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-149,15"
+                    Point2="-153,15"
+                    Point3="-153,19" />
+                  <mssgle:LineSegment
+                    End="-153,22.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load Team Info.Paths[Merge Join Output]"
+          TopLeft="295,288">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="8,41"
+              Start="0,0"
+              End="8,33.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,16.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,16.5"
+                    Point2="0,20.5"
+                    Point3="4,20.5" />
+                  <mssgle:LineSegment
+                    End="4,20.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="4,20.5"
+                    Point2="8,20.5"
+                    Point3="8,24.5" />
+                  <mssgle:LineSegment
+                    End="8,33.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load Team Info.Paths[Lookup Match Output]"
+          TopLeft="342,694">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,30"
+              Start="0,0"
+              End="0,22.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,22.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-48.19138671875,5.4453125,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load Team Info.Paths[Flat File Source Output1]"
+          TopLeft="632,163">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,61"
+              Start="0,0"
+              End="0,53.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,53.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load Team Info.Paths[Flat File Source Output]"
+          TopLeft="445,146">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,28"
+              Start="0,0"
+              End="0,20.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,20.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load Team Info.Paths[Derived Column Output]"
+          TopLeft="303,371">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="13.5,40"
+              Start="0,0"
+              End="13.5,32.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,16" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,16"
+                    Point2="0,20"
+                    Point3="4,20" />
+                  <mssgle:LineSegment
+                    End="9.5,20" />
+                  <mssgle:CubicBezierSegment
+                    Point1="9.5,20"
+                    Point2="13.5,20"
+                    Point3="13.5,24" />
+                  <mssgle:LineSegment
+                    End="13.5,32.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load Team Info.Paths[Data Conversion Output]"
+          TopLeft="313,510">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="28.5,35"
+              Start="0,0"
+              End="28.5,27.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,13.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,13.5"
+                    Point2="0,17.5"
+                    Point3="4,17.5" />
+                  <mssgle:LineSegment
+                    End="24.5,17.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="24.5,17.5"
+                    Point2="28.5,17.5"
+                    Point3="28.5,21.5" />
+                  <mssgle:LineSegment
+                    End="28.5,27.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load Team Info.Paths[Conditional Split Default Output]"
+          TopLeft="394,432">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-3,57"
+              Start="0,0"
+              End="4.5,57">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="18.5,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="18.5,0"
+                    Point2="22.5,0"
+                    Point3="22.5,4" />
+                  <mssgle:LineSegment
+                    End="22.5,53" />
+                  <mssgle:CubicBezierSegment
+                    Point1="22.5,53"
+                    Point2="22.5,57"
+                    Point3="18.5,57" />
+                  <mssgle:LineSegment
+                    End="4.5,57" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-48.11390625,-17.658203125,141.2278125,11.658203125"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load Team Info.Paths[Lookup Match Output1]"
+          TopLeft="340.75,593">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,59"
+              Start="0,0"
+              End="0,51.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,51.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-48.19138671875,19.9453125,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="171,42"
+          Id="Package\Load Team Info\OLE DB Destination"
+          TopLeft="519,743" />
+        <EdgeLayout
+          Id="Package\Load Team Info.Paths[Data Conversion Output1]"
+          TopLeft="422,745">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="97,19"
+              Start="0,0"
+              End="89.5,19">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="44.5,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="44.5,0"
+                    Point2="48.5,0"
+                    Point3="48.5,4" />
+                  <mssgle:LineSegment
+                    End="48.5,15" />
+                  <mssgle:CubicBezierSegment
+                    Point1="48.5,15"
+                    Point2="48.5,19"
+                    Point3="52.5,19" />
+                  <mssgle:LineSegment
+                    End="89.5,19" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -4657,7 +7371,53 @@
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Generate Seasons\OLE DB Destination">
+    design-time-name="Package\Load Team Info\Lookup FirstSeasonID">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:boolean">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[dimSeason]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:int">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load Team Info\Lookup LastSeasonID">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:boolean">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[dimSeason]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load Team Info\OLE DB Destination">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
