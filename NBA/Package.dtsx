@@ -11,8 +11,8 @@
   DTS:LocaleID="2057"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="7"
-  DTS:VersionGUID="{DC327704-9718-4737-85EA-47902466299F}">
+  DTS:VersionBuild="20"
+  DTS:VersionGUID="{782AB5CC-4D00-4F0D-AA99-6F356A4D7697}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -209,9 +209,2487 @@
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[localhost.AdventureWorks]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{68CAE099-EC23-42B0-BF9F-80E84FC62CE2}"
+      DTS:ObjectName="localhost.AdventureWorks">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=localhost;Initial Catalog=AdventureWorks;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Package-{68CAE099-EC23-42B0-BF9F-80E84FC62CE2}localhost.AdventureWorks;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[localhost.AdventureWorks 1]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{F90846A4-92FD-4555-94D3-A1B89FB4B4D8}"
+      DTS:ObjectName="localhost.AdventureWorks 1">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=localhost;Initial Catalog=AdventureWorks;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Package-{F90846A4-92FD-4555-94D3-A1B89FB4B4D8}localhost.AdventureWorks 1;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[localhost.NBA]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{FD055DCE-7795-4519-9C74-A60C339A2FA5}"
+      DTS:ObjectName="localhost.NBA">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=localhost;Initial Catalog=NBA;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-Package-{FD055DCE-7795-4519-9C74-A60C339A2FA5}localhost.NBA;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Team Totals]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{D030C7C1-44D9-4653-ABCE-E1A41E84C1EE}"
+      DTS:ObjectName="Team Totals">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="2057"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="C:\Users\barte\source\repos\NBA\data\Team Totals.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="season"
+              DTS:DTSID="{C9F045AA-3A4E-4CF3-8407-03356221152A}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="lg"
+              DTS:DTSID="{DD55D13A-D669-4606-8DBE-36A084431C8E}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="team"
+              DTS:DTSID="{E3DC99D4-F5A1-4F5E-8E34-DF4B74409111}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="abbreviation"
+              DTS:DTSID="{35775040-D8EF-4140-8EB6-1D473A7F37C3}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="playoffs"
+              DTS:DTSID="{13D7A26E-9509-44A5-9A3B-C2063CE516DE}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="g"
+              DTS:DTSID="{3577CCE9-2AA9-4C79-BB4B-8B4AE2EA8C3F}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="mp"
+              DTS:DTSID="{7B889889-DFA0-433C-9D2C-D5E58E94B6E8}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="fg"
+              DTS:DTSID="{6B8B8C35-025A-4B69-A655-20D1D95EE672}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="fga"
+              DTS:DTSID="{56A62765-5CB0-4F5E-8EC9-FEF21BCC3CE5}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="fg_percent"
+              DTS:DTSID="{66051E90-D4B7-4871-8BAB-162142BE855F}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="x3p"
+              DTS:DTSID="{D06C2ABA-CC68-4A01-B781-3E415B4D290F}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="x3pa"
+              DTS:DTSID="{6B1A0EDE-2345-4EF0-A507-BE870043AA4A}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="x3p_percent"
+              DTS:DTSID="{62FCEBD2-966B-46BF-9DC4-CAECEA61FAB7}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="x2p"
+              DTS:DTSID="{E4C6AEBD-642C-4ACA-8101-49D45C168CD7}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="x2pa"
+              DTS:DTSID="{B8988674-83D4-42E5-B442-56962C71C762}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="x2p_percent"
+              DTS:DTSID="{2D0BF159-F3C6-42DB-8EC4-139FEAFFCD2B}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ft"
+              DTS:DTSID="{F5E2959A-9E89-4AA7-BC26-EC653340F27F}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="fta"
+              DTS:DTSID="{9C55F082-5C52-4D67-B079-0EEA9A179757}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ft_percent"
+              DTS:DTSID="{24243984-F6D3-4D42-BD1A-272CDCCD64E5}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="orb"
+              DTS:DTSID="{93A2FC91-04F6-4722-8D94-388770726CB0}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="drb"
+              DTS:DTSID="{9684E04C-4B57-4EAF-ADCF-8FB8D68DE650}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="trb"
+              DTS:DTSID="{47C28D85-AE4A-4A53-824D-2EA6F1CD3F9A}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ast"
+              DTS:DTSID="{9FA9D080-3A13-4E7B-9795-399479B3BBC8}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="stl"
+              DTS:DTSID="{C71C68DF-CA42-4183-8E5D-D2AD154957B5}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="blk"
+              DTS:DTSID="{BFC2A0CF-2B78-4E44-85AA-DD6C6857F623}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="tov"
+              DTS:DTSID="{8F46333D-C7E1-4F24-ACDD-AB5C85635F4B}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="pf"
+              DTS:DTSID="{5907B807-E629-431F-93F6-9E0FBBD86CFB}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="pts"
+              DTS:DTSID="{32F710CB-0403-4275-9F19-11D34B895761}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
   <DTS:Variables />
   <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Generate Seasons"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Data Flow Task"
+      DTS:DTSID="{51801C0F-C77D-4115-B946-AA403645B6B0}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Generate Seasons"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\Generate Seasons\Derived Column"
+              componentClassID="Microsoft.DerivedColumn"
+              contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Creates new column values by applying expressions to transformation input columns. Create new columns or overwrite existing ones. For example, concatenate the values from the 'first name' and 'last name' column to make a 'full name' column."
+              name="Derived Column"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Generate Seasons\Derived Column.Inputs[Derived Column Input]"
+                  description="Input to the Derived Column Transformation"
+                  name="Derived Column Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Generate Seasons\Derived Column.Inputs[Derived Column Input].Columns[season]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="season"
+                      lineageId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[season]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Generate Seasons\Derived Column.Outputs[Derived Column Output]"
+                  description="Default Output of the Derived Column Transformation"
+                  exclusionGroup="1"
+                  name="Derived Column Output"
+                  synchronousInputId="Package\Generate Seasons\Derived Column.Inputs[Derived Column Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Generate Seasons\Derived Column.Outputs[Derived Column Output].Columns[Year]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Generate Seasons\Derived Column.Outputs[Derived Column Output].Columns[Year]"
+                      name="Year"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">(DT_I4)#{Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[season]}</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">(DT_I4)season</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Generate Seasons\Derived Column.Outputs[Derived Column Error Output]"
+                  description="Error Output of the Derived Column Transformation"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Derived Column Error Output"
+                  synchronousInputId="Package\Generate Seasons\Derived Column.Inputs[Derived Column Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Generate Seasons\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Generate Seasons\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Generate Seasons\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Generate Seasons\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Generate Seasons\Flat File Source"
+              componentClassID="Microsoft.FlatFileSource"
+              contactInfo="Flat File Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Flat File Source"
+              localeId="2057"
+              name="Flat File Source"
+              usesDispositions="true"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Specifies whether zero-length columns are treated as null."
+                  name="RetainNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of an output column containing the file name. If no name is specified, no output column containing the file name will be generated."
+                  name="FileNameColumnName"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Generate Seasons\Flat File Source.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[Team Totals]"
+                  connectionManagerRefId="Package.ConnectionManagers[Team Totals]"
+                  name="FlatFileConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output]"
+                  name="Flat File Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[season]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[season]"
+                      length="50"
+                      lineageId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[season]"
+                      name="season"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[lg]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[lg]"
+                      length="50"
+                      lineageId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[lg]"
+                      name="lg"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[team]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[team]"
+                      length="50"
+                      lineageId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[team]"
+                      name="team"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[abbreviation]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[abbreviation]"
+                      length="50"
+                      lineageId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[abbreviation]"
+                      name="abbreviation"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[playoffs]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[playoffs]"
+                      length="50"
+                      lineageId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[playoffs]"
+                      name="playoffs"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[g]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[g]"
+                      length="50"
+                      lineageId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[g]"
+                      name="g"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[mp]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[mp]"
+                      length="50"
+                      lineageId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[mp]"
+                      name="mp"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[fg]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[fg]"
+                      length="50"
+                      lineageId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[fg]"
+                      name="fg"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[fga]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[fga]"
+                      length="50"
+                      lineageId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[fga]"
+                      name="fga"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[fg_percent]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[fg_percent]"
+                      length="50"
+                      lineageId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[fg_percent]"
+                      name="fg_percent"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[x3p]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[x3p]"
+                      length="50"
+                      lineageId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[x3p]"
+                      name="x3p"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[x3pa]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[x3pa]"
+                      length="50"
+                      lineageId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[x3pa]"
+                      name="x3pa"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[x3p_percent]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[x3p_percent]"
+                      length="50"
+                      lineageId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[x3p_percent]"
+                      name="x3p_percent"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[x2p]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[x2p]"
+                      length="50"
+                      lineageId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[x2p]"
+                      name="x2p"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[x2pa]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[x2pa]"
+                      length="50"
+                      lineageId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[x2pa]"
+                      name="x2pa"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[x2p_percent]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[x2p_percent]"
+                      length="50"
+                      lineageId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[x2p_percent]"
+                      name="x2p_percent"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[ft]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[ft]"
+                      length="50"
+                      lineageId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[ft]"
+                      name="ft"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[fta]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[fta]"
+                      length="50"
+                      lineageId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[fta]"
+                      name="fta"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[ft_percent]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[ft_percent]"
+                      length="50"
+                      lineageId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[ft_percent]"
+                      name="ft_percent"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[orb]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[orb]"
+                      length="50"
+                      lineageId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[orb]"
+                      name="orb"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[drb]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[drb]"
+                      length="50"
+                      lineageId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[drb]"
+                      name="drb"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[trb]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[trb]"
+                      length="50"
+                      lineageId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[trb]"
+                      name="trb"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[ast]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[ast]"
+                      length="50"
+                      lineageId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[ast]"
+                      name="ast"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[stl]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[stl]"
+                      length="50"
+                      lineageId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[stl]"
+                      name="stl"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[blk]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[blk]"
+                      length="50"
+                      lineageId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[blk]"
+                      name="blk"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[tov]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[tov]"
+                      length="50"
+                      lineageId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[tov]"
+                      name="tov"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[pf]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[pf]"
+                      length="50"
+                      lineageId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[pf]"
+                      name="pf"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[pts]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[pts]"
+                      length="50"
+                      lineageId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[pts]"
+                      name="pts"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[season]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="season" />
+                    <externalMetadataColumn
+                      refId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[lg]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="lg" />
+                    <externalMetadataColumn
+                      refId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[team]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="team" />
+                    <externalMetadataColumn
+                      refId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[abbreviation]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="abbreviation" />
+                    <externalMetadataColumn
+                      refId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[playoffs]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="playoffs" />
+                    <externalMetadataColumn
+                      refId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[g]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="g" />
+                    <externalMetadataColumn
+                      refId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[mp]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="mp" />
+                    <externalMetadataColumn
+                      refId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[fg]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="fg" />
+                    <externalMetadataColumn
+                      refId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[fga]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="fga" />
+                    <externalMetadataColumn
+                      refId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[fg_percent]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="fg_percent" />
+                    <externalMetadataColumn
+                      refId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[x3p]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="x3p" />
+                    <externalMetadataColumn
+                      refId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[x3pa]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="x3pa" />
+                    <externalMetadataColumn
+                      refId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[x3p_percent]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="x3p_percent" />
+                    <externalMetadataColumn
+                      refId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[x2p]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="x2p" />
+                    <externalMetadataColumn
+                      refId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[x2pa]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="x2pa" />
+                    <externalMetadataColumn
+                      refId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[x2p_percent]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="x2p_percent" />
+                    <externalMetadataColumn
+                      refId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[ft]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="ft" />
+                    <externalMetadataColumn
+                      refId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[fta]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="fta" />
+                    <externalMetadataColumn
+                      refId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[ft_percent]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="ft_percent" />
+                    <externalMetadataColumn
+                      refId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[orb]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="orb" />
+                    <externalMetadataColumn
+                      refId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[drb]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="drb" />
+                    <externalMetadataColumn
+                      refId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[trb]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="trb" />
+                    <externalMetadataColumn
+                      refId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[ast]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="ast" />
+                    <externalMetadataColumn
+                      refId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[stl]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="stl" />
+                    <externalMetadataColumn
+                      refId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[blk]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="blk" />
+                    <externalMetadataColumn
+                      refId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[tov]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="tov" />
+                    <externalMetadataColumn
+                      refId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[pf]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="pf" />
+                    <externalMetadataColumn
+                      refId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[pts]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="pts" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Error Output]"
+                  isErrorOut="true"
+                  name="Flat File Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      codePage="1252"
+                      dataType="text"
+                      description="Flat File Source Error Output Column"
+                      lineageId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      name="Flat File Source Error Output Column" />
+                    <outputColumn
+                      refId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Generate Seasons\OLE DB Destination"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+              description="OLE DB Destination"
+              name="OLE DB Destination"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[dbo].[dimSeason]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=16.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">3</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Generate Seasons\OLE DB Destination.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[localhost.NBA]"
+                  connectionManagerRefId="Package.ConnectionManagers[localhost.NBA]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Generate Seasons\OLE DB Destination.Inputs[OLE DB Destination Input]"
+                  errorOrTruncationOperation="Insert"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="OLE DB Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Generate Seasons\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Year]"
+                      cachedDataType="i4"
+                      cachedName="Year"
+                      cachedSortKeyPosition="1"
+                      externalMetadataColumnId="Package\Generate Seasons\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Year]"
+                      lineageId="Package\Generate Seasons\Sort.Outputs[Sort Output].Columns[Year]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Generate Seasons\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[SeasonID]"
+                      dataType="i8"
+                      name="SeasonID" />
+                    <externalMetadataColumn
+                      refId="Package\Generate Seasons\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Year]"
+                      dataType="i2"
+                      name="Year" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Generate Seasons\OLE DB Destination.Outputs[OLE DB Destination Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="OLE DB Destination Error Output"
+                  synchronousInputId="Package\Generate Seasons\OLE DB Destination.Inputs[OLE DB Destination Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Generate Seasons\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Generate Seasons\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Generate Seasons\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Generate Seasons\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Generate Seasons\Sort"
+              componentClassID="Microsoft.Sort"
+              contactInfo="Sort;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Sorts input data in ascending or descending order when it cannot be sorted at its source. For example, sort sales data by 'customer id' before it is written to a flat file and delivered to another department. Note: We do not recommend this transformation for large data flows."
+              name="Sort"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the Sort transformation removes rows with duplicate sort values."
+                  name="EliminateDuplicates">true</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the maximum number of threads to use for sorting."
+                  expressionType="Notify"
+                  name="MaximumThreads">-1</property>
+              </properties>
+              <inputs>
+                <input
+                  refId="Package\Generate Seasons\Sort.Inputs[Sort Input]"
+                  name="Sort Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Generate Seasons\Sort.Inputs[Sort Input].Columns[season]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="season"
+                      lineageId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[season]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Generate Seasons\Sort.Inputs[Sort Input].Columns[lg]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="lg"
+                      lineageId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[lg]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Generate Seasons\Sort.Inputs[Sort Input].Columns[team]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="team"
+                      lineageId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[team]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Generate Seasons\Sort.Inputs[Sort Input].Columns[abbreviation]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="abbreviation"
+                      lineageId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[abbreviation]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Generate Seasons\Sort.Inputs[Sort Input].Columns[playoffs]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="playoffs"
+                      lineageId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[playoffs]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Generate Seasons\Sort.Inputs[Sort Input].Columns[g]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="g"
+                      lineageId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[g]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Generate Seasons\Sort.Inputs[Sort Input].Columns[mp]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="mp"
+                      lineageId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[mp]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Generate Seasons\Sort.Inputs[Sort Input].Columns[fg]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="fg"
+                      lineageId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[fg]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Generate Seasons\Sort.Inputs[Sort Input].Columns[fga]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="fga"
+                      lineageId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[fga]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Generate Seasons\Sort.Inputs[Sort Input].Columns[fg_percent]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="fg_percent"
+                      lineageId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[fg_percent]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Generate Seasons\Sort.Inputs[Sort Input].Columns[x3p]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="x3p"
+                      lineageId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[x3p]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Generate Seasons\Sort.Inputs[Sort Input].Columns[x3pa]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="x3pa"
+                      lineageId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[x3pa]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Generate Seasons\Sort.Inputs[Sort Input].Columns[x3p_percent]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="x3p_percent"
+                      lineageId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[x3p_percent]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Generate Seasons\Sort.Inputs[Sort Input].Columns[x2p]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="x2p"
+                      lineageId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[x2p]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Generate Seasons\Sort.Inputs[Sort Input].Columns[x2pa]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="x2pa"
+                      lineageId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[x2pa]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Generate Seasons\Sort.Inputs[Sort Input].Columns[x2p_percent]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="x2p_percent"
+                      lineageId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[x2p_percent]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Generate Seasons\Sort.Inputs[Sort Input].Columns[ft]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="ft"
+                      lineageId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[ft]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Generate Seasons\Sort.Inputs[Sort Input].Columns[fta]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="fta"
+                      lineageId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[fta]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Generate Seasons\Sort.Inputs[Sort Input].Columns[ft_percent]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="ft_percent"
+                      lineageId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[ft_percent]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Generate Seasons\Sort.Inputs[Sort Input].Columns[orb]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="orb"
+                      lineageId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[orb]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Generate Seasons\Sort.Inputs[Sort Input].Columns[drb]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="drb"
+                      lineageId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[drb]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Generate Seasons\Sort.Inputs[Sort Input].Columns[trb]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="trb"
+                      lineageId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[trb]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Generate Seasons\Sort.Inputs[Sort Input].Columns[ast]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="ast"
+                      lineageId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[ast]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Generate Seasons\Sort.Inputs[Sort Input].Columns[stl]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="stl"
+                      lineageId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[stl]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Generate Seasons\Sort.Inputs[Sort Input].Columns[blk]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="blk"
+                      lineageId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[blk]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Generate Seasons\Sort.Inputs[Sort Input].Columns[tov]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="tov"
+                      lineageId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[tov]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Generate Seasons\Sort.Inputs[Sort Input].Columns[pf]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="pf"
+                      lineageId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[pf]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Generate Seasons\Sort.Inputs[Sort Input].Columns[pts]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="pts"
+                      lineageId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[pts]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Generate Seasons\Sort.Inputs[Sort Input].Columns[Year]"
+                      cachedDataType="i4"
+                      cachedName="Year"
+                      lineageId="Package\Generate Seasons\Derived Column.Outputs[Derived Column Output].Columns[Year]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">1</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Generate Seasons\Sort.Outputs[Sort Output]"
+                  isSorted="true"
+                  name="Sort Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Generate Seasons\Sort.Outputs[Sort Output].Columns[season]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Generate Seasons\Sort.Outputs[Sort Output].Columns[season]"
+                      name="season">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[season]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Generate Seasons\Sort.Outputs[Sort Output].Columns[lg]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Generate Seasons\Sort.Outputs[Sort Output].Columns[lg]"
+                      name="lg">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[lg]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Generate Seasons\Sort.Outputs[Sort Output].Columns[team]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Generate Seasons\Sort.Outputs[Sort Output].Columns[team]"
+                      name="team">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[team]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Generate Seasons\Sort.Outputs[Sort Output].Columns[abbreviation]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Generate Seasons\Sort.Outputs[Sort Output].Columns[abbreviation]"
+                      name="abbreviation">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[abbreviation]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Generate Seasons\Sort.Outputs[Sort Output].Columns[playoffs]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Generate Seasons\Sort.Outputs[Sort Output].Columns[playoffs]"
+                      name="playoffs">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[playoffs]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Generate Seasons\Sort.Outputs[Sort Output].Columns[g]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Generate Seasons\Sort.Outputs[Sort Output].Columns[g]"
+                      name="g">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[g]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Generate Seasons\Sort.Outputs[Sort Output].Columns[mp]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Generate Seasons\Sort.Outputs[Sort Output].Columns[mp]"
+                      name="mp">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[mp]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Generate Seasons\Sort.Outputs[Sort Output].Columns[fg]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Generate Seasons\Sort.Outputs[Sort Output].Columns[fg]"
+                      name="fg">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[fg]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Generate Seasons\Sort.Outputs[Sort Output].Columns[fga]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Generate Seasons\Sort.Outputs[Sort Output].Columns[fga]"
+                      name="fga">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[fga]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Generate Seasons\Sort.Outputs[Sort Output].Columns[fg_percent]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Generate Seasons\Sort.Outputs[Sort Output].Columns[fg_percent]"
+                      name="fg_percent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[fg_percent]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Generate Seasons\Sort.Outputs[Sort Output].Columns[x3p]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Generate Seasons\Sort.Outputs[Sort Output].Columns[x3p]"
+                      name="x3p">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[x3p]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Generate Seasons\Sort.Outputs[Sort Output].Columns[x3pa]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Generate Seasons\Sort.Outputs[Sort Output].Columns[x3pa]"
+                      name="x3pa">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[x3pa]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Generate Seasons\Sort.Outputs[Sort Output].Columns[x3p_percent]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Generate Seasons\Sort.Outputs[Sort Output].Columns[x3p_percent]"
+                      name="x3p_percent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[x3p_percent]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Generate Seasons\Sort.Outputs[Sort Output].Columns[x2p]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Generate Seasons\Sort.Outputs[Sort Output].Columns[x2p]"
+                      name="x2p">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[x2p]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Generate Seasons\Sort.Outputs[Sort Output].Columns[x2pa]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Generate Seasons\Sort.Outputs[Sort Output].Columns[x2pa]"
+                      name="x2pa">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[x2pa]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Generate Seasons\Sort.Outputs[Sort Output].Columns[x2p_percent]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Generate Seasons\Sort.Outputs[Sort Output].Columns[x2p_percent]"
+                      name="x2p_percent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[x2p_percent]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Generate Seasons\Sort.Outputs[Sort Output].Columns[ft]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Generate Seasons\Sort.Outputs[Sort Output].Columns[ft]"
+                      name="ft">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[ft]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Generate Seasons\Sort.Outputs[Sort Output].Columns[fta]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Generate Seasons\Sort.Outputs[Sort Output].Columns[fta]"
+                      name="fta">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[fta]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Generate Seasons\Sort.Outputs[Sort Output].Columns[ft_percent]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Generate Seasons\Sort.Outputs[Sort Output].Columns[ft_percent]"
+                      name="ft_percent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[ft_percent]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Generate Seasons\Sort.Outputs[Sort Output].Columns[orb]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Generate Seasons\Sort.Outputs[Sort Output].Columns[orb]"
+                      name="orb">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[orb]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Generate Seasons\Sort.Outputs[Sort Output].Columns[drb]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Generate Seasons\Sort.Outputs[Sort Output].Columns[drb]"
+                      name="drb">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[drb]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Generate Seasons\Sort.Outputs[Sort Output].Columns[trb]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Generate Seasons\Sort.Outputs[Sort Output].Columns[trb]"
+                      name="trb">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[trb]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Generate Seasons\Sort.Outputs[Sort Output].Columns[ast]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Generate Seasons\Sort.Outputs[Sort Output].Columns[ast]"
+                      name="ast">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[ast]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Generate Seasons\Sort.Outputs[Sort Output].Columns[stl]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Generate Seasons\Sort.Outputs[Sort Output].Columns[stl]"
+                      name="stl">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[stl]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Generate Seasons\Sort.Outputs[Sort Output].Columns[blk]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Generate Seasons\Sort.Outputs[Sort Output].Columns[blk]"
+                      name="blk">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[blk]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Generate Seasons\Sort.Outputs[Sort Output].Columns[tov]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Generate Seasons\Sort.Outputs[Sort Output].Columns[tov]"
+                      name="tov">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[tov]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Generate Seasons\Sort.Outputs[Sort Output].Columns[pf]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Generate Seasons\Sort.Outputs[Sort Output].Columns[pf]"
+                      name="pf">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[pf]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Generate Seasons\Sort.Outputs[Sort Output].Columns[pts]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Generate Seasons\Sort.Outputs[Sort Output].Columns[pts]"
+                      name="pts">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output].Columns[pts]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Generate Seasons\Sort.Outputs[Sort Output].Columns[Year]"
+                      dataType="i4"
+                      lineageId="Package\Generate Seasons\Sort.Outputs[Sort Output].Columns[Year]"
+                      name="Year"
+                      sortKeyPosition="1">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Generate Seasons\Derived Column.Outputs[Derived Column Output].Columns[Year]}</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Generate Seasons\Year &gt; 1980"
+              componentClassID="Microsoft.ConditionalSplit"
+              contactInfo="Conditional Split;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Routes data rows to different outputs depending on the content of the data. Use conditions (SSIS expressions) to specify which rows are routed. For example, separate records that need to be cleaned from those that are ready to be loaded or route only a subset of records."
+              name="Year &gt; 1980"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Generate Seasons\Year &gt; 1980.Inputs[Conditional Split Input]"
+                  description="Input to the Conditional Split Transformation"
+                  name="Conditional Split Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Generate Seasons\Year &gt; 1980.Inputs[Conditional Split Input].Columns[Year]"
+                      cachedDataType="i4"
+                      cachedName="Year"
+                      lineageId="Package\Generate Seasons\Derived Column.Outputs[Derived Column Output].Columns[Year]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Generate Seasons\Year &gt; 1980.Outputs[Case 1]"
+                  description="Output 1 of the Conditional Split Transformation"
+                  errorOrTruncationOperation="Computation"
+                  errorRowDisposition="FailComponent"
+                  exclusionGroup="1"
+                  name="Case 1"
+                  synchronousInputId="Package\Generate Seasons\Year &gt; 1980.Inputs[Conditional Split Input]"
+                  truncationRowDisposition="FailComponent">
+                  <properties>
+                    <property
+                      containsID="true"
+                      dataType="System.String"
+                      description="Specifies the expression. This expression version uses lineage identifiers instead of column names."
+                      name="Expression">#{Package\Generate Seasons\Derived Column.Outputs[Derived Column Output].Columns[Year]} &lt; 1980</property>
+                    <property
+                      containsID="true"
+                      dataType="System.String"
+                      description="Specifies the friendly version of the expression. This expression version uses column names."
+                      expressionType="Notify"
+                      name="FriendlyExpression">Year &lt; 1980</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the position of the condition in the list of conditions that the transformation evaluates. The evaluation order is from the lowest to the highest value."
+                      name="EvaluationOrder">0</property>
+                  </properties>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Generate Seasons\Year &gt; 1980.Outputs[Conditional Split Default Output]"
+                  description="Default Output of the Conditional Split Transformation"
+                  exclusionGroup="1"
+                  name="Conditional Split Default Output"
+                  synchronousInputId="Package\Generate Seasons\Year &gt; 1980.Inputs[Conditional Split Input]">
+                  <properties>
+                    <property
+                      dataType="System.Boolean"
+                      name="IsDefaultOut">true</property>
+                  </properties>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Generate Seasons\Year &gt; 1980.Outputs[Conditional Split Error Output]"
+                  description="Error Output of the Conditional Split Transformation"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Conditional Split Error Output"
+                  synchronousInputId="Package\Generate Seasons\Year &gt; 1980.Inputs[Conditional Split Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Generate Seasons\Year &gt; 1980.Outputs[Conditional Split Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Generate Seasons\Year &gt; 1980.Outputs[Conditional Split Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Generate Seasons\Year &gt; 1980.Outputs[Conditional Split Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Generate Seasons\Year &gt; 1980.Outputs[Conditional Split Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\Generate Seasons.Paths[Conditional Split Default Output]"
+              endId="Package\Generate Seasons\Sort.Inputs[Sort Input]"
+              name="Conditional Split Default Output"
+              startId="Package\Generate Seasons\Year &gt; 1980.Outputs[Conditional Split Default Output]" />
+            <path
+              refId="Package\Generate Seasons.Paths[Derived Column Output]"
+              endId="Package\Generate Seasons\Year &gt; 1980.Inputs[Conditional Split Input]"
+              name="Derived Column Output"
+              startId="Package\Generate Seasons\Derived Column.Outputs[Derived Column Output]" />
+            <path
+              refId="Package\Generate Seasons.Paths[Flat File Source Output]"
+              endId="Package\Generate Seasons\Derived Column.Inputs[Derived Column Input]"
+              name="Flat File Source Output"
+              startId="Package\Generate Seasons\Flat File Source.Outputs[Flat File Source Output]" />
+            <path
+              refId="Package\Generate Seasons.Paths[Sort Output]"
+              endId="Package\Generate Seasons\OLE DB Destination.Inputs[OLE DB Destination Input]"
+              name="Sort Output"
+              startId="Package\Generate Seasons\Sort.Outputs[Sort Output]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
     <DTS:Executable
       DTS:refId="Package\Load Player Info"
       DTS:CreationName="Microsoft.Pipeline"
@@ -1858,9 +4336,13 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
         <NodeLayout
-          Size="156,42"
+          Size="156,41.6"
           Id="Package\Load Player Info"
           TopLeft="324,125" />
+        <NodeLayout
+          Size="163.2,41.6"
+          Id="Package\Generate Seasons"
+          TopLeft="605.714287003693,134.588235176146" />
       </GraphLayout>
     </LayoutInfo>
   </Package>
@@ -1870,69 +4352,63 @@
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="140,42"
-          Id="Package\Load Player Info\CommonInfo"
-          TopLeft="133,52" />
+          Size="120,41.6"
+          Id="Package\Load Player Info\Multicast"
+          TopLeft="246,337" />
         <NodeLayout
-          Size="150,42"
+          Size="107.2,41.6"
+          Id="Package\Load Player Info\Sort 1"
+          TopLeft="369,132" />
+        <NodeLayout
+          Size="150.4,41.6"
           Id="Package\Load Player Info\PlayerDirectory"
           TopLeft="350,60" />
         <NodeLayout
-          Size="98,42"
-          Id="Package\Load Player Info\Sort"
-          TopLeft="158,128" />
-        <EdgeLayout
-          Id="Package\Load Player Info.Paths[Flat File Source Output]"
-          TopLeft="205,94">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,34"
-              Start="0,0"
-              End="0,26.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,26.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="107,42"
-          Id="Package\Load Player Info\Sort 1"
-          TopLeft="369,132" />
-        <EdgeLayout
-          Id="Package\Load Player Info.Paths[Flat File Source Output1]"
-          TopLeft="423.75,102">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,30"
-              Start="0,0"
-              End="0,22.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,22.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="130,42"
+          Size="129.6,41.6"
           Id="Package\Load Player Info\Merge Join"
           TopLeft="245,244" />
+        <NodeLayout
+          Size="97.6,41.6"
+          Id="Package\Load Player Info\Sort"
+          TopLeft="158,128" />
+        <NodeLayout
+          Size="140,41.6"
+          Id="Package\Load Player Info\CommonInfo"
+          TopLeft="133,52" />
+        <EdgeLayout
+          Id="Package\Load Player Info.Paths[Sort Output1]"
+          TopLeft="422.5,174">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-92.1666666666667,70"
+              Start="0,0"
+              End="-92.1666666666667,62.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,37.4893617021277" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,37.4893617021277"
+                    Point2="0,41.4893617021277"
+                    Point3="-4,41.4893617021277" />
+                  <mssgle:LineSegment
+                    End="-88.1666666666667,41.4893617021277" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-88.1666666666667,41.4893617021277"
+                    Point2="-92.1666666666667,41.4893617021277"
+                    Point3="-92.1666666666667,45.4893617021277" />
+                  <mssgle:LineSegment
+                    End="-92.1666666666667,62.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\Load Player Info.Paths[Sort Output]"
           TopLeft="207,170">
@@ -1968,44 +4444,6 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Load Player Info.Paths[Sort Output1]"
-          TopLeft="422.5,174">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-92.1666666666667,70"
-              Start="0,0"
-              End="-92.1666666666667,62.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,37.4893617021277" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,37.4893617021277"
-                    Point2="0,41.4893617021277"
-                    Point3="-4,41.4893617021277" />
-                  <mssgle:LineSegment
-                    End="-88.1666666666667,41.4893617021277" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-88.1666666666667,41.4893617021277"
-                    Point2="-92.1666666666667,41.4893617021277"
-                    Point3="-92.1666666666667,45.4893617021277" />
-                  <mssgle:LineSegment
-                    End="-92.1666666666667,62.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="120,42"
-          Id="Package\Load Player Info\Multicast"
-          TopLeft="246,337" />
-        <EdgeLayout
           Id="Package\Load Player Info.Paths[Merge Join Output]"
           TopLeft="308,286">
           <EdgeLayout.Curve>
@@ -2029,8 +4467,207 @@
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load Player Info.Paths[Flat File Source Output1]"
+          TopLeft="423.75,102">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,30"
+              Start="0,0"
+              End="0,22.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,22.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load Player Info.Paths[Flat File Source Output]"
+          TopLeft="205,94">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,34"
+              Start="0,0"
+              End="0,26.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,26.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <TaskHost
+    design-time-name="Package\Generate Seasons">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="150.4,41.6"
+          Id="Package\Generate Seasons\Flat File Source"
+          TopLeft="241.428571942509,54.2941175994679" />
+        <NodeLayout
+          Size="137.6,41.6"
+          Id="Package\Generate Seasons\Year &gt; 1980"
+          TopLeft="257.142857690247,220.999999806285" />
+        <NodeLayout
+          Size="152.8,41.6"
+          Id="Package\Generate Seasons\Derived Column"
+          TopLeft="256.428571974441,127.705882241002" />
+        <EdgeLayout
+          Id="Package\Generate Seasons.Paths[Flat File Source Output]"
+          TopLeft="316.628571942509,95.8941175994679">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="16.200000031931,31.8117646415341"
+              Start="0,0"
+              End="16.200000031931,24.3117646415341">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,11.905882320767" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,11.905882320767"
+                    Point2="0,15.905882320767"
+                    Point3="4,15.905882320767" />
+                  <mssgle:LineSegment
+                    End="12.200000031931,15.905882320767" />
+                  <mssgle:CubicBezierSegment
+                    Point1="12.200000031931,15.905882320767"
+                    Point2="16.200000031931,15.905882320767"
+                    Point3="16.200000031931,19.905882320767" />
+                  <mssgle:LineSegment
+                    End="16.200000031931,24.3117646415341" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Generate Seasons.Paths[Derived Column Output]"
+          TopLeft="329.385714832344,169.305882241002">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,51.694117565283"
+              Start="0,0"
+              End="0,44.194117565283">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,44.194117565283" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="97.6,41.6"
+          Id="Package\Generate Seasons\Sort"
+          TopLeft="273.57142915379,303.988235050801" />
+        <EdgeLayout
+          Id="Package\Generate Seasons.Paths[Conditional Split Default Output]"
+          TopLeft="324.157143422019,262.599999806285">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,41.3882352445158"
+              Start="0,0"
+              End="0,33.8882352445158">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,33.8882352445158" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-70.61390625,11.1150160597579,141.2278125,11.658203125"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="170.4,41.6"
+          Id="Package\Generate Seasons\OLE DB Destination"
+          TopLeft="219.285714752516,383.788235062196" />
+        <EdgeLayout
+          Id="Package\Generate Seasons.Paths[Sort Output]"
+          TopLeft="322.37142915379,345.588235050801">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-17.8857144012744,38.200000011395"
+              Start="0,0"
+              End="-17.8857144012744,30.700000011395">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,15.1000000056975" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,15.1000000056975"
+                    Point2="0,19.1000000056975"
+                    Point3="-4,19.1000000056975" />
+                  <mssgle:LineSegment
+                    End="-13.8857144012744,19.1000000056975" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-13.8857144012744,19.1000000056975"
+                    Point2="-17.8857144012744,19.1000000056975"
+                    Point3="-17.8857144012744,23.1000000056975" />
+                  <mssgle:LineSegment
+                    End="-17.8857144012744,30.700000011395" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Generate Seasons\OLE DB Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
 </Objects>]]></DTS:DesignTimeProperties>
 </DTS:Executable>
