@@ -11,8 +11,8 @@
   DTS:LocaleID="2057"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="128"
-  DTS:VersionGUID="{3FB0E89C-0E83-4D14-9799-360ED69E1C06}">
+  DTS:VersionBuild="138"
+  DTS:VersionGUID="{C0830225-E313-432A-BB32-D9976859C484}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -32,7 +32,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1250"
-          DTS:ConnectionString="C:\Users\szlin\Desktop\Studia\HDiSBI\NBA_warehouse\data\NBA Stats\Advanced.csv">
+          DTS:ConnectionString="C:\Users\barte\Desktop\studia\SEM6\magazyny\NBA_warehouse\data\NBA Stats\Advanced.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -342,7 +342,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1250"
-          DTS:ConnectionString="C:\Users\szlin\Desktop\Studia\HDiSBI\NBA_warehouse\data\NBA Stats\All-Star Selections.csv">
+          DTS:ConnectionString="C:\Users\barte\Desktop\studia\SEM6\magazyny\NBA_warehouse\data\NBA Stats\All-Star Selections.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -409,7 +409,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1250"
-          DTS:ConnectionString="C:\Users\szlin\Desktop\Studia\HDiSBI\NBA_warehouse\data\NBA Database\common_player_info.csv">
+          DTS:ConnectionString="C:\Users\barte\Desktop\studia\SEM6\magazyny\NBA_warehouse\data\NBA Database\common_player_info.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -728,7 +728,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1250"
-          DTS:ConnectionString="C:\Users\szlin\Desktop\Studia\HDiSBI\NBA_warehouse\data\NBA Stats\End of Season Teams (Voting).csv">
+          DTS:ConnectionString="C:\Users\barte\Desktop\studia\SEM6\magazyny\NBA_warehouse\data\NBA Stats\End of Season Teams (Voting).csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -894,7 +894,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1250"
-          DTS:ConnectionString="C:\Users\szlin\Desktop\Studia\HDiSBI\NBA_warehouse\data\NBA Database\game.csv">
+          DTS:ConnectionString="C:\Users\barte\Desktop\studia\SEM6\magazyny\NBA_warehouse\data\NBA Database\game.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1411,7 +1411,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1250"
-          DTS:ConnectionString="C:\Users\szlin\Desktop\Studia\HDiSBI\NBA_warehouse\data\NBA Database\game_summary.csv">
+          DTS:ConnectionString="C:\Users\barte\Desktop\studia\SEM6\magazyny\NBA_warehouse\data\NBA Database\game_summary.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1505,7 +1505,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1250"
-          DTS:ConnectionString="C:\Users\szlin\Desktop\Studia\HDiSBI\NBA_warehouse\data\NBA Stats\Player Award Shares.csv">
+          DTS:ConnectionString="C:\Users\barte\Desktop\studia\SEM6\magazyny\NBA_warehouse\data\NBA Stats\Player Award Shares.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1635,7 +1635,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Users\szlin\Desktop\Studia\HDiSBI\NBA_warehouse\data\NBA Stats\Player Career Info.csv">
+          DTS:ConnectionString="C:\Users\barte\Desktop\studia\SEM6\magazyny\NBA_warehouse\data\NBA Stats\Player Career Info.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1720,7 +1720,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Users\szlin\Desktop\Studia\HDiSBI\NBA_warehouse\data\NBA Stats\Player Directory.csv">
+          DTS:ConnectionString="C:\Users\barte\Desktop\studia\SEM6\magazyny\NBA_warehouse\data\NBA Stats\Player Directory.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1832,7 +1832,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1250"
-          DTS:ConnectionString="C:\Users\szlin\Desktop\Studia\HDiSBI\NBA_warehouse\data\NBA Stats\Player Shooting.csv">
+          DTS:ConnectionString="C:\Users\barte\Desktop\studia\SEM6\magazyny\NBA_warehouse\data\NBA Stats\Player Shooting.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -2160,7 +2160,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1250"
-          DTS:ConnectionString="C:\Users\szlin\Desktop\Studia\HDiSBI\NBA_warehouse\data\NBA Stats\Player Totals.csv">
+          DTS:ConnectionString="C:\Users\barte\Desktop\studia\SEM6\magazyny\NBA_warehouse\data\NBA Stats\Player Totals.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -2497,7 +2497,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Users\szlin\Desktop\Studia\HDiSBI\NBA_warehouse\data\NBA Database\team.csv">
+          DTS:ConnectionString="C:\Users\barte\Desktop\studia\SEM6\magazyny\NBA_warehouse\data\NBA Database\team.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -2582,7 +2582,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Users\szlin\Desktop\Studia\HDiSBI\NBA_warehouse\data\NBA Stats\Team Abbrev.csv">
+          DTS:ConnectionString="C:\Users\barte\Desktop\studia\SEM6\magazyny\NBA_warehouse\data\NBA Stats\Team Abbrev.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -2649,7 +2649,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1250"
-          DTS:ConnectionString="C:\Users\szlin\Desktop\Studia\HDiSBI\NBA_warehouse\data\NBA Database\team_details.csv">
+          DTS:ConnectionString="C:\Users\barte\Desktop\studia\SEM6\magazyny\NBA_warehouse\data\NBA Database\team_details.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -2797,7 +2797,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Users\szlin\Desktop\Studia\HDiSBI\NBA_warehouse\data\NBA Database\team_history.csv">
+          DTS:ConnectionString="C:\Users\barte\Desktop\studia\SEM6\magazyny\NBA_warehouse\data\NBA Database\team_history.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -2864,7 +2864,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1250"
-          DTS:ConnectionString="C:\Users\szlin\Desktop\Studia\HDiSBI\NBA_warehouse\data\NBA Stats\Team Summaries.csv">
+          DTS:ConnectionString="C:\Users\barte\Desktop\studia\SEM6\magazyny\NBA_warehouse\data\NBA Stats\Team Summaries.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -3165,7 +3165,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Users\szlin\Desktop\Studia\HDiSBI\NBA_warehouse\data\NBA Stats\Team Totals.csv">
+          DTS:ConnectionString="C:\Users\barte\Desktop\studia\SEM6\magazyny\NBA_warehouse\data\NBA Stats\Team Totals.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -5498,6 +5498,1605 @@
               endId="Package\Generate Seasons\OLE DB Destination.Inputs[OLE DB Destination Input]"
               name="Sort Output"
               startId="Package\Generate Seasons\Sort.Outputs[Sort Output]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Load dimAwards"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Data Flow Task"
+      DTS:DTSID="{7AFBCC40-6D0A-4E76-BE5B-46D608AC2983}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Load dimAwards"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\Load dimAwards\AllStars"
+              componentClassID="Microsoft.FlatFileSource"
+              contactInfo="Flat File Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Flat File Source"
+              localeId="1045"
+              name="AllStars"
+              usesDispositions="true"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Specifies whether zero-length columns are treated as null."
+                  name="RetainNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of an output column containing the file name. If no name is specified, no output column containing the file name will be generated."
+                  name="FileNameColumnName"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Load dimAwards\AllStars.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[All-Star Selections]"
+                  connectionManagerRefId="Package.ConnectionManagers[All-Star Selections]"
+                  name="FlatFileConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Load dimAwards\AllStars.Outputs[Flat File Source Output]"
+                  name="Flat File Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load dimAwards\AllStars.Outputs[Flat File Source Output].Columns[season]"
+                      codePage="1250"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load dimAwards\AllStars.Outputs[Flat File Source Output].ExternalColumns[season]"
+                      length="50"
+                      lineageId="Package\Load dimAwards\AllStars.Outputs[Flat File Source Output].Columns[season]"
+                      name="season"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Load dimAwards\AllStars.Outputs[Flat File Source Output].ExternalColumns[player]"
+                      codePage="1250"
+                      dataType="str"
+                      length="50"
+                      name="player" />
+                    <externalMetadataColumn
+                      refId="Package\Load dimAwards\AllStars.Outputs[Flat File Source Output].ExternalColumns[team]"
+                      codePage="1250"
+                      dataType="str"
+                      length="50"
+                      name="team" />
+                    <externalMetadataColumn
+                      refId="Package\Load dimAwards\AllStars.Outputs[Flat File Source Output].ExternalColumns[lg]"
+                      codePage="1250"
+                      dataType="str"
+                      length="50"
+                      name="lg" />
+                    <externalMetadataColumn
+                      refId="Package\Load dimAwards\AllStars.Outputs[Flat File Source Output].ExternalColumns[season]"
+                      codePage="1250"
+                      dataType="str"
+                      length="50"
+                      name="season" />
+                    <externalMetadataColumn
+                      refId="Package\Load dimAwards\AllStars.Outputs[Flat File Source Output].ExternalColumns[replaced]"
+                      codePage="1250"
+                      dataType="str"
+                      length="50"
+                      name="replaced" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Load dimAwards\AllStars.Outputs[Flat File Source Error Output]"
+                  isErrorOut="true"
+                  name="Flat File Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load dimAwards\AllStars.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      codePage="1250"
+                      dataType="text"
+                      description="Flat File Source Error Output Column"
+                      lineageId="Package\Load dimAwards\AllStars.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      name="Flat File Source Error Output Column" />
+                    <outputColumn
+                      refId="Package\Load dimAwards\AllStars.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Load dimAwards\AllStars.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Load dimAwards\AllStars.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Load dimAwards\AllStars.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Load dimAwards\AwardShares"
+              componentClassID="Microsoft.FlatFileSource"
+              contactInfo="Flat File Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Flat File Source"
+              localeId="1045"
+              name="AwardShares"
+              usesDispositions="true"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Specifies whether zero-length columns are treated as null."
+                  name="RetainNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of an output column containing the file name. If no name is specified, no output column containing the file name will be generated."
+                  name="FileNameColumnName"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Load dimAwards\AwardShares.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[Player Award Shares]"
+                  connectionManagerRefId="Package.ConnectionManagers[Player Award Shares]"
+                  name="FlatFileConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Load dimAwards\AwardShares.Outputs[Flat File Source Output]"
+                  name="Flat File Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load dimAwards\AwardShares.Outputs[Flat File Source Output].Columns[season]"
+                      codePage="1250"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load dimAwards\AwardShares.Outputs[Flat File Source Output].ExternalColumns[season]"
+                      length="50"
+                      lineageId="Package\Load dimAwards\AwardShares.Outputs[Flat File Source Output].Columns[season]"
+                      name="season"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load dimAwards\AwardShares.Outputs[Flat File Source Output].Columns[award]"
+                      codePage="1250"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load dimAwards\AwardShares.Outputs[Flat File Source Output].ExternalColumns[award]"
+                      length="50"
+                      lineageId="Package\Load dimAwards\AwardShares.Outputs[Flat File Source Output].Columns[award]"
+                      name="award"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Load dimAwards\AwardShares.Outputs[Flat File Source Output].ExternalColumns[season]"
+                      codePage="1250"
+                      dataType="str"
+                      length="50"
+                      name="season" />
+                    <externalMetadataColumn
+                      refId="Package\Load dimAwards\AwardShares.Outputs[Flat File Source Output].ExternalColumns[award]"
+                      codePage="1250"
+                      dataType="str"
+                      length="50"
+                      name="award" />
+                    <externalMetadataColumn
+                      refId="Package\Load dimAwards\AwardShares.Outputs[Flat File Source Output].ExternalColumns[player]"
+                      codePage="1250"
+                      dataType="str"
+                      length="50"
+                      name="player" />
+                    <externalMetadataColumn
+                      refId="Package\Load dimAwards\AwardShares.Outputs[Flat File Source Output].ExternalColumns[age]"
+                      codePage="1250"
+                      dataType="str"
+                      length="50"
+                      name="age" />
+                    <externalMetadataColumn
+                      refId="Package\Load dimAwards\AwardShares.Outputs[Flat File Source Output].ExternalColumns[tm]"
+                      codePage="1250"
+                      dataType="str"
+                      length="50"
+                      name="tm" />
+                    <externalMetadataColumn
+                      refId="Package\Load dimAwards\AwardShares.Outputs[Flat File Source Output].ExternalColumns[first]"
+                      codePage="1250"
+                      dataType="str"
+                      length="50"
+                      name="first" />
+                    <externalMetadataColumn
+                      refId="Package\Load dimAwards\AwardShares.Outputs[Flat File Source Output].ExternalColumns[pts_won]"
+                      codePage="1250"
+                      dataType="str"
+                      length="50"
+                      name="pts_won" />
+                    <externalMetadataColumn
+                      refId="Package\Load dimAwards\AwardShares.Outputs[Flat File Source Output].ExternalColumns[pts_max]"
+                      codePage="1250"
+                      dataType="str"
+                      length="50"
+                      name="pts_max" />
+                    <externalMetadataColumn
+                      refId="Package\Load dimAwards\AwardShares.Outputs[Flat File Source Output].ExternalColumns[share]"
+                      codePage="1250"
+                      dataType="str"
+                      length="50"
+                      name="share" />
+                    <externalMetadataColumn
+                      refId="Package\Load dimAwards\AwardShares.Outputs[Flat File Source Output].ExternalColumns[winner]"
+                      codePage="1250"
+                      dataType="str"
+                      length="50"
+                      name="winner" />
+                    <externalMetadataColumn
+                      refId="Package\Load dimAwards\AwardShares.Outputs[Flat File Source Output].ExternalColumns[seas_id]"
+                      codePage="1250"
+                      dataType="str"
+                      length="50"
+                      name="seas_id" />
+                    <externalMetadataColumn
+                      refId="Package\Load dimAwards\AwardShares.Outputs[Flat File Source Output].ExternalColumns[player_id]"
+                      codePage="1250"
+                      dataType="str"
+                      length="50"
+                      name="player_id" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Load dimAwards\AwardShares.Outputs[Flat File Source Error Output]"
+                  isErrorOut="true"
+                  name="Flat File Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load dimAwards\AwardShares.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      codePage="1250"
+                      dataType="text"
+                      description="Flat File Source Error Output Column"
+                      lineageId="Package\Load dimAwards\AwardShares.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      name="Flat File Source Error Output Column" />
+                    <outputColumn
+                      refId="Package\Load dimAwards\AwardShares.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Load dimAwards\AwardShares.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Load dimAwards\AwardShares.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Load dimAwards\AwardShares.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Load dimAwards\concatenate"
+              componentClassID="Microsoft.DerivedColumn"
+              contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Creates new column values by applying expressions to transformation input columns. Create new columns or overwrite existing ones. For example, concatenate the values from the 'first name' and 'last name' column to make a 'full name' column."
+              name="concatenate"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Load dimAwards\concatenate.Inputs[Derived Column Input]"
+                  description="Input to the Derived Column Transformation"
+                  name="Derived Column Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Load dimAwards\concatenate.Inputs[Derived Column Input].Columns[type]"
+                      cachedCodepage="1250"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="type"
+                      lineageId="Package\Load dimAwards\EndOfSeasonTeams.Outputs[Flat File Source Output].Columns[type]" />
+                    <inputColumn
+                      refId="Package\Load dimAwards\concatenate.Inputs[Derived Column Input].Columns[number_tm]"
+                      cachedCodepage="1250"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="number_tm"
+                      lineageId="Package\Load dimAwards\EndOfSeasonTeams.Outputs[Flat File Source Output].Columns[number_tm]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Load dimAwards\concatenate.Outputs[Derived Column Output]"
+                  description="Default Output of the Derived Column Transformation"
+                  exclusionGroup="1"
+                  name="Derived Column Output"
+                  synchronousInputId="Package\Load dimAwards\concatenate.Inputs[Derived Column Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load dimAwards\concatenate.Outputs[Derived Column Output].Columns[name]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      length="61"
+                      lineageId="Package\Load dimAwards\concatenate.Outputs[Derived Column Output].Columns[name]"
+                      name="name"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">(DT_WSTR,50)#{Package\Load dimAwards\EndOfSeasonTeams.Outputs[Flat File Source Output].Columns[type]} + " " + (DT_WSTR,10)#{Package\Load dimAwards\EndOfSeasonTeams.Outputs[Flat File Source Output].Columns[number_tm]}</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">(DT_WSTR,50)type + " " + (DT_WSTR,10)number_tm</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Load dimAwards\concatenate.Outputs[Derived Column Error Output]"
+                  description="Error Output of the Derived Column Transformation"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Derived Column Error Output"
+                  synchronousInputId="Package\Load dimAwards\concatenate.Inputs[Derived Column Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load dimAwards\concatenate.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Load dimAwards\concatenate.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Load dimAwards\concatenate.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Load dimAwards\concatenate.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Load dimAwards\Data Conversion"
+              componentClassID="Microsoft.DataConvert"
+              contactInfo="Data Conversion;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Data Conversion"
+              name="Data Conversion"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Load dimAwards\Data Conversion.Inputs[Data Conversion Input]"
+                  name="Data Conversion Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Load dimAwards\Data Conversion.Inputs[Data Conversion Input].Columns[season]"
+                      cachedCodepage="1250"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="season"
+                      lineageId="Package\Load dimAwards\Union All.Outputs[Union All Output 1].Columns[season]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Load dimAwards\Data Conversion.Outputs[Data Conversion Output]"
+                  exclusionGroup="1"
+                  name="Data Conversion Output"
+                  synchronousInputId="Package\Load dimAwards\Data Conversion.Inputs[Data Conversion Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load dimAwards\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of season]"
+                      dataType="i2"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Load dimAwards\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of season]"
+                      name="Copy of season"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\Load dimAwards\Union All.Outputs[Union All Output 1].Columns[season]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Load dimAwards\Data Conversion.Outputs[Data Conversion Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Data Conversion Error Output"
+                  synchronousInputId="Package\Load dimAwards\Data Conversion.Inputs[Data Conversion Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load dimAwards\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Load dimAwards\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Load dimAwards\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Load dimAwards\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Load dimAwards\Derived Column"
+              componentClassID="Microsoft.DerivedColumn"
+              contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Creates new column values by applying expressions to transformation input columns. Create new columns or overwrite existing ones. For example, concatenate the values from the 'first name' and 'last name' column to make a 'full name' column."
+              name="Derived Column"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Load dimAwards\Derived Column.Inputs[Derived Column Input]"
+                  description="Input to the Derived Column Transformation"
+                  name="Derived Column Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Load dimAwards\Derived Column.Inputs[Derived Column Input].Columns[award]"
+                      cachedCodepage="1250"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="award"
+                      lineageId="Package\Load dimAwards\AwardShares.Outputs[Flat File Source Output].Columns[award]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Load dimAwards\Derived Column.Outputs[Derived Column Output]"
+                  description="Default Output of the Derived Column Transformation"
+                  exclusionGroup="1"
+                  name="Derived Column Output"
+                  synchronousInputId="Package\Load dimAwards\Derived Column.Inputs[Derived Column Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load dimAwards\Derived Column.Outputs[Derived Column Output].Columns[name]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      length="50"
+                      lineageId="Package\Load dimAwards\Derived Column.Outputs[Derived Column Output].Columns[name]"
+                      name="name"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">(DT_WSTR,50)#{Package\Load dimAwards\AwardShares.Outputs[Flat File Source Output].Columns[award]}</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">(DT_WSTR,50)award</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Load dimAwards\Derived Column.Outputs[Derived Column Error Output]"
+                  description="Error Output of the Derived Column Transformation"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Derived Column Error Output"
+                  synchronousInputId="Package\Load dimAwards\Derived Column.Inputs[Derived Column Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load dimAwards\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Load dimAwards\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Load dimAwards\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Load dimAwards\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Load dimAwards\Derived Column 1"
+              componentClassID="Microsoft.DerivedColumn"
+              contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Creates new column values by applying expressions to transformation input columns. Create new columns or overwrite existing ones. For example, concatenate the values from the 'first name' and 'last name' column to make a 'full name' column."
+              name="Derived Column 1"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Load dimAwards\Derived Column 1.Inputs[Derived Column Input]"
+                  description="Input to the Derived Column Transformation"
+                  name="Derived Column Input">
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Load dimAwards\Derived Column 1.Outputs[Derived Column Output]"
+                  description="Default Output of the Derived Column Transformation"
+                  exclusionGroup="1"
+                  name="Derived Column Output"
+                  synchronousInputId="Package\Load dimAwards\Derived Column 1.Inputs[Derived Column Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load dimAwards\Derived Column 1.Outputs[Derived Column Output].Columns[name]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      length="50"
+                      lineageId="Package\Load dimAwards\Derived Column 1.Outputs[Derived Column Output].Columns[name]"
+                      name="name"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">(DT_WSTR,50)"All Star"</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">(DT_WSTR,50)"All Star"</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Load dimAwards\Derived Column 1.Outputs[Derived Column Error Output]"
+                  description="Error Output of the Derived Column Transformation"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Derived Column Error Output"
+                  synchronousInputId="Package\Load dimAwards\Derived Column 1.Inputs[Derived Column Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load dimAwards\Derived Column 1.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Load dimAwards\Derived Column 1.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Load dimAwards\Derived Column 1.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Load dimAwards\Derived Column 1.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Load dimAwards\EndOfSeasonTeams"
+              componentClassID="Microsoft.FlatFileSource"
+              contactInfo="Flat File Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Flat File Source"
+              localeId="1045"
+              name="EndOfSeasonTeams"
+              usesDispositions="true"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Specifies whether zero-length columns are treated as null."
+                  name="RetainNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of an output column containing the file name. If no name is specified, no output column containing the file name will be generated."
+                  name="FileNameColumnName"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Load dimAwards\EndOfSeasonTeams.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[End of Season Teams]"
+                  connectionManagerRefId="Package.ConnectionManagers[End of Season Teams]"
+                  name="FlatFileConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Load dimAwards\EndOfSeasonTeams.Outputs[Flat File Source Output]"
+                  name="Flat File Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load dimAwards\EndOfSeasonTeams.Outputs[Flat File Source Output].Columns[season]"
+                      codePage="1250"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load dimAwards\EndOfSeasonTeams.Outputs[Flat File Source Output].ExternalColumns[season]"
+                      length="50"
+                      lineageId="Package\Load dimAwards\EndOfSeasonTeams.Outputs[Flat File Source Output].Columns[season]"
+                      name="season"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load dimAwards\EndOfSeasonTeams.Outputs[Flat File Source Output].Columns[number_tm]"
+                      codePage="1250"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load dimAwards\EndOfSeasonTeams.Outputs[Flat File Source Output].ExternalColumns[number_tm]"
+                      length="50"
+                      lineageId="Package\Load dimAwards\EndOfSeasonTeams.Outputs[Flat File Source Output].Columns[number_tm]"
+                      name="number_tm"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load dimAwards\EndOfSeasonTeams.Outputs[Flat File Source Output].Columns[type]"
+                      codePage="1250"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Load dimAwards\EndOfSeasonTeams.Outputs[Flat File Source Output].ExternalColumns[type]"
+                      length="50"
+                      lineageId="Package\Load dimAwards\EndOfSeasonTeams.Outputs[Flat File Source Output].Columns[type]"
+                      name="type"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Load dimAwards\EndOfSeasonTeams.Outputs[Flat File Source Output].ExternalColumns[season]"
+                      codePage="1250"
+                      dataType="str"
+                      length="50"
+                      name="season" />
+                    <externalMetadataColumn
+                      refId="Package\Load dimAwards\EndOfSeasonTeams.Outputs[Flat File Source Output].ExternalColumns[lg]"
+                      codePage="1250"
+                      dataType="str"
+                      length="50"
+                      name="lg" />
+                    <externalMetadataColumn
+                      refId="Package\Load dimAwards\EndOfSeasonTeams.Outputs[Flat File Source Output].ExternalColumns[type]"
+                      codePage="1250"
+                      dataType="str"
+                      length="50"
+                      name="type" />
+                    <externalMetadataColumn
+                      refId="Package\Load dimAwards\EndOfSeasonTeams.Outputs[Flat File Source Output].ExternalColumns[number_tm]"
+                      codePage="1250"
+                      dataType="str"
+                      length="50"
+                      name="number_tm" />
+                    <externalMetadataColumn
+                      refId="Package\Load dimAwards\EndOfSeasonTeams.Outputs[Flat File Source Output].ExternalColumns[position]"
+                      codePage="1250"
+                      dataType="str"
+                      length="50"
+                      name="position" />
+                    <externalMetadataColumn
+                      refId="Package\Load dimAwards\EndOfSeasonTeams.Outputs[Flat File Source Output].ExternalColumns[player]"
+                      codePage="1250"
+                      dataType="str"
+                      length="50"
+                      name="player" />
+                    <externalMetadataColumn
+                      refId="Package\Load dimAwards\EndOfSeasonTeams.Outputs[Flat File Source Output].ExternalColumns[age]"
+                      codePage="1250"
+                      dataType="str"
+                      length="50"
+                      name="age" />
+                    <externalMetadataColumn
+                      refId="Package\Load dimAwards\EndOfSeasonTeams.Outputs[Flat File Source Output].ExternalColumns[tm]"
+                      codePage="1250"
+                      dataType="str"
+                      length="50"
+                      name="tm" />
+                    <externalMetadataColumn
+                      refId="Package\Load dimAwards\EndOfSeasonTeams.Outputs[Flat File Source Output].ExternalColumns[pts_won]"
+                      codePage="1250"
+                      dataType="str"
+                      length="50"
+                      name="pts_won" />
+                    <externalMetadataColumn
+                      refId="Package\Load dimAwards\EndOfSeasonTeams.Outputs[Flat File Source Output].ExternalColumns[pts_max]"
+                      codePage="1250"
+                      dataType="str"
+                      length="50"
+                      name="pts_max" />
+                    <externalMetadataColumn
+                      refId="Package\Load dimAwards\EndOfSeasonTeams.Outputs[Flat File Source Output].ExternalColumns[share]"
+                      codePage="1250"
+                      dataType="str"
+                      length="50"
+                      name="share" />
+                    <externalMetadataColumn
+                      refId="Package\Load dimAwards\EndOfSeasonTeams.Outputs[Flat File Source Output].ExternalColumns[x1st_tm]"
+                      codePage="1250"
+                      dataType="str"
+                      length="50"
+                      name="x1st_tm" />
+                    <externalMetadataColumn
+                      refId="Package\Load dimAwards\EndOfSeasonTeams.Outputs[Flat File Source Output].ExternalColumns[x2nd_tm]"
+                      codePage="1250"
+                      dataType="str"
+                      length="50"
+                      name="x2nd_tm" />
+                    <externalMetadataColumn
+                      refId="Package\Load dimAwards\EndOfSeasonTeams.Outputs[Flat File Source Output].ExternalColumns[x3rd_tm]"
+                      codePage="1250"
+                      dataType="str"
+                      length="50"
+                      name="x3rd_tm" />
+                    <externalMetadataColumn
+                      refId="Package\Load dimAwards\EndOfSeasonTeams.Outputs[Flat File Source Output].ExternalColumns[seas_id]"
+                      codePage="1250"
+                      dataType="str"
+                      length="50"
+                      name="seas_id" />
+                    <externalMetadataColumn
+                      refId="Package\Load dimAwards\EndOfSeasonTeams.Outputs[Flat File Source Output].ExternalColumns[player_id]"
+                      codePage="1250"
+                      dataType="str"
+                      length="50"
+                      name="player_id" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Load dimAwards\EndOfSeasonTeams.Outputs[Flat File Source Error Output]"
+                  isErrorOut="true"
+                  name="Flat File Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load dimAwards\EndOfSeasonTeams.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      codePage="1250"
+                      dataType="text"
+                      description="Flat File Source Error Output Column"
+                      lineageId="Package\Load dimAwards\EndOfSeasonTeams.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      name="Flat File Source Error Output Column" />
+                    <outputColumn
+                      refId="Package\Load dimAwards\EndOfSeasonTeams.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Load dimAwards\EndOfSeasonTeams.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Load dimAwards\EndOfSeasonTeams.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Load dimAwards\EndOfSeasonTeams.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Load dimAwards\match SeasonID"
+              componentClassID="Microsoft.Lookup"
+              contactInfo="Lookup;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;6"
+              description="Joins additional columns to the data flow by looking up values in a table. For example, join to the 'employee id' column the employees table to get 'hire date' and 'employee name'. We recommend this transformation when the lookup table can fit into memory."
+              name="match SeasonID"
+              usesDispositions="true"
+              version="6">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="Specifies the SQL statement that generates the lookup table."
+                  expressionType="Notify"
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=16.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from [dbo].[dimSeason]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies a SQL statement that uses parameters to generate the lookup table."
+                  expressionType="Notify"
+                  name="SqlCommandParam"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=16.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from (select * from [dbo].[dimSeason]) [refTable]
+where [refTable].[Year] = ?</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the type of connection used to access the reference dataset."
+                  name="ConnectionType"
+                  typeConverter="LookupConnectionType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the cache type of the lookup table."
+                  name="CacheType"
+                  typeConverter="CacheType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies how the Lookup transformation handles rows without matching entries in the reference data set."
+                  name="NoMatchBehavior"
+                  typeConverter="LookupNoMatchBehavior">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the percentage of the cache that is allocated for rows with no matching entries in the reference dataset."
+                  name="NoMatchCachePercentage">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Maximum Memory Usage for Reference Cache on a 32 bit platform."
+                  name="MaxMemoryUsage">25</property>
+                <property
+                  dataType="System.Int64"
+                  description="Maximum Memory Usage for Reference Cache on a 64 bit platform."
+                  name="MaxMemoryUsage64">25</property>
+                <property
+                  dataType="System.String"
+                  description="Indicates whether to reference metadata in an XML format."
+                  name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="SeasonID" dataType="DT_I8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Year" dataType="DT_I2" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
+                <property
+                  containsID="true"
+                  dataType="System.String"
+                  description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
+                  name="ParameterMap">#{Package\Load dimAwards\Unique award rows.Outputs[Sort Output].Columns[Copy of season]};</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Determines whether duplicate keys in the reference data should be treated as errors when full cache mode is used."
+                  name="TreatDuplicateKeysAsError">false</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Load dimAwards\match SeasonID.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[localhost.NBA]"
+                  connectionManagerRefId="Package.ConnectionManagers[localhost.NBA]"
+                  description="Connection manager used to access lookup data."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Load dimAwards\match SeasonID.Inputs[Lookup Input]"
+                  name="Lookup Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Load dimAwards\match SeasonID.Inputs[Lookup Input].Columns[Copy of season]"
+                      cachedDataType="i2"
+                      cachedName="Copy of season"
+                      lineageId="Package\Load dimAwards\Unique award rows.Outputs[Sort Output].Columns[Copy of season]">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table that a column joins."
+                          name="JoinToReferenceColumn">Year</property>
+                        <property
+                          dataType="System.Null"
+                          description="Specifies the column in the reference table from which a column is copied."
+                          name="CopyFromReferenceColumn" />
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Load dimAwards\match SeasonID.Outputs[Lookup Match Output]"
+                  errorOrTruncationOperation="Lookup"
+                  errorRowDisposition="FailComponent"
+                  exclusionGroup="1"
+                  name="Lookup Match Output"
+                  synchronousInputId="Package\Load dimAwards\match SeasonID.Inputs[Lookup Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load dimAwards\match SeasonID.Outputs[Lookup Match Output].Columns[SeasonID]"
+                      dataType="i8"
+                      errorOrTruncationOperation="Copy Column"
+                      lineageId="Package\Load dimAwards\match SeasonID.Outputs[Lookup Match Output].Columns[SeasonID]"
+                      name="SeasonID"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table from which a column is copied."
+                          name="CopyFromReferenceColumn">SeasonID</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Load dimAwards\match SeasonID.Outputs[Lookup No Match Output]"
+                  description="The Lookup output that handles rows with no matching entries in the reference dataset. Use this output when the NoMatchBehavior property is set to &quot;Send rows with no matching entries to the no match output.&quot;"
+                  exclusionGroup="1"
+                  name="Lookup No Match Output"
+                  synchronousInputId="Package\Load dimAwards\match SeasonID.Inputs[Lookup Input]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Load dimAwards\match SeasonID.Outputs[Lookup Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Lookup Error Output"
+                  synchronousInputId="Package\Load dimAwards\match SeasonID.Inputs[Lookup Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load dimAwards\match SeasonID.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Load dimAwards\match SeasonID.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Load dimAwards\match SeasonID.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Load dimAwards\match SeasonID.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Load dimAwards\OLE DB Destination"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+              description="OLE DB Destination"
+              name="OLE DB Destination"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[dbo].[dimAwards]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=16.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">3</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Load dimAwards\OLE DB Destination.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[localhost.NBA]"
+                  connectionManagerRefId="Package.ConnectionManagers[localhost.NBA]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Load dimAwards\OLE DB Destination.Inputs[OLE DB Destination Input]"
+                  errorOrTruncationOperation="Insert"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="OLE DB Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Load dimAwards\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[name]"
+                      cachedDataType="wstr"
+                      cachedLength="61"
+                      cachedName="name"
+                      cachedSortKeyPosition="2"
+                      externalMetadataColumnId="Package\Load dimAwards\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Name]"
+                      lineageId="Package\Load dimAwards\Unique award rows.Outputs[Sort Output].Columns[name]" />
+                    <inputColumn
+                      refId="Package\Load dimAwards\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[SeasonID]"
+                      cachedDataType="i8"
+                      cachedName="SeasonID"
+                      externalMetadataColumnId="Package\Load dimAwards\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[SeasonID]"
+                      lineageId="Package\Load dimAwards\match SeasonID.Outputs[Lookup Match Output].Columns[SeasonID]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Load dimAwards\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[AwardID]"
+                      dataType="i2"
+                      name="AwardID" />
+                    <externalMetadataColumn
+                      refId="Package\Load dimAwards\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[SeasonID]"
+                      dataType="i8"
+                      name="SeasonID" />
+                    <externalMetadataColumn
+                      refId="Package\Load dimAwards\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Name]"
+                      dataType="wstr"
+                      length="50"
+                      name="Name" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Load dimAwards\OLE DB Destination.Outputs[OLE DB Destination Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="OLE DB Destination Error Output"
+                  synchronousInputId="Package\Load dimAwards\OLE DB Destination.Inputs[OLE DB Destination Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load dimAwards\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Load dimAwards\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Load dimAwards\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Load dimAwards\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Load dimAwards\Union All"
+              componentClassID="Microsoft.UnionAll"
+              contactInfo="Union All;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Combines rows from multiple data flows without sorting. For example, add rows back to a data flow after correction of errors. If sorting is important, we recommend using the Merge transformation."
+              name="Union All"
+              version="1">
+              <inputs>
+                <input
+                  refId="Package\Load dimAwards\Union All.Inputs[Union All Input 1]"
+                  name="Union All Input 1">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Load dimAwards\Union All.Inputs[Union All Input 1].Columns[season]"
+                      cachedCodepage="1250"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="season"
+                      lineageId="Package\Load dimAwards\EndOfSeasonTeams.Outputs[Flat File Source Output].Columns[season]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Load dimAwards\Union All.Outputs[Union All Output 1].Columns[season]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load dimAwards\Union All.Inputs[Union All Input 1].Columns[number_tm]"
+                      cachedCodepage="1250"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="number_tm"
+                      lineageId="Package\Load dimAwards\EndOfSeasonTeams.Outputs[Flat File Source Output].Columns[number_tm]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Load dimAwards\Union All.Outputs[Union All Output 1].Columns[number_tm]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load dimAwards\Union All.Inputs[Union All Input 1].Columns[type]"
+                      cachedCodepage="1250"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="type"
+                      lineageId="Package\Load dimAwards\EndOfSeasonTeams.Outputs[Flat File Source Output].Columns[type]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Load dimAwards\Union All.Outputs[Union All Output 1].Columns[type]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load dimAwards\Union All.Inputs[Union All Input 1].Columns[name]"
+                      cachedDataType="wstr"
+                      cachedLength="61"
+                      cachedName="name"
+                      lineageId="Package\Load dimAwards\concatenate.Outputs[Derived Column Output].Columns[name]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Load dimAwards\Union All.Outputs[Union All Output 1].Columns[name]}</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+                <input
+                  refId="Package\Load dimAwards\Union All.Inputs[Union All Input 2]"
+                  hasSideEffects="true"
+                  name="Union All Input 2">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Load dimAwards\Union All.Inputs[Union All Input 2].Columns[season]"
+                      cachedCodepage="1250"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="season"
+                      lineageId="Package\Load dimAwards\AwardShares.Outputs[Flat File Source Output].Columns[season]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Load dimAwards\Union All.Outputs[Union All Output 1].Columns[season]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load dimAwards\Union All.Inputs[Union All Input 2].Columns[name]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="name"
+                      lineageId="Package\Load dimAwards\Derived Column.Outputs[Derived Column Output].Columns[name]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Load dimAwards\Union All.Outputs[Union All Output 1].Columns[name]}</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+                <input
+                  refId="Package\Load dimAwards\Union All.Inputs[Union All Input 3]"
+                  hasSideEffects="true"
+                  name="Union All Input 3">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Load dimAwards\Union All.Inputs[Union All Input 3].Columns[season]"
+                      cachedCodepage="1250"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="season"
+                      lineageId="Package\Load dimAwards\AllStars.Outputs[Flat File Source Output].Columns[season]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Load dimAwards\Union All.Outputs[Union All Output 1].Columns[season]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load dimAwards\Union All.Inputs[Union All Input 3].Columns[name]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="name"
+                      lineageId="Package\Load dimAwards\Derived Column 1.Outputs[Derived Column Output].Columns[name]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Output column lineage ID"
+                          name="OutputColumnLineageID">#{Package\Load dimAwards\Union All.Outputs[Union All Output 1].Columns[name]}</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+                <input
+                  refId="Package\Load dimAwards\Union All.Inputs[Union All Input 4]"
+                  dangling="true"
+                  hasSideEffects="true"
+                  name="Union All Input 4">
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Load dimAwards\Union All.Outputs[Union All Output 1]"
+                  name="Union All Output 1">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load dimAwards\Union All.Outputs[Union All Output 1].Columns[season]"
+                      codePage="1250"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Load dimAwards\Union All.Outputs[Union All Output 1].Columns[season]"
+                      name="season" />
+                    <outputColumn
+                      refId="Package\Load dimAwards\Union All.Outputs[Union All Output 1].Columns[number_tm]"
+                      codePage="1250"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Load dimAwards\Union All.Outputs[Union All Output 1].Columns[number_tm]"
+                      name="number_tm" />
+                    <outputColumn
+                      refId="Package\Load dimAwards\Union All.Outputs[Union All Output 1].Columns[type]"
+                      codePage="1250"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Load dimAwards\Union All.Outputs[Union All Output 1].Columns[type]"
+                      name="type" />
+                    <outputColumn
+                      refId="Package\Load dimAwards\Union All.Outputs[Union All Output 1].Columns[name]"
+                      dataType="wstr"
+                      length="61"
+                      lineageId="Package\Load dimAwards\Union All.Outputs[Union All Output 1].Columns[name]"
+                      name="name" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Load dimAwards\Unique award rows"
+              componentClassID="Microsoft.Sort"
+              contactInfo="Sort;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Sorts input data in ascending or descending order when it cannot be sorted at its source. For example, sort sales data by 'customer id' before it is written to a flat file and delivered to another department. Note: We do not recommend this transformation for large data flows."
+              name="Unique award rows"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the Sort transformation removes rows with duplicate sort values."
+                  name="EliminateDuplicates">true</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the maximum number of threads to use for sorting."
+                  expressionType="Notify"
+                  name="MaximumThreads">-1</property>
+              </properties>
+              <inputs>
+                <input
+                  refId="Package\Load dimAwards\Unique award rows.Inputs[Sort Input]"
+                  name="Sort Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Load dimAwards\Unique award rows.Inputs[Sort Input].Columns[season]"
+                      cachedCodepage="1250"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="season"
+                      lineageId="Package\Load dimAwards\Union All.Outputs[Union All Output 1].Columns[season]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">1</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load dimAwards\Unique award rows.Inputs[Sort Input].Columns[number_tm]"
+                      cachedCodepage="1250"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="number_tm"
+                      lineageId="Package\Load dimAwards\Union All.Outputs[Union All Output 1].Columns[number_tm]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load dimAwards\Unique award rows.Inputs[Sort Input].Columns[type]"
+                      cachedCodepage="1250"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="type"
+                      lineageId="Package\Load dimAwards\Union All.Outputs[Union All Output 1].Columns[type]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load dimAwards\Unique award rows.Inputs[Sort Input].Columns[name]"
+                      cachedDataType="wstr"
+                      cachedLength="61"
+                      cachedName="name"
+                      lineageId="Package\Load dimAwards\Union All.Outputs[Union All Output 1].Columns[name]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">2</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Load dimAwards\Unique award rows.Inputs[Sort Input].Columns[Copy of season]"
+                      cachedDataType="i2"
+                      cachedName="Copy of season"
+                      lineageId="Package\Load dimAwards\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of season]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the comparison options for character data."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the sort order of the column."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Load dimAwards\Unique award rows.Outputs[Sort Output]"
+                  isSorted="true"
+                  name="Sort Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load dimAwards\Unique award rows.Outputs[Sort Output].Columns[season]"
+                      codePage="1250"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Load dimAwards\Unique award rows.Outputs[Sort Output].Columns[season]"
+                      name="season"
+                      sortKeyPosition="1">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Load dimAwards\Union All.Outputs[Union All Output 1].Columns[season]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load dimAwards\Unique award rows.Outputs[Sort Output].Columns[number_tm]"
+                      codePage="1250"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Load dimAwards\Unique award rows.Outputs[Sort Output].Columns[number_tm]"
+                      name="number_tm">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Load dimAwards\Union All.Outputs[Union All Output 1].Columns[number_tm]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load dimAwards\Unique award rows.Outputs[Sort Output].Columns[type]"
+                      codePage="1250"
+                      dataType="str"
+                      length="50"
+                      lineageId="Package\Load dimAwards\Unique award rows.Outputs[Sort Output].Columns[type]"
+                      name="type">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Load dimAwards\Union All.Outputs[Union All Output 1].Columns[type]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load dimAwards\Unique award rows.Outputs[Sort Output].Columns[name]"
+                      dataType="wstr"
+                      length="61"
+                      lineageId="Package\Load dimAwards\Unique award rows.Outputs[Sort Output].Columns[name]"
+                      name="name"
+                      sortKeyPosition="2">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Load dimAwards\Union All.Outputs[Union All Output 1].Columns[name]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load dimAwards\Unique award rows.Outputs[Sort Output].Columns[Copy of season]"
+                      dataType="i2"
+                      lineageId="Package\Load dimAwards\Unique award rows.Outputs[Sort Output].Columns[Copy of season]"
+                      name="Copy of season">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the input column that is associated with this output column."
+                          name="SortColumnId">#{Package\Load dimAwards\Data Conversion.Outputs[Data Conversion Output].Columns[Copy of season]}</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\Load dimAwards.Paths[Data Conversion Output]"
+              endId="Package\Load dimAwards\Unique award rows.Inputs[Sort Input]"
+              name="Data Conversion Output"
+              startId="Package\Load dimAwards\Data Conversion.Outputs[Data Conversion Output]" />
+            <path
+              refId="Package\Load dimAwards.Paths[Derived Column Output]"
+              endId="Package\Load dimAwards\Union All.Inputs[Union All Input 1]"
+              name="Derived Column Output"
+              startId="Package\Load dimAwards\concatenate.Outputs[Derived Column Output]" />
+            <path
+              refId="Package\Load dimAwards.Paths[Derived Column Output1]"
+              endId="Package\Load dimAwards\Union All.Inputs[Union All Input 2]"
+              name="Derived Column Output"
+              startId="Package\Load dimAwards\Derived Column.Outputs[Derived Column Output]" />
+            <path
+              refId="Package\Load dimAwards.Paths[Derived Column Output2]"
+              endId="Package\Load dimAwards\Union All.Inputs[Union All Input 3]"
+              name="Derived Column Output"
+              startId="Package\Load dimAwards\Derived Column 1.Outputs[Derived Column Output]" />
+            <path
+              refId="Package\Load dimAwards.Paths[Flat File Source Output]"
+              endId="Package\Load dimAwards\concatenate.Inputs[Derived Column Input]"
+              name="Flat File Source Output"
+              startId="Package\Load dimAwards\EndOfSeasonTeams.Outputs[Flat File Source Output]" />
+            <path
+              refId="Package\Load dimAwards.Paths[Flat File Source Output1]"
+              endId="Package\Load dimAwards\Derived Column.Inputs[Derived Column Input]"
+              name="Flat File Source Output"
+              startId="Package\Load dimAwards\AwardShares.Outputs[Flat File Source Output]" />
+            <path
+              refId="Package\Load dimAwards.Paths[Flat File Source Output2]"
+              endId="Package\Load dimAwards\Derived Column 1.Inputs[Derived Column Input]"
+              name="Flat File Source Output"
+              startId="Package\Load dimAwards\AllStars.Outputs[Flat File Source Output]" />
+            <path
+              refId="Package\Load dimAwards.Paths[Lookup Match Output]"
+              endId="Package\Load dimAwards\OLE DB Destination.Inputs[OLE DB Destination Input]"
+              name="Lookup Match Output"
+              startId="Package\Load dimAwards\match SeasonID.Outputs[Lookup Match Output]" />
+            <path
+              refId="Package\Load dimAwards.Paths[Sort Output]"
+              endId="Package\Load dimAwards\match SeasonID.Inputs[Lookup Input]"
+              name="Sort Output"
+              startId="Package\Load dimAwards\Unique award rows.Outputs[Sort Output]" />
+            <path
+              refId="Package\Load dimAwards.Paths[Union All Output 1]"
+              endId="Package\Load dimAwards\Data Conversion.Inputs[Data Conversion Input]"
+              name="Union All Output 1"
+              startId="Package\Load dimAwards\Union All.Outputs[Union All Output 1]" />
           </paths>
         </pipeline>
       </DTS:ObjectData>
@@ -9338,17 +10937,21 @@ where [refTable].[Year] = ?</property>
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
         <NodeLayout
-          Size="163.2,41.6"
+          Size="163,42"
           Id="Package\Generate Seasons"
-          TopLeft="125.714287003693,77.588235176146" />
+          TopLeft="138.714287003693,97.588235176146" />
         <NodeLayout
-          Size="156,41.6"
+          Size="156,42"
           Id="Package\Load Player Info"
-          TopLeft="344,84" />
+          TopLeft="375,103" />
         <NodeLayout
-          Size="153.6,41.6"
+          Size="154,42"
           Id="Package\Load Team Info"
-          TopLeft="556,82" />
+          TopLeft="614,104" />
+        <NodeLayout
+          Size="157,42"
+          Id="Package\Load dimAwards"
+          TopLeft="842,106" />
       </GraphLayout>
     </LayoutInfo>
   </Package>
@@ -9358,19 +10961,19 @@ where [refTable].[Year] = ?</property>
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="97.6,41.6"
+          Size="98,42"
           Id="Package\Generate Seasons\Sort"
           TopLeft="222.57142915379,254.988235050801" />
         <NodeLayout
-          Size="150.4,41.6"
+          Size="150,42"
           Id="Package\Generate Seasons\Flat File Source"
           TopLeft="392.428571942509,37.2941175994679" />
         <NodeLayout
-          Size="152.8,41.6"
+          Size="153,42"
           Id="Package\Generate Seasons\Derived Column"
           TopLeft="256.428571974441,127.705882241002" />
         <NodeLayout
-          Size="169.6,41.6"
+          Size="170,42"
           Id="Package\Generate Seasons\OLE DB Destination"
           TopLeft="183.285714752516,393.788235062196" />
         <EdgeLayout
@@ -9483,29 +11086,29 @@ where [refTable].[Year] = ?</property>
     design-time-name="Package\Load Player Info">
     <LayoutInfo>
       <GraphLayout
-        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="120,41.6"
+          Size="120,42"
           Id="Package\Load Player Info\Multicast"
           TopLeft="246,337" />
         <NodeLayout
-          Size="107.2,41.6"
+          Size="107,42"
           Id="Package\Load Player Info\Sort 1"
           TopLeft="369,132" />
         <NodeLayout
-          Size="150.4,41.6"
+          Size="150,42"
           Id="Package\Load Player Info\PlayerDirectory"
           TopLeft="350,60" />
         <NodeLayout
-          Size="129.6,41.6"
+          Size="130,42"
           Id="Package\Load Player Info\Merge Join"
           TopLeft="245,244" />
         <NodeLayout
-          Size="97.6,41.6"
+          Size="98,42"
           Id="Package\Load Player Info\Sort"
           TopLeft="159,137" />
         <NodeLayout
-          Size="140,41.6"
+          Size="140,42"
           Id="Package\Load Player Info\CommonInfo"
           TopLeft="133,52" />
         <EdgeLayout
@@ -9595,9 +11198,7 @@ where [refTable].[Year] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-8,13.75,16,16"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -9653,51 +11254,51 @@ where [refTable].[Year] = ?</property>
       <GraphLayout
         Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="156,41.6"
-          Id="Package\Load Team Info\Data Conversion"
-          TopLeft="235,468" />
-        <NodeLayout
-          Size="171.2,41.6"
-          Id="Package\Load Team Info\OLE DB Destination"
-          TopLeft="519,743" />
-        <NodeLayout
-          Size="104.8,41.6"
-          Id="Package\Load Team Info\Team"
-          TopLeft="583,121" />
-        <NodeLayout
-          Size="97.6,41.6"
-          Id="Package\Load Team Info\Sort"
-          TopLeft="399,174" />
-        <NodeLayout
-          Size="180.8,41.6"
-          Id="Package\Load Team Info\Lookup FirstSeasonID"
-          TopLeft="251,545" />
-        <NodeLayout
-          Size="155.2,41.6"
-          Id="Package\Load Team Info\Conditional Split"
-          TopLeft="239,411" />
-        <NodeLayout
-          Size="142.4,41.6"
+          Size="142,42"
           Id="Package\Load Team Info\Team History"
           TopLeft="371,104" />
         <NodeLayout
-          Size="107.2,41.6"
-          Id="Package\Load Team Info\Sort 1"
-          TopLeft="575,224" />
+          Size="171,42"
+          Id="Package\Load Team Info\OLE DB Destination"
+          TopLeft="519,743" />
         <NodeLayout
-          Size="180,41.6"
-          Id="Package\Load Team Info\Lookup LastSeasonID"
-          TopLeft="250,652" />
-        <NodeLayout
-          Size="153.6,41.6"
+          Size="154,42"
           Id="Package\Load Team Info\Derived Column"
           TopLeft="226,329" />
         <NodeLayout
-          Size="156,41.6"
+          Size="98,42"
+          Id="Package\Load Team Info\Sort"
+          TopLeft="399,174" />
+        <NodeLayout
+          Size="155,42"
+          Id="Package\Load Team Info\Conditional Split"
+          TopLeft="239,411" />
+        <NodeLayout
+          Size="105,42"
+          Id="Package\Load Team Info\Team"
+          TopLeft="583,121" />
+        <NodeLayout
+          Size="107,42"
+          Id="Package\Load Team Info\Sort 1"
+          TopLeft="575,224" />
+        <NodeLayout
+          Size="181,42"
+          Id="Package\Load Team Info\Lookup FirstSeasonID"
+          TopLeft="251,545" />
+        <NodeLayout
+          Size="180,42"
+          Id="Package\Load Team Info\Lookup LastSeasonID"
+          TopLeft="250,652" />
+        <NodeLayout
+          Size="156,42"
+          Id="Package\Load Team Info\Data Conversion"
+          TopLeft="235,468" />
+        <NodeLayout
+          Size="156,42"
           Id="Package\Load Team Info\Fixing datatypes"
           TopLeft="265.000000014901,772.999999269843" />
         <NodeLayout
-          Size="129.6,41.6"
+          Size="130,42"
           Id="Package\Load Team Info\Merge Join"
           TopLeft="230,246" />
         <EdgeLayout
@@ -9846,7 +11447,7 @@ where [refTable].[Year] = ?</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,30.1453121349215,96.3827734375,11.609375"
+              BoundingBox="-48.19138671875,30.1453121349215,114.120078125,16"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -9959,9 +11560,7 @@ where [refTable].[Year] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="40.9999999925494,1,16,16"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -10093,6 +11692,388 @@ where [refTable].[Year] = ?</property>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\Load dimAwards">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="173,42"
+          Id="Package\Load dimAwards\EndOfSeasonTeams"
+          TopLeft="306,93" />
+        <NodeLayout
+          Size="140,42"
+          Id="Package\Load dimAwards\AwardShares"
+          TopLeft="575,90" />
+        <NodeLayout
+          Size="114,42"
+          Id="Package\Load dimAwards\AllStars"
+          TopLeft="805,91" />
+        <NodeLayout
+          Size="136,42"
+          Id="Package\Load dimAwards\concatenate"
+          TopLeft="320,218" />
+        <EdgeLayout
+          Id="Package\Load dimAwards.Paths[Flat File Source Output]"
+          TopLeft="390.25,135">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,83"
+              Start="0,0"
+              End="0,75.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,75.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="154,42"
+          Id="Package\Load dimAwards\Derived Column"
+          TopLeft="573,216" />
+        <EdgeLayout
+          Id="Package\Load dimAwards.Paths[Flat File Source Output1]"
+          TopLeft="647.5,132">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,84"
+              Start="0,0"
+              End="0,76.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,76.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="163,42"
+          Id="Package\Load dimAwards\Derived Column 1"
+          TopLeft="777,217" />
+        <EdgeLayout
+          Id="Package\Load dimAwards.Paths[Flat File Source Output2]"
+          TopLeft="862,133">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-42,84"
+              Start="0,0"
+              End="-42,76.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,38" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,38"
+                    Point2="0,42"
+                    Point3="-4,42" />
+                  <mssgle:LineSegment
+                    End="-38,42" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-38,42"
+                    Point2="-42,42"
+                    Point3="-42,46" />
+                  <mssgle:LineSegment
+                    End="-42,76.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="121,42"
+          Id="Package\Load dimAwards\Union All"
+          TopLeft="558,318" />
+        <EdgeLayout
+          Id="Package\Load dimAwards.Paths[Derived Column Output]"
+          TopLeft="388,260">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="202.25,58"
+              Start="0,0"
+              End="202.25,50.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,33.832884097035" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,33.832884097035"
+                    Point2="0,37.832884097035"
+                    Point3="4,37.832884097035" />
+                  <mssgle:LineSegment
+                    End="198.25,37.832884097035" />
+                  <mssgle:CubicBezierSegment
+                    Point1="198.25,37.832884097035"
+                    Point2="202.25,37.832884097035"
+                    Point3="202.25,41.832884097035" />
+                  <mssgle:LineSegment
+                    End="202.25,50.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load dimAwards.Paths[Derived Column Output1]"
+          TopLeft="650,258">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-31.5,60"
+              Start="0,0"
+              End="-31.5,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,26" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,26"
+                    Point2="0,30"
+                    Point3="-4,30" />
+                  <mssgle:LineSegment
+                    End="-27.5,30" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-27.5,30"
+                    Point2="-31.5,30"
+                    Point3="-31.5,34" />
+                  <mssgle:LineSegment
+                    End="-31.5,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load dimAwards.Paths[Derived Column Output2]"
+          TopLeft="858.5,259">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-211.75,59"
+              Start="0,0"
+              End="-211.75,51.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,34.4851752021563" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,34.4851752021563"
+                    Point2="0,38.4851752021563"
+                    Point3="-4,38.4851752021563" />
+                  <mssgle:LineSegment
+                    End="-207.75,38.4851752021563" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-207.75,38.4851752021563"
+                    Point2="-211.75,38.4851752021563"
+                    Point3="-211.75,42.4851752021563" />
+                  <mssgle:LineSegment
+                    End="-211.75,51.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="156,42"
+          Id="Package\Load dimAwards\Data Conversion"
+          TopLeft="545,378" />
+        <EdgeLayout
+          Id="Package\Load dimAwards.Paths[Union All Output 1]"
+          TopLeft="558,339">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-13,60"
+              Start="0,0"
+              End="-20.5,60">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="-31.5,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-31.5,0"
+                    Point2="-35.5,0"
+                    Point3="-35.5,4" />
+                  <mssgle:LineSegment
+                    End="-35.5,56" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-35.5,56"
+                    Point2="-35.5,60"
+                    Point3="-31.5,60" />
+                  <mssgle:LineSegment
+                    End="-20.5,60" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="156,42"
+          Id="Package\Load dimAwards\match SeasonID"
+          TopLeft="553,512" />
+        <NodeLayout
+          Size="170,42"
+          Id="Package\Load dimAwards\Unique award rows"
+          TopLeft="542,452" />
+        <EdgeLayout
+          Id="Package\Load dimAwards.Paths[Data Conversion Output]"
+          TopLeft="625,420">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,32"
+              Start="0,0"
+              End="0,24.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,24.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load dimAwards.Paths[Sort Output]"
+          TopLeft="542,473">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="11,60"
+              Start="0,0"
+              End="3.5,60">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="-18.5,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-18.5,0"
+                    Point2="-22.5,0"
+                    Point3="-22.5,4" />
+                  <mssgle:LineSegment
+                    End="-22.5,56" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-22.5,56"
+                    Point2="-22.5,60"
+                    Point3="-18.5,60" />
+                  <mssgle:LineSegment
+                    End="3.5,60" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="171,42"
+          Id="Package\Load dimAwards\OLE DB Destination"
+          TopLeft="870,506" />
+        <EdgeLayout
+          Id="Package\Load dimAwards.Paths[Lookup Match Output]"
+          TopLeft="709,530">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="161,0"
+              Start="0,0"
+              End="153.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="153.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="28.55861328125,5,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load dimAwards\match SeasonID">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:boolean">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[dimSeason]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:int">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load dimAwards\OLE DB Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
