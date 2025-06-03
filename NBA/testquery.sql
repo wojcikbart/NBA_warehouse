@@ -1,3 +1,4 @@
+use NBA
 SELECT 
     p.playerID,
     dpi.Name AS first_name,
