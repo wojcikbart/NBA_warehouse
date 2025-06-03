@@ -11,8 +11,8 @@
   DTS:LocaleID="2057"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="305"
-  DTS:VersionGUID="{8BD302B9-01EA-4E78-831C-FB842220D695}">
+  DTS:VersionBuild="318"
+  DTS:VersionGUID="{F854F63A-4C0B-4E30-89ED-75CB35BB0484}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -32,7 +32,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1250"
-          DTS:ConnectionString="C:\Users\szlin\Desktop\Studia\HDiSBI\NBA_warehouse\data\NBA Stats\Advanced.csv">
+          DTS:ConnectionString="C:\Users\barte\Desktop\studia\SEM6\magazyny\NBA_warehouse\data\NBA Stats\Advanced.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -342,7 +342,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="65001"
-          DTS:ConnectionString="C:\Users\szlin\Desktop\Studia\HDiSBI\NBA_warehouse\data\NBA Stats\All-Star Selections.csv">
+          DTS:ConnectionString="C:\Users\barte\Desktop\studia\SEM6\magazyny\NBA_warehouse\data\NBA Stats\All-Star Selections.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -409,7 +409,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="65001"
-          DTS:ConnectionString="C:\Users\szlin\Desktop\Studia\HDiSBI\NBA_warehouse\data\NBA Database\common_player_info.csv">
+          DTS:ConnectionString="C:\Users\barte\Desktop\studia\SEM6\magazyny\NBA_warehouse\data\NBA Database\common_player_info.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -728,7 +728,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1250"
-          DTS:ConnectionString="C:\Users\szlin\Desktop\Studia\HDiSBI\NBA_warehouse\data\NBA Stats\End of Season Teams (Voting).csv">
+          DTS:ConnectionString="C:\Users\barte\Desktop\studia\SEM6\magazyny\NBA_warehouse\data\NBA Stats\End of Season Teams (Voting).csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -894,7 +894,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="65001"
-          DTS:ConnectionString="C:\Users\szlin\Desktop\Studia\HDiSBI\NBA_warehouse\data\NBA Stats\End of Season Teams.csv">
+          DTS:ConnectionString="C:\Users\barte\Desktop\studia\SEM6\magazyny\NBA_warehouse\data\NBA Stats\End of Season Teams.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1015,7 +1015,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1250"
-          DTS:ConnectionString="C:\Users\szlin\Desktop\Studia\HDiSBI\NBA_warehouse\data\NBA Database\game.csv">
+          DTS:ConnectionString="C:\Users\barte\Desktop\studia\SEM6\magazyny\NBA_warehouse\data\NBA Database\game.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1532,7 +1532,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1250"
-          DTS:ConnectionString="C:\Users\szlin\Desktop\Studia\HDiSBI\NBA_warehouse\data\NBA Database\game_info.csv">
+          DTS:ConnectionString="C:\Users\barte\Desktop\studia\SEM6\magazyny\NBA_warehouse\data\NBA Database\game_info.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1590,7 +1590,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Users\szlin\Desktop\Studia\HDiSBI\NBA_warehouse\data\NBA Database\game_summary.csv">
+          DTS:ConnectionString="C:\Users\barte\Desktop\studia\SEM6\magazyny\NBA_warehouse\data\NBA Database\game_summary.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1599,7 +1599,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="game_date_est"
-              DTS:DTSID="{6450439C-ECD0-4525-808C-E69CD4F8614F}"
+              DTS:DTSID="{CDBCDFB9-D011-48ED-8AC3-16B0C6C936DA}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1608,7 +1608,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="game_sequence"
-              DTS:DTSID="{22AA7972-66D3-419F-9E48-47159ADC07F6}"
+              DTS:DTSID="{80DADB55-3AD8-483A-AFF5-B18FC5E3612E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1617,7 +1617,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="game_id"
-              DTS:DTSID="{10931462-6DE2-4742-9760-780573517CA7}"
+              DTS:DTSID="{B34DFB43-3DFD-4733-B063-940240F8883B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1626,7 +1626,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="game_status_id"
-              DTS:DTSID="{0025D43C-2085-4543-87B1-5D8F4BAED195}"
+              DTS:DTSID="{FB353B5D-6876-480E-85A5-4B810856A547}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1635,7 +1635,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="game_status_text"
-              DTS:DTSID="{D5A17CCE-F249-4414-B30F-CF1D619E8619}"
+              DTS:DTSID="{792CDAD9-E2AB-491F-AB25-C83CAF4DC1C2}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1644,7 +1644,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="gamecode"
-              DTS:DTSID="{BC3C2FB2-756E-49A8-BA4D-7A5DDAF970E9}"
+              DTS:DTSID="{8296854A-21BA-418C-B341-A1D46D10B923}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1653,7 +1653,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="home_team_id"
-              DTS:DTSID="{A3DF611C-6707-4299-AB71-5C37E4D44743}"
+              DTS:DTSID="{3DBF5E2E-49E5-427F-BE33-335C432099C3}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1662,7 +1662,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="visitor_team_id"
-              DTS:DTSID="{3578630D-D815-4D4B-9CC3-48ADE8FD7ABF}"
+              DTS:DTSID="{B71F6B3B-1134-44AF-A53F-EFEB245EB7EB}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1671,7 +1671,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="season"
-              DTS:DTSID="{D8EEFDAB-8D5A-4A3A-BD67-0E874864E64B}"
+              DTS:DTSID="{AABD4651-34DC-41E3-B62F-9CA3857B20FE}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1680,7 +1680,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="live_period"
-              DTS:DTSID="{C93030E9-C0BF-4CED-98BA-C0B49B209F84}"
+              DTS:DTSID="{95AB0B81-7523-4C42-92E5-FB23B916E0CF}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1689,7 +1689,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="live_pc_time"
-              DTS:DTSID="{7D691FD8-08A2-4705-ABEF-A8A5EB4673D2}"
+              DTS:DTSID="{82C8C166-544C-4E0E-96B6-59FE7F448673}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1698,7 +1698,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="natl_tv_broadcaster_abbreviation"
-              DTS:DTSID="{DB5F1F22-9835-480D-8214-07AF7EB8C910}"
+              DTS:DTSID="{4178A616-6D44-4D8C-882B-57B095D65F5A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1707,7 +1707,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="live_period_time_bcast"
-              DTS:DTSID="{C84A8A7F-F335-4B09-B987-9F24C0F5B72B}"
+              DTS:DTSID="{76ADDCAE-FA65-4727-A4EE-A8DCD505FC46}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1716,7 +1716,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="wh_status"
-              DTS:DTSID="{4BAD77B6-276F-494E-90EE-65B7509D7CAC}"
+              DTS:DTSID="{199D72F6-0DFC-47BB-ADD4-6CCD0E0AFDA5}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -1774,7 +1774,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="65001"
-          DTS:ConnectionString="C:\Users\szlin\Desktop\Studia\HDiSBI\NBA_warehouse\data\NBA Stats\Player Award Shares.csv">
+          DTS:ConnectionString="C:\Users\barte\Desktop\studia\SEM6\magazyny\NBA_warehouse\data\NBA Stats\Player Award Shares.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1904,7 +1904,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="65001"
-          DTS:ConnectionString="C:\Users\szlin\Desktop\Studia\HDiSBI\NBA_warehouse\data\NBA Stats\Player Career Info.csv">
+          DTS:ConnectionString="C:\Users\barte\Desktop\studia\SEM6\magazyny\NBA_warehouse\data\NBA Stats\Player Career Info.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1989,7 +1989,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="65001"
-          DTS:ConnectionString="C:\Users\szlin\Desktop\Studia\HDiSBI\NBA_warehouse\data\NBA Stats\Player Directory.csv">
+          DTS:ConnectionString="C:\Users\barte\Desktop\studia\SEM6\magazyny\NBA_warehouse\data\NBA Stats\Player Directory.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -2101,7 +2101,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1250"
-          DTS:ConnectionString="C:\Users\szlin\Desktop\Studia\HDiSBI\NBA_warehouse\data\NBA Stats\Player Shooting.csv">
+          DTS:ConnectionString="C:\Users\barte\Desktop\studia\SEM6\magazyny\NBA_warehouse\data\NBA Stats\Player Shooting.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -2429,7 +2429,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1250"
-          DTS:ConnectionString="C:\Users\szlin\Desktop\Studia\HDiSBI\NBA_warehouse\data\NBA Stats\Player Totals.csv">
+          DTS:ConnectionString="C:\Users\barte\Desktop\studia\SEM6\magazyny\NBA_warehouse\data\NBA Stats\Player Totals.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -2766,7 +2766,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Users\szlin\Desktop\Studia\HDiSBI\NBA_warehouse\data\NBA Database\team.csv">
+          DTS:ConnectionString="C:\Users\barte\Desktop\studia\SEM6\magazyny\NBA_warehouse\data\NBA Database\team.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -2851,7 +2851,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Users\szlin\Desktop\Studia\HDiSBI\NBA_warehouse\data\NBA Stats\Team Abbrev.csv">
+          DTS:ConnectionString="C:\Users\barte\Desktop\studia\SEM6\magazyny\NBA_warehouse\data\NBA Stats\Team Abbrev.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -2918,7 +2918,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1250"
-          DTS:ConnectionString="C:\Users\szlin\Desktop\Studia\HDiSBI\NBA_warehouse\data\NBA Database\team_details.csv">
+          DTS:ConnectionString="C:\Users\barte\Desktop\studia\SEM6\magazyny\NBA_warehouse\data\NBA Database\team_details.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -3066,7 +3066,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Users\szlin\Desktop\Studia\HDiSBI\NBA_warehouse\data\NBA Database\team_history.csv">
+          DTS:ConnectionString="C:\Users\barte\Desktop\studia\SEM6\magazyny\NBA_warehouse\data\NBA Database\team_history.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -3133,7 +3133,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1250"
-          DTS:ConnectionString="C:\Users\szlin\Desktop\Studia\HDiSBI\NBA_warehouse\data\NBA Stats\Team Summaries.csv">
+          DTS:ConnectionString="C:\Users\barte\Desktop\studia\SEM6\magazyny\NBA_warehouse\data\NBA Stats\Team Summaries.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -3434,7 +3434,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Users\szlin\Desktop\Studia\HDiSBI\NBA_warehouse\data\NBA Stats\Team Totals.csv">
+          DTS:ConnectionString="C:\Users\barte\Desktop\studia\SEM6\magazyny\NBA_warehouse\data\NBA Stats\Team Totals.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -6862,6 +6862,14 @@ where [refTable].[Year] = ?</property>
                       cachedName="SeasonID"
                       externalMetadataColumnId="Package\Load dimAwards\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[SeasonID]"
                       lineageId="Package\Load dimAwards\match SeasonID.Outputs[Lookup Match Output].Columns[SeasonID]" />
+                    <inputColumn
+                      refId="Package\Load dimAwards\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[name]"
+                      cachedDataType="wstr"
+                      cachedLength="61"
+                      cachedName="name"
+                      cachedSortKeyPosition="2"
+                      externalMetadataColumnId="Package\Load dimAwards\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Name]"
+                      lineageId="Package\Load dimAwards\Unique award rows.Outputs[Sort Output].Columns[name]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -6874,10 +6882,10 @@ where [refTable].[Year] = ?</property>
                       dataType="i8"
                       name="SeasonID" />
                     <externalMetadataColumn
-                      refId="Package\Load dimAwards\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Description]"
+                      refId="Package\Load dimAwards\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Name]"
                       dataType="wstr"
-                      length="500"
-                      name="Description" />
+                      length="50"
+                      name="Name" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
@@ -8998,7 +9006,7 @@ where [refTable].[DateTime] = ?</property>
                   containsID="true"
                   dataType="System.String"
                   description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
-                  name="ParameterMap">#{Package\Load dimGame\786:invalid};</property>
+                  name="ParameterMap">#{Package\Load dimGame\537:invalid};</property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -10942,19 +10950,19 @@ where [refTable].[Year] = ?</property>
               startId="Package\Load dimGame\Derived Column.Outputs[Derived Column Output]" />
             <path
               refId="Package\Load dimGame.Paths[Flat File Source Output1]"
-              endId="Package\Load dimGame\Sort.Inputs[Sort Input]"
-              name="Flat File Source Output"
-              startId="Package\Load dimGame\GameInfo.Outputs[Flat File Source Output]" />
-            <path
-              refId="Package\Load dimGame.Paths[Flat File Source Output2]"
               endId="Package\Load dimGame\Sort 1.Inputs[Sort Input]"
               name="Flat File Source Output"
               startId="Package\Load dimGame\Game.Outputs[Flat File Source Output]" />
             <path
-              refId="Package\Load dimGame.Paths[Flat File Source Output]"
+              refId="Package\Load dimGame.Paths[Flat File Source Output2]"
               endId="Package\Load dimGame\Sort 2.Inputs[Sort Input]"
               name="Flat File Source Output"
               startId="Package\Load dimGame\GameSummary.Outputs[Flat File Source Output]" />
+            <path
+              refId="Package\Load dimGame.Paths[Flat File Source Output]"
+              endId="Package\Load dimGame\Sort.Inputs[Sort Input]"
+              name="Flat File Source Output"
+              startId="Package\Load dimGame\GameInfo.Outputs[Flat File Source Output]" />
             <path
               refId="Package\Load dimGame.Paths[Lookup Match Output]"
               endId="Package\Load dimGame\Lookup Date.Inputs[Lookup Input]"
@@ -10987,14 +10995,14 @@ where [refTable].[Year] = ?</property>
               startId="Package\Load dimGame\Merge Join.Outputs[Merge Join Output]" />
             <path
               refId="Package\Load dimGame.Paths[Sort Output1]"
-              endId="Package\Load dimGame\Merge Join.Inputs[Merge Join Left Input]"
-              name="Sort Output"
-              startId="Package\Load dimGame\Sort.Outputs[Sort Output]" />
-            <path
-              refId="Package\Load dimGame.Paths[Sort Output]"
               endId="Package\Load dimGame\Merge Join.Inputs[Merge Join Right Input]"
               name="Sort Output"
               startId="Package\Load dimGame\Sort 1.Outputs[Sort Output]" />
+            <path
+              refId="Package\Load dimGame.Paths[Sort Output]"
+              endId="Package\Load dimGame\Merge Join.Inputs[Merge Join Left Input]"
+              name="Sort Output"
+              startId="Package\Load dimGame\Sort.Outputs[Sort Output]" />
             <path
               refId="Package\Load dimGame.Paths[Sort Output2]"
               endId="Package\Load dimGame\Merge Join 1.Inputs[Merge Join Right Input]"
@@ -12717,6 +12725,1051 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
               </outputs>
             </component>
             <component
+              refId="Package\Load Player Info\Data Conversion 1"
+              componentClassID="Microsoft.DataConvert"
+              contactInfo="Data Conversion;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Data Conversion"
+              name="Data Conversion 1"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Load Player Info\Data Conversion 1.Inputs[Data Conversion Input]"
+                  name="Data Conversion Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Load Player Info\Data Conversion 1.Inputs[Data Conversion Input].Columns[birth_date]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="birth_date"
+                      lineageId="Package\Load Player Info\Merge Join 1.Outputs[Merge Join Output].Columns[birth_date]" />
+                    <inputColumn
+                      refId="Package\Load Player Info\Data Conversion 1.Inputs[Data Conversion Input].Columns[num_seasons]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="num_seasons"
+                      lineageId="Package\Load Player Info\Merge Join 1.Outputs[Merge Join Output].Columns[num_seasons]" />
+                    <inputColumn
+                      refId="Package\Load Player Info\Data Conversion 1.Inputs[Data Conversion Input].Columns[ht_in_in]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="ht_in_in"
+                      lineageId="Package\Load Player Info\Merge Join 1.Outputs[Merge Join Output].Columns[ht_in_in]" />
+                    <inputColumn
+                      refId="Package\Load Player Info\Data Conversion 1.Inputs[Data Conversion Input].Columns[wt]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="wt"
+                      lineageId="Package\Load Player Info\Merge Join 1.Outputs[Merge Join Output].Columns[wt]" />
+                    <inputColumn
+                      refId="Package\Load Player Info\Data Conversion 1.Inputs[Data Conversion Input].Columns[colleges]"
+                      cachedDataType="wstr"
+                      cachedLength="100"
+                      cachedName="colleges"
+                      lineageId="Package\Load Player Info\Merge Join 1.Outputs[Merge Join Output].Columns[colleges]" />
+                    <inputColumn
+                      refId="Package\Load Player Info\Data Conversion 1.Inputs[Data Conversion Input].Columns[country]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="country"
+                      lineageId="Package\Load Player Info\Merge Join 1.Outputs[Merge Join Output].Columns[country]" />
+                    <inputColumn
+                      refId="Package\Load Player Info\Data Conversion 1.Inputs[Data Conversion Input].Columns[draft_year]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="draft_year"
+                      lineageId="Package\Load Player Info\Merge Join 1.Outputs[Merge Join Output].Columns[draft_year]" />
+                    <inputColumn
+                      refId="Package\Load Player Info\Data Conversion 1.Inputs[Data Conversion Input].Columns[draft_round]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="draft_round"
+                      lineageId="Package\Load Player Info\Merge Join 1.Outputs[Merge Join Output].Columns[draft_round]" />
+                    <inputColumn
+                      refId="Package\Load Player Info\Data Conversion 1.Inputs[Data Conversion Input].Columns[draft_number]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="draft_number"
+                      lineageId="Package\Load Player Info\Merge Join 1.Outputs[Merge Join Output].Columns[draft_number]" />
+                    <inputColumn
+                      refId="Package\Load Player Info\Data Conversion 1.Inputs[Data Conversion Input].Columns[latin]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="latin"
+                      cachedSortKeyPosition="1"
+                      lineageId="Package\Load Player Info\Merge Join 1.Outputs[Merge Join Output].Columns[latin]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Load Player Info\Data Conversion 1.Outputs[Data Conversion Output]"
+                  exclusionGroup="1"
+                  name="Data Conversion Output"
+                  synchronousInputId="Package\Load Player Info\Data Conversion 1.Inputs[Data Conversion Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load Player Info\Data Conversion 1.Outputs[Data Conversion Output].Columns[BirthDate]"
+                      dataType="dbTimeStamp"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Load Player Info\Data Conversion 1.Outputs[Data Conversion Output].Columns[BirthDate]"
+                      name="BirthDate"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\Load Player Info\Merge Join 1.Outputs[Merge Join Output].Columns[birth_date]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Player Info\Data Conversion 1.Outputs[Data Conversion Output].Columns[NumberOfSeasons]"
+                      dataType="ui1"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Load Player Info\Data Conversion 1.Outputs[Data Conversion Output].Columns[NumberOfSeasons]"
+                      name="NumberOfSeasons"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\Load Player Info\Merge Join 1.Outputs[Merge Join Output].Columns[num_seasons]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Player Info\Data Conversion 1.Outputs[Data Conversion Output].Columns[Height]"
+                      dataType="i2"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Load Player Info\Data Conversion 1.Outputs[Data Conversion Output].Columns[Height]"
+                      name="Height"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\Load Player Info\Merge Join 1.Outputs[Merge Join Output].Columns[ht_in_in]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Player Info\Data Conversion 1.Outputs[Data Conversion Output].Columns[Weight]"
+                      dataType="i2"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Load Player Info\Data Conversion 1.Outputs[Data Conversion Output].Columns[Weight]"
+                      name="Weight"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\Load Player Info\Merge Join 1.Outputs[Merge Join Output].Columns[wt]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Player Info\Data Conversion 1.Outputs[Data Conversion Output].Columns[College]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="100"
+                      lineageId="Package\Load Player Info\Data Conversion 1.Outputs[Data Conversion Output].Columns[College]"
+                      name="College"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\Load Player Info\Merge Join 1.Outputs[Merge Join Output].Columns[colleges]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Player Info\Data Conversion 1.Outputs[Data Conversion Output].Columns[Nationality]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="50"
+                      lineageId="Package\Load Player Info\Data Conversion 1.Outputs[Data Conversion Output].Columns[Nationality]"
+                      name="Nationality"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\Load Player Info\Merge Join 1.Outputs[Merge Join Output].Columns[country]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Player Info\Data Conversion 1.Outputs[Data Conversion Output].Columns[DraftYear]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="50"
+                      lineageId="Package\Load Player Info\Data Conversion 1.Outputs[Data Conversion Output].Columns[DraftYear]"
+                      name="DraftYear"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\Load Player Info\Merge Join 1.Outputs[Merge Join Output].Columns[draft_year]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Player Info\Data Conversion 1.Outputs[Data Conversion Output].Columns[DraftRound]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="50"
+                      lineageId="Package\Load Player Info\Data Conversion 1.Outputs[Data Conversion Output].Columns[DraftRound]"
+                      name="DraftRound"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\Load Player Info\Merge Join 1.Outputs[Merge Join Output].Columns[draft_round]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Player Info\Data Conversion 1.Outputs[Data Conversion Output].Columns[DraftNumber]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="50"
+                      lineageId="Package\Load Player Info\Data Conversion 1.Outputs[Data Conversion Output].Columns[DraftNumber]"
+                      name="DraftNumber"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\Load Player Info\Merge Join 1.Outputs[Merge Join Output].Columns[draft_number]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Player Info\Data Conversion 1.Outputs[Data Conversion Output].Columns[Latin]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="50"
+                      lineageId="Package\Load Player Info\Data Conversion 1.Outputs[Data Conversion Output].Columns[Latin]"
+                      name="Latin"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\Load Player Info\Merge Join 1.Outputs[Merge Join Output].Columns[latin]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Load Player Info\Data Conversion 1.Outputs[Data Conversion Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Data Conversion Error Output"
+                  synchronousInputId="Package\Load Player Info\Data Conversion 1.Inputs[Data Conversion Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load Player Info\Data Conversion 1.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Load Player Info\Data Conversion 1.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Load Player Info\Data Conversion 1.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Load Player Info\Data Conversion 1.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Load Player Info\Derived Column"
+              componentClassID="Microsoft.DerivedColumn"
+              contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Creates new column values by applying expressions to transformation input columns. Create new columns or overwrite existing ones. For example, concatenate the values from the 'first name' and 'last name' column to make a 'full name' column."
+              name="Derived Column"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Load Player Info\Derived Column.Inputs[Derived Column Input]"
+                  description="Input to the Derived Column Transformation"
+                  name="Derived Column Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Load Player Info\Derived Column.Inputs[Derived Column Input].Columns[player]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="player"
+                      lineageId="Package\Load Player Info\Merge Join 1.Outputs[Merge Join Output].Columns[player]" />
+                    <inputColumn
+                      refId="Package\Load Player Info\Derived Column.Inputs[Derived Column Input].Columns[LastSeason]"
+                      cachedDataType="i2"
+                      cachedName="LastSeason"
+                      lineageId="Package\Load Player Info\Merge Join 1.Outputs[Merge Join Output].Columns[LastSeason]" />
+                    <inputColumn
+                      refId="Package\Load Player Info\Derived Column.Inputs[Derived Column Input].Columns[pos]"
+                      cachedCodepage="65001"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="pos"
+                      lineageId="Package\Load Player Info\Merge Join 1.Outputs[Merge Join Output].Columns[pos]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Load Player Info\Derived Column.Outputs[Derived Column Output]"
+                  description="Default Output of the Derived Column Transformation"
+                  exclusionGroup="1"
+                  name="Derived Column Output"
+                  synchronousInputId="Package\Load Player Info\Derived Column.Inputs[Derived Column Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load Player Info\Derived Column.Outputs[Derived Column Output].Columns[isActive]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      length="3"
+                      lineageId="Package\Load Player Info\Derived Column.Outputs[Derived Column Output].Columns[isActive]"
+                      name="isActive"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">#{Package\Load Player Info\Merge Join 1.Outputs[Merge Join Output].Columns[LastSeason]} == 2025 ? "Yes" : "No"</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">LastSeason == 2025 ? "Yes" : "No"</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Player Info\Derived Column.Outputs[Derived Column Output].Columns[Position]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      length="1"
+                      lineageId="Package\Load Player Info\Derived Column.Outputs[Derived Column Output].Columns[Position]"
+                      name="Position"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">[SUBSTRING](#{Package\Load Player Info\Merge Join 1.Outputs[Merge Join Output].Columns[pos]},1,1)</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">SUBSTRING(pos,1,1)</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Player Info\Derived Column.Outputs[Derived Column Output].Columns[Name]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      length="50"
+                      lineageId="Package\Load Player Info\Derived Column.Outputs[Derived Column Output].Columns[Name]"
+                      name="Name"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">[SUBSTRING](#{Package\Load Player Info\Merge Join 1.Outputs[Merge Join Output].Columns[player]},1,([FINDSTRING](#{Package\Load Player Info\Merge Join 1.Outputs[Merge Join Output].Columns[player]}," ",1) &gt; 0) ? [FINDSTRING](#{Package\Load Player Info\Merge Join 1.Outputs[Merge Join Output].Columns[player]}," ",1) - 1 : [LEN](#{Package\Load Player Info\Merge Join 1.Outputs[Merge Join Output].Columns[player]}))</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">SUBSTRING(player,1,(FINDSTRING(player," ",1) &gt; 0) ? FINDSTRING(player," ",1) - 1 : LEN(player))</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Load Player Info\Derived Column.Outputs[Derived Column Output].Columns[Surname]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      length="50"
+                      lineageId="Package\Load Player Info\Derived Column.Outputs[Derived Column Output].Columns[Surname]"
+                      name="Surname"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">([FINDSTRING](#{Package\Load Player Info\Merge Join 1.Outputs[Merge Join Output].Columns[player]}," ",1) &gt; 0) ? [SUBSTRING](#{Package\Load Player Info\Merge Join 1.Outputs[Merge Join Output].Columns[player]},[FINDSTRING](#{Package\Load Player Info\Merge Join 1.Outputs[Merge Join Output].Columns[player]}," ",1) + 1,[LEN](#{Package\Load Player Info\Merge Join 1.Outputs[Merge Join Output].Columns[player]}) - [FINDSTRING](#{Package\Load Player Info\Merge Join 1.Outputs[Merge Join Output].Columns[player]}," ",1)) : ""</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">(FINDSTRING(player," ",1) &gt; 0) ? SUBSTRING(player,FINDSTRING(player," ",1) + 1,LEN(player) - FINDSTRING(player," ",1)) : ""</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Load Player Info\Derived Column.Outputs[Derived Column Error Output]"
+                  description="Error Output of the Derived Column Transformation"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Derived Column Error Output"
+                  synchronousInputId="Package\Load Player Info\Derived Column.Inputs[Derived Column Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load Player Info\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Load Player Info\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Load Player Info\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Load Player Info\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Load Player Info\GetFull Position"
+              componentClassID="Microsoft.DerivedColumn"
+              contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Creates new column values by applying expressions to transformation input columns. Create new columns or overwrite existing ones. For example, concatenate the values from the 'first name' and 'last name' column to make a 'full name' column."
+              name="GetFull Position"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Load Player Info\GetFull Position.Inputs[Derived Column Input]"
+                  description="Input to the Derived Column Transformation"
+                  name="Derived Column Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Load Player Info\GetFull Position.Inputs[Derived Column Input].Columns[Position]"
+                      cachedDataType="wstr"
+                      cachedLength="1"
+                      cachedName="Position"
+                      lineageId="Package\Load Player Info\Derived Column.Outputs[Derived Column Output].Columns[Position]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Load Player Info\GetFull Position.Outputs[Derived Column Output]"
+                  description="Default Output of the Derived Column Transformation"
+                  exclusionGroup="1"
+                  name="Derived Column Output"
+                  synchronousInputId="Package\Load Player Info\GetFull Position.Inputs[Derived Column Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load Player Info\GetFull Position.Outputs[Derived Column Output].Columns[FullPosition]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      length="7"
+                      lineageId="Package\Load Player Info\GetFull Position.Outputs[Derived Column Output].Columns[FullPosition]"
+                      name="FullPosition"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">(#{Package\Load Player Info\Derived Column.Outputs[Derived Column Output].Columns[Position]} == "G") ? "Guard" : (#{Package\Load Player Info\Derived Column.Outputs[Derived Column Output].Columns[Position]} == "F") ? "Forward" : (#{Package\Load Player Info\Derived Column.Outputs[Derived Column Output].Columns[Position]} == "C") ? "Center" : "Unknown"</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">(Position == "G") ? "Guard" : (Position == "F") ? "Forward" : (Position == "C") ? "Center" : "Unknown"</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Load Player Info\GetFull Position.Outputs[Derived Column Error Output]"
+                  description="Error Output of the Derived Column Transformation"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Derived Column Error Output"
+                  synchronousInputId="Package\Load Player Info\GetFull Position.Inputs[Derived Column Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load Player Info\GetFull Position.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Load Player Info\GetFull Position.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Load Player Info\GetFull Position.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Load Player Info\GetFull Position.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Load Player Info\Lookup date"
+              componentClassID="Microsoft.Lookup"
+              contactInfo="Lookup;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;6"
+              description="Joins additional columns to the data flow by looking up values in a table. For example, join to the 'employee id' column the employees table to get 'hire date' and 'employee name'. We recommend this transformation when the lookup table can fit into memory."
+              name="Lookup date"
+              usesDispositions="true"
+              version="6">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="Specifies the SQL statement that generates the lookup table."
+                  expressionType="Notify"
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=16.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from [dbo].[dimDate]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies a SQL statement that uses parameters to generate the lookup table."
+                  expressionType="Notify"
+                  name="SqlCommandParam"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=16.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from (select * from [dbo].[dimDate]) [refTable]
+where [refTable].[DateTime] = ?</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the type of connection used to access the reference dataset."
+                  name="ConnectionType"
+                  typeConverter="LookupConnectionType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the cache type of the lookup table."
+                  name="CacheType"
+                  typeConverter="CacheType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies how the Lookup transformation handles rows without matching entries in the reference data set."
+                  name="NoMatchBehavior"
+                  typeConverter="LookupNoMatchBehavior">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the percentage of the cache that is allocated for rows with no matching entries in the reference dataset."
+                  name="NoMatchCachePercentage">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Maximum Memory Usage for Reference Cache on a 32 bit platform."
+                  name="MaxMemoryUsage">25</property>
+                <property
+                  dataType="System.Int64"
+                  description="Maximum Memory Usage for Reference Cache on a 64 bit platform."
+                  name="MaxMemoryUsage64">25</property>
+                <property
+                  dataType="System.String"
+                  description="Indicates whether to reference metadata in an XML format."
+                  name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="DateID" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="DateTime" dataType="DT_DBTIMESTAMP" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Year" dataType="DT_I2" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Month" dataType="DT_I2" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Day" dataType="DT_I2" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Quarter" dataType="DT_UI1" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="DayOfWeek" dataType="DT_UI1" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
+                <property
+                  containsID="true"
+                  dataType="System.String"
+                  description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
+                  name="ParameterMap">#{Package\Load Player Info\Data Conversion 1.Outputs[Data Conversion Output].Columns[BirthDate]};</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Determines whether duplicate keys in the reference data should be treated as errors when full cache mode is used."
+                  name="TreatDuplicateKeysAsError">false</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Load Player Info\Lookup date.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[localhost.NBA]"
+                  connectionManagerRefId="Package.ConnectionManagers[localhost.NBA]"
+                  description="Connection manager used to access lookup data."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Load Player Info\Lookup date.Inputs[Lookup Input]"
+                  name="Lookup Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Load Player Info\Lookup date.Inputs[Lookup Input].Columns[BirthDate]"
+                      cachedDataType="dbTimeStamp"
+                      cachedName="BirthDate"
+                      lineageId="Package\Load Player Info\Data Conversion 1.Outputs[Data Conversion Output].Columns[BirthDate]">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table that a column joins."
+                          name="JoinToReferenceColumn">DateTime</property>
+                        <property
+                          dataType="System.Null"
+                          description="Specifies the column in the reference table from which a column is copied."
+                          name="CopyFromReferenceColumn" />
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Load Player Info\Lookup date.Outputs[Lookup Match Output]"
+                  errorOrTruncationOperation="Lookup"
+                  errorRowDisposition="IgnoreFailure"
+                  exclusionGroup="1"
+                  name="Lookup Match Output"
+                  synchronousInputId="Package\Load Player Info\Lookup date.Inputs[Lookup Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load Player Info\Lookup date.Outputs[Lookup Match Output].Columns[DateID]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Copy Column"
+                      lineageId="Package\Load Player Info\Lookup date.Outputs[Lookup Match Output].Columns[DateID]"
+                      name="DateID"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table from which a column is copied."
+                          name="CopyFromReferenceColumn">DateID</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Load Player Info\Lookup date.Outputs[Lookup No Match Output]"
+                  description="The Lookup output that handles rows with no matching entries in the reference dataset. Use this output when the NoMatchBehavior property is set to &quot;Send rows with no matching entries to the no match output.&quot;"
+                  exclusionGroup="1"
+                  name="Lookup No Match Output"
+                  synchronousInputId="Package\Load Player Info\Lookup date.Inputs[Lookup Input]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Load Player Info\Lookup date.Outputs[Lookup Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Lookup Error Output"
+                  synchronousInputId="Package\Load Player Info\Lookup date.Inputs[Lookup Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load Player Info\Lookup date.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Load Player Info\Lookup date.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Load Player Info\Lookup date.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Load Player Info\Lookup date.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Load Player Info\Lookup FirstSeasonID"
+              componentClassID="Microsoft.Lookup"
+              contactInfo="Lookup;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;6"
+              description="Joins additional columns to the data flow by looking up values in a table. For example, join to the 'employee id' column the employees table to get 'hire date' and 'employee name'. We recommend this transformation when the lookup table can fit into memory."
+              name="Lookup FirstSeasonID"
+              usesDispositions="true"
+              version="6">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="Specifies the SQL statement that generates the lookup table."
+                  expressionType="Notify"
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=16.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from [dbo].[dimSeason]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies a SQL statement that uses parameters to generate the lookup table."
+                  expressionType="Notify"
+                  name="SqlCommandParam"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=16.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from (select * from [dbo].[dimSeason]) [refTable]
+where [refTable].[Year] = ?</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the type of connection used to access the reference dataset."
+                  name="ConnectionType"
+                  typeConverter="LookupConnectionType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the cache type of the lookup table."
+                  name="CacheType"
+                  typeConverter="CacheType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies how the Lookup transformation handles rows without matching entries in the reference data set."
+                  name="NoMatchBehavior"
+                  typeConverter="LookupNoMatchBehavior">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the percentage of the cache that is allocated for rows with no matching entries in the reference dataset."
+                  name="NoMatchCachePercentage">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Maximum Memory Usage for Reference Cache on a 32 bit platform."
+                  name="MaxMemoryUsage">25</property>
+                <property
+                  dataType="System.Int64"
+                  description="Maximum Memory Usage for Reference Cache on a 64 bit platform."
+                  name="MaxMemoryUsage64">25</property>
+                <property
+                  dataType="System.String"
+                  description="Indicates whether to reference metadata in an XML format."
+                  name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="SeasonID" dataType="DT_I8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Year" dataType="DT_I2" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
+                <property
+                  containsID="true"
+                  dataType="System.String"
+                  description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
+                  name="ParameterMap">#{Package\Load Player Info\Merge Join 1.Outputs[Merge Join Output].Columns[FirstSeason]};</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Determines whether duplicate keys in the reference data should be treated as errors when full cache mode is used."
+                  name="TreatDuplicateKeysAsError">false</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Load Player Info\Lookup FirstSeasonID.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[localhost.NBA]"
+                  connectionManagerRefId="Package.ConnectionManagers[localhost.NBA]"
+                  description="Connection manager used to access lookup data."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Load Player Info\Lookup FirstSeasonID.Inputs[Lookup Input]"
+                  name="Lookup Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Load Player Info\Lookup FirstSeasonID.Inputs[Lookup Input].Columns[FirstSeason]"
+                      cachedDataType="i2"
+                      cachedName="FirstSeason"
+                      lineageId="Package\Load Player Info\Merge Join 1.Outputs[Merge Join Output].Columns[FirstSeason]">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table that a column joins."
+                          name="JoinToReferenceColumn">Year</property>
+                        <property
+                          dataType="System.Null"
+                          description="Specifies the column in the reference table from which a column is copied."
+                          name="CopyFromReferenceColumn" />
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Load Player Info\Lookup FirstSeasonID.Outputs[Lookup Match Output]"
+                  errorOrTruncationOperation="Lookup"
+                  errorRowDisposition="IgnoreFailure"
+                  exclusionGroup="1"
+                  name="Lookup Match Output"
+                  synchronousInputId="Package\Load Player Info\Lookup FirstSeasonID.Inputs[Lookup Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load Player Info\Lookup FirstSeasonID.Outputs[Lookup Match Output].Columns[FirstSeasonID]"
+                      dataType="i8"
+                      errorOrTruncationOperation="Copy Column"
+                      lineageId="Package\Load Player Info\Lookup FirstSeasonID.Outputs[Lookup Match Output].Columns[FirstSeasonID]"
+                      name="FirstSeasonID"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table from which a column is copied."
+                          name="CopyFromReferenceColumn">SeasonID</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Load Player Info\Lookup FirstSeasonID.Outputs[Lookup No Match Output]"
+                  description="The Lookup output that handles rows with no matching entries in the reference dataset. Use this output when the NoMatchBehavior property is set to &quot;Send rows with no matching entries to the no match output.&quot;"
+                  exclusionGroup="1"
+                  name="Lookup No Match Output"
+                  synchronousInputId="Package\Load Player Info\Lookup FirstSeasonID.Inputs[Lookup Input]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Load Player Info\Lookup FirstSeasonID.Outputs[Lookup Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Lookup Error Output"
+                  synchronousInputId="Package\Load Player Info\Lookup FirstSeasonID.Inputs[Lookup Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load Player Info\Lookup FirstSeasonID.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Load Player Info\Lookup FirstSeasonID.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Load Player Info\Lookup FirstSeasonID.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Load Player Info\Lookup FirstSeasonID.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Load Player Info\Lookup LastSeasonID"
+              componentClassID="Microsoft.Lookup"
+              contactInfo="Lookup;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;6"
+              description="Joins additional columns to the data flow by looking up values in a table. For example, join to the 'employee id' column the employees table to get 'hire date' and 'employee name'. We recommend this transformation when the lookup table can fit into memory."
+              name="Lookup LastSeasonID"
+              usesDispositions="true"
+              version="6">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="Specifies the SQL statement that generates the lookup table."
+                  expressionType="Notify"
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=16.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from [dbo].[dimSeason]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies a SQL statement that uses parameters to generate the lookup table."
+                  expressionType="Notify"
+                  name="SqlCommandParam"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=16.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from (select * from [dbo].[dimSeason]) [refTable]
+where [refTable].[Year] = ?</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the type of connection used to access the reference dataset."
+                  name="ConnectionType"
+                  typeConverter="LookupConnectionType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the cache type of the lookup table."
+                  name="CacheType"
+                  typeConverter="CacheType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies how the Lookup transformation handles rows without matching entries in the reference data set."
+                  name="NoMatchBehavior"
+                  typeConverter="LookupNoMatchBehavior">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the percentage of the cache that is allocated for rows with no matching entries in the reference dataset."
+                  name="NoMatchCachePercentage">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Maximum Memory Usage for Reference Cache on a 32 bit platform."
+                  name="MaxMemoryUsage">25</property>
+                <property
+                  dataType="System.Int64"
+                  description="Maximum Memory Usage for Reference Cache on a 64 bit platform."
+                  name="MaxMemoryUsage64">25</property>
+                <property
+                  dataType="System.String"
+                  description="Indicates whether to reference metadata in an XML format."
+                  name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="SeasonID" dataType="DT_I8" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="Year" dataType="DT_I2" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
+                <property
+                  containsID="true"
+                  dataType="System.String"
+                  description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
+                  name="ParameterMap">#{Package\Load Player Info\Merge Join 1.Outputs[Merge Join Output].Columns[LastSeason]};</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Determines whether duplicate keys in the reference data should be treated as errors when full cache mode is used."
+                  name="TreatDuplicateKeysAsError">false</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Load Player Info\Lookup LastSeasonID.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[localhost.NBA]"
+                  connectionManagerRefId="Package.ConnectionManagers[localhost.NBA]"
+                  description="Connection manager used to access lookup data."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Load Player Info\Lookup LastSeasonID.Inputs[Lookup Input]"
+                  name="Lookup Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Load Player Info\Lookup LastSeasonID.Inputs[Lookup Input].Columns[LastSeason]"
+                      cachedDataType="i2"
+                      cachedName="LastSeason"
+                      lineageId="Package\Load Player Info\Merge Join 1.Outputs[Merge Join Output].Columns[LastSeason]">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table that a column joins."
+                          name="JoinToReferenceColumn">Year</property>
+                        <property
+                          dataType="System.Null"
+                          description="Specifies the column in the reference table from which a column is copied."
+                          name="CopyFromReferenceColumn" />
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Load Player Info\Lookup LastSeasonID.Outputs[Lookup Match Output]"
+                  errorOrTruncationOperation="Lookup"
+                  errorRowDisposition="IgnoreFailure"
+                  exclusionGroup="1"
+                  name="Lookup Match Output"
+                  synchronousInputId="Package\Load Player Info\Lookup LastSeasonID.Inputs[Lookup Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load Player Info\Lookup LastSeasonID.Outputs[Lookup Match Output].Columns[LastSeasonID]"
+                      dataType="i8"
+                      errorOrTruncationOperation="Copy Column"
+                      lineageId="Package\Load Player Info\Lookup LastSeasonID.Outputs[Lookup Match Output].Columns[LastSeasonID]"
+                      name="LastSeasonID"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table from which a column is copied."
+                          name="CopyFromReferenceColumn">SeasonID</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Load Player Info\Lookup LastSeasonID.Outputs[Lookup No Match Output]"
+                  description="The Lookup output that handles rows with no matching entries in the reference dataset. Use this output when the NoMatchBehavior property is set to &quot;Send rows with no matching entries to the no match output.&quot;"
+                  exclusionGroup="1"
+                  name="Lookup No Match Output"
+                  synchronousInputId="Package\Load Player Info\Lookup LastSeasonID.Inputs[Lookup Input]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Load Player Info\Lookup LastSeasonID.Outputs[Lookup Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Lookup Error Output"
+                  synchronousInputId="Package\Load Player Info\Lookup LastSeasonID.Inputs[Lookup Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load Player Info\Lookup LastSeasonID.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Load Player Info\Lookup LastSeasonID.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Load Player Info\Lookup LastSeasonID.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Load Player Info\Lookup LastSeasonID.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
               refId="Package\Load Player Info\Merge Join"
               componentClassID="Microsoft.MergeJoin"
               contactInfo="Merge Join;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
@@ -13350,25 +14403,276 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
               </outputs>
             </component>
             <component
-              refId="Package\Load Player Info\Multicast"
-              componentClassID="Microsoft.Multicast"
-              contactInfo="Multicast;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
-              description="Distributes every input row to every row in one or more outputs. For example, branch your data flow to make a copy of data so that some values can be masked before sharing with external partners."
-              name="Multicast">
+              refId="Package\Load Player Info\OLE DB Destination"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+              description="OLE DB Destination"
+              name="OLE DB Destination"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[dbo].[dimPlayerInfo]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=16.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">3</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Load Player Info\OLE DB Destination.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[localhost.NBA]"
+                  connectionManagerRefId="Package.ConnectionManagers[localhost.NBA]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
               <inputs>
                 <input
-                  refId="Package\Load Player Info\Multicast.Inputs[Multicast Input 1]"
-                  name="Multicast Input 1">
-                  <externalMetadataColumns />
+                  refId="Package\Load Player Info\OLE DB Destination.Inputs[OLE DB Destination Input]"
+                  errorOrTruncationOperation="Insert"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="OLE DB Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Load Player Info\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[NumberOfSeasons]"
+                      cachedDataType="ui1"
+                      cachedName="NumberOfSeasons"
+                      externalMetadataColumnId="Package\Load Player Info\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[NumberOfSeasons]"
+                      lineageId="Package\Load Player Info\Data Conversion 1.Outputs[Data Conversion Output].Columns[NumberOfSeasons]" />
+                    <inputColumn
+                      refId="Package\Load Player Info\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Height]"
+                      cachedDataType="i2"
+                      cachedName="Height"
+                      externalMetadataColumnId="Package\Load Player Info\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Height]"
+                      lineageId="Package\Load Player Info\Data Conversion 1.Outputs[Data Conversion Output].Columns[Height]" />
+                    <inputColumn
+                      refId="Package\Load Player Info\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Weight]"
+                      cachedDataType="i2"
+                      cachedName="Weight"
+                      externalMetadataColumnId="Package\Load Player Info\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Weight]"
+                      lineageId="Package\Load Player Info\Data Conversion 1.Outputs[Data Conversion Output].Columns[Weight]" />
+                    <inputColumn
+                      refId="Package\Load Player Info\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[College]"
+                      cachedDataType="wstr"
+                      cachedLength="100"
+                      cachedName="College"
+                      externalMetadataColumnId="Package\Load Player Info\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[College]"
+                      lineageId="Package\Load Player Info\Data Conversion 1.Outputs[Data Conversion Output].Columns[College]" />
+                    <inputColumn
+                      refId="Package\Load Player Info\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Nationality]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="Nationality"
+                      externalMetadataColumnId="Package\Load Player Info\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Nationality]"
+                      lineageId="Package\Load Player Info\Data Conversion 1.Outputs[Data Conversion Output].Columns[Nationality]" />
+                    <inputColumn
+                      refId="Package\Load Player Info\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[DraftYear]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="DraftYear"
+                      externalMetadataColumnId="Package\Load Player Info\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[DraftYear]"
+                      lineageId="Package\Load Player Info\Data Conversion 1.Outputs[Data Conversion Output].Columns[DraftYear]" />
+                    <inputColumn
+                      refId="Package\Load Player Info\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[DraftRound]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="DraftRound"
+                      externalMetadataColumnId="Package\Load Player Info\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[DraftRound]"
+                      lineageId="Package\Load Player Info\Data Conversion 1.Outputs[Data Conversion Output].Columns[DraftRound]" />
+                    <inputColumn
+                      refId="Package\Load Player Info\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[DraftNumber]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="DraftNumber"
+                      externalMetadataColumnId="Package\Load Player Info\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[DraftNumber]"
+                      lineageId="Package\Load Player Info\Data Conversion 1.Outputs[Data Conversion Output].Columns[DraftNumber]" />
+                    <inputColumn
+                      refId="Package\Load Player Info\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[FirstSeasonID]"
+                      cachedDataType="i8"
+                      cachedName="FirstSeasonID"
+                      externalMetadataColumnId="Package\Load Player Info\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[FirstSeasonID]"
+                      lineageId="Package\Load Player Info\Lookup FirstSeasonID.Outputs[Lookup Match Output].Columns[FirstSeasonID]" />
+                    <inputColumn
+                      refId="Package\Load Player Info\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[LastSeasonID]"
+                      cachedDataType="i8"
+                      cachedName="LastSeasonID"
+                      externalMetadataColumnId="Package\Load Player Info\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[LastSeasonID]"
+                      lineageId="Package\Load Player Info\Lookup LastSeasonID.Outputs[Lookup Match Output].Columns[LastSeasonID]" />
+                    <inputColumn
+                      refId="Package\Load Player Info\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[isActive]"
+                      cachedDataType="wstr"
+                      cachedLength="3"
+                      cachedName="isActive"
+                      externalMetadataColumnId="Package\Load Player Info\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[isActive]"
+                      lineageId="Package\Load Player Info\Derived Column.Outputs[Derived Column Output].Columns[isActive]" />
+                    <inputColumn
+                      refId="Package\Load Player Info\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Name]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="Name"
+                      externalMetadataColumnId="Package\Load Player Info\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Name]"
+                      lineageId="Package\Load Player Info\Derived Column.Outputs[Derived Column Output].Columns[Name]" />
+                    <inputColumn
+                      refId="Package\Load Player Info\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Surname]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="Surname"
+                      externalMetadataColumnId="Package\Load Player Info\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Surname]"
+                      lineageId="Package\Load Player Info\Derived Column.Outputs[Derived Column Output].Columns[Surname]" />
+                    <inputColumn
+                      refId="Package\Load Player Info\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[DateID]"
+                      cachedDataType="i4"
+                      cachedName="DateID"
+                      externalMetadataColumnId="Package\Load Player Info\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[BirthDateID]"
+                      lineageId="Package\Load Player Info\Lookup date.Outputs[Lookup Match Output].Columns[DateID]" />
+                    <inputColumn
+                      refId="Package\Load Player Info\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[FullPosition]"
+                      cachedDataType="wstr"
+                      cachedLength="7"
+                      cachedName="FullPosition"
+                      externalMetadataColumnId="Package\Load Player Info\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Position]"
+                      lineageId="Package\Load Player Info\GetFull Position.Outputs[Derived Column Output].Columns[FullPosition]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Load Player Info\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[PlayerID]"
+                      dataType="i8"
+                      name="PlayerID" />
+                    <externalMetadataColumn
+                      refId="Package\Load Player Info\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Name]"
+                      dataType="wstr"
+                      length="50"
+                      name="Name" />
+                    <externalMetadataColumn
+                      refId="Package\Load Player Info\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Surname]"
+                      dataType="wstr"
+                      length="50"
+                      name="Surname" />
+                    <externalMetadataColumn
+                      refId="Package\Load Player Info\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[BirthDateID]"
+                      dataType="i4"
+                      name="BirthDateID" />
+                    <externalMetadataColumn
+                      refId="Package\Load Player Info\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[NumberOfSeasons]"
+                      dataType="ui1"
+                      name="NumberOfSeasons" />
+                    <externalMetadataColumn
+                      refId="Package\Load Player Info\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[FirstSeasonID]"
+                      dataType="i8"
+                      name="FirstSeasonID" />
+                    <externalMetadataColumn
+                      refId="Package\Load Player Info\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[LastSeasonID]"
+                      dataType="i8"
+                      name="LastSeasonID" />
+                    <externalMetadataColumn
+                      refId="Package\Load Player Info\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Height]"
+                      dataType="i2"
+                      name="Height" />
+                    <externalMetadataColumn
+                      refId="Package\Load Player Info\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Weight]"
+                      dataType="i2"
+                      name="Weight" />
+                    <externalMetadataColumn
+                      refId="Package\Load Player Info\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Nationality]"
+                      dataType="wstr"
+                      length="50"
+                      name="Nationality" />
+                    <externalMetadataColumn
+                      refId="Package\Load Player Info\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[isActive]"
+                      dataType="wstr"
+                      length="50"
+                      name="isActive" />
+                    <externalMetadataColumn
+                      refId="Package\Load Player Info\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[College]"
+                      dataType="wstr"
+                      length="100"
+                      name="College" />
+                    <externalMetadataColumn
+                      refId="Package\Load Player Info\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Position]"
+                      dataType="wstr"
+                      length="50"
+                      name="Position" />
+                    <externalMetadataColumn
+                      refId="Package\Load Player Info\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[DraftYear]"
+                      dataType="wstr"
+                      length="50"
+                      name="DraftYear" />
+                    <externalMetadataColumn
+                      refId="Package\Load Player Info\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[DraftRound]"
+                      dataType="wstr"
+                      length="50"
+                      name="DraftRound" />
+                    <externalMetadataColumn
+                      refId="Package\Load Player Info\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[DraftNumber]"
+                      dataType="wstr"
+                      length="50"
+                      name="DraftNumber" />
+                  </externalMetadataColumns>
                 </input>
               </inputs>
               <outputs>
                 <output
-                  refId="Package\Load Player Info\Multicast.Outputs[Multicast Output 1]"
-                  dangling="true"
-                  deleteOutputOnPathDetached="true"
-                  name="Multicast Output 1"
-                  synchronousInputId="Package\Load Player Info\Multicast.Inputs[Multicast Input 1]">
+                  refId="Package\Load Player Info\OLE DB Destination.Outputs[OLE DB Destination Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="OLE DB Destination Error Output"
+                  synchronousInputId="Package\Load Player Info\OLE DB Destination.Inputs[OLE DB Destination Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Load Player Info\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Load Player Info\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Load Player Info\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Load Player Info\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
                   <externalMetadataColumns />
                 </output>
               </outputs>
@@ -15349,20 +16653,50 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
               name="Data Conversion Output"
               startId="Package\Load Player Info\Data Conversion.Outputs[Data Conversion Output]" />
             <path
-              refId="Package\Load Player Info.Paths[Flat File Source Output]"
-              endId="Package\Load Player Info\Sort 2.Inputs[Sort Input]"
-              name="Flat File Source Output"
-              startId="Package\Load Player Info\CommonInfo.Outputs[Flat File Source Output]" />
+              refId="Package\Load Player Info.Paths[Data Conversion Output1]"
+              endId="Package\Load Player Info\Lookup date.Inputs[Lookup Input]"
+              name="Data Conversion Output"
+              startId="Package\Load Player Info\Data Conversion 1.Outputs[Data Conversion Output]" />
+            <path
+              refId="Package\Load Player Info.Paths[Derived Column Output]"
+              endId="Package\Load Player Info\GetFull Position.Inputs[Derived Column Input]"
+              name="Derived Column Output"
+              startId="Package\Load Player Info\Derived Column.Outputs[Derived Column Output]" />
+            <path
+              refId="Package\Load Player Info.Paths[Derived Column Output1]"
+              endId="Package\Load Player Info\OLE DB Destination.Inputs[OLE DB Destination Input]"
+              name="Derived Column Output"
+              startId="Package\Load Player Info\GetFull Position.Outputs[Derived Column Output]" />
             <path
               refId="Package\Load Player Info.Paths[Flat File Source Output1]"
               endId="Package\Load Player Info\Sort 1.Inputs[Sort Input]"
               name="Flat File Source Output"
               startId="Package\Load Player Info\Player Directrory.Outputs[Flat File Source Output]" />
             <path
+              refId="Package\Load Player Info.Paths[Flat File Source Output]"
+              endId="Package\Load Player Info\Sort 2.Inputs[Sort Input]"
+              name="Flat File Source Output"
+              startId="Package\Load Player Info\CommonInfo.Outputs[Flat File Source Output]" />
+            <path
               refId="Package\Load Player Info.Paths[Flat File Source Output2]"
               endId="Package\Load Player Info\Data Conversion.Inputs[Data Conversion Input]"
               name="Flat File Source Output"
               startId="Package\Load Player Info\PlayerCareerInfo.Outputs[Flat File Source Output]" />
+            <path
+              refId="Package\Load Player Info.Paths[Lookup Match Output]"
+              endId="Package\Load Player Info\Lookup FirstSeasonID.Inputs[Lookup Input]"
+              name="Lookup Match Output"
+              startId="Package\Load Player Info\Lookup date.Outputs[Lookup Match Output]" />
+            <path
+              refId="Package\Load Player Info.Paths[Lookup Match Output1]"
+              endId="Package\Load Player Info\Lookup LastSeasonID.Inputs[Lookup Input]"
+              name="Lookup Match Output"
+              startId="Package\Load Player Info\Lookup FirstSeasonID.Outputs[Lookup Match Output]" />
+            <path
+              refId="Package\Load Player Info.Paths[Lookup Match Output2]"
+              endId="Package\Load Player Info\Derived Column.Inputs[Derived Column Input]"
+              name="Lookup Match Output"
+              startId="Package\Load Player Info\Lookup LastSeasonID.Outputs[Lookup Match Output]" />
             <path
               refId="Package\Load Player Info.Paths[Merge Join Output]"
               endId="Package\Load Player Info\Convert to latin letters.Inputs[Input 0]"
@@ -15370,7 +16704,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
               startId="Package\Load Player Info\Merge Join.Outputs[Merge Join Output]" />
             <path
               refId="Package\Load Player Info.Paths[Merge Join Output1]"
-              endId="Package\Load Player Info\Multicast.Inputs[Multicast Input 1]"
+              endId="Package\Load Player Info\Data Conversion 1.Inputs[Data Conversion Input]"
               name="Merge Join Output"
               startId="Package\Load Player Info\Merge Join 1.Outputs[Merge Join Output]" />
             <path
@@ -15384,11 +16718,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
               name="Sort Output"
               startId="Package\Load Player Info\Sort.Outputs[Sort Output]" />
             <path
-              refId="Package\Load Player Info.Paths[Sort Output1]"
-              endId="Package\Load Player Info\Merge Join.Inputs[Merge Join Right Input]"
-              name="Sort Output"
-              startId="Package\Load Player Info\Sort 1.Outputs[Sort Output]" />
-            <path
               refId="Package\Load Player Info.Paths[Sort Output2]"
               endId="Package\Load Player Info\Merge Join 1.Inputs[Merge Join Left Input]"
               name="Sort Output"
@@ -15398,6 +16727,11 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
               endId="Package\Load Player Info\Merge Join 1.Inputs[Merge Join Right Input]"
               name="Sort Output"
               startId="Package\Load Player Info\Sort 2.Outputs[Sort Output]" />
+            <path
+              refId="Package\Load Player Info.Paths[Sort Output1]"
+              endId="Package\Load Player Info\Merge Join.Inputs[Merge Join Right Input]"
+              name="Sort Output"
+              startId="Package\Load Player Info\Sort 1.Outputs[Sort Output]" />
           </paths>
         </pipeline>
       </DTS:ObjectData>
@@ -19791,6 +21125,48 @@ where [refTable].[Year] = ?</property>
       </DTS:ObjectData>
     </DTS:Executable>
   </DTS:Executables>
+  <DTS:PrecedenceConstraints>
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint]"
+      DTS:CreationName=""
+      DTS:DTSID="{702F0414-DD2F-4492-8025-44E54C60FE65}"
+      DTS:From="Package\Generate Seasons"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint"
+      DTS:To="Package\Load Team Info" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 1]"
+      DTS:CreationName=""
+      DTS:DTSID="{178B86A4-7950-40B5-A029-4E1E1B689DF6}"
+      DTS:From="Package\Load Team Info"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 1"
+      DTS:To="Package\Load dimAwards" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 2]"
+      DTS:CreationName=""
+      DTS:DTSID="{CA587C1D-D2EF-4FF1-90E6-2F94827D69F4}"
+      DTS:From="Package\Load dimAwards"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 2"
+      DTS:To="Package\Load dimGame" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 3]"
+      DTS:CreationName=""
+      DTS:DTSID="{CF6F733C-3CCB-40E4-836E-5E4FC5C671EC}"
+      DTS:From="Package\Load dimGame"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 3"
+      DTS:To="Package\Load Player Info" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 4]"
+      DTS:CreationName=""
+      DTS:DTSID="{9BCF9610-E305-4F6E-8C6A-0BC665CAC4D4}"
+      DTS:From="Package\Load Player Info"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 4"
+      DTS:To="Package\Populate Awards" />
+  </DTS:PrecedenceConstraints>
   <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
 <!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
 <!--If you manually edit this section and make a mistake, you can delete it. -->
@@ -19802,31 +21178,177 @@ where [refTable].[Year] = ?</property>
     design-time-name="Package">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="163.2,41.6"
           Id="Package\Generate Seasons"
-          TopLeft="189.714287003693,32.588235176146" />
+          TopLeft="191.142858435305,14.2352940157625" />
         <NodeLayout
-          Size="156.8,41.6"
+          Size="156,41.6"
           Id="Package\Load dimAwards"
-          TopLeft="307,98" />
+          TopLeft="196.285714050033,139.294117610863" />
         <NodeLayout
           Size="150.4,41.6"
           Id="Package\Load dimGame"
-          TopLeft="22,44" />
+          TopLeft="201.285714667367,196.941176336529" />
         <NodeLayout
           Size="156,41.6"
           Id="Package\Load Player Info"
-          TopLeft="370,28" />
+          TopLeft="197.14285677489,284.176470363687" />
         <NodeLayout
           Size="153.6,41.6"
           Id="Package\Load Team Info"
-          TopLeft="97,104" />
+          TopLeft="187.000000191586,72.6470588510115" />
         <NodeLayout
           Size="156.8,41.6"
           Id="Package\Populate Awards"
-          TopLeft="180,177" />
+          TopLeft="445.000000564115,285.623529317253" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint]"
+          TopLeft="354.342858435306,35.0352940157625">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-13.7428582437191,58.411764835249"
+              Start="0,0"
+              End="-6.24285824371907,58.411764835249">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="18.5,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="18.5,0"
+                    Point2="22.5,0"
+                    Point3="22.5,4" />
+                  <mssgle:LineSegment
+                    End="22.5,54.411764835249" />
+                  <mssgle:CubicBezierSegment
+                    Point1="22.5,54.411764835249"
+                    Point2="22.5,58.411764835249"
+                    Point3="18.5,58.411764835249" />
+                  <mssgle:LineSegment
+                    End="-6.24285824371907,58.411764835249" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 1]"
+          TopLeft="263.800000191586,114.247058851012">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="10.4857138584462,25.0470587598514"
+              Start="0,0"
+              End="10.4857138584462,17.5470587598514">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,8.52352937992572" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,8.52352937992572"
+                    Point2="0,12.5235293799257"
+                    Point3="4,12.5235293799257" />
+                  <mssgle:LineSegment
+                    End="6.48571385844622,12.5235293799257" />
+                  <mssgle:CubicBezierSegment
+                    Point1="6.48571385844622,12.5235293799257"
+                    Point2="10.4857138584462,12.5235293799257"
+                    Point3="10.4857138584462,16.5235293799257" />
+                  <mssgle:LineSegment
+                    End="10.4857138584462,17.5470587598514" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 2]"
+          TopLeft="196.285714050033,160.094117610863">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="5.00000061733385,57.6470587256664"
+              Start="0,0"
+              End="-2.49999938266615,57.6470587256664">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="-18.5,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-18.5,0"
+                    Point2="-22.5,0"
+                    Point3="-22.5,4" />
+                  <mssgle:LineSegment
+                    End="-22.5,53.6470587256664" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-22.5,53.6470587256664"
+                    Point2="-22.5,57.6470587256664"
+                    Point3="-18.5,57.6470587256664" />
+                  <mssgle:LineSegment
+                    End="-2.49999938266615,57.6470587256664" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 3]"
+          TopLeft="275.814285721128,238.541176336529">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,45.6352940271573"
+              Start="0,0"
+              End="0,38.1352940271573">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,38.1352940271573" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 4]"
+          TopLeft="353.14285677489,305.69999984047">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="91.8571437892259,0"
+              Start="0,0"
+              End="84.3571437892259,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="84.3571437892259,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </Package>
@@ -19963,47 +21485,47 @@ where [refTable].[Year] = ?</property>
       <GraphLayout
         Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="154,42"
+          Size="153.6,41.6"
           Id="Package\Load dimAwards\Derived Column"
           TopLeft="573,216" />
         <NodeLayout
-          Size="173,42"
+          Size="172.8,41.6"
           Id="Package\Load dimAwards\EndOfSeasonTeams"
           TopLeft="306,93" />
         <NodeLayout
-          Size="170,42"
+          Size="169.6,41.6"
           Id="Package\Load dimAwards\Unique award rows"
           TopLeft="542,452" />
         <NodeLayout
-          Size="136,42"
+          Size="136,41.6"
           Id="Package\Load dimAwards\concatenate"
           TopLeft="320,218" />
         <NodeLayout
-          Size="121,42"
+          Size="120.8,41.6"
           Id="Package\Load dimAwards\Union All"
           TopLeft="549,303" />
         <NodeLayout
-          Size="156,42"
+          Size="156,41.6"
           Id="Package\Load dimAwards\match SeasonID"
           TopLeft="553,512" />
         <NodeLayout
-          Size="163,42"
+          Size="163.2,41.6"
           Id="Package\Load dimAwards\Derived Column 1"
           TopLeft="777,217" />
         <NodeLayout
-          Size="171,42"
+          Size="171.2,41.6"
           Id="Package\Load dimAwards\OLE DB Destination"
           TopLeft="870,506" />
         <NodeLayout
-          Size="156,42"
+          Size="156,41.6"
           Id="Package\Load dimAwards\Data Conversion"
           TopLeft="545,378" />
         <NodeLayout
-          Size="114,42"
+          Size="113.6,41.6"
           Id="Package\Load dimAwards\AllStars"
           TopLeft="805,91" />
         <NodeLayout
-          Size="140,42"
+          Size="140,41.6"
           Id="Package\Load dimAwards\AwardShares"
           TopLeft="575,90" />
         <EdgeLayout
@@ -20037,9 +21559,7 @@ where [refTable].[Year] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -20073,9 +21593,7 @@ where [refTable].[Year] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -20133,9 +21651,7 @@ where [refTable].[Year] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -20157,9 +21673,7 @@ where [refTable].[Year] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -20181,9 +21695,7 @@ where [refTable].[Year] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -20217,9 +21729,7 @@ where [refTable].[Year] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -20253,9 +21763,7 @@ where [refTable].[Year] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -20289,9 +21797,7 @@ where [refTable].[Year] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -20313,9 +21819,7 @@ where [refTable].[Year] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -20474,40 +21978,6 @@ where [refTable].[Year] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Load dimGame.Paths[Sort Output1]"
-          TopLeft="380,138">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="111.666666666667,69"
-              Start="0,0"
-              End="111.666666666667,61.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,36.8966565349544" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,36.8966565349544"
-                    Point2="0,40.8966565349544"
-                    Point3="4,40.8966565349544" />
-                  <mssgle:LineSegment
-                    End="107.666666666667,40.8966565349544" />
-                  <mssgle:CubicBezierSegment
-                    Point1="107.666666666667,40.8966565349544"
-                    Point2="111.666666666667,40.8966565349544"
-                    Point3="111.666666666667,44.8966565349544" />
-                  <mssgle:LineSegment
-                    End="111.666666666667,61.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Load dimGame.Paths[Sort Output]"
           TopLeft="563.5,142">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -20532,6 +22002,40 @@ where [refTable].[Year] = ?</property>
                     Point3="-51.5,36.5" />
                   <mssgle:LineSegment
                     End="-51.5,57.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load dimGame.Paths[Sort Output]"
+          TopLeft="380,138">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="111.666666666667,69"
+              Start="0,0"
+              End="111.666666666667,61.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,36.8966565349544" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,36.8966565349544"
+                    Point2="0,40.8966565349544"
+                    Point3="4,40.8966565349544" />
+                  <mssgle:LineSegment
+                    End="107.666666666667,40.8966565349544" />
+                  <mssgle:CubicBezierSegment
+                    Point1="107.666666666667,40.8966565349544"
+                    Point2="111.666666666667,40.8966565349544"
+                    Point3="111.666666666667,44.8966565349544" />
+                  <mssgle:LineSegment
+                    End="111.666666666667,61.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -20730,50 +22234,6 @@ where [refTable].[Year] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Load dimGame.Paths[Flat File Source Output2]"
-          TopLeft="563.25,69">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,31"
-              Start="0,0"
-              End="0,23.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,23.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Load dimGame.Paths[Flat File Source Output1]"
-          TopLeft="380.75,69">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,27"
-              Start="0,0"
-              End="0,19.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,19.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Load dimGame.Paths[Flat File Source Output]"
           TopLeft="747.5,166">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -20798,6 +22258,50 @@ where [refTable].[Year] = ?</property>
                     Point3="-52,26.5" />
                   <mssgle:LineSegment
                     End="-52,37.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load dimGame.Paths[Flat File Source Output1]"
+          TopLeft="563.25,69">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,31"
+              Start="0,0"
+              End="0,23.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,23.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load dimGame.Paths[Flat File Source Output]"
+          TopLeft="380.75,69">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,27"
+              Start="0,0"
+              End="0,19.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,19.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -20865,7 +22369,9 @@ where [refTable].[Year] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="-96.3636363636359,-22,16,16"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -20933,9 +22439,7 @@ where [refTable].[Year] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="16.2727272727272,-22,16,16"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -20970,7 +22474,7 @@ where [refTable].[Year] = ?</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-95.4377829071971,-9.46786632390743,30.436171875,9.5537109375"
+              BoundingBox="-95.437782907197,-9.4678663239074,30.436171875,9.5537109375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -21006,7 +22510,7 @@ where [refTable].[Year] = ?</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="9.60767163825742,55.1434914699696,30.436171875,9.5537109375"
+              BoundingBox="9.6076716382574,55.1434914699696,30.436171875,9.5537109375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -21122,197 +22626,161 @@ where [refTable].[Year] = ?</property>
     design-time-name="Package\Load Player Info">
     <LayoutInfo>
       <GraphLayout
-        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="64" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="106.4,41.6"
+          Id="Package\Load Player Info\Sort 3"
+          TopLeft="437.142858243718,412.011766372698" />
+        <NodeLayout
+          Size="184,41.6"
+          Id="Package\Load Player Info\Convert to latin letters"
+          TopLeft="177.71428980511,405.188235915068" />
         <NodeLayout
           Size="140,41.6"
           Id="Package\Load Player Info\CommonInfo"
-          TopLeft="642.839002727037,230.71802054355" />
+          TopLeft="610.839003203874,324.718019142841" />
         <NodeLayout
           Size="158.4,41.6"
           Id="Package\Load Player Info\PlayerCareerInfo"
           TopLeft="193.832199842023,33.0672268828085" />
         <NodeLayout
-          Size="120,41.6"
-          Id="Package\Load Player Info\Multicast"
-          TopLeft="895.634922541491,552.477123856126" />
-        <NodeLayout
-          Size="107.2,41.6"
-          Id="Package\Load Player Info\Sort 2"
-          TopLeft="655.94331130674,348.312791750674" />
-        <EdgeLayout
-          Id="Package\Load Player Info.Paths[Flat File Source Output]"
-          TopLeft="711.191157016889,272.31802054355">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,75.9947712071239"
-              Start="0,0"
-              End="0,68.4947712071239">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,68.4947712071239" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="156.8,41.6"
-          Id="Package\Load Player Info\Player Directrory"
-          TopLeft="462.857143842444,195.482352900959" />
-        <NodeLayout
-          Size="106.4,41.6"
-          Id="Package\Load Player Info\Sort 1"
-          TopLeft="383.571429387951,283.705882104262" />
-        <EdgeLayout
-          Id="Package\Load Player Info.Paths[Flat File Source Output1]"
-          TopLeft="541.257143842443,237.082352900959">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-104.485714454493,46.6235292033031"
-              Start="0,0"
-              End="-104.485714454493,39.1235292033031">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,19.3117646016515" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,19.3117646016515"
-                    Point2="0,23.3117646016515"
-                    Point3="-4,23.3117646016515" />
-                  <mssgle:LineSegment
-                    End="-100.485714454493,23.3117646016515" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-100.485714454493,23.3117646016515"
-                    Point2="-104.485714454493,23.3117646016515"
-                    Point3="-104.485714454493,27.3117646016515" />
-                  <mssgle:LineSegment
-                    End="-104.485714454493,39.1235292033031" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="155.2,41.6"
-          Id="Package\Load Player Info\Data Conversion"
-          TopLeft="195.000000415104,118.52941166081" />
-        <EdgeLayout
-          Id="Package\Load Player Info.Paths[Flat File Source Output2]"
-          TopLeft="272.816100128563,74.6672268828085">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,43.8621847780017"
-              Start="0,0"
-              End="0,36.3621847780017">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,36.3621847780017" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="220,41.6"
-          Id="Package\Load Player Info\At least 1 season with 3pt line"
-          TopLeft="167.857143214466,236.294117439938" />
-        <EdgeLayout
-          Id="Package\Load Player Info.Paths[Data Conversion Output]"
-          TopLeft="275.228571814785,160.12941166081">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,76.1647057791277"
-              Start="0,0"
-              End="0,68.6647057791277">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,68.6647057791277" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
+          Size="129.6,41.6"
+          Id="Package\Load Player Info\Merge Join"
+          TopLeft="304.714286550271,323.447061044112" />
         <NodeLayout
           Size="97.6,41.6"
           Id="Package\Load Player Info\Sort"
-          TopLeft="232.857143352835,336.470587940365" />
+          TopLeft="227.857143427341,247.470589266568" />
+        <NodeLayout
+          Size="138.4,41.6"
+          Id="Package\Load Player Info\Merge Join 1"
+          TopLeft="495.142861551775,507.352940998223" />
+        <NodeLayout
+          Size="106.4,41.6"
+          Id="Package\Load Player Info\Sort 1"
+          TopLeft="391.571429268742,239.705882759913" />
+        <NodeLayout
+          Size="107.2,41.6"
+          Id="Package\Load Player Info\Sort 2"
+          TopLeft="600.943312126304,411.312790811901" />
+        <NodeLayout
+          Size="155.2,41.6"
+          Id="Package\Load Player Info\Data Conversion"
+          TopLeft="194.000000430005,85.5294121525483" />
+        <NodeLayout
+          Size="220,41.6"
+          Id="Package\Load Player Info\At least 1 season with 3pt line"
+          TopLeft="168.857143199565,156.294118632031" />
+        <NodeLayout
+          Size="156.8,41.6"
+          Id="Package\Load Player Info\Player Directrory"
+          TopLeft="433.857144274578,150.482353571511" />
         <EdgeLayout
-          Id="Package\Load Player Info.Paths[Case1]"
-          TopLeft="279.757143283651,277.894117439938">
+          Id="Package\Load Player Info.Paths[Data Conversion Output]"
+          TopLeft="275.228571814785,127.129412152548">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,58.5764705004267"
+              EndConnector="0,29.1647064794825"
               Start="0,0"
-              End="0,51.0764705004267">
+              End="0,21.6647064794825">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,51.0764705004267" />
+                    End="0,21.6647064794825" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load Player Info.Paths[Case1]"
+          TopLeft="277.757143313453,197.894118632031">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,49.5764706345375"
+              Start="0,0"
+              End="0,42.0764706345375">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,42.0764706345375" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-13.6530859375,20.7613797814633,27.306171875,9.5537109375"
+              BoundingBox="-13.6530859375,16.2613798485187,27.306171875,9.5537109375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="129.6,41.6"
-          Id="Package\Load Player Info\Merge Join"
-          TopLeft="315.714286386358,500.447058406606" />
         <EdgeLayout
-          Id="Package\Load Player Info.Paths[Sort Output]"
-          TopLeft="281.657143352835,378.070587940365">
+          Id="Package\Load Player Info.Paths[Sort Output3]"
+          TopLeft="654.543312126304,452.912790811901">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="68.4571430335236,122.376470466242"
+              EndConnector="-68.4671172411958,54.4401501863225"
               Start="0,0"
-              End="68.4571430335236,114.876470466242">
+              End="-68.4671172411958,46.9401501863225">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,75.9394686110128" />
+                    End="0,28.2907862248016" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,75.9394686110128"
-                    Point2="0,79.9394686110128"
-                    Point3="4,79.9394686110128" />
+                    Point1="0,28.2907862248016"
+                    Point2="0,32.2907862248016"
+                    Point3="-4,32.2907862248016" />
                   <mssgle:LineSegment
-                    End="64.4571430335236,79.9394686110128" />
+                    End="-64.4671172411958,32.2907862248016" />
                   <mssgle:CubicBezierSegment
-                    Point1="64.4571430335236,79.9394686110128"
-                    Point2="68.4571430335236,79.9394686110128"
-                    Point3="68.4571430335236,83.9394686110128" />
+                    Point1="-64.4671172411958,32.2907862248016"
+                    Point2="-68.4671172411958,32.2907862248016"
+                    Point3="-68.4671172411958,36.2907862248016" />
                   <mssgle:LineSegment
-                    End="68.4571430335236,114.876470466242" />
+                    End="-68.4671172411958,46.9401501863225" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load Player Info.Paths[Sort Output2]"
+          TopLeft="490.342858243718,453.611766372698">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="52.2666699747237,53.741174625525"
+              Start="0,0"
+              End="52.2666699747237,46.241174625525">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,27.8761938635971" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,27.8761938635971"
+                    Point2="0,31.8761938635971"
+                    Point3="4,31.8761938635971" />
+                  <mssgle:LineSegment
+                    End="48.2666699747237,31.8761938635971" />
+                  <mssgle:CubicBezierSegment
+                    Point1="48.2666699747237,31.8761938635971"
+                    Point2="52.2666699747237,31.8761938635971"
+                    Point3="52.2666699747237,35.8761938635971" />
+                  <mssgle:LineSegment
+                    End="52.2666699747237,46.241174625525" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -21323,30 +22791,30 @@ where [refTable].[Year] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Load Player Info.Paths[Sort Output1]"
-          TopLeft="436.771429387951,325.305882104262">
+          TopLeft="444.771429268742,281.305882759913">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-56.2571430015928,175.141176302344"
+              EndConnector="-54.9904760518042,42.1411782841984"
               Start="0,0"
-              End="-56.2571430015928,167.641176302344">
+              End="-54.9904760518042,34.6411782841984">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,83.5705881511722" />
+                    End="0,20.9763568855127" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,83.5705881511722"
-                    Point2="0,87.5705881511722"
-                    Point3="-4,87.5705881511722" />
+                    Point1="0,20.9763568855127"
+                    Point2="0,24.9763568855127"
+                    Point3="-4,24.9763568855127" />
                   <mssgle:LineSegment
-                    End="-52.2571430015928,87.5705881511722" />
+                    End="-50.9904760518042,24.9763568855127" />
                   <mssgle:CubicBezierSegment
-                    Point1="-52.2571430015928,87.5705881511722"
-                    Point2="-56.2571430015928,87.5705881511722"
-                    Point3="-56.2571430015928,91.5705881511722" />
+                    Point1="-50.9904760518042,24.9763568855127"
+                    Point2="-54.9904760518042,24.9763568855127"
+                    Point3="-54.9904760518042,28.9763568855127" />
                   <mssgle:LineSegment
-                    End="-56.2571430015928,167.641176302344" />
+                    End="-54.9904760518042,34.6411782841984" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -21355,30 +22823,32 @@ where [refTable].[Year] = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="184,41.6"
-          Id="Package\Load Player Info\Convert to latin letters"
-          TopLeft="395.714286556657,463.188235050801" />
         <EdgeLayout
-          Id="Package\Load Player Info.Paths[Merge Join Output]"
-          TopLeft="410.914286386358,500.447058406606">
+          Id="Package\Load Player Info.Paths[Sort Output]"
+          TopLeft="276.657143427341,289.070589266568">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-15.1999998297012,-16.4588233558057"
+              EndConnector="72.5904764562633,34.3764717775432"
               Start="0,0"
-              End="-7.6999998297012,-16.4588233558057">
+              End="72.5904764562633,26.8764717775432">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,-12.4588233558057" />
+                    End="0,16.374347907178" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,-12.4588233558057"
-                    Point2="0,-16.4588233558057"
-                    Point3="-4,-16.4588233558057" />
+                    Point1="0,16.374347907178"
+                    Point2="0,20.374347907178"
+                    Point3="4,20.374347907178" />
                   <mssgle:LineSegment
-                    End="-7.6999998297012,-16.4588233558057" />
+                    End="68.5904764562633,20.374347907178" />
+                  <mssgle:CubicBezierSegment
+                    Point1="68.5904764562633,20.374347907178"
+                    Point2="72.5904764562633,20.374347907178"
+                    Point3="72.5904764562633,24.374347907178" />
+                  <mssgle:LineSegment
+                    End="72.5904764562633,26.8764717775432" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -21387,36 +22857,156 @@ where [refTable].[Year] = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="106.4,41.6"
-          Id="Package\Load Player Info\Sort 3"
-          TopLeft="447.142858094706,545.011764390844" />
         <EdgeLayout
           Id="Package\Load Player Info.Paths[Output 0]"
-          TopLeft="487.714286556657,504.788235050801">
+          TopLeft="361.71428980511,429.400001143883">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="12.6285715380492,40.2235293400435"
+              EndConnector="75.4285684386077,0"
               Start="0,0"
-              End="12.6285715380492,32.7235293400435">
+              End="67.9285684386077,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,16.1117646700218" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,16.1117646700218"
-                    Point2="0,20.1117646700218"
-                    Point3="4,20.1117646700218" />
+                    End="67.9285684386077,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load Player Info.Paths[Merge Join Output]"
+          TopLeft="369.514286550271,365.047061044112">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-99.7999967451606,40.1411748709567"
+              Start="0,0"
+              End="-99.7999967451606,32.6411748709567">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
                   <mssgle:LineSegment
-                    End="8.62857153804924,20.1117646700218" />
+                    End="0,16.0705874354783" />
                   <mssgle:CubicBezierSegment
-                    Point1="8.62857153804924,20.1117646700218"
-                    Point2="12.6285715380492,20.1117646700218"
-                    Point3="12.6285715380492,24.1117646700218" />
+                    Point1="0,16.0705874354783"
+                    Point2="0,20.0705874354783"
+                    Point3="-4,20.0705874354783" />
                   <mssgle:LineSegment
-                    End="12.6285715380492,32.7235293400435" />
+                    End="-95.7999967451606,20.0705874354783" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-95.7999967451606,20.0705874354783"
+                    Point2="-99.7999967451606,20.0705874354783"
+                    Point3="-99.7999967451606,24.0705874354783" />
+                  <mssgle:LineSegment
+                    End="-99.7999967451606,32.6411748709567" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load Player Info.Paths[Flat File Source Output2]"
+          TopLeft="352.232199842023,53.8672268828085">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-3.0321994120178,52.4621852697398"
+              Start="0,0"
+              End="4.4678005879822,52.4621852697398">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="18.5,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="18.5,0"
+                    Point2="22.5,0"
+                    Point3="22.5,4" />
+                  <mssgle:LineSegment
+                    End="22.5,48.4621852697398" />
+                  <mssgle:CubicBezierSegment
+                    Point1="22.5,48.4621852697398"
+                    Point2="22.5,52.4621852697398"
+                    Point3="18.5,52.4621852697398" />
+                  <mssgle:LineSegment
+                    End="4.4678005879822,52.4621852697398" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load Player Info.Paths[Flat File Source Output1]"
+          TopLeft="512.257144274578,192.082353571511">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-67.485715005836,47.6235291884019"
+              Start="0,0"
+              End="-67.485715005836,40.1235291884019">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,19.8117645942009" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,19.8117645942009"
+                    Point2="0,23.8117645942009"
+                    Point3="-4,23.8117645942009" />
+                  <mssgle:LineSegment
+                    End="-63.485715005836,23.8117645942009" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-63.485715005836,23.8117645942009"
+                    Point2="-67.485715005836,23.8117645942009"
+                    Point3="-67.485715005836,27.8117645942009" />
+                  <mssgle:LineSegment
+                    End="-67.485715005836,40.1235291884019" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Load Player Info.Paths[Flat File Source Output]"
+          TopLeft="680.839003203874,366.318019142841">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-26.2956910775704,44.99477166906"
+              Start="0,0"
+              End="-26.2956910775704,37.49477166906">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,18.49738583453" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,18.49738583453"
+                    Point2="0,22.49738583453"
+                    Point3="-4,22.49738583453" />
+                  <mssgle:LineSegment
+                    End="-22.2956910775704,22.49738583453" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-22.2956910775704,22.49738583453"
+                    Point2="-26.2956910775704,22.49738583453"
+                    Point3="-26.2956910775704,26.49738583453" />
+                  <mssgle:LineSegment
+                    End="-26.2956910775704,37.49477166906" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -21426,111 +23016,227 @@ where [refTable].[Year] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <NodeLayout
-          Size="138.4,41.6"
-          Id="Package\Load Player Info\Merge Join 1"
-          TopLeft="692.142858616246,516.352940864113" />
-        <EdgeLayout
-          Id="Package\Load Player Info.Paths[Sort Output2]"
-          TopLeft="553.542858094706,565.811764390844">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="138.600000521541,-28.6588235267308"
-              Start="0,0"
-              End="131.100000521541,-28.6588235267308">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="65.3000002607704,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="65.3000002607704,0"
-                    Point2="69.3000002607704,0"
-                    Point3="69.3000002607704,-4" />
-                  <mssgle:LineSegment
-                    End="69.3000002607704,-24.6588235267308" />
-                  <mssgle:CubicBezierSegment
-                    Point1="69.3000002607704,-24.6588235267308"
-                    Point2="69.3000002607704,-28.6588235267308"
-                    Point3="73.3000002607704,-28.6588235267308" />
-                  <mssgle:LineSegment
-                    End="131.100000521541,-28.6588235267308" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Load Player Info.Paths[Sort Output3]"
-          TopLeft="709.54331130674,389.912791750674">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="51.7995473095064,126.44014911344"
-              Start="0,0"
-              End="51.7995473095064,118.94014911344">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,59.2200745567199" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,59.2200745567199"
-                    Point2="0,63.2200745567199"
-                    Point3="4,63.2200745567199" />
-                  <mssgle:LineSegment
-                    End="47.7995473095064,63.2200745567199" />
-                  <mssgle:CubicBezierSegment
-                    Point1="47.7995473095064,63.2200745567199"
-                    Point2="51.7995473095064,63.2200745567199"
-                    Point3="51.7995473095064,67.2200745567199" />
-                  <mssgle:LineSegment
-                    End="51.7995473095064,118.94014911344" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
+          Size="164.8,41.6"
+          Id="Package\Load Player Info\Data Conversion 1"
+          TopLeft="197.99999704957,500.799996423721" />
         <EdgeLayout
           Id="Package\Load Player Info.Paths[Merge Join Output1]"
-          TopLeft="830.542858616246,537.152940864113">
+          TopLeft="495.142861551775,524.876468710972">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="65.0920639252447,36.1241829920124"
+              EndConnector="-132.342864502205,0"
               Start="0,0"
-              End="57.5920639252447,36.1241829920124">
+              End="-124.842864502205,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="28.5460319626224,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="28.5460319626224,0"
-                    Point2="32.5460319626224,0"
-                    Point3="32.5460319626224,4" />
+                    End="-124.842864502205,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="136.8,41.6"
+          Id="Package\Load Player Info\Lookup date"
+          TopLeft="207.999996900559,580.199994680285" />
+        <EdgeLayout
+          Id="Package\Load Player Info.Paths[Data Conversion Output1]"
+          TopLeft="278.399996975064,542.399996423721">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,37.7999982565641"
+              Start="0,0"
+              End="0,30.2999982565641">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
                   <mssgle:LineSegment
-                    End="32.5460319626224,32.1241829920124" />
-                  <mssgle:CubicBezierSegment
-                    Point1="32.5460319626224,32.1241829920124"
-                    Point2="32.5460319626224,36.1241829920124"
-                    Point3="36.5460319626224,36.1241829920124" />
+                    End="0,30.2999982565641" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="180.8,41.6"
+          Id="Package\Load Player Info\Lookup FirstSeasonID"
+          TopLeft="408.999993905425,594.999995544553" />
+        <EdgeLayout
+          Id="Package\Load Player Info.Paths[Lookup Match Output]"
+          TopLeft="344.799996900559,600.999994680285">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="64.1999970048666,14.8000008642674"
+              Start="0,0"
+              End="56.6999970048666,14.8000008642674">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
                   <mssgle:LineSegment
-                    End="57.5920639252447,36.1241829920124" />
+                    End="28.0999985024333,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="28.0999985024333,0"
+                    Point2="32.0999985024333,0"
+                    Point3="32.0999985024333,4" />
+                  <mssgle:LineSegment
+                    End="32.0999985024333,10.8000008642674" />
+                  <mssgle:CubicBezierSegment
+                    Point1="32.0999985024333,10.8000008642674"
+                    Point2="32.0999985024333,14.8000008642674"
+                    Point3="36.0999985024333,14.8000008642674" />
+                  <mssgle:LineSegment
+                    End="56.6999970048666,14.8000008642674" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="24.5460319626224,-22,16,16"
+              BoundingBox="-16.0913882163167,-17.609375,96.3827734375,11.609375"
               RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="180,41.6"
+          Id="Package\Load Player Info\Lookup LastSeasonID"
+          TopLeft="691.999989688397,582.399995946884" />
+        <EdgeLayout
+          Id="Package\Load Player Info.Paths[Lookup Match Output1]"
+          TopLeft="589.799993905425,615.799995544553">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="102.199995782971,-12.5999995976686"
+              Start="0,0"
+              End="94.6999957829714,-12.5999995976686">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="47.0999978914857,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="47.0999978914857,0"
+                    Point2="51.0999978914857,0"
+                    Point3="51.0999978914857,-4" />
+                  <mssgle:LineSegment
+                    End="51.0999978914857,-8.59999959766856" />
+                  <mssgle:CubicBezierSegment
+                    Point1="51.0999978914857,-8.59999959766856"
+                    Point2="51.0999978914857,-12.5999995976686"
+                    Point3="55.0999978914857,-12.5999995976686" />
+                  <mssgle:LineSegment
+                    End="94.6999957829714,-12.5999995976686" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="2.90861117273571,1,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="152.8,41.6"
+          Id="Package\Load Player Info\Derived Column"
+          TopLeft="648.999990329146,674.399994575977" />
+        <EdgeLayout
+          Id="Package\Load Player Info.Paths[Lookup Match Output2]"
+          TopLeft="781.999989688397,623.999995946884">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-56.5999993592502,50.3999986290931"
+              Start="0,0"
+              End="-56.5999993592502,42.8999986290931">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,21.1999993145466" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,21.1999993145466"
+                    Point2="0,25.1999993145466"
+                    Point3="-4,25.1999993145466" />
+                  <mssgle:LineSegment
+                    End="-52.5999993592502,25.1999993145466" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-52.5999993592502,25.1999993145466"
+                    Point2="-56.5999993592502,25.1999993145466"
+                    Point3="-56.5999993592502,29.1999993145466" />
+                  <mssgle:LineSegment
+                    End="-56.5999993592502,42.8999986290931" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-76.4913863983751,30.1999993145466,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="151.2,41.6"
+          Id="Package\Load Player Info\GetFull Position"
+          TopLeft="926.999986186624,680.399995678663" />
+        <EdgeLayout
+          Id="Package\Load Player Info.Paths[Derived Column Output]"
+          TopLeft="801.799990329147,698.19999512732">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="125.199995857477,0"
+              Start="0,0"
+              End="117.699995857477,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="117.699995857477,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="170.4,41.6"
+          Id="Package\Load Player Info\OLE DB Destination"
+          TopLeft="1161.99998268485,682.999995723367" />
+        <EdgeLayout
+          Id="Package\Load Player Info.Paths[Derived Column Output1]"
+          TopLeft="1078.19998618662,702.499995701015">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="83.7999964982271,0"
+              Start="0,0"
+              End="76.2999964982271,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="76.2999964982271,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -21542,45 +23248,45 @@ where [refTable].[Year] = ?</property>
       <GraphLayout
         Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="142.4,41.6"
-          Id="Package\Load Team Info\Team History"
-          TopLeft="371,104" />
+          Size="156,41.6"
+          Id="Package\Load Team Info\Data Conversion"
+          TopLeft="235,468" />
         <NodeLayout
           Size="171.2,41.6"
           Id="Package\Load Team Info\OLE DB Destination"
           TopLeft="519,743" />
         <NodeLayout
-          Size="153.6,41.6"
-          Id="Package\Load Team Info\Derived Column"
-          TopLeft="226,329" />
+          Size="104.8,41.6"
+          Id="Package\Load Team Info\Team"
+          TopLeft="583,121" />
         <NodeLayout
           Size="97.6,41.6"
           Id="Package\Load Team Info\Sort"
           TopLeft="399,174" />
         <NodeLayout
+          Size="180.8,41.6"
+          Id="Package\Load Team Info\Lookup FirstSeasonID"
+          TopLeft="251,545" />
+        <NodeLayout
           Size="155.2,41.6"
           Id="Package\Load Team Info\Conditional Split"
           TopLeft="239,411" />
         <NodeLayout
-          Size="104.8,41.6"
-          Id="Package\Load Team Info\Team"
-          TopLeft="583,121" />
+          Size="142.4,41.6"
+          Id="Package\Load Team Info\Team History"
+          TopLeft="371,104" />
         <NodeLayout
           Size="107.2,41.6"
           Id="Package\Load Team Info\Sort 1"
           TopLeft="575,224" />
         <NodeLayout
-          Size="180.8,41.6"
-          Id="Package\Load Team Info\Lookup FirstSeasonID"
-          TopLeft="251,545" />
-        <NodeLayout
           Size="180,41.6"
           Id="Package\Load Team Info\Lookup LastSeasonID"
           TopLeft="250,652" />
         <NodeLayout
-          Size="156,41.6"
-          Id="Package\Load Team Info\Data Conversion"
-          TopLeft="235,468" />
+          Size="153.6,41.6"
+          Id="Package\Load Team Info\Derived Column"
+          TopLeft="226,329" />
         <NodeLayout
           Size="156,41.6"
           Id="Package\Load Team Info\Fixing datatypes"
@@ -21735,7 +23441,7 @@ where [refTable].[Year] = ?</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,30.1453121349215,96.3827734375,11.609375"
+              BoundingBox="-57.0600390625,27.9499996349215,114.120078125,16"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -21989,63 +23695,63 @@ where [refTable].[Year] = ?</property>
       <GraphLayout
         Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="173,42"
+          Size="172.8,41.6"
           Id="Package\Populate Awards\EndOfSeasonTeams"
           TopLeft="462,97" />
         <NodeLayout
-          Size="157,42"
+          Size="156.8,41.6"
           Id="Package\Populate Awards\AwardID Lookup"
           TopLeft="224,608" />
         <NodeLayout
-          Size="171,42"
+          Size="170.4,41.6"
           Id="Package\Populate Awards\OLE DB Destination"
           TopLeft="389,717" />
         <NodeLayout
-          Size="164,42"
+          Size="164,41.6"
           Id="Package\Populate Awards\Conditional Split 1"
           TopLeft="480,619" />
         <NodeLayout
-          Size="169,42"
+          Size="168.8,41.6"
           Id="Package\Populate Awards\PlayerAwardShares"
           TopLeft="240,45" />
         <NodeLayout
-          Size="156,42"
+          Size="156,41.6"
           Id="Package\Populate Awards\PlayerID Lookup"
           TopLeft="392,523" />
         <NodeLayout
-          Size="121,42"
+          Size="120.8,41.6"
           Id="Package\Populate Awards\Union All"
           TopLeft="285,312" />
         <NodeLayout
-          Size="155,42"
+          Size="155.2,41.6"
           Id="Package\Populate Awards\Conditional Split"
           TopLeft="249,128" />
         <NodeLayout
-          Size="163,42"
+          Size="163.2,41.6"
           Id="Package\Populate Awards\Derived Column 1"
           TopLeft="249,208" />
         <NodeLayout
-          Size="202,42"
+          Size="201.6,41.6"
           Id="Package\Populate Awards\Only seasons with 3pt line"
           TopLeft="258,459" />
         <NodeLayout
-          Size="204,42"
+          Size="204,41.6"
           Id="Package\Populate Awards\Preparing data for lookups"
           TopLeft="246,390" />
         <NodeLayout
-          Size="163,42"
+          Size="163.2,41.6"
           Id="Package\Populate Awards\Derived Column 2"
           TopLeft="33,194" />
         <NodeLayout
-          Size="154,42"
+          Size="153.6,41.6"
           Id="Package\Populate Awards\Derived Column"
           TopLeft="462,195" />
         <NodeLayout
-          Size="156,42"
+          Size="156,41.6"
           Id="Package\Populate Awards\AllStarSelections"
           TopLeft="43,116" />
         <NodeLayout
-          Size="150,42"
+          Size="150.4,41.6"
           Id="Package\Populate Awards\Season Lookup"
           TopLeft="70,529" />
         <EdgeLayout
@@ -22067,9 +23773,7 @@ where [refTable].[Year] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -22199,9 +23903,7 @@ where [refTable].[Year] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -22235,9 +23937,7 @@ where [refTable].[Year] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -22259,9 +23959,7 @@ where [refTable].[Year] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -22295,9 +23993,7 @@ where [refTable].[Year] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -22331,9 +24027,7 @@ where [refTable].[Year] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -22367,9 +24061,7 @@ where [refTable].[Year] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -22403,9 +24095,7 @@ where [refTable].[Year] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -22446,37 +24136,37 @@ where [refTable].[Year] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Populate Awards.Paths[Case 11]"
-          TopLeft="562,661">
+          TopLeft="562,660.6">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-87.5,56"
+              EndConnector="-87.8,56.4"
               Start="0,0"
-              End="-87.5,48.5">
+              End="-87.8,48.9">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,24" />
+                    End="0,24.2" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,24"
-                    Point2="0,28"
-                    Point3="-4,28" />
+                    Point1="0,24.2"
+                    Point2="0,28.2"
+                    Point3="-4,28.2" />
                   <mssgle:LineSegment
-                    End="-83.5,28" />
+                    End="-83.8,28.2" />
                   <mssgle:CubicBezierSegment
-                    Point1="-83.5,28"
-                    Point2="-87.5,28"
-                    Point3="-87.5,32" />
+                    Point1="-83.8,28.2"
+                    Point2="-87.8,28.2"
+                    Point3="-87.8,32.2" />
                   <mssgle:LineSegment
-                    End="-87.5,48.5" />
+                    End="-87.8,48.9" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-58.9680859375,33,30.436171875,9.5537109375"
+              BoundingBox="-59.1180859375,33.2,30.436171875,9.5537109375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -22586,6 +24276,88 @@ where [refTable].[Year] = ?</property>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load Player Info\Lookup date">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:boolean">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[dimDate]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:int">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load Player Info\Lookup FirstSeasonID">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:boolean">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[dimSeason]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:int">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load Player Info\Lookup LastSeasonID">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:boolean">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[dimSeason]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:int">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Load Player Info\OLE DB Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
