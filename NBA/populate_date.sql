@@ -1,3 +1,5 @@
+use NBA;
+
 -- Declare date range
 DECLARE @StartDate DATE = '1900-01-01';
 DECLARE @EndDate DATE = '2025-12-31';
