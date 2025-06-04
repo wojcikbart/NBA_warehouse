@@ -1,2 +1,2 @@
-DELETE FROM dimPlayerInfo;
-DBCC CHECKIDENT ('dimPlayerInfo', RESEED, 0);
+DELETE FROM FactPlayerSeason;
+DBCC CHECKIDENT ('FactPlayerSeason', RESEED, 0);

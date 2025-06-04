@@ -13,5 +13,5 @@ SELECT
     fps.WinShares
 FROM dbo.FactPlayerSeason fps
 JOIN dbo.dimPlayerInfo p ON fps.PlayerID = p.PlayerID
-WHERE p.LatinName='Luka Doncic'  -- dla Donèiæ mo¿esz daæ LIKE, jeœli jest problem z znakami
+WHERE p.LatinName='Luka Doncic' 
 ORDER BY fps.SeasonID;
