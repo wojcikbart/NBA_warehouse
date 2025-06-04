@@ -11,8 +11,8 @@
   DTS:LocaleID="2057"
   DTS:ObjectName="ETL"
   DTS:PackageType="5"
-  DTS:VersionBuild="539"
-  DTS:VersionGUID="{A36F67F2-8B64-4A59-9456-FFEDB10187C8}">
+  DTS:VersionBuild="545"
+  DTS:VersionGUID="{2125D2A5-F50E-48CE-A9FD-AD5B3734548B}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -29826,7 +29826,7 @@ where [refTable].[DateTime] = ?</property>
                   expressionType="Notify"
                   name="SqlCommandParam"
                   UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=16.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">select * from (select * from [dbo].[dimGame]) [refTable]
-where [refTable].[SeasonID] = ? and [refTable].[GameDateID] = ? and [refTable].[AwayTeamID] = ? and [refTable].[HomeTeamID] = ?</property>
+where [refTable].[GameDateID] = ? and [refTable].[AwayTeamID] = ? and [refTable].[HomeTeamID] = ?</property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the type of connection used to access the reference dataset."
@@ -29862,7 +29862,7 @@ where [refTable].[SeasonID] = ? and [refTable].[GameDateID] = ? and [refTable].[
                   containsID="true"
                   dataType="System.String"
                   description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
-                  name="ParameterMap">#{Package\FactTeamGameStats\dimSeason.Outputs[Lookup Match Output].Columns[SeasonID]};#{Package\FactTeamGameStats\dimDate.Outputs[Lookup Match Output].Columns[DateID]};#{Package\FactTeamGameStats\dimTeam - AwayTeamID.Outputs[Lookup Match Output].Columns[AwayTeamID]};#{Package\FactTeamGameStats\dimTeam - HomeTeamID.Outputs[Lookup Match Output].Columns[HomeTeamID]};</property>
+                  name="ParameterMap">#{Package\FactTeamGameStats\dimDate.Outputs[Lookup Match Output].Columns[DateID]};#{Package\FactTeamGameStats\dimTeam - AwayTeamID.Outputs[Lookup Match Output].Columns[AwayTeamID]};#{Package\FactTeamGameStats\dimTeam - HomeTeamID.Outputs[Lookup Match Output].Columns[HomeTeamID]};</property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -29885,22 +29885,6 @@ where [refTable].[SeasonID] = ? and [refTable].[GameDateID] = ? and [refTable].[
                   refId="Package\FactTeamGameStats\dimGame.Inputs[Lookup Input]"
                   name="Lookup Input">
                   <inputColumns>
-                    <inputColumn
-                      refId="Package\FactTeamGameStats\dimGame.Inputs[Lookup Input].Columns[SeasonID]"
-                      cachedDataType="i8"
-                      cachedName="SeasonID"
-                      lineageId="Package\FactTeamGameStats\dimSeason.Outputs[Lookup Match Output].Columns[SeasonID]">
-                      <properties>
-                        <property
-                          dataType="System.String"
-                          description="Specifies the column in the reference table that a column joins."
-                          name="JoinToReferenceColumn">SeasonID</property>
-                        <property
-                          dataType="System.Null"
-                          description="Specifies the column in the reference table from which a column is copied."
-                          name="CopyFromReferenceColumn" />
-                      </properties>
-                    </inputColumn>
                     <inputColumn
                       refId="Package\FactTeamGameStats\dimGame.Inputs[Lookup Input].Columns[DateID]"
                       cachedDataType="i4"
@@ -32481,6 +32465,30 @@ where [refTable].[TeamName] = ?</property>
               </outputs>
             </component>
             <component
+              refId="Package\FactTeamGameStats\Multicast"
+              componentClassID="Microsoft.Multicast"
+              contactInfo="Multicast;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Distributes every input row to every row in one or more outputs. For example, branch your data flow to make a copy of data so that some values can be masked before sharing with external partners."
+              name="Multicast">
+              <inputs>
+                <input
+                  refId="Package\FactTeamGameStats\Multicast.Inputs[Multicast Input 1]"
+                  name="Multicast Input 1">
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\FactTeamGameStats\Multicast.Outputs[Multicast Output 1]"
+                  dangling="true"
+                  deleteOutputOnPathDetached="true"
+                  name="Multicast Output 1"
+                  synchronousInputId="Package\FactTeamGameStats\Multicast.Inputs[Multicast Input 1]">
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
               refId="Package\FactTeamGameStats\trim date"
               componentClassID="Microsoft.ConditionalSplit"
               contactInfo="Conditional Split;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
@@ -33605,6 +33613,11 @@ where [refTable].[TeamName] = ?</property>
               endId="Package\FactTeamGameStats\Derived Column 2.Inputs[Derived Column Input]"
               name="Lookup Match Output"
               startId="Package\FactTeamGameStats\dimGame.Outputs[Lookup Match Output]" />
+            <path
+              refId="Package\FactTeamGameStats.Paths[Lookup No Match Output]"
+              endId="Package\FactTeamGameStats\Multicast.Inputs[Multicast Input 1]"
+              name="Lookup No Match Output"
+              startId="Package\FactTeamGameStats\dimTeam - TeamID.Outputs[Lookup No Match Output]" />
             <path
               refId="Package\FactTeamGameStats.Paths[Union All Output 1]"
               endId="Package\FactTeamGameStats\datetime.Inputs[Data Conversion Input]"
@@ -46267,7 +46280,7 @@ where [refTable].[Year] = ?</property>
     design-time-name="Package\FactTeamGameStats">
     <LayoutInfo>
       <GraphLayout
-        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="64" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="141.6,41.6"
           Id="Package\FactTeamGameStats\Game - Away"
@@ -46315,9 +46328,7 @@ where [refTable].[Year] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-30.3178059895833,6.83984946277519,60.6356119791667,9.5732421875"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -46339,9 +46350,7 @@ where [refTable].[Year] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-27.9320442708333,10.178142198807,55.8640885416667,9.6025390625"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -46363,9 +46372,7 @@ where [refTable].[Year] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-27.9320442708333,11.913436314933,55.8640885416667,9.6025390625"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -46399,9 +46406,7 @@ where [refTable].[Year] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-83.5943154488983,29.4783281303279,55.8640885416667,9.6025390625"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -46435,9 +46440,7 @@ where [refTable].[Year] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="34.4723514838607,26.2588234925456,55.8640885416667,9.6025390625"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -46459,9 +46462,7 @@ where [refTable].[Year] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-30.3178059895833,5.91337887776226,60.6356119791667,9.5732421875"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <NodeLayout
@@ -46488,7 +46489,7 @@ where [refTable].[Year] = ?</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-50.7142578125,6.66001834749773,101.428515625,11.609375"
+              BoundingBox="-15.2180859375,7.68785037874773,30.436171875,9.5537109375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -46515,39 +46516,13 @@ where [refTable].[Year] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-30.3178059895833,2.76637749942125,60.6356119791667,9.6025390625"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <NodeLayout
           Size="129.6,41.6"
           Id="Package\FactTeamGameStats\dimSeason"
           TopLeft="388.571429398595,576.988234811506" />
-        <EdgeLayout
-          Id="Package\FactTeamGameStats.Paths[Data Conversion Output1]"
-          TopLeft="452.700000814242,548.599999555595">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,28.3882352559108"
-              Start="0,0"
-              End="0,20.8882352559108">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,20.8882352559108" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-30.3178059895833,5.64284809670539,60.6356119791667,9.6025390625"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
         <NodeLayout
           Size="117.6,41.6"
           Id="Package\FactTeamGameStats\dimDate"
@@ -46572,7 +46547,7 @@ where [refTable].[Year] = ?</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-83.2750716145833,5.23354780149089,166.550143229167,11.609375"
+              BoundingBox="-48.19138671875,5.23354780149089,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -46600,7 +46575,7 @@ where [refTable].[Year] = ?</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-83.2750716145833,11.339430133653,166.550143229167,11.609375"
+              BoundingBox="-48.19138671875,11.339430133653,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -46628,7 +46603,7 @@ where [refTable].[Year] = ?</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-80.5450716145833,4.88648904733702,161.090143229167,11.609375"
+              BoundingBox="-48.19138671875,4.88648904733702,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -46656,7 +46631,7 @@ where [refTable].[Year] = ?</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-80.5450716145833,13.4982535977109,161.090143229167,11.609375"
+              BoundingBox="-48.19138671875,13.4982535977109,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -46684,7 +46659,7 @@ where [refTable].[Year] = ?</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-80.5450716145833,10.2041360324281,161.090143229167,11.609375"
+              BoundingBox="-48.19138671875,10.2041360324281,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -46712,7 +46687,57 @@ where [refTable].[Year] = ?</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-89.4137239583333,4.79117647326939,178.827447916667,16"
+              BoundingBox="-48.19138671875,6.98648897326939,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="120,54.4"
+          Id="Package\FactTeamGameStats\Multicast"
+          TopLeft="86.5259742101651,729.032085463695" />
+        <EdgeLayout
+          Id="Package\FactTeamGameStats.Paths[Data Conversion Output1]"
+          TopLeft="452.700000814242,548.599999555595">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,28.3882352559108"
+              Start="0,0"
+              End="0,20.8882352559108">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,20.8882352559108" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\FactTeamGameStats.Paths[Lookup No Match Output]"
+          TopLeft="373.571429366664,754.292513072744">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-167.045455156499,0"
+              Start="0,0"
+              End="-159.545455156499,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="-159.545455156499,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-144.447766640749,5,129.350078125,16"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
