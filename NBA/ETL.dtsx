@@ -11,8 +11,8 @@
   DTS:LocaleID="2057"
   DTS:ObjectName="ETL"
   DTS:PackageType="5"
-  DTS:VersionBuild="586"
-  DTS:VersionGUID="{242D9BF7-1778-4695-A68A-2C4ABF953CDB}">
+  DTS:VersionBuild="603"
+  DTS:VersionGUID="{2DBF8E42-E977-49BB-B5A6-E68256B7DBF8}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -41220,6 +41220,146 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
                       externalMetadataColumnId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[AverageAge]"
                       lineageId="Package\FactTeamSeason\Sort 2.Outputs[Sort Output].Columns[Copy of AverageAge]" />
                     <inputColumn
+                      refId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Games]"
+                      cachedDataType="i2"
+                      cachedName="Games"
+                      externalMetadataColumnId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[GamesPlayed]"
+                      lineageId="Package\FactTeamSeason\Sort 2.Outputs[Sort Output].Columns[Games]" />
+                    <inputColumn
+                      refId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Data Conversion.AvereageAttendance]"
+                      cachedDataType="i4"
+                      cachedName="Data Conversion.AvereageAttendance"
+                      externalMetadataColumnId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[AverageAttendance]"
+                      lineageId="Package\FactTeamSeason\Sort 2.Outputs[Sort Output].Columns[Data Conversion.AvereageAttendance]" />
+                    <inputColumn
+                      refId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Data Conversion.NetRating]"
+                      cachedDataType="numeric"
+                      cachedName="Data Conversion.NetRating"
+                      cachedPrecision="5"
+                      cachedScale="1"
+                      externalMetadataColumnId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[NetRating]"
+                      lineageId="Package\FactTeamSeason\Sort 2.Outputs[Sort Output].Columns[Data Conversion.NetRating]" />
+                    <inputColumn
+                      refId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Copy of Pace]"
+                      cachedDataType="numeric"
+                      cachedName="Copy of Pace"
+                      cachedPrecision="5"
+                      cachedScale="1"
+                      externalMetadataColumnId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Pace]"
+                      lineageId="Package\FactTeamSeason\Sort 2.Outputs[Sort Output].Columns[Copy of Pace]" />
+                    <inputColumn
+                      refId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Data Conversion.DefensiveRating]"
+                      cachedDataType="numeric"
+                      cachedName="Data Conversion.DefensiveRating"
+                      cachedPrecision="5"
+                      cachedScale="1"
+                      externalMetadataColumnId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[DefensiveRating]"
+                      lineageId="Package\FactTeamSeason\Sort 2.Outputs[Sort Output].Columns[Data Conversion.DefensiveRating]" />
+                    <inputColumn
+                      refId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Data Conversion.OffensiveRating]"
+                      cachedDataType="numeric"
+                      cachedName="Data Conversion.OffensiveRating"
+                      cachedPrecision="5"
+                      cachedScale="1"
+                      externalMetadataColumnId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[OffensiveRating]"
+                      lineageId="Package\FactTeamSeason\Sort 2.Outputs[Sort Output].Columns[Data Conversion.OffensiveRating]" />
+                    <inputColumn
+                      refId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Data Conversion.Losses]"
+                      cachedDataType="i2"
+                      cachedName="Data Conversion.Losses"
+                      externalMetadataColumnId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Losses]"
+                      lineageId="Package\FactTeamSeason\Sort 2.Outputs[Sort Output].Columns[Data Conversion.Losses]" />
+                    <inputColumn
+                      refId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Data Conversion.Wins]"
+                      cachedDataType="i2"
+                      cachedName="Data Conversion.Wins"
+                      externalMetadataColumnId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Wins]"
+                      lineageId="Package\FactTeamSeason\Sort 2.Outputs[Sort Output].Columns[Data Conversion.Wins]" />
+                    <inputColumn
+                      refId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Data Conversion.PlayoffFlag]"
+                      cachedDataType="bool"
+                      cachedName="Data Conversion.PlayoffFlag"
+                      externalMetadataColumnId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Playoffs]"
+                      lineageId="Package\FactTeamSeason\Sort 2.Outputs[Sort Output].Columns[Data Conversion.PlayoffFlag]" />
+                    <inputColumn
+                      refId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Data Conversion.Turnovers]"
+                      cachedDataType="i2"
+                      cachedName="Data Conversion.Turnovers"
+                      externalMetadataColumnId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Turnovers]"
+                      lineageId="Package\FactTeamSeason\Sort 2.Outputs[Sort Output].Columns[Data Conversion.Turnovers]" />
+                    <inputColumn
+                      refId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Data Conversion.Blocks]"
+                      cachedDataType="i2"
+                      cachedName="Data Conversion.Blocks"
+                      externalMetadataColumnId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Blocks]"
+                      lineageId="Package\FactTeamSeason\Sort 2.Outputs[Sort Output].Columns[Data Conversion.Blocks]" />
+                    <inputColumn
+                      refId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Data Conversion.Fouls]"
+                      cachedDataType="i2"
+                      cachedName="Data Conversion.Fouls"
+                      externalMetadataColumnId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Fouls]"
+                      lineageId="Package\FactTeamSeason\Sort 2.Outputs[Sort Output].Columns[Data Conversion.Fouls]" />
+                    <inputColumn
+                      refId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Data Conversion.Steals]"
+                      cachedDataType="i2"
+                      cachedName="Data Conversion.Steals"
+                      externalMetadataColumnId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Steals]"
+                      lineageId="Package\FactTeamSeason\Sort 2.Outputs[Sort Output].Columns[Data Conversion.Steals]" />
+                    <inputColumn
+                      refId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Data Conversion.DefensiveRebounds]"
+                      cachedDataType="i2"
+                      cachedName="Data Conversion.DefensiveRebounds"
+                      externalMetadataColumnId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[DefensiveRebounds]"
+                      lineageId="Package\FactTeamSeason\Sort 2.Outputs[Sort Output].Columns[Data Conversion.DefensiveRebounds]" />
+                    <inputColumn
+                      refId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Data Conversion.OffensiveRebounds]"
+                      cachedDataType="i2"
+                      cachedName="Data Conversion.OffensiveRebounds"
+                      externalMetadataColumnId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[OffensiveRebounds]"
+                      lineageId="Package\FactTeamSeason\Sort 2.Outputs[Sort Output].Columns[Data Conversion.OffensiveRebounds]" />
+                    <inputColumn
+                      refId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Data Conversion.TotalRebounds]"
+                      cachedDataType="i2"
+                      cachedName="Data Conversion.TotalRebounds"
+                      externalMetadataColumnId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[TotalRebounds]"
+                      lineageId="Package\FactTeamSeason\Sort 2.Outputs[Sort Output].Columns[Data Conversion.TotalRebounds]" />
+                    <inputColumn
+                      refId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Data Conversion.Assists]"
+                      cachedDataType="i2"
+                      cachedName="Data Conversion.Assists"
+                      externalMetadataColumnId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Assists]"
+                      lineageId="Package\FactTeamSeason\Sort 2.Outputs[Sort Output].Columns[Data Conversion.Assists]" />
+                    <inputColumn
+                      refId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Data Conversion.Points]"
+                      cachedDataType="i2"
+                      cachedName="Data Conversion.Points"
+                      externalMetadataColumnId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Points]"
+                      lineageId="Package\FactTeamSeason\Sort 2.Outputs[Sort Output].Columns[Data Conversion.Points]" />
+                    <inputColumn
+                      refId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Data Conversion.PTPercentage]"
+                      cachedDataType="numeric"
+                      cachedName="Data Conversion.PTPercentage"
+                      cachedPrecision="5"
+                      cachedScale="3"
+                      externalMetadataColumnId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[3PTPercentage]"
+                      lineageId="Package\FactTeamSeason\Sort 2.Outputs[Sort Output].Columns[Data Conversion.PTPercentage]" />
+                    <inputColumn
+                      refId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Data Conversion.FGPercentage]"
+                      cachedDataType="numeric"
+                      cachedName="Data Conversion.FGPercentage"
+                      cachedPrecision="5"
+                      cachedScale="3"
+                      externalMetadataColumnId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[FGPercentage]"
+                      lineageId="Package\FactTeamSeason\Sort 2.Outputs[Sort Output].Columns[Data Conversion.FGPercentage]" />
+                    <inputColumn
+                      refId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Data Conversion.FTAPercentage]"
+                      cachedDataType="numeric"
+                      cachedName="Data Conversion.FTAPercentage"
+                      cachedPrecision="5"
+                      cachedScale="3"
+                      externalMetadataColumnId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[FTPercentage]"
+                      lineageId="Package\FactTeamSeason\Sort 2.Outputs[Sort Output].Columns[Data Conversion.FTAPercentage]" />
+                    <inputColumn
                       refId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Data Conversion.MinutesPlayed]"
                       cachedDataType="i2"
                       cachedName="Data Conversion.MinutesPlayed"
@@ -41238,14 +41378,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
                       externalMetadataColumnId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[FGA]"
                       lineageId="Package\FactTeamSeason\Sort 2.Outputs[Sort Output].Columns[Data Conversion.FGA]" />
                     <inputColumn
-                      refId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Data Conversion.FGPercentage]"
-                      cachedDataType="numeric"
-                      cachedName="Data Conversion.FGPercentage"
-                      cachedPrecision="5"
-                      cachedScale="3"
-                      externalMetadataColumnId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[FGPercentage]"
-                      lineageId="Package\FactTeamSeason\Sort 2.Outputs[Sort Output].Columns[Data Conversion.FGPercentage]" />
-                    <inputColumn
                       refId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Data Conversion.FT]"
                       cachedDataType="i2"
                       cachedName="Data Conversion.FT"
@@ -41258,14 +41390,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
                       externalMetadataColumnId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[FTA]"
                       lineageId="Package\FactTeamSeason\Sort 2.Outputs[Sort Output].Columns[Data Conversion.FTA]" />
                     <inputColumn
-                      refId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Data Conversion.FTAPercentage]"
-                      cachedDataType="numeric"
-                      cachedName="Data Conversion.FTAPercentage"
-                      cachedPrecision="5"
-                      cachedScale="3"
-                      externalMetadataColumnId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[FTPercentage]"
-                      lineageId="Package\FactTeamSeason\Sort 2.Outputs[Sort Output].Columns[Data Conversion.FTAPercentage]" />
-                    <inputColumn
                       refId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Data Conversion.PTM]"
                       cachedDataType="i2"
                       cachedName="Data Conversion.PTM"
@@ -41277,131 +41401,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
                       cachedName="Data Conversion.PTA"
                       externalMetadataColumnId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[3PTA]"
                       lineageId="Package\FactTeamSeason\Sort 2.Outputs[Sort Output].Columns[Data Conversion.PTA]" />
-                    <inputColumn
-                      refId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Data Conversion.PTPercentage]"
-                      cachedDataType="numeric"
-                      cachedName="Data Conversion.PTPercentage"
-                      cachedPrecision="5"
-                      cachedScale="3"
-                      externalMetadataColumnId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[3PTPercentage]"
-                      lineageId="Package\FactTeamSeason\Sort 2.Outputs[Sort Output].Columns[Data Conversion.PTPercentage]" />
-                    <inputColumn
-                      refId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Data Conversion.Points]"
-                      cachedDataType="i2"
-                      cachedName="Data Conversion.Points"
-                      externalMetadataColumnId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Points]"
-                      lineageId="Package\FactTeamSeason\Sort 2.Outputs[Sort Output].Columns[Data Conversion.Points]" />
-                    <inputColumn
-                      refId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Data Conversion.Assists]"
-                      cachedDataType="i2"
-                      cachedName="Data Conversion.Assists"
-                      externalMetadataColumnId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Assists]"
-                      lineageId="Package\FactTeamSeason\Sort 2.Outputs[Sort Output].Columns[Data Conversion.Assists]" />
-                    <inputColumn
-                      refId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Data Conversion.TotalRebounds]"
-                      cachedDataType="i2"
-                      cachedName="Data Conversion.TotalRebounds"
-                      externalMetadataColumnId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[TotalRebounds]"
-                      lineageId="Package\FactTeamSeason\Sort 2.Outputs[Sort Output].Columns[Data Conversion.TotalRebounds]" />
-                    <inputColumn
-                      refId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Data Conversion.OffensiveRebounds]"
-                      cachedDataType="i2"
-                      cachedName="Data Conversion.OffensiveRebounds"
-                      externalMetadataColumnId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[OffensiveRebounds]"
-                      lineageId="Package\FactTeamSeason\Sort 2.Outputs[Sort Output].Columns[Data Conversion.OffensiveRebounds]" />
-                    <inputColumn
-                      refId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Data Conversion.DefensiveRebounds]"
-                      cachedDataType="i2"
-                      cachedName="Data Conversion.DefensiveRebounds"
-                      externalMetadataColumnId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[DefensiveRebounds]"
-                      lineageId="Package\FactTeamSeason\Sort 2.Outputs[Sort Output].Columns[Data Conversion.DefensiveRebounds]" />
-                    <inputColumn
-                      refId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Data Conversion.Steals]"
-                      cachedDataType="i2"
-                      cachedName="Data Conversion.Steals"
-                      externalMetadataColumnId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Steals]"
-                      lineageId="Package\FactTeamSeason\Sort 2.Outputs[Sort Output].Columns[Data Conversion.Steals]" />
-                    <inputColumn
-                      refId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Data Conversion.Blocks]"
-                      cachedDataType="i2"
-                      cachedName="Data Conversion.Blocks"
-                      externalMetadataColumnId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Blocks]"
-                      lineageId="Package\FactTeamSeason\Sort 2.Outputs[Sort Output].Columns[Data Conversion.Blocks]" />
-                    <inputColumn
-                      refId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Data Conversion.Fouls]"
-                      cachedDataType="i2"
-                      cachedName="Data Conversion.Fouls"
-                      externalMetadataColumnId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Fouls]"
-                      lineageId="Package\FactTeamSeason\Sort 2.Outputs[Sort Output].Columns[Data Conversion.Fouls]" />
-                    <inputColumn
-                      refId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Data Conversion.Turnovers]"
-                      cachedDataType="i2"
-                      cachedName="Data Conversion.Turnovers"
-                      externalMetadataColumnId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Turnovers]"
-                      lineageId="Package\FactTeamSeason\Sort 2.Outputs[Sort Output].Columns[Data Conversion.Turnovers]" />
-                    <inputColumn
-                      refId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[flag]"
-                      cachedDataType="wstr"
-                      cachedLength="3"
-                      cachedName="flag"
-                      externalMetadataColumnId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Playoffs]"
-                      lineageId="Package\FactTeamSeason\Sort 2.Outputs[Sort Output].Columns[flag]" />
-                    <inputColumn
-                      refId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Data Conversion.Losses]"
-                      cachedDataType="i2"
-                      cachedName="Data Conversion.Losses"
-                      externalMetadataColumnId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Losses]"
-                      lineageId="Package\FactTeamSeason\Sort 2.Outputs[Sort Output].Columns[Data Conversion.Losses]" />
-                    <inputColumn
-                      refId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Data Conversion.Wins]"
-                      cachedDataType="i2"
-                      cachedName="Data Conversion.Wins"
-                      externalMetadataColumnId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Wins]"
-                      lineageId="Package\FactTeamSeason\Sort 2.Outputs[Sort Output].Columns[Data Conversion.Wins]" />
-                    <inputColumn
-                      refId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Data Conversion.OffensiveRating]"
-                      cachedDataType="numeric"
-                      cachedName="Data Conversion.OffensiveRating"
-                      cachedPrecision="5"
-                      cachedScale="1"
-                      externalMetadataColumnId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[OffensiveRating]"
-                      lineageId="Package\FactTeamSeason\Sort 2.Outputs[Sort Output].Columns[Data Conversion.OffensiveRating]" />
-                    <inputColumn
-                      refId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Data Conversion.DefensiveRating]"
-                      cachedDataType="numeric"
-                      cachedName="Data Conversion.DefensiveRating"
-                      cachedPrecision="5"
-                      cachedScale="1"
-                      externalMetadataColumnId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[DefensiveRating]"
-                      lineageId="Package\FactTeamSeason\Sort 2.Outputs[Sort Output].Columns[Data Conversion.DefensiveRating]" />
-                    <inputColumn
-                      refId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Data Conversion.NetRating]"
-                      cachedDataType="numeric"
-                      cachedName="Data Conversion.NetRating"
-                      cachedPrecision="5"
-                      cachedScale="1"
-                      externalMetadataColumnId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[NetRating]"
-                      lineageId="Package\FactTeamSeason\Sort 2.Outputs[Sort Output].Columns[Data Conversion.NetRating]" />
-                    <inputColumn
-                      refId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Copy of Pace]"
-                      cachedDataType="numeric"
-                      cachedName="Copy of Pace"
-                      cachedPrecision="5"
-                      cachedScale="1"
-                      externalMetadataColumnId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Pace]"
-                      lineageId="Package\FactTeamSeason\Sort 2.Outputs[Sort Output].Columns[Copy of Pace]" />
-                    <inputColumn
-                      refId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Data Conversion.AvereageAttendance]"
-                      cachedDataType="i4"
-                      cachedName="Data Conversion.AvereageAttendance"
-                      externalMetadataColumnId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[AverageAttendance]"
-                      lineageId="Package\FactTeamSeason\Sort 2.Outputs[Sort Output].Columns[Data Conversion.AvereageAttendance]" />
-                    <inputColumn
-                      refId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Games]"
-                      cachedDataType="i2"
-                      cachedName="Games"
-                      externalMetadataColumnId="Package\FactTeamSeason\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[GamesPlayed]"
-                      lineageId="Package\FactTeamSeason\Sort 2.Outputs[Sort Output].Columns[Games]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -41681,905 +41680,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-              </outputs>
-            </component>
-            <component
-              refId="Package\FactTeamSeason\Script Component"
-              componentClassID="Microsoft.ManagedComponentHost"
-              contactInfo="Includes and runs custom script code. For example, apply a business rule that limits the range of valid values in an &quot;income&quot; column or add values in two columns and calculate the average of the sum.;Microsoft Corporation; Microsoft SQL Server; Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;11"
-              description="Includes and runs custom script code. For example, apply a business rule that limits the range of valid values in an &quot;income&quot; column or add values in two columns and calculate the average of the sum."
-              name="Script Component"
-              version="11">
-              <properties>
-                <property
-                  dataType="System.String"
-                  description="Stores the source code of the component"
-                  isArray="true"
-                  name="SourceCode"
-                  state="cdata">
-                  <arrayElements
-                    arrayElementCount="30">
-                    <arrayElement
-                      dataType="System.String"><![CDATA[ComponentWrapper.cs]]></arrayElement>
-                    <arrayElement
-                      dataType="System.String"><![CDATA[UTF8]]></arrayElement>
-                    <arrayElement
-                      dataType="System.String"><![CDATA[/* THIS IS AUTO-GENERATED CODE THAT WILL BE OVERWRITTEN! DO NOT EDIT!
-*  Microsoft SQL Server Integration Services component wrapper
-*  This module defines the base class for your component
-*  THIS IS AUTO-GENERATED CODE THAT WILL BE OVERWRITTEN! DO NOT EDIT! */
-
-using System;
-using System.Data;
-using Microsoft.SqlServer.Dts.Pipeline;
-using Microsoft.SqlServer.Dts.Pipeline.Wrapper;
-using Microsoft.SqlServer.Dts.Runtime.Wrapper;
-
-public class UserComponent: ScriptComponent
-{
-    public Connections Connections;
-    public Variables Variables;
-    public UserComponent()
-    {
-        Connections = new Connections(this);
-        Variables = new Variables(this);
-    }
-
-    public override void ProcessInput(int InputID, string InputName, PipelineBuffer Buffer, OutputNameMap OutputMap)
-    {
-
-        if (InputName.Equals(@"Input 0", StringComparison.Ordinal))
-        {
-            Input0_ProcessInput(new Input0Buffer(Buffer, GetColumnIndexes(InputID), OutputMap));
-        }
-
-    }
-
-    public virtual void Input0_ProcessInput(Input0Buffer Buffer)
-    {
-        while (Buffer.NextRow())
-        {
-            Input0_ProcessInputRow(Buffer);
-        }
-    }
-
-    public virtual void Input0_ProcessInputRow(Input0Buffer Row)
-    {
-    }
-
-}
-
-public class Connections
-{
-    ScriptComponent ParentComponent;
-
-    public Connections(ScriptComponent Component)
-    {
-        ParentComponent = Component;
-    }
-
-}
-
-public class Variables
-{
-    ScriptComponent ParentComponent;
-
-    public Variables(ScriptComponent Component)
-    {
-        ParentComponent = Component;
-    }
-
-}
-]]></arrayElement>
-                    <arrayElement
-                      dataType="System.String"><![CDATA[Properties\Resources.resx]]></arrayElement>
-                    <arrayElement
-                      dataType="System.String"><![CDATA[UTF8]]></arrayElement>
-                    <arrayElement
-                      dataType="System.String"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
-<root>
-  <!-- 
-    Microsoft ResX Schema 
-    
-    Version 2.0
-    
-    The primary goals of this format is to allow a simple XML format 
-    that is mostly human readable. The generation and parsing of the 
-    various data types are done through the TypeConverter classes 
-    associated with the data types.
-    
-    Example:
-    
-    ... ado.net/XML headers & schema ...
-    <resheader name="resmimetype">text/microsoft-resx</resheader>
-    <resheader name="version">2.0</resheader>
-    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
-    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
-    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
-    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
-    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
-        <value>[base64 mime encoded serialized .NET Framework object]</value>
-    </data>
-    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
-        <comment>This is a comment</comment>
-    </data>
-                
-    There are any number of "resheader" rows that contain simple 
-    name/value pairs.
-    
-    Each data row contains a name, and value. The row also contains a 
-    type or mimetype. Type corresponds to a .NET class that support 
-    text/value conversion through the TypeConverter architecture. 
-    Classes that don't support this are serialized and stored with the 
-    mimetype set.
-    
-    The mimetype is used for serialized objects, and tells the 
-    ResXResourceReader how to depersist the object. This is currently not 
-    extensible. For a given mimetype the value must be set accordingly:
-    
-    Note - application/x-microsoft.net.object.binary.base64 is the format 
-    that the ResXResourceWriter will generate, however the reader can 
-    read any of the formats listed below.
-    
-    mimetype: application/x-microsoft.net.object.binary.base64
-    value   : The object must be serialized with 
-            : System.Serialization.Formatters.Binary.BinaryFormatter
-            : and then encoded with base64 encoding.
-    
-    mimetype: application/x-microsoft.net.object.soap.base64
-    value   : The object must be serialized with 
-            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
-            : and then encoded with base64 encoding.
-
-    mimetype: application/x-microsoft.net.object.bytearray.base64
-    value   : The object must be serialized into a byte array 
-            : using a System.ComponentModel.TypeConverter
-            : and then encoded with base64 encoding.
-    -->
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-    <xsd:element name="root" msdata:IsDataSet="true">
-      <xsd:complexType>
-        <xsd:choice maxOccurs="unbounded">
-          <xsd:element name="metadata">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" />
-              </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" />
-              <xsd:attribute name="type" type="xsd:string" />
-              <xsd:attribute name="mimetype" type="xsd:string" />
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="assembly">
-            <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string" />
-              <xsd:attribute name="name" type="xsd:string" />
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="data">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
-              </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="resheader">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-              </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" />
-            </xsd:complexType>
-          </xsd:element>
-        </xsd:choice>
-      </xsd:complexType>
-    </xsd:element>
-  </xsd:schema>
-  <resheader name="resmimetype">
-    <value>text/microsoft-resx</value>
-  </resheader>
-  <resheader name="version">
-    <value>2.0</value>
-  </resheader>
-  <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-  <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-</root>]]></arrayElement>
-                    <arrayElement
-                      dataType="System.String"><![CDATA[main.cs]]></arrayElement>
-                    <arrayElement
-                      dataType="System.String"><![CDATA[UTF8]]></arrayElement>
-                    <arrayElement
-                      dataType="System.String"><![CDATA[#region Help:  Introduction to the Script Component
-/* The Script Component allows you to perform virtually any operation that can be accomplished in
- * a .Net application within the context of an Integration Services data flow.
- *
- * Expand the other regions which have "Help" prefixes for examples of specific ways to use
- * Integration Services features within this script component. */
-#endregion
-
-#region Namespaces
-using System;
-using System.Data;
-using Microsoft.SqlServer.Dts.Pipeline.Wrapper;
-using Microsoft.SqlServer.Dts.Runtime.Wrapper;
-#endregion
-
-/// <summary>
-/// This is the class to which to add your code.  Do not change the name, attributes, or parent
-/// of this class.
-/// </summary>
-[Microsoft.SqlServer.Dts.Pipeline.SSISScriptComponentEntryPointAttribute]
-public class ScriptMain : UserComponent
-{
-    #region Help:  Using Integration Services variables and parameters
-    /* To use a variable in this script, first ensure that the variable has been added to
-     * either the list contained in the ReadOnlyVariables property or the list contained in
-     * the ReadWriteVariables property of this script component, according to whether or not your
-     * code needs to write into the variable.  To do so, save this script, close this instance of
-     * Visual Studio, and update the ReadOnlyVariables and ReadWriteVariables properties in the
-     * Script Transformation Editor window.
-     * To use a parameter in this script, follow the same steps. Parameters are always read-only.
-     *
-     * Example of reading from a variable or parameter:
-     *  DateTime startTime = Variables.MyStartTime;
-     *
-     * Example of writing to a variable:
-     *  Variables.myStringVariable = "new value";
-     */
-    #endregion
-
-    #region Help:  Using Integration Services Connnection Managers
-    /* Some types of connection managers can be used in this script component.  See the help topic
-     * "Working with Connection Managers Programatically" for details.
-     *
-     * To use a connection manager in this script, first ensure that the connection manager has
-     * been added to either the list of connection managers on the Connection Managers page of the
-     * script component editor.  To add the connection manager, save this script, close this instance of
-     * Visual Studio, and add the Connection Manager to the list.
-     *
-     * If the component needs to hold a connection open while processing rows, override the
-     * AcquireConnections and ReleaseConnections methods.
-     * 
-     * Example of using an ADO.Net connection manager to acquire a SqlConnection:
-     *  object rawConnection = Connections.SalesDB.AcquireConnection(transaction);
-     *  SqlConnection salesDBConn = (SqlConnection)rawConnection;
-     *
-     * Example of using a File connection manager to acquire a file path:
-     *  object rawConnection = Connections.Prices_zip.AcquireConnection(transaction);
-     *  string filePath = (string)rawConnection;
-     *
-     * Example of releasing a connection manager:
-     *  Connections.SalesDB.ReleaseConnection(rawConnection);
-     */
-    #endregion
-
-    #region Help:  Firing Integration Services Events
-    /* This script component can fire events.
-     *
-     * Example of firing an error event:
-     *  ComponentMetaData.FireError(10, "Process Values", "Bad value", "", 0, out cancel);
-     *
-     * Example of firing an information event:
-     *  ComponentMetaData.FireInformation(10, "Process Values", "Processing has started", "", 0, fireAgain);
-     *
-     * Example of firing a warning event:
-     *  ComponentMetaData.FireWarning(10, "Process Values", "No rows were received", "", 0);
-     */
-    #endregion
-
-    /// <summary>
-    /// This method is called once, before rows begin to be processed in the data flow.
-    ///
-    /// You can remove this method if you don't need to do anything here.
-    /// </summary>
-    public override void PreExecute()
-    {
-        base.PreExecute();
-        /*
-         * Add your code here
-         */
-    }
-
-    /// <summary>
-    /// This method is called after all the rows have passed through this component.
-    ///
-    /// You can delete this method if you don't need to do anything here.
-    /// </summary>
-    public override void PostExecute()
-    {
-        base.PostExecute();
-        /*
-         * Add your code here
-         */
-    }
-
-    /// <summary>
-    /// This method is called once for every row that passes through the component from Input0.
-    ///
-    /// Example of reading a value from a column in the the row:
-    ///  string zipCode = Row.ZipCode
-    ///
-    /// Example of writing a value to a column in the row:
-    ///  Row.ZipCode = zipCode
-    /// </summary>
-    /// <param name="Row">The row that is currently passing through the component</param>
-    public override void Input0_ProcessInputRow(Input0Buffer Row)
-    {
-        Row.AvereageAttendance = CleanToNumeric(Row.AvereageAttendance);
-    }
-    public string CleanToNumeric(string input)
-    {
-        if (string.IsNullOrWhiteSpace(input))
-            return "-1";
-
-        foreach (char c in input)
-        {
-            if (!char.IsDigit(c))
-                return "-1";
-        }
-
-        return input;
-    }
-
-}
-]]></arrayElement>
-                    <arrayElement
-                      dataType="System.String"><![CDATA[BufferWrapper.cs]]></arrayElement>
-                    <arrayElement
-                      dataType="System.String"><![CDATA[UTF8]]></arrayElement>
-                    <arrayElement
-                      dataType="System.String"><![CDATA[/* THIS IS AUTO-GENERATED CODE THAT WILL BE OVERWRITTEN! DO NOT EDIT!
-*  Microsoft SQL Server Integration Services buffer wrappers
-*  This module defines classes for accessing data flow buffers
-*  THIS IS AUTO-GENERATED CODE THAT WILL BE OVERWRITTEN! DO NOT EDIT! */
-
-
-
-using System;
-using System.Data;
-using Microsoft.SqlServer.Dts.Pipeline;
-using Microsoft.SqlServer.Dts.Pipeline.Wrapper;
-
-public class Input0Buffer: ScriptBuffer
-
-{
-    public Input0Buffer(PipelineBuffer Buffer, int[] BufferColumnIndexes, OutputNameMap OutputMap)
-        : base(Buffer, BufferColumnIndexes, OutputMap)
-    {
-    }
-
-    public String AvereageAttendance
-    {
-        get
-        {
-            return Buffer.GetString(BufferColumnIndexes[0]);
-        }
-        set
-        {
-            this[0] = value;
-        }
-    }
-    public bool AvereageAttendance_IsNull
-    {
-        get
-        {
-            return IsNull(0);
-        }
-        set
-        {
-            if (value)
-            {
-                SetNull(0);
-            }
-            else
-            {
-                throw new InvalidOperationException("IsNull property cannot be set to False. Assign a value to the column instead.");
-            }
-        }
-    }
-
-    new public bool NextRow()
-    {
-        return base.NextRow();
-    }
-
-    new public bool EndOfRowset()
-    {
-        return base.EndOfRowset();
-    }
-
-}
-]]></arrayElement>
-                    <arrayElement
-                      dataType="System.String"><![CDATA[Properties\Settings.Designer.cs]]></arrayElement>
-                    <arrayElement
-                      dataType="System.String"><![CDATA[UTF8]]></arrayElement>
-                    <arrayElement
-                      dataType="System.String"><![CDATA[//------------------------------------------------------------------------------
-// <auto-generated>
-//     This code was generated by a tool.
-//
-//     Changes to this file may cause incorrect behavior and will be lost if
-//     the code is regenerated.
-// </auto-generated>
-//------------------------------------------------------------------------------
-
-[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="SC_5f427e34ee52462c91f3c60a5804053b.Properties.Settings.get_Default():SC_5f427e34ee52462c91f3c60a5804053b.Properties.Sett" +
-    "ings")]
-
-namespace SC_5f427e34ee52462c91f3c60a5804053b.Properties {
-    
-    
-    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
-        
-        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-        private static Settings defaultInstance = new Settings();
-        
-        public static Settings Default {
-            get {
-                return defaultInstance;
-            }
-        }
-    }
-}
-]]></arrayElement>
-                    <arrayElement
-                      dataType="System.String"><![CDATA[Project]]></arrayElement>
-                    <arrayElement
-                      dataType="System.String"><![CDATA[UTF16LE]]></arrayElement>
-                    <arrayElement
-                      dataType="System.String"><![CDATA[<?xml version="1.0" encoding="UTF-16" standalone="yes"?>
-<c:Project xmlns:c="http://schemas.microsoft.com/codeprojectml/2010/08/main" xmlns:msb="http://schemas.microsoft.com/developer/msbuild/2003" runtimeVersion="4.0" schemaVersion="1.0">
-  <msb:PropertyGroup>
-    <msb:CodeName>SC_5f427e34ee52462c91f3c60a5804053b</msb:CodeName>
-    <msb:Language>msBuild</msb:Language>
-    <msb:DisplayName>SC_5f427e34ee52462c91f3c60a5804053b</msb:DisplayName>
-    <msb:ProjectId>{38F6155A-D274-4229-8919-D7F54E139F8B}</msb:ProjectId>
-  </msb:PropertyGroup>
-  <msb:ItemGroup>
-    <msb:Project Include="SC_5f427e34ee52462c91f3c60a5804053b.csproj" />
-    <msb:File Include="Properties\Resources.Designer.cs" />
-    <msb:File Include="main.cs" />
-    <msb:File Include="BufferWrapper.cs" />
-    <msb:File Include="ComponentWrapper.cs" />
-    <msb:File Include="Properties\Settings.settings" />
-    <msb:File Include="Properties\AssemblyInfo.cs" />
-    <msb:File Include="Properties\Resources.resx" />
-    <msb:File Include="Properties\Settings.Designer.cs" />
-  </msb:ItemGroup>
-</c:Project>]]></arrayElement>
-                    <arrayElement
-                      dataType="System.String"><![CDATA[Properties\AssemblyInfo.cs]]></arrayElement>
-                    <arrayElement
-                      dataType="System.String"><![CDATA[UTF8]]></arrayElement>
-                    <arrayElement
-                      dataType="System.String"><![CDATA[using System.Reflection;
-using System.Runtime.CompilerServices;
-
-//
-// General Information about an assembly is controlled through the following 
-// set of attributes. Change these attribute values to modify the information
-// associated with an assembly.
-//
-[assembly: AssemblyTitle("SC_5f427e34ee52462c91f3c60a5804053b")]
-[assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("SC_5f427e34ee52462c91f3c60a5804053b")]
-[assembly: AssemblyCopyright("Copyright @  2025")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
-//
-// Version information for an assembly consists of the following four values:
-//
-//      Major Version
-//      Minor Version 
-//      Build Number
-//      Revision
-//
-// You can specify all the values or you can default the Revision and Build Numbers 
-// by using the '*' as shown below:
-
-[assembly: AssemblyVersion("1.0.0.0")]
-]]></arrayElement>
-                    <arrayElement
-                      dataType="System.String"><![CDATA[SC_5f427e34ee52462c91f3c60a5804053b.csproj]]></arrayElement>
-                    <arrayElement
-                      dataType="System.String"><![CDATA[UTF8]]></arrayElement>
-                    <arrayElement
-                      dataType="System.String"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <PropertyGroup>
-    <ProjectTypeGuids>{30D016F9-3734-4E33-A861-5E7D899E18F3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>8.0.30703</ProductVersion>
-    <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{53f206b4-bff0-4d34-8f97-6b8c588ceebb}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SC_5f427e34ee52462c91f3c60a5804053b</RootNamespace>
-    <AssemblyName>SC_5f427e34ee52462c91f3c60a5804053b</AssemblyName>
-    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
-    <FileAlignment>512</FileAlignment>
-    <ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>true</ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>
-    <TargetFrameworkProfile></TargetFrameworkProfile>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
-    <DebugSymbols>true</DebugSymbols>
-    <DebugType>full</DebugType>
-    <Optimize>false</Optimize>
-    <OutputPath>.\bin\Debug\</OutputPath>
-    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
-    <DebugSymbols>false</DebugSymbols>
-    <Optimize>true</Optimize>
-    <OutputPath>.\bin\Release\</OutputPath>
-    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
-    <DefineConstants>TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <ItemGroup>
-    <Reference Include="System" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Windows.Forms" />
-    <Reference Include="System.Xml" />
-    <Reference Include="Microsoft.SqlServer.TxScript, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
-    <Reference Include="Microsoft.SqlServer.DTSRuntimeWrap, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
-    <Reference Include="Microsoft.SqlServer.DTSPipelineWrap, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
-    <Reference Include="Microsoft.SqlServer.PipelineHost, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
-    <Compile Include="main.cs" />
-    <Compile Include="BufferWrapper.cs" />
-    <Compile Include="ComponentWrapper.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <AppDesigner Include="Properties\" />
-    <Compile Include="Properties\AssemblyInfo.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
-    <None Include="Properties\Settings.settings">
-      <Generator>SettingsSingleFileGenerator</Generator>
-      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
-    </None>
-    <Compile Include="Properties\Settings.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Settings.settings</DependentUpon>
-    </Compile>
-  </ItemGroup>
-  <!-- Include the build rules for a C# project.-->
-  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
-  <!-- This section defines VSTA properties that describe the host-changable project properties. -->
-  <ProjectExtensions>
-    <VisualStudio>
-      <FlavorProperties GUID="{30D016F9-3734-4E33-A861-5E7D899E18F3}">
-        <ProjectProperties HostName="ScriptComponent" HostPackage="{B3A685AA-7EAF-4BC6-9940-57959FA5AC07}" ApplicationType="usd" Language="cs" TemplatesPath="" DebugInfoExeName="" DebugInfoCommandLine="" DebugInfoWorkingDir="" IconImageList="" />
-        <Host Name="ScriptComponent" GeneratedNamespace="SC_5f427e34ee52462c91f3c60a5804053b" IconIndex="0"></Host>
-        <ProjectClient>
-          <HostIdentifier>SSIS_SC140</HostIdentifier>
-        </ProjectClient>
-      </FlavorProperties>
-    </VisualStudio>
-  </ProjectExtensions>
-</Project>]]></arrayElement>
-                    <arrayElement
-                      dataType="System.String"><![CDATA[Properties\Settings.settings]]></arrayElement>
-                    <arrayElement
-                      dataType="System.String"><![CDATA[UTF8]]></arrayElement>
-                    <arrayElement
-                      dataType="System.String"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
-<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
-</SettingsFile>]]></arrayElement>
-                    <arrayElement
-                      dataType="System.String"><![CDATA[Properties\Resources.Designer.cs]]></arrayElement>
-                    <arrayElement
-                      dataType="System.String"><![CDATA[UTF8]]></arrayElement>
-                    <arrayElement
-                      dataType="System.String"><![CDATA[//------------------------------------------------------------------------------
-// <auto-generated>
-//     This code was generated by a tool.
-//
-//     Changes to this file may cause incorrect behavior and will be lost if
-//     the code is regenerated.
-// </auto-generated>
-//------------------------------------------------------------------------------
-
-[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="SC_5f427e34ee52462c91f3c60a5804053b.Properties.Resources.get_ResourceManager():System.Resources.Resou" +
-    "rceManager")]
-[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="SC_5f427e34ee52462c91f3c60a5804053b.Properties.Resources.get_Culture():System.Globalization.CultureIn" +
-    "fo")]
-[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="SC_5f427e34ee52462c91f3c60a5804053b.Properties.Resources.set_Culture(System.Globalization.CultureInfo" +
-    "):Void")]
-
-namespace SC_5f427e34ee52462c91f3c60a5804053b.Properties {
-    
-    
-    /// <summary>
-    ///   A strongly-typed resource class, for looking up localized strings, etc.
-    /// </summary>
-    // This class was auto-generated by the StronglyTypedResourceBuilder
-    // class via a tool like ResGen or Visual Studio.
-    // To add or remove a member, edit your .ResX file then rerun ResGen
-    // with the /str option, or rebuild your VS project.
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-    internal class Resources {
-        
-        private static global::System.Resources.ResourceManager resourceMan;
-        
-        private static global::System.Globalization.CultureInfo resourceCulture;
-        
-        [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal Resources() {
-        }
-        
-        /// <summary>
-        ///   Returns the cached ResourceManager instance used by this class.
-        /// </summary>
-        [global::System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
-            get {
-                if ((resourceMan == null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("SC_5f427e34ee52462c91f3c60a5804053b.Properties.Resources", typeof(Resources).Assembly);
-                    resourceMan = temp;
-                }
-                return resourceMan;
-            }
-        }
-        
-        /// <summary>
-        ///   Overrides the current thread's CurrentUICulture property for all
-        ///   resource lookups using this strongly typed resource class.
-        /// </summary>
-        [global::System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
-            get {
-                return resourceCulture;
-            }
-            set {
-                resourceCulture = value;
-            }
-        }
-    }
-}
-]]></arrayElement>
-                  </arrayElements>
-                </property>
-                <property
-                  dataType="System.String"
-                  description="Stores the binary representation of the component"
-                  isArray="true"
-                  name="BinaryCode"
-                  state="cdata">
-                  <arrayElements
-                    arrayElementCount="2">
-                    <arrayElement
-                      dataType="System.String"><![CDATA[SC_5f427e34ee52462c91f3c60a5804053b.dll]]></arrayElement>
-                    <arrayElement
-                      dataType="System.String"><![CDATA[TVqQAAMAAAAEAAAA//8AALgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAgAAAAA4fug4AtAnNIbgBTM0hVGhpcyBwcm9ncmFtIGNhbm5vdCBiZSBydW4gaW4gRE9TIG1v
-ZGUuDQ0KJAAAAAAAAABQRQAATAEDABaQP2gAAAAAAAAAAOAAIiALATAAABQAAAAIAAAAAAAAljIA
-AAAgAAAAQAAAAAAAEAAgAAAAAgAABAAAAAAAAAAGAAAAAAAAAACAAAAAAgAAAAAAAAMAYIUAABAA
-ABAAAAAAEAAAEAAAAAAAABAAAAAAAAAAAAAAAEQyAABPAAAAAEAAAEgEAAAAAAAAAAAAAAAAAAAA
-AAAAAGAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAIAAACAAAAAAAAAAAAAAACCAAAEgAAAAAAAAAAAAAAC50ZXh0AAAAnBIAAAAgAAAAFAAAAAIA
-AAAAAAAAAAAAAAAAACAAAGAucnNyYwAAAEgEAAAAQAAAAAYAAAAWAAAAAAAAAAAAAAAAAABAAABA
-LnJlbG9jAAAMAAAAAGAAAAACAAAAHAAAAAAAAAAAAAAAAAAAQAAAQgAAAAAAAAAAAAAAAAAAAAB4
-MgAAAAAAAEgAAAACAAUA8CEAAJwPAAABAAAAAAAAAIwxAAC4AAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAB4CKBAAAAoqHgIoEQAACipOAwIDbwcAAAYoBAAABm8IAAAG
-KhMwAgA3AAAAAQAAEQMoEgAACiwGcgEAAHAqAwoWCysYBgdvEwAACigUAAAKLQZyAQAAcCoHF1gL
-BwZvFQAACjLfAyoeAigNAAAGKioCAwQFKBYAAAoqUgJ7FwAACgJ7GAAAChaUbxkAAAoqJgIWAyga
-AAAKKiICFigbAAAKKloDLAgCFigcAAAKKnIHAABwcx0AAAp6HgIoHgAACioeAigfAAAKKn4CKCAA
-AAoCAnMRAAAGfQEAAAQCAnMSAAAGfQIAAAQqkgRypAAAcBpvIQAACiwVAgUCAygiAAAKDgRzBgAA
-Bm8PAAAGKkorBwIDbxAAAAYDbwsAAAYt8SoGKjoCKCMAAAoCA30DAAAEKjoCKCMAAAoCA30EAAAE
-Kh4CKCMAAAoqrn4FAAAELR5ytAAAcNAHAAACKCQAAApvJQAACnMmAAAKgAUAAAR+BQAABCoafgYA
-AAQqHgKABgAABCoafgcAAAQqHgIoJwAACioucxgAAAaABwAABCoAQlNKQgEAAQAAAAAADAAAAHY0
-LjAuMzAzMTkAAAAABQBsAAAAkAUAACN+AAD8BQAAqAYAACNTdHJpbmdzAAAAAKQMAAAoAQAAI1VT
-AMwNAAAQAAAAI0dVSUQAAADcDQAAwAEAACNCbG9iAAAAAAAAAAIAAAFXFaIBCQEAAAD6ATMAFgAA
-AQAAACAAAAAIAAAABwAAABkAAAAQAAAAJwAAABAAAAABAAAAAwAAAAUAAAAIAAAAAQAAAAQAAAAB
-AAAAAABIAwEAAAAAAAYANALIBAYAyALIBAYAgAG1BA8APAUAAAYArQEFBAYAFwIFBAYA+AEFBAYA
-rwIFBAYAVAIFBAYAbQIFBAYAxAEFBAYA3wEDAwoAiALNAAoAhwTNAA4AeATNAAoATgTNAAoAFAbN
-AAYAzwW9AwYAYwG1BAYAmAToBAYAQgTwAxIAMwEyAxIAlAEyAxIAGwHbAwYASAHIBAYAIAO9AwYA
-ZgS9AwYAFwS9AwYAMQS9AwYA7gC9AwYAnwC9AwYAnwYFBAAAAAABAAAAAAABAAEAAQAQANADAAAQ
-AAEAAQABABAAawQAADkAAQAGAAEAEAD2BQAARQABAA0AAQAQALkFAABJAAMAEQABABAAegUAAEkA
-BAASAAAAEADvBEsFSQAFABMAAAEQAKkFSwVhAAcAFwAGALkFjQAGAHoFkQABAAQGlQABAAQGlQAR
-AMQDmQARAAsBnQARAI8AoQBQIAAAAADGAOYCBgABAFggAAAAAMYA8QIGAAEAYCAAAAAAxgB8BqUA
-AQB0IAAAAACGAD8AqwACALcgAAAAAIYYqAQGAAMAvyAAAAAAhhioBDMAAwDKIAAAAACGCGEAsAAG
-AN8gAAAAAIYIeAAQAAYA6SAAAAAAhghwA1UABwDyIAAAAACGCI4DtAAHAAkhAAAAAIYAkwZVAAgA
-ESEAAAAAhgDWBVUACAAZIQAAAACGGKgEBgAIADkhAAAAAMYAaQa5AAgAXiEAAAAAxgFiBqUADABx
-IQAAAADGAXwGpQANAHMhAAAAAIYYqATDAA4AgiEAAAAAhhioBMMADwCRIQAAAACDGKgEBgAQAJkh
-AAAAAJMIlATJABAAxSEAAAAAkwjzAM4AEADMIQAAAACTCP8A0wAQANQhAAAAAJYI6gXZABEA2yEA
-AAAAhhioBAYAEQDjIQAAAACRGK4E3gARAAAAAQCXBgAAAQB2BgAAAQCNBAAAAgCEBQAAAwBcBAAA
-AQD9AgAAAQD9AgAAAQAKAAAAAgDDAAAAAwCNBAAABABcBAAAAQCNBAAAAQCXBgAAAQAaBgAAAQAa
-BgAAAQD9AgkAqAQBABEAqAQGABkAqAQKACkAqAQQADEAqAQQADkAqAQQAEEAqAQQAEkAqAQQAFEA
-qAQQAFkAqAQQAGEAqAQQAGkAqAQGAJkAqAQGALkAqAQVAMkAqAQGAIkA5gIGAIkA8QIGANEATgAg
-ANEAxQUlANkA4gUqANEAJwMvAHEAqAQzAHEAjQQ9AHEAhAVBAHkAHQNFAHEAtANKAHEApQNQAHEA
-rAMBAOEAqAQQAHEAkwZVAHEA1gVVAIkAqAQGANEAsgVZAIkAmAVgAJEAqAQGAPEAsQBmAPEAmwZt
-AKEAqARzAMEAqAQGAC4ACwD5AC4AEwACAS4AGwAhAS4AIwAqAS4AKwBTAS4AMwBTAS4AOwBTAS4A
-QwAqAS4ASwBZAS4AUwBTAS4AWwBwAUMAYwC6AWkAcwAhAYkAcwAhAeEAewC6AeMAawC6ARsAAwAB
-AAcAAwAIAAUAAAB8AOIAAACSA+YAAACYBOoAAAATAe8AAADuBfQAAgAHAAMAAQAIAAMAAgAJAAUA
-AQAKAAUAAgAUAAcAAgAVAAkAAQAWAAkAAgAXAAsABIAAAAEAAAAAAAAAAAAAAAAAEgAAAAQAAAAA
-AAAAAAAAAHsANgAAAAAADgAAAAAAAAAAAAAAhAAkBgAAAAAOAAAAAAAAAAAAAACEAEEGAAAAAAQA
-AAAAAAAAAAAAAHsAvQMAAAAAAAAAAAEAAAD5BAAAAAAAPE1vZHVsZT4ASW5wdXRJRABTQ181ZjQy
-N2UzNGVlNTI0NjJjOTFmM2M2MGE1ODA0MDUzYgBtc2NvcmxpYgBDbGVhblRvTnVtZXJpYwBJc051
-bGxPcldoaXRlU3BhY2UAZ2V0X0F2ZXJlYWdlQXR0ZW5kYW5jZQBzZXRfQXZlcmVhZ2VBdHRlbmRh
-bmNlAGRlZmF1bHRJbnN0YW5jZQBSdW50aW1lVHlwZUhhbmRsZQBHZXRUeXBlRnJvbUhhbmRsZQBJ
-bnB1dE5hbWUATWljcm9zb2Z0LlNxbFNlcnZlci5EdHMuUGlwZWxpbmUAVHlwZQBnZXRfQ3VsdHVy
-ZQBzZXRfQ3VsdHVyZQByZXNvdXJjZUN1bHR1cmUAQXBwbGljYXRpb25TZXR0aW5nc0Jhc2UARWRp
-dG9yQnJvd3NhYmxlU3RhdGUAQ29tcGlsZXJHZW5lcmF0ZWRBdHRyaWJ1dGUARGVidWdnZXJOb25V
-c2VyQ29kZUF0dHJpYnV0ZQBEZWJ1Z2dhYmxlQXR0cmlidXRlAEVkaXRvckJyb3dzYWJsZUF0dHJp
-YnV0ZQBBc3NlbWJseVRpdGxlQXR0cmlidXRlAEFzc2VtYmx5VHJhZGVtYXJrQXR0cmlidXRlAFRh
-cmdldEZyYW1ld29ya0F0dHJpYnV0ZQBBc3NlbWJseUNvbmZpZ3VyYXRpb25BdHRyaWJ1dGUAQXNz
-ZW1ibHlEZXNjcmlwdGlvbkF0dHJpYnV0ZQBDb21waWxhdGlvblJlbGF4YXRpb25zQXR0cmlidXRl
-AEFzc2VtYmx5UHJvZHVjdEF0dHJpYnV0ZQBBc3NlbWJseUNvcHlyaWdodEF0dHJpYnV0ZQBTU0lT
-U2NyaXB0Q29tcG9uZW50RW50cnlQb2ludEF0dHJpYnV0ZQBBc3NlbWJseUNvbXBhbnlBdHRyaWJ1
-dGUAUnVudGltZUNvbXBhdGliaWxpdHlBdHRyaWJ1dGUAUHJlRXhlY3V0ZQBQb3N0RXhlY3V0ZQB2
-YWx1ZQBTeXN0ZW0uUnVudGltZS5WZXJzaW9uaW5nAEdldFN0cmluZwBnZXRfTGVuZ3RoAFN5c3Rl
-bS5Db21wb25lbnRNb2RlbABTQ181ZjQyN2UzNGVlNTI0NjJjOTFmM2M2MGE1ODA0MDUzYi5kbGwA
-Z2V0X0F2ZXJlYWdlQXR0ZW5kYW5jZV9Jc051bGwAc2V0X0F2ZXJlYWdlQXR0ZW5kYW5jZV9Jc051
-bGwAU2V0TnVsbABzZXRfSXRlbQBTeXN0ZW0AcmVzb3VyY2VNYW4AU2NyaXB0TWFpbgBTeXN0ZW0u
-Q29uZmlndXJhdGlvbgBTeXN0ZW0uR2xvYmFsaXphdGlvbgBTeXN0ZW0uUmVmbGVjdGlvbgBJbnZh
-bGlkT3BlcmF0aW9uRXhjZXB0aW9uAFN0cmluZ0NvbXBhcmlzb24AQ3VsdHVyZUluZm8AT3V0cHV0
-TmFtZU1hcABPdXRwdXRNYXAAQ2hhcgBJbnB1dDBCdWZmZXIAUGlwZWxpbmVCdWZmZXIAU2NyaXB0
-QnVmZmVyAGdldF9SZXNvdXJjZU1hbmFnZXIALmN0b3IALmNjdG9yAFN5c3RlbS5EaWFnbm9zdGlj
-cwBTeXN0ZW0uUnVudGltZS5Db21waWxlclNlcnZpY2VzAFN5c3RlbS5SZXNvdXJjZXMAU0NfNWY0
-MjdlMzRlZTUyNDYyYzkxZjNjNjBhNTgwNDA1M2IuUHJvcGVydGllcy5SZXNvdXJjZXMucmVzb3Vy
-Y2VzAERlYnVnZ2luZ01vZGVzAFNDXzVmNDI3ZTM0ZWU1MjQ2MmM5MWYzYzYwYTU4MDQwNTNiLlBy
-b3BlcnRpZXMAVmFyaWFibGVzAEJ1ZmZlckNvbHVtbkluZGV4ZXMAR2V0Q29sdW1uSW5kZXhlcwBT
-ZXR0aW5ncwBFcXVhbHMAQ29ubmVjdGlvbnMAZ2V0X0NoYXJzAE9iamVjdABFbmRPZlJvd3NldABJ
-c0RpZ2l0AGdldF9EZWZhdWx0AFVzZXJDb21wb25lbnQAUGFyZW50Q29tcG9uZW50AFNjcmlwdENv
-bXBvbmVudABNaWNyb3NvZnQuU3FsU2VydmVyLlR4U2NyaXB0AE1pY3Jvc29mdC5TcWxTZXJ2ZXIu
-UGlwZWxpbmVIb3N0AElucHV0MF9Qcm9jZXNzSW5wdXQAaW5wdXQASW5wdXQwX1Byb2Nlc3NJbnB1
-dFJvdwBOZXh0Um93AGdldF9Bc3NlbWJseQAABS0AMQABgJtJAHMATgB1AGwAbAAgAHAAcgBvAHAA
-ZQByAHQAeQAgAGMAYQBuAG4AbwB0ACAAYgBlACAAcwBlAHQAIAB0AG8AIABGAGEAbABzAGUALgAg
-AEEAcwBzAGkAZwBuACAAYQAgAHYAYQBsAHUAZQAgAHQAbwAgAHQAaABlACAAYwBvAGwAdQBtAG4A
-IABpAG4AcwB0AGUAYQBkAC4AAA9JAG4AcAB1AHQAIAAwAABxUwBDAF8ANQBmADQAMgA3AGUAMwA0
-AGUAZQA1ADIANAA2ADIAYwA5ADEAZgAzAGMANgAwAGEANQA4ADAANAAwADUAMwBiAC4AUAByAG8A
-cABlAHIAdABpAGUAcwAuAFIAZQBzAG8AdQByAGMAZQBzAAAAAFTjUeAnrV9GkCK/NL5nuBQABCAB
-AQgDIAABBSABARERBCABAQ4FIAEBEVkEBwIOCAQAAQIOBCABAwgEAAECAwMgAAgJIAMBEj0dCBJB
-AwYSPQMGHQgEIAEOCAUgAgEIHAQgAQIIAyAAAgYgAgIOEXUFIAEdCAgGAAESeRF9BSAAEoCBByAC
-AQ4SgIEIt3pcVhk04IkIiYRdzYCAzJEDBhIUAwYSGAMGEkUDBhJRAwYSVQMGEiAFIAEBEgwEIAEO
-DgMgAA4EIAEBAgkgBAEIDhI9EkEFIAEBEkUEAAASUQQAABJVBQABARJVBAAAEiADAAABAygADgMo
-AAIECAASUQQIABJVBAgAEiAIAQAIAAAAAAAeAQABAFQCFldyYXBOb25FeGNlcHRpb25UaHJvd3MB
-CAEAAgAAAAAAKAEAI1NDXzVmNDI3ZTM0ZWU1MjQ2MmM5MWYzYzYwYTU4MDQwNTNiAAAFAQAAAAAW
-AQARQ29weXJpZ2h0IEAgIDIwMjUAAEkBABouTkVURnJhbWV3b3JrLFZlcnNpb249djQuNwEAVA4U
-RnJhbWV3b3JrRGlzcGxheU5hbWUSLk5FVCBGcmFtZXdvcmsgNC43BAEAAAAAtAAAAM7K774BAAAA
-kQAAAGxTeXN0ZW0uUmVzb3VyY2VzLlJlc291cmNlUmVhZGVyLCBtc2NvcmxpYiwgVmVyc2lvbj00
-LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkj
-U3lzdGVtLlJlc291cmNlcy5SdW50aW1lUmVzb3VyY2VTZXQCAAAAAAAAAAAAAABQQURQQURQtAAA
-AGwyAAAAAAAAAAAAAIYyAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB4MgAAAAAAAAAAAAAAAF9D
-b3JEbGxNYWluAG1zY29yZWUuZGxsAAAAAAD/JQAgABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAQAQAAAAGAAAgAAAAAAAAAAAAAAAAAAAAQABAAAAMAAAgAAAAAAAAAAAAAAAAAAAAQAAAAAA
-SAAAAFhAAADsAwAAAAAAAAAAAADsAzQAAABWAFMAXwBWAEUAUgBTAEkATwBOAF8ASQBOAEYATwAA
-AAAAvQTv/gAAAQAAAAEAAAAAAAAAAQAAAAAAPwAAAAAAAAAEAAAAAgAAAAAAAAAAAAAAAAAAAEQA
-AAABAFYAYQByAEYAaQBsAGUASQBuAGYAbwAAAAAAJAAEAAAAVAByAGEAbgBzAGwAYQB0AGkAbwBu
-AAAAAAAAALAETAMAAAEAUwB0AHIAaQBuAGcARgBpAGwAZQBJAG4AZgBvAAAAKAMAAAEAMAAwADAA
-MAAwADQAYgAwAAAAGgABAAEAQwBvAG0AbQBlAG4AdABzAAAAAAAAACIAAQABAEMAbwBtAHAAYQBu
-AHkATgBhAG0AZQAAAAAAAAAAAHAAJAABAEYAaQBsAGUARABlAHMAYwByAGkAcAB0AGkAbwBuAAAA
-AABTAEMAXwA1AGYANAAyADcAZQAzADQAZQBlADUAMgA0ADYAMgBjADkAMQBmADMAYwA2ADAAYQA1
-ADgAMAA0ADAANQAzAGIAAAAwAAgAAQBGAGkAbABlAFYAZQByAHMAaQBvAG4AAAAAADEALgAwAC4A
-MAAuADAAAABwACgAAQBJAG4AdABlAHIAbgBhAGwATgBhAG0AZQAAAFMAQwBfADUAZgA0ADIANwBl
-ADMANABlAGUANQAyADQANgAyAGMAOQAxAGYAMwBjADYAMABhADUAOAAwADQAMAA1ADMAYgAuAGQA
-bABsAAAASAASAAEATABlAGcAYQBsAEMAbwBwAHkAcgBpAGcAaAB0AAAAQwBvAHAAeQByAGkAZwBo
-AHQAIABAACAAIAAyADAAMgA1AAAAKgABAAEATABlAGcAYQBsAFQAcgBhAGQAZQBtAGEAcgBrAHMA
-AAAAAAAAAAB4ACgAAQBPAHIAaQBnAGkAbgBhAGwARgBpAGwAZQBuAGEAbQBlAAAAUwBDAF8ANQBm
-ADQAMgA3AGUAMwA0AGUAZQA1ADIANAA2ADIAYwA5ADEAZgAzAGMANgAwAGEANQA4ADAANAAwADUA
-MwBiAC4AZABsAGwAAABoACQAAQBQAHIAbwBkAHUAYwB0AE4AYQBtAGUAAAAAAFMAQwBfADUAZgA0
-ADIANwBlADMANABlAGUANQAyADQANgAyAGMAOQAxAGYAMwBjADYAMABhADUAOAAwADQAMAA1ADMA
-YgAAADQACAABAFAAcgBvAGQAdQBjAHQAVgBlAHIAcwBpAG8AbgAAADEALgAwAC4AMAAuADAAAAA4
-AAgAAQBBAHMAcwBlAG0AYgBsAHkAIABWAGUAcgBzAGkAbwBuAAAAMQAuADAALgAwAC4AMAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAMAAAAmDIAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
-                  </arrayElements>
-                </property>
-                <property
-                  dataType="System.String"
-                  description="Specifies the name of the Microsoft Visual Studio Tools for Applications project. Project names must be unique within a package."
-                  name="VSTAProjectName"
-                  typeConverter="NOTBROWSABLE">SC_5f427e34ee52462c91f3c60a5804053b</property>
-                <property
-                  dataType="System.String"
-                  description="Specifies the programming language used by the script."
-                  name="ScriptLanguage"
-                  typeConverter="Microsoft.SqlServer.VSTAHosting.ScriptingLanguages">CSharp</property>
-                <property
-                  dataType="System.String"
-                  description="Specifies a comma-separated list of read-only variables."
-                  name="ReadOnlyVariables"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ScriptUIVariablePickerDlg"></property>
-                <property
-                  dataType="System.String"
-                  description="Specifies a comma-separated list of read/write variables."
-                  name="ReadWriteVariables"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ScriptUIWriteableVariablePickerDlg"></property>
-                <property
-                  dataType="System.String"
-                  description="List of breakpoints present on the script."
-                  isArray="true"
-                  name="BreakpointCollection"
-                  typeConverter="NOTBROWSABLE">
-                  <arrayElements
-                    arrayElementCount="0" />
-                </property>
-                <property
-                  dataType="System.String"
-                  description="Checksum to match component metedata against compiled codes."
-                  name="MetadataChecksum140"
-                  typeConverter="NOTBROWSABLE">CF</property>
-                <property
-                  dataType="System.String"
-                  name="UserComponentTypeName">Microsoft.ScriptComponentHost</property>
-              </properties>
-              <inputs>
-                <input
-                  refId="Package\FactTeamSeason\Script Component.Inputs[Input 0]"
-                  hasSideEffects="true"
-                  name="Input 0">
-                  <inputColumns>
-                    <inputColumn
-                      refId="Package\FactTeamSeason\Script Component.Inputs[Input 0].Columns[AvereageAttendance]"
-                      cachedCodepage="1250"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="AvereageAttendance"
-                      lineageId="Package\FactTeamSeason\Merge Join.Outputs[Merge Join Output].Columns[AvereageAttendance]"
-                      usageType="readWrite" />
-                  </inputColumns>
-                  <externalMetadataColumns />
-                </input>
-              </inputs>
-              <outputs>
-                <output
-                  refId="Package\FactTeamSeason\Script Component.Outputs[Output 0]"
-                  name="Output 0"
-                  synchronousInputId="Package\FactTeamSeason\Script Component.Inputs[Input 0]">
                   <externalMetadataColumns />
                 </output>
               </outputs>
@@ -46521,7 +45621,7 @@ where [refTable].[TeamName] = ?</property>
           <paths>
             <path
               refId="Package\FactTeamSeason.Paths[Case 1]"
-              endId="Package\FactTeamSeason\Script Component.Inputs[Input 0]"
+              endId="Package\FactTeamSeason\Data Conversion.Inputs[Data Conversion Input]"
               name="Case 1"
               startId="Package\FactTeamSeason\only NBA.Outputs[Case 1]" />
             <path
@@ -46559,11 +45659,6 @@ where [refTable].[TeamName] = ?</property>
               endId="Package\FactTeamSeason\only NBA.Inputs[Conditional Split Input]"
               name="Merge Join Output"
               startId="Package\FactTeamSeason\Merge Join.Outputs[Merge Join Output]" />
-            <path
-              refId="Package\FactTeamSeason.Paths[Output 0]"
-              endId="Package\FactTeamSeason\Data Conversion.Inputs[Data Conversion Input]"
-              name="Output 0"
-              startId="Package\FactTeamSeason\Script Component.Outputs[Output 0]" />
             <path
               refId="Package\FactTeamSeason.Paths[Sort Output]"
               endId="Package\FactTeamSeason\Merge Join.Inputs[Merge Join Left Input]"
@@ -49174,7 +48269,7 @@ where [refTable].[Year] = ?</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,5.44531192630552,96.3827734375,11.609375"
+              BoundingBox="-48.19138671875,5.4453119263055,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -50638,7 +49733,7 @@ where [refTable].[Year] = ?</property>
     design-time-name="Package\dimSeason">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="98,42"
           Id="Package\dimSeason\Sort"
@@ -50674,7 +49769,9 @@ where [refTable].[Year] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -50696,7 +49793,9 @@ where [refTable].[Year] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -50718,7 +49817,9 @@ where [refTable].[Year] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -51541,7 +50642,7 @@ where [refTable].[Year] = ?</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="9.89194661458331,26.910277324633,96.3827734375,11.609375"
+              BoundingBox="9.8919466145835,26.910277324633,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -51875,41 +50976,119 @@ where [refTable].[Year] = ?</property>
       <GraphLayout
         Capacity="64" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="162.4,41.6"
-          Id="Package\FactTeamGameStats\Derived Column 1"
-          TopLeft="497.252748311268,142.941176345295" />
+          Size="120,41.6"
+          Id="Package\FactTeamGameStats\Union All"
+          TopLeft="382.142857956339,209.364705710758" />
+        <NodeLayout
+          Size="155.2,41.6"
+          Id="Package\FactTeamGameStats\Data Conversion"
+          TopLeft="569.285715497574,482.352940841324" />
+        <NodeLayout
+          Size="189.6,41.6"
+          Id="Package\FactTeamGameStats\handle name difference"
+          TopLeft="544.285715444356,412.764705608202" />
+        <NodeLayout
+          Size="156.8,41.6"
+          Id="Package\FactTeamGameStats\manage integers"
+          TopLeft="594.071429824343,1158.7823527984" />
         <NodeLayout
           Size="141.6,41.6"
           Id="Package\FactTeamGameStats\Game - Away"
           TopLeft="510.714286801462,60.4117646529291" />
         <NodeLayout
-          Size="152.8,41.6"
-          Id="Package\FactTeamGameStats\Derived Column"
-          TopLeft="247.252747779084,141.764705758091" />
+          Size="139.2,41.6"
+          Id="Package\FactTeamGameStats\dimTeam - A"
+          TopLeft="591.428572687568,862.39999972652" />
+        <NodeLayout
+          Size="150.4,41.6"
+          Id="Package\FactTeamGameStats\GameSummary"
+          TopLeft="747.857144449134,206.470588054315" />
+        <NodeLayout
+          Size="154.4,41.6"
+          Id="Package\FactTeamGameStats\prepare for load"
+          TopLeft="602.142858424662,1309.50588191055" />
+        <NodeLayout
+          Size="219.2,41.6"
+          Id="Package\FactTeamGameStats\populate FactTeamGameStats"
+          TopLeft="565.07936628227,1391.77777728399" />
+        <NodeLayout
+          Size="117.6,41.6"
+          Id="Package\FactTeamGameStats\dimDate"
+          TopLeft="600.000001277243,703.623529191908" />
+        <NodeLayout
+          Size="97.6,41.6"
+          Id="Package\FactTeamGameStats\Sort"
+          TopLeft="397.857143704076,290.588235039406" />
+        <NodeLayout
+          Size="140,41.6"
+          Id="Package\FactTeamGameStats\dimTeam - H"
+          TopLeft="595.714286982405,937.376470295317" />
+        <NodeLayout
+          Size="106.4,41.6"
+          Id="Package\FactTeamGameStats\Sort 1"
+          TopLeft="767.142858775903,294.411764447819" />
         <NodeLayout
           Size="144,41.6"
           Id="Package\FactTeamGameStats\Game - Home"
           TopLeft="248.571429100572,62.7058822979771" />
+        <NodeLayout
+          Size="162.4,41.6"
+          Id="Package\FactTeamGameStats\Derived Column 2"
+          TopLeft="590.000001255955,1079.14117602886" />
+        <NodeLayout
+          Size="152.8,41.6"
+          Id="Package\FactTeamGameStats\older than 1980"
+          TopLeft="572.857144076606,552.423529146328" />
+        <NodeLayout
+          Size="123.2,41.6"
+          Id="Package\FactTeamGameStats\dimGame"
+          TopLeft="607.857144151111,1009.44705848637" />
+        <NodeLayout
+          Size="152.8,41.6"
+          Id="Package\FactTeamGameStats\Derived Column"
+          TopLeft="247.252747779084,141.764705758091" />
+        <NodeLayout
+          Size="160,41.6"
+          Id="Package\FactTeamGameStats\manage decimals"
+          TopLeft="595.714286982405,1234.21176427689" />
+        <NodeLayout
+          Size="139.2,41.6"
+          Id="Package\FactTeamGameStats\dimTeam - T"
+          TopLeft="588.571429824343,788.988235084986" />
+        <NodeLayout
+          Size="129.6,41.6"
+          Id="Package\FactTeamGameStats\dimSeason"
+          TopLeft="590.000001255955,623.435293924602" />
+        <NodeLayout
+          Size="162.4,41.6"
+          Id="Package\FactTeamGameStats\Derived Column 1"
+          TopLeft="497.252748311268,142.941176345295" />
+        <NodeLayout
+          Size="132.8,41.6"
+          Id="Package\FactTeamGameStats\add Season"
+          TopLeft="568.571429781768,335.705882058682" />
         <EdgeLayout
-          Id="Package\FactTeamGameStats.Paths[Flat File Source Output]"
-          TopLeft="322.112088439828,104.305882297977">
+          Id="Package\FactTeamGameStats.Paths[Flat File Source Output2]"
+          TopLeft="821.700001612519,248.070588054315">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,37.4588234601139"
+              EndConnector="0,46.3411763935043"
               Start="0,0"
-              End="0,29.9588234601139">
+              End="0,38.8411763935043">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,29.9588234601139" />
+                    End="0,38.8411763935043" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -51931,13 +51110,59 @@ where [refTable].[Year] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="120,41.6"
-          Id="Package\FactTeamGameStats\Union All"
-          TopLeft="382.142857956339,209.364705710758" />
+        <EdgeLayout
+          Id="Package\FactTeamGameStats.Paths[Flat File Source Output]"
+          TopLeft="322.112088439828,104.305882297977">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,37.4588234601139"
+              Start="0,0"
+              End="0,29.9588234601139">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,29.9588234601139" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\FactTeamGameStats.Paths[Derived Column Output3]"
+          TopLeft="642.985715470965,454.364705608202">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,27.988235233121"
+              Start="0,0"
+              End="0,20.488235233121">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,20.488235233121" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\FactTeamGameStats.Paths[Derived Column Output2]"
           TopLeft="323.652747779084,183.364705758091">
@@ -51969,7 +51194,33 @@ where [refTable].[Year] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\FactTeamGameStats.Paths[Derived Column Output1]"
+          TopLeft="671.835715540149,1120.74117602886">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,38.0411767695396"
+              Start="0,0"
+              End="0,30.5411767695396">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,30.5411767695396" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -52003,13 +51254,83 @@ where [refTable].[Year] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="97.6,41.6"
-          Id="Package\FactTeamGameStats\Sort"
-          TopLeft="397.857143704076,290.588235039406" />
+        <EdgeLayout
+          Id="Package\FactTeamGameStats.Paths[Data Conversion Output1]"
+          TopLeft="677.011112353466,1351.10588191055">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,40.6718953734473"
+              Start="0,0"
+              End="0,33.1718953734473">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,33.1718953734473" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\FactTeamGameStats.Paths[Data Conversion Output]"
+          TopLeft="648.07142978709,523.952940841324">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,28.4705883050046"
+              Start="0,0"
+              End="0,20.9705883050046">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,20.9705883050046" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\FactTeamGameStats.Paths[Case 1]"
+          TopLeft="652.02857266628,594.023529146328">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,29.4117647782741"
+              Start="0,0"
+              End="0,21.9117647782741">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,21.9117647782741" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-15.2180859375,6.17902692038706,30.436171875,9.5537109375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\FactTeamGameStats.Paths[Union All Output 1]"
           TopLeft="444.400000830208,250.964705710758">
@@ -52029,43 +51350,11 @@ where [refTable].[Year] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="150.4,41.6"
-          Id="Package\FactTeamGameStats\GameSummary"
-          TopLeft="747.857144449134,206.470588054315" />
-        <NodeLayout
-          Size="106.4,41.6"
-          Id="Package\FactTeamGameStats\Sort 1"
-          TopLeft="767.142858775903,294.411764447819" />
-        <EdgeLayout
-          Id="Package\FactTeamGameStats.Paths[Flat File Source Output2]"
-          TopLeft="821.700001612519,248.070588054315">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,46.3411763935043"
-              Start="0,0"
-              End="0,38.8411763935043">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,38.8411763935043" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="132.8,41.6"
-          Id="Package\FactTeamGameStats\add Season"
-          TopLeft="568.571429781768,335.705882058682" />
         <EdgeLayout
           Id="Package\FactTeamGameStats.Paths[Sort Output1]"
           TopLeft="495.457143704076,311.388235039406">
@@ -52097,7 +51386,9 @@ where [refTable].[Year] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -52131,90 +51422,56 @@ where [refTable].[Year] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="189.6,41.6"
-          Id="Package\FactTeamGameStats\handle name difference"
-          TopLeft="544.285715444356,412.764705608202" />
-        <NodeLayout
-          Size="155.2,41.6"
-          Id="Package\FactTeamGameStats\Data Conversion"
-          TopLeft="569.285715497574,482.352940841324" />
         <EdgeLayout
-          Id="Package\FactTeamGameStats.Paths[Derived Column Output3]"
-          TopLeft="642.985715470965,454.364705608202">
+          Id="Package\FactTeamGameStats.Paths[Output 01]"
+          TopLeft="674.092858403374,1200.3823527984">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,27.988235233121"
+              EndConnector="0,33.8294114784903"
               Start="0,0"
-              End="0,20.488235233121">
+              End="0,26.3294114784903">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,20.488235233121" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="152.8,41.6"
-          Id="Package\FactTeamGameStats\older than 1980"
-          TopLeft="572.857144076606,552.423529146328" />
-        <EdgeLayout
-          Id="Package\FactTeamGameStats.Paths[Data Conversion Output]"
-          TopLeft="648.07142978709,523.952940841324">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,28.4705883050046"
-              Start="0,0"
-              End="0,20.9705883050046">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,20.9705883050046" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="129.6,41.6"
-          Id="Package\FactTeamGameStats\dimSeason"
-          TopLeft="590.000001255955,623.435293924602" />
-        <EdgeLayout
-          Id="Package\FactTeamGameStats.Paths[Case 1]"
-          TopLeft="652.02857266628,594.023529146328">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,29.4117647782741"
-              Start="0,0"
-              End="0,21.9117647782741">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,21.9117647782741" />
+                    End="0,26.3294114784903" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-15.2180859375,6.17902692038706,30.436171875,9.5537109375"
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\FactTeamGameStats.Paths[Output 0]"
+          TopLeft="677.528572703533,1275.81176427689">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,33.6941176336529"
+              Start="0,0"
+              End="0,26.1941176336529">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,26.1941176336529" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -52237,97 +51494,11 @@ where [refTable].[Year] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="117.6,41.6"
-          Id="Package\FactTeamGameStats\dimDate"
-          TopLeft="600.000001277243,703.623529191908" />
-        <EdgeLayout
-          Id="Package\FactTeamGameStats.Paths[Lookup Match Output]"
-          TopLeft="656.800001266599,665.035293924602">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,38.5882352673059"
-              Start="0,0"
-              End="0,31.0882352673059">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,31.0882352673059" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,9.73943013365295,96.3827734375,11.609375"
+              BoundingBox="0,0,0,0"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="139.2,41.6"
-          Id="Package\FactTeamGameStats\dimTeam - T"
-          TopLeft="588.571429824343,788.988235084986" />
-        <EdgeLayout
-          Id="Package\FactTeamGameStats.Paths[Lookup Match Output3]"
-          TopLeft="658.485715550793,745.223529191908">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,43.7647058930777"
-              Start="0,0"
-              End="0,36.2647058930777">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,36.2647058930777" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,12.3276654465388,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="139.2,41.6"
-          Id="Package\FactTeamGameStats\dimTeam - A"
-          TopLeft="591.428572687568,862.39999972652" />
-        <EdgeLayout
-          Id="Package\FactTeamGameStats.Paths[Lookup Match Output4]"
-          TopLeft="659.600001255955,830.588235084986">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,31.811764641534"
-              Start="0,0"
-              End="0,24.311764641534">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,24.311764641534" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,6.35119482076698,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="140,41.6"
-          Id="Package\FactTeamGameStats\dimTeam - H"
-          TopLeft="595.714286982405,937.376470295317" />
         <EdgeLayout
           Id="Package\FactTeamGameStats.Paths[Lookup Match Output5]"
           TopLeft="663.371429834986,903.99999972652">
@@ -52352,10 +51523,54 @@ where [refTable].[Year] = ?</property>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="123.2,41.6"
-          Id="Package\FactTeamGameStats\dimGame"
-          TopLeft="607.857144151111,1009.44705848637" />
+        <EdgeLayout
+          Id="Package\FactTeamGameStats.Paths[Lookup Match Output4]"
+          TopLeft="659.600001255955,830.588235084986">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,31.811764641534"
+              Start="0,0"
+              End="0,24.311764641534">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,24.311764641534" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-48.19138671875,6.35119482076698,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\FactTeamGameStats.Paths[Lookup Match Output3]"
+          TopLeft="658.485715550793,745.223529191908">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,43.7647058930777"
+              Start="0,0"
+              End="0,36.2647058930777">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,36.2647058930777" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-48.19138671875,12.3276654465388,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\FactTeamGameStats.Paths[Lookup Match Output2]"
           TopLeft="667.585715566758,978.976470295317">
@@ -52380,10 +51595,6 @@ where [refTable].[Year] = ?</property>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="162.4,41.6"
-          Id="Package\FactTeamGameStats\Derived Column 2"
-          TopLeft="590.000001255955,1079.14117602886" />
         <EdgeLayout
           Id="Package\FactTeamGameStats.Paths[Lookup Match Output1]"
           TopLeft="670.328572703533,1051.04705848637">
@@ -52408,108 +51619,28 @@ where [refTable].[Year] = ?</property>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="156.8,41.6"
-          Id="Package\FactTeamGameStats\manage integers"
-          TopLeft="594.071429824343,1158.7823527984" />
         <EdgeLayout
-          Id="Package\FactTeamGameStats.Paths[Derived Column Output1]"
-          TopLeft="671.835715540149,1120.74117602886">
+          Id="Package\FactTeamGameStats.Paths[Lookup Match Output]"
+          TopLeft="656.800001266599,665.035293924602">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,38.0411767695396"
+              EndConnector="0,38.5882352673059"
               Start="0,0"
-              End="0,30.5411767695396">
+              End="0,31.0882352673059">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,30.5411767695396" />
+                    End="0,31.0882352673059" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="160,41.6"
-          Id="Package\FactTeamGameStats\manage decimals"
-          TopLeft="595.714286982405,1234.21176427689" />
-        <EdgeLayout
-          Id="Package\FactTeamGameStats.Paths[Output 01]"
-          TopLeft="674.092858403374,1200.3823527984">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,33.8294114784903"
-              Start="0,0"
-              End="0,26.3294114784903">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,26.3294114784903" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="154.4,41.6"
-          Id="Package\FactTeamGameStats\prepare for load"
-          TopLeft="602.142858424662,1309.50588191055" />
-        <EdgeLayout
-          Id="Package\FactTeamGameStats.Paths[Output 0]"
-          TopLeft="677.528572703533,1275.81176427689">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,33.6941176336529"
-              Start="0,0"
-              End="0,26.1941176336529">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,26.1941176336529" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="219.2,41.6"
-          Id="Package\FactTeamGameStats\populate FactTeamGameStats"
-          TopLeft="565.07936628227,1391.77777728399" />
-        <EdgeLayout
-          Id="Package\FactTeamGameStats.Paths[Data Conversion Output1]"
-          TopLeft="677.011112353466,1351.10588191055">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,40.6718953734473"
-              Start="0,0"
-              End="0,33.1718953734473">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,33.1718953734473" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="-48.19138671875,9.73943013365295,96.3827734375,11.609375"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -52672,71 +51803,63 @@ where [refTable].[Year] = ?</property>
       <GraphLayout
         Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="120.8,41.6"
+          Size="121,42"
           Id="Package\FactTeamSeason\only NBA"
           TopLeft="606.666657626629,254.999996200204" />
         <NodeLayout
-          Size="156.8,41.6"
+          Size="157,42"
           Id="Package\FactTeamSeason\TeamSummaries"
           TopLeft="714.99998934567,58.9999991208315" />
         <NodeLayout
-          Size="129.6,41.6"
+          Size="130,42"
           Id="Package\FactTeamSeason\Merge Join"
           TopLeft="601.666657701135,188.333330526948" />
         <NodeLayout
-          Size="170.4,41.6"
-          Id="Package\FactTeamSeason\OLE DB Destination"
-          TopLeft="574.166658110917,738.8333254233" />
-        <NodeLayout
-          Size="123.2,41.6"
+          Size="123,42"
           Id="Package\FactTeamSeason\SeasonID"
-          TopLeft="604.166657663882,667.666661476096" />
+          TopLeft="599.166657663882,636.666661476096" />
         <NodeLayout
-          Size="106.4,41.6"
+          Size="106,42"
           Id="Package\FactTeamSeason\Sort 1"
           TopLeft="737.999989002943,132.999998018146" />
         <NodeLayout
-          Size="106.4,41.6"
+          Size="106,42"
           Id="Package\FactTeamSeason\Sort 2"
-          TopLeft="611.666657552123,531.666659191251" />
+          TopLeft="600.666657552123,491.666659191251" />
         <NodeLayout
-          Size="152.8,41.6"
+          Size="153,42"
           Id="Package\FactTeamSeason\Derived Column"
-          TopLeft="590.499991282821,467.166659787297" />
+          TopLeft="582.499991282821,424.166659787297" />
         <NodeLayout
-          Size="97.6,41.6"
+          Size="98,42"
           Id="Package\FactTeamSeason\Sort"
           TopLeft="507.499992437661,128.333331421018" />
         <NodeLayout
-          Size="162.4,41.6"
-          Id="Package\FactTeamSeason\Script Component"
-          TopLeft="585.833324603736,327.49999511987" />
-        <NodeLayout
-          Size="116,41.6"
+          Size="116,42"
           Id="Package\FactTeamSeason\TeamID"
-          TopLeft="602.49999102205,602.666658719381" />
+          TopLeft="600.49999102205,552.666658719381" />
         <NodeLayout
-          Size="132.8,41.6"
+          Size="133,42"
           Id="Package\FactTeamSeason\TeamTotals"
           TopLeft="493.999992638827,57.9999991357326" />
         <NodeLayout
-          Size="155.2,41.6"
+          Size="156,42"
           Id="Package\FactTeamSeason\Data Conversion"
-          TopLeft="590.833324529231,399.499994176129" />
+          TopLeft="590.833324529231,348.499994176129" />
         <EdgeLayout
           Id="Package\FactTeamSeason.Paths[Derived Column Output]"
-          TopLeft="665.883324417472,508.766659787297">
+          TopLeft="656.333324417472,466.166659787297">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,22.8999994039535"
+              EndConnector="0,25.499999403954"
               Start="0,0"
-              End="0,15.3999994039535">
+              End="0,17.999999403954">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,15.3999994039535" />
+                    End="0,17.999999403954" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -52747,18 +51870,30 @@ where [refTable].[Year] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\FactTeamSeason.Paths[Data Conversion Output]"
-          TopLeft="667.666657906026,441.099994176129">
+          TopLeft="668.833324529231,390.499994176129">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,26.0666656111681"
+              EndConnector="-9.83333324641001,33.666665611168"
               Start="0,0"
-              End="0,18.5666656111681">
+              End="-9.83333324641001,26.166665611168">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,18.5666656111681" />
+                    End="0,12.833332805584" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,12.833332805584"
+                    Point2="0,16.833332805584"
+                    Point3="-4,16.833332805584" />
+                  <mssgle:LineSegment
+                    End="-5.83333324641001,16.833332805584" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-5.83333324641001,16.833332805584"
+                    Point2="-9.83333324641001,16.833332805584"
+                    Point3="-9.83333324641001,20.833332805584" />
+                  <mssgle:LineSegment
+                    End="-9.83333324641001,26.166665611168" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -52768,43 +51903,31 @@ where [refTable].[Year] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\FactTeamSeason.Paths[Case 1]"
-          TopLeft="667.049991115183,296.599996200204">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,30.8999989196657"
-              Start="0,0"
-              End="0,23.3999989196657">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,23.3999989196657" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-15.2180859375,6.92314399108287,30.436171875,9.5537109375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
           Id="Package\FactTeamSeason.Paths[Sort Output2]"
-          TopLeft="662.683324287087,573.266659191251">
+          TopLeft="600.666657552123,512.666659191251">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,29.39999952813"
+              EndConnector="-0.166666530072916,60.9999995281299"
               Start="0,0"
-              End="0,21.89999952813">
+              End="-7.66666653007292,60.9999995281299">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,21.89999952813" />
+                    End="-18.6666665300729,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-18.6666665300729,0"
+                    Point2="-22.6666665300729,0"
+                    Point3="-22.6666665300729,4" />
+                  <mssgle:LineSegment
+                    End="-22.6666665300729,56.9999995281299" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-22.6666665300729,56.9999995281299"
+                    Point2="-22.6666665300729,60.9999995281299"
+                    Point3="-18.6666665300729,60.9999995281299" />
+                  <mssgle:LineSegment
+                    End="-7.66666653007292,60.9999995281299" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -52870,28 +51993,6 @@ where [refTable].[Year] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\FactTeamSeason.Paths[Output 0]"
-          TopLeft="667.733324566483,369.09999511987">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,30.3999990562595"
-              Start="0,0"
-              End="0,22.8999990562595">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,22.8999990562595" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
           Id="Package\FactTeamSeason.Paths[Merge Join Output]"
           TopLeft="666.766657663882,229.933330526948">
           <EdgeLayout.Curve>
@@ -52914,50 +52015,26 @@ where [refTable].[Year] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\FactTeamSeason.Paths[Lookup Match Output1]"
-          TopLeft="662.566657887399,709.266661476096">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,29.5666639472047"
-              Start="0,0"
-              End="0,22.0666639472047">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,22.0666639472047" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,5.22864447360234,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
           Id="Package\FactTeamSeason.Paths[Lookup Match Output]"
-          TopLeft="663.133324342966,644.266658719381">
+          TopLeft="659.583324342966,594.666658719381">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,23.4000027567146"
+              EndConnector="0,42.000002756715"
               Start="0,0"
-              End="0,15.9000027567146">
+              End="0,34.500002756715">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,15.9000027567146" />
+                    End="0,34.500002756715" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,2.14531387835729,96.3827734375,11.609375"
+              BoundingBox="-48.19138671875,11.4453138783575,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -53005,22 +52082,61 @@ where [refTable].[Year] = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <EdgeLayout
+          Id="Package\FactTeamSeason.Paths[Case 1]"
+          TopLeft="667.99999107793,296.999996200204">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,51.499997975925"
+              Start="0,0"
+              End="0,43.999997975925">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,43.999997975925" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-15.2180859375,17.2231435192125,30.436171875,9.5537109375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="171,42"
+          Id="Package\FactTeamSeason\OLE DB Destination"
+          TopLeft="823,639" />
+        <EdgeLayout
+          Id="Package\FactTeamSeason.Paths[Lookup Match Output1]"
+          TopLeft="722.166657663882,658.833330738048">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="100.833342336118,0"
+              Start="0,0"
+              End="93.333342336118,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="93.333342336118,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-1.52471555069101,5,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\FactTeamSeason\OLE DB Destination">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\FactTeamSeason\SeasonID">
     <Properties>
@@ -53574,6 +52690,19 @@ where [refTable].[Year] = ?</property>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\FactTeamSeason\OLE DB Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
