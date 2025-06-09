@@ -15,7 +15,7 @@
       <SSIS:Project SSIS:ProtectionLevel="EncryptSensitiveWithUserKey" xmlns:SSIS="www.microsoft.com/SqlServer/SSIS">
         <SSIS:Properties>
           <SSIS:Property SSIS:Name="ID">{3636ce2b-10ed-4b55-9c74-1281fddc5293}</SSIS:Property>
-          <SSIS:Property SSIS:Name="Name">NBA</SSIS:Property>
+          <SSIS:Property SSIS:Name="Name">ETL</SSIS:Property>
           <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
           <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
           <SSIS:Property SSIS:Name="VersionBuild">0</SSIS:Property>
@@ -26,26 +26,26 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">LAPTOP-EKB8VOTS</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeW1GdVT/1UyhDzkAsUzFDgAAAAACAAAAAAAQZgAAAAEAACAAAACVXnVNg0DazVFLB0+zm5SyhNM0y4Mt6gaq+RFIF0oKEwAAAAAOgAAAAAIAACAAAAABE4+fCsqkPq9VvpWS0U67GE+LoK4EZtFl8Ji+fLwtq5AAAADb72Zq8lyZ2QE0d52r38WMgBeip6Gcn8ww7TR5kRm8v4oDGZoILXGhdo5OYRYspv63LoUIqSQKtkYtjE8aT8VcFVqHiyqeEph6W2Dujj7ccblzLV5XWV7dHIHWXxE6ADVVhqsi8a7ck/hmd31q3b7jey5mZF1SY7sg3jusYz6H8A6nJSQQaMEmgGa5qdohTb1AAAAAs2Zx7m5quyQgKef7KKJq4/oDjI3tX09B+WCOFSWvS5WrlVg1CF0cElKA8HpM/sg67A5kzmP/pvk3kK02sTjOqg==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA4YXSxfM3J0atZLzbjoVDGQAAAAACAAAAAAAQZgAAAAEAACAAAABdbWOJRR9JsPCnvBFBzhiVKxFJkbVewgmxwfwcos79TAAAAAAOgAAAAAIAACAAAADZkrDx5lEqHbTRfeDFGQBTJKl/MEyCOVHYs2J+n6AWUpAAAAC17Vhega4RoHrACS3zokgiq7+PZkN/vTfEN/tTX6asIx/weDdjG/n/fIRxs7Cbxqb8AcDyZ7z0piOUljbiqJv/LNq/N80Tm5jL3rA+JdwQvVyGY34TcLpWXus4jCGf2rRKH/M97T61oZ7S3lpyI+i63NWOGp8dz/Qa6jPrQZZgWwKftDUOoCuYb9m1FZxkokRAAAAAmefzEoavT0l2P5bRB8Ne6topSOj0N7anByzY7RTIqFY4mmppu+u2hmGELTfWzBVTS8w8L7YiionB6g8XJLC1GQ==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
-          <SSIS:Package SSIS:Name="ETL.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="ETL_flow.dtsx" SSIS:EntryPoint="1" />
         </SSIS:Packages>
         <SSIS:ConnectionManagers />
         <SSIS:DeploymentInfo>
           <SSIS:ProjectConnectionParameters />
           <SSIS:PackageInfo>
-            <SSIS:PackageMetaData SSIS:Name="ETL.dtsx">
+            <SSIS:PackageMetaData SSIS:Name="ETL_flow.dtsx">
               <SSIS:Properties>
                 <SSIS:Property SSIS:Name="ID">{672C06F4-7082-4440-8EF1-87BA28140A0B}</SSIS:Property>
                 <SSIS:Property SSIS:Name="Name">ETL</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">586</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">604</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{242D9BF7-1778-4695-A68A-2C4ABF953CDB}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{FAFAE426-B811-4005-8029-53AAA1941D8D}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -1109,6 +1109,8 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">
+                    </SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
