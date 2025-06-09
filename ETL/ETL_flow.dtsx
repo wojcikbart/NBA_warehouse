@@ -11,8 +11,8 @@
   DTS:LocaleID="2057"
   DTS:ObjectName="ETL"
   DTS:PackageType="5"
-  DTS:VersionBuild="604"
-  DTS:VersionGUID="{FAFAE426-B811-4005-8029-53AAA1941D8D}">
+  DTS:VersionBuild="606"
+  DTS:VersionGUID="{F16DD935-F94B-4C60-A5A4-6905FE08CDF2}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -9042,19 +9042,19 @@ where [refTable].[Year] = ?</property>
               startId="Package\dimGame\Derived Column.Outputs[Derived Column Output]" />
             <path
               refId="Package\dimGame.Paths[Flat File Source Output1]"
-              endId="Package\dimGame\Sort 1.Inputs[Sort Input]"
-              name="Flat File Source Output"
-              startId="Package\dimGame\Game.Outputs[Flat File Source Output]" />
-            <path
-              refId="Package\dimGame.Paths[Flat File Source Output2]"
               endId="Package\dimGame\Sort 2.Inputs[Sort Input]"
               name="Flat File Source Output"
               startId="Package\dimGame\GameSummary.Outputs[Flat File Source Output]" />
             <path
-              refId="Package\dimGame.Paths[Flat File Source Output]"
+              refId="Package\dimGame.Paths[Flat File Source Output2]"
               endId="Package\dimGame\Sort.Inputs[Sort Input]"
               name="Flat File Source Output"
               startId="Package\dimGame\GameInfo.Outputs[Flat File Source Output]" />
+            <path
+              refId="Package\dimGame.Paths[Flat File Source Output]"
+              endId="Package\dimGame\Sort 1.Inputs[Sort Input]"
+              name="Flat File Source Output"
+              startId="Package\dimGame\Game.Outputs[Flat File Source Output]" />
             <path
               refId="Package\dimGame.Paths[Lookup Match Output]"
               endId="Package\dimGame\Lookup Date.Inputs[Lookup Input]"
@@ -9087,14 +9087,14 @@ where [refTable].[Year] = ?</property>
               startId="Package\dimGame\Merge Join.Outputs[Merge Join Output]" />
             <path
               refId="Package\dimGame.Paths[Sort Output1]"
-              endId="Package\dimGame\Merge Join.Inputs[Merge Join Left Input]"
-              name="Sort Output"
-              startId="Package\dimGame\Sort.Outputs[Sort Output]" />
-            <path
-              refId="Package\dimGame.Paths[Sort Output]"
               endId="Package\dimGame\Merge Join.Inputs[Merge Join Right Input]"
               name="Sort Output"
               startId="Package\dimGame\Sort 1.Outputs[Sort Output]" />
+            <path
+              refId="Package\dimGame.Paths[Sort Output]"
+              endId="Package\dimGame\Merge Join.Inputs[Merge Join Left Input]"
+              name="Sort Output"
+              startId="Package\dimGame\Sort.Outputs[Sort Output]" />
             <path
               refId="Package\dimGame.Paths[Sort Output2]"
               endId="Package\dimGame\Merge Join 1.Inputs[Merge Join Right Input]"
@@ -14788,19 +14788,19 @@ where [refTable].[Year] = ?</property>
               startId="Package\dimPlayerInfo\PlayerCareerInfo.Outputs[Flat File Source Output]" />
             <path
               refId="Package\dimPlayerInfo.Paths[Lookup Match Output2]"
+              endId="Package\dimPlayerInfo\Derived Column.Inputs[Derived Column Input]"
+              name="Lookup Match Output"
+              startId="Package\dimPlayerInfo\Lookup LastSeasonID.Outputs[Lookup Match Output]" />
+            <path
+              refId="Package\dimPlayerInfo.Paths[Lookup Match Output]"
               endId="Package\dimPlayerInfo\Lookup FirstSeasonID.Inputs[Lookup Input]"
               name="Lookup Match Output"
               startId="Package\dimPlayerInfo\Lookup date.Outputs[Lookup Match Output]" />
             <path
-              refId="Package\dimPlayerInfo.Paths[Lookup Match Output]"
+              refId="Package\dimPlayerInfo.Paths[Lookup Match Output1]"
               endId="Package\dimPlayerInfo\Lookup LastSeasonID.Inputs[Lookup Input]"
               name="Lookup Match Output"
               startId="Package\dimPlayerInfo\Lookup FirstSeasonID.Outputs[Lookup Match Output]" />
-            <path
-              refId="Package\dimPlayerInfo.Paths[Lookup Match Output1]"
-              endId="Package\dimPlayerInfo\Derived Column.Inputs[Derived Column Input]"
-              name="Lookup Match Output"
-              startId="Package\dimPlayerInfo\Lookup LastSeasonID.Outputs[Lookup Match Output]" />
             <path
               refId="Package\dimPlayerInfo.Paths[Merge Join Output]"
               endId="Package\dimPlayerInfo\Convert to latin letters.Inputs[Input 0]"
@@ -14818,19 +14818,19 @@ where [refTable].[Year] = ?</property>
               startId="Package\dimPlayerInfo\Convert to latin letters.Outputs[Output 0]" />
             <path
               refId="Package\dimPlayerInfo.Paths[Sort Output2]"
+              endId="Package\dimPlayerInfo\Merge Join 1.Inputs[Merge Join Right Input]"
+              name="Sort Output"
+              startId="Package\dimPlayerInfo\Sort 2.Outputs[Sort Output]" />
+            <path
+              refId="Package\dimPlayerInfo.Paths[Sort Output]"
               endId="Package\dimPlayerInfo\Merge Join.Inputs[Merge Join Left Input]"
               name="Sort Output"
               startId="Package\dimPlayerInfo\Sort.Outputs[Sort Output]" />
             <path
-              refId="Package\dimPlayerInfo.Paths[Sort Output]"
+              refId="Package\dimPlayerInfo.Paths[Sort Output1]"
               endId="Package\dimPlayerInfo\Merge Join 1.Inputs[Merge Join Left Input]"
               name="Sort Output"
               startId="Package\dimPlayerInfo\Sort 3.Outputs[Sort Output]" />
-            <path
-              refId="Package\dimPlayerInfo.Paths[Sort Output1]"
-              endId="Package\dimPlayerInfo\Merge Join 1.Inputs[Merge Join Right Input]"
-              name="Sort Output"
-              startId="Package\dimPlayerInfo\Sort 2.Outputs[Sort Output]" />
             <path
               refId="Package\dimPlayerInfo.Paths[Sort Output3]"
               endId="Package\dimPlayerInfo\Merge Join.Inputs[Merge Join Right Input]"
@@ -29713,24 +29713,24 @@ where [refTable].[Abbreviation] = ?</property>
               startId="Package\FactPlayerSeason\Advanced.Outputs[Flat File Source Output]" />
             <path
               refId="Package\FactPlayerSeason.Paths[Lookup Match Output3]"
-              endId="Package\FactPlayerSeason\SeasonID lookup.Inputs[Lookup Input]"
+              endId="Package\FactPlayerSeason\Union All.Inputs[Union All Input 2]"
               name="Lookup Match Output"
-              startId="Package\FactPlayerSeason\PlayerID lookup.Outputs[Lookup Match Output]" />
+              startId="Package\FactPlayerSeason\TeamID no match lookup.Outputs[Lookup Match Output]" />
             <path
               refId="Package\FactPlayerSeason.Paths[Lookup Match Output2]"
-              endId="Package\FactPlayerSeason\TeamID lookup.Inputs[Lookup Input]"
-              name="Lookup Match Output"
-              startId="Package\FactPlayerSeason\SeasonID lookup.Outputs[Lookup Match Output]" />
-            <path
-              refId="Package\FactPlayerSeason.Paths[Lookup Match Output1]"
               endId="Package\FactPlayerSeason\Union All.Inputs[Union All Input 1]"
               name="Lookup Match Output"
               startId="Package\FactPlayerSeason\TeamID lookup.Outputs[Lookup Match Output]" />
             <path
-              refId="Package\FactPlayerSeason.Paths[Lookup Match Output]"
-              endId="Package\FactPlayerSeason\Union All.Inputs[Union All Input 2]"
+              refId="Package\FactPlayerSeason.Paths[Lookup Match Output1]"
+              endId="Package\FactPlayerSeason\TeamID lookup.Inputs[Lookup Input]"
               name="Lookup Match Output"
-              startId="Package\FactPlayerSeason\TeamID no match lookup.Outputs[Lookup Match Output]" />
+              startId="Package\FactPlayerSeason\SeasonID lookup.Outputs[Lookup Match Output]" />
+            <path
+              refId="Package\FactPlayerSeason.Paths[Lookup Match Output]"
+              endId="Package\FactPlayerSeason\SeasonID lookup.Inputs[Lookup Input]"
+              name="Lookup Match Output"
+              startId="Package\FactPlayerSeason\PlayerID lookup.Outputs[Lookup Match Output]" />
             <path
               refId="Package\FactPlayerSeason.Paths[Lookup No Match Output]"
               endId="Package\FactPlayerSeason\TeamID no match lookup.Inputs[Lookup Input]"
@@ -39258,34 +39258,34 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
               startId="Package\FactTeamGameStats\GameSummary.Outputs[Flat File Source Output]" />
             <path
               refId="Package\FactTeamGameStats.Paths[Lookup Match Output5]"
-              endId="Package\FactTeamGameStats\dimGame.Inputs[Lookup Input]"
+              endId="Package\FactTeamGameStats\dimTeam - T.Inputs[Lookup Input]"
               name="Lookup Match Output"
-              startId="Package\FactTeamGameStats\dimTeam - H.Outputs[Lookup Match Output]" />
+              startId="Package\FactTeamGameStats\dimDate.Outputs[Lookup Match Output]" />
             <path
               refId="Package\FactTeamGameStats.Paths[Lookup Match Output4]"
-              endId="Package\FactTeamGameStats\Derived Column 2.Inputs[Derived Column Input]"
-              name="Lookup Match Output"
-              startId="Package\FactTeamGameStats\dimGame.Outputs[Lookup Match Output]" />
-            <path
-              refId="Package\FactTeamGameStats.Paths[Lookup Match Output3]"
-              endId="Package\FactTeamGameStats\dimDate.Inputs[Lookup Input]"
-              name="Lookup Match Output"
-              startId="Package\FactTeamGameStats\dimSeason.Outputs[Lookup Match Output]" />
-            <path
-              refId="Package\FactTeamGameStats.Paths[Lookup Match Output]"
-              endId="Package\FactTeamGameStats\dimTeam - H.Inputs[Lookup Input]"
-              name="Lookup Match Output"
-              startId="Package\FactTeamGameStats\dimTeam - A.Outputs[Lookup Match Output]" />
-            <path
-              refId="Package\FactTeamGameStats.Paths[Lookup Match Output1]"
               endId="Package\FactTeamGameStats\dimTeam - A.Inputs[Lookup Input]"
               name="Lookup Match Output"
               startId="Package\FactTeamGameStats\dimTeam - T.Outputs[Lookup Match Output]" />
             <path
-              refId="Package\FactTeamGameStats.Paths[Lookup Match Output2]"
-              endId="Package\FactTeamGameStats\dimTeam - T.Inputs[Lookup Input]"
+              refId="Package\FactTeamGameStats.Paths[Lookup Match Output3]"
+              endId="Package\FactTeamGameStats\dimTeam - H.Inputs[Lookup Input]"
               name="Lookup Match Output"
-              startId="Package\FactTeamGameStats\dimDate.Outputs[Lookup Match Output]" />
+              startId="Package\FactTeamGameStats\dimTeam - A.Outputs[Lookup Match Output]" />
+            <path
+              refId="Package\FactTeamGameStats.Paths[Lookup Match Output]"
+              endId="Package\FactTeamGameStats\dimGame.Inputs[Lookup Input]"
+              name="Lookup Match Output"
+              startId="Package\FactTeamGameStats\dimTeam - H.Outputs[Lookup Match Output]" />
+            <path
+              refId="Package\FactTeamGameStats.Paths[Lookup Match Output1]"
+              endId="Package\FactTeamGameStats\Derived Column 2.Inputs[Derived Column Input]"
+              name="Lookup Match Output"
+              startId="Package\FactTeamGameStats\dimGame.Outputs[Lookup Match Output]" />
+            <path
+              refId="Package\FactTeamGameStats.Paths[Lookup Match Output2]"
+              endId="Package\FactTeamGameStats\dimDate.Inputs[Lookup Input]"
+              name="Lookup Match Output"
+              startId="Package\FactTeamGameStats\dimSeason.Outputs[Lookup Match Output]" />
             <path
               refId="Package\FactTeamGameStats.Paths[Merge Join Output]"
               endId="Package\FactTeamGameStats\handle name difference.Inputs[Derived Column Input]"
@@ -39303,14 +39303,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
               startId="Package\FactTeamGameStats\manage integers.Outputs[Output 0]" />
             <path
               refId="Package\FactTeamGameStats.Paths[Sort Output1]"
-              endId="Package\FactTeamGameStats\add Season.Inputs[Merge Join Right Input]"
-              name="Sort Output"
-              startId="Package\FactTeamGameStats\Sort 1.Outputs[Sort Output]" />
-            <path
-              refId="Package\FactTeamGameStats.Paths[Sort Output]"
               endId="Package\FactTeamGameStats\add Season.Inputs[Merge Join Left Input]"
               name="Sort Output"
               startId="Package\FactTeamGameStats\Sort.Outputs[Sort Output]" />
+            <path
+              refId="Package\FactTeamGameStats.Paths[Sort Output]"
+              endId="Package\FactTeamGameStats\add Season.Inputs[Merge Join Right Input]"
+              name="Sort Output"
+              startId="Package\FactTeamGameStats\Sort 1.Outputs[Sort Output]" />
             <path
               refId="Package\FactTeamGameStats.Paths[Union All Output 1]"
               endId="Package\FactTeamGameStats\Sort.Inputs[Sort Input]"
@@ -47875,8 +47875,8 @@ where [refTable].[Year] = ?</property>
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 1]"
       DTS:CreationName=""
-      DTS:DTSID="{178B86A4-7950-40B5-A029-4E1E1B689DF6}"
-      DTS:From="Package\dimTeam"
+      DTS:DTSID="{2DD1A6C8-B15B-49D4-B8B2-D1C4AC34246B}"
+      DTS:From="Package\dimSeason"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 1"
       DTS:To="Package\dimAwards" />
@@ -47915,19 +47915,27 @@ where [refTable].[Year] = ?</property>
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 6]"
       DTS:CreationName=""
-      DTS:DTSID="{832AEE3B-C83F-42D8-9B13-81C08EB5C721}"
-      DTS:From="Package\FactTeamSeason"
+      DTS:DTSID="{A910A3DE-D222-42AB-A83A-6FA387CD42B3}"
+      DTS:From="Package\PlayerSeasonAward"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 6"
       DTS:To="Package\FactPlayerSeason" />
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 7]"
       DTS:CreationName=""
-      DTS:DTSID="{EEE24909-64E1-4918-A186-77A8C6E35B37}"
-      DTS:From="Package\FactPlayerSeason"
+      DTS:DTSID="{D88D8D9E-6B01-42CF-A105-55407B526505}"
+      DTS:From="Package\PlayerSeasonAward"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 7"
       DTS:To="Package\FactTeamGameStats" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 8]"
+      DTS:CreationName=""
+      DTS:DTSID="{5F0BA157-4AC7-4AF7-8F6C-11B633220715}"
+      DTS:From="Package\dimTeam"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 8"
+      DTS:To="Package\dimGame" />
   </DTS:PrecedenceConstraints>
   <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
 <!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
@@ -47944,15 +47952,15 @@ where [refTable].[Year] = ?</property>
         <NodeLayout
           Size="129.6,41.6"
           Id="Package\dimAwards"
-          TopLeft="396.285714475781,174.470588168265" />
+          TopLeft="246.999999872277,111.764705870288" />
         <NodeLayout
           Size="123.2,41.6"
           Id="Package\dimGame"
-          TopLeft="400.571429377308,252.764705699362" />
+          TopLeft="400.571429377308,226.764705722152" />
         <NodeLayout
           Size="143.2,41.6"
           Id="Package\dimPlayerInfo"
-          TopLeft="392.142857189994,336.176470318107" />
+          TopLeft="387.14285717935,317.823529157723" />
         <NodeLayout
           Size="129.6,41.6"
           Id="Package\dimSeason"
@@ -47960,59 +47968,49 @@ where [refTable].[Year] = ?</property>
         <NodeLayout
           Size="121.6,41.6"
           Id="Package\dimTeam"
-          TopLeft="399.857143501846,96.3529411831736" />
+          TopLeft="540.775511148763,109.352941171779" />
         <NodeLayout
           Size="160.8,41.6"
           Id="Package\FactPlayerSeason"
-          TopLeft="386.714285694519,566.682352935144" />
+          TopLeft="384.5714285471,496.32941182034" />
         <NodeLayout
           Size="175.2,41.6"
           Id="Package\FactTeamGameStats"
-          TopLeft="382.142857956339,641.611764538979" />
+          TopLeft="605.000001287886,494.023529374228" />
         <NodeLayout
           Size="158.4,41.6"
           Id="Package\FactTeamSeason"
-          TopLeft="386.428572251176,480.482352570504" />
+          TopLeft="111.836734931948,494.137814743408" />
         <NodeLayout
           Size="169.6,41.6"
           Id="Package\PlayerSeasonAward"
-          TopLeft="384.285714720585,412.564705676572" />
+          TopLeft="375.71428613091,402.623529214698" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="461.000001186771,65.0117645959543">
+          TopLeft="481.209525538363,65.0117645959543">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,31.3411765872193"
+              EndConnector="120.365985610401,44.3411765758243"
               Start="0,0"
-              End="0,23.8411765872193">
+              End="120.365985610401,36.8411765758243">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,23.8411765872193" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package.PrecedenceConstraints[Constraint 1]"
-          TopLeft="461.271428988813,137.952941183174">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,36.5176469850913"
-              Start="0,0"
-              End="0,29.0176469850913">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
+                    End="0,14.0609182638114" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,14.0609182638114"
+                    Point2="0,18.0609182638114"
+                    Point3="4,18.0609182638114" />
                   <mssgle:LineSegment
-                    End="0,29.0176469850913" />
+                    End="116.365985610401,18.0609182638114" />
+                  <mssgle:CubicBezierSegment
+                    Point1="116.365985610401,18.0609182638114"
+                    Point2="120.365985610401,18.0609182638114"
+                    Point3="120.365985610401,22.0609182638114" />
+                  <mssgle:LineSegment
+                    End="120.365985610401,36.8411765758243" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -48023,18 +48021,30 @@ where [refTable].[Year] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 2]"
-          TopLeft="461.828571926544,216.070588168265">
+          TopLeft="311.799999872277,153.364705870288">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,36.6941175310973"
+              EndConnector="131.171429505031,73.399999851864"
               Start="0,0"
-              End="0,29.1941175310973">
+              End="131.171429505031,65.899999851864">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,29.1941175310973" />
+                    End="0,39.4753845276425" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,39.4753845276425"
+                    Point2="0,43.4753845276425"
+                    Point3="4,43.4753845276425" />
+                  <mssgle:LineSegment
+                    End="127.171429505031,43.4753845276425" />
+                  <mssgle:CubicBezierSegment
+                    Point1="127.171429505031,43.4753845276425"
+                    Point2="131.171429505031,43.4753845276425"
+                    Point3="131.171429505031,47.4753845276425" />
+                  <mssgle:LineSegment
+                    End="131.171429505031,65.899999851864" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -48045,18 +48055,18 @@ where [refTable].[Year] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 3]"
-          TopLeft="462.957143283651,294.364705699362">
+          TopLeft="460.457143278329,268.364705722152">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,41.8117646187447"
+              EndConnector="0,49.4588234355715"
               Start="0,0"
-              End="0,34.3117646187447">
+              End="0,41.9588234355715">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,34.3117646187447" />
+                    End="0,41.9588234355715" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -48067,18 +48077,18 @@ where [refTable].[Year] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 4]"
-          TopLeft="466.614285955289,377.776470318107">
+          TopLeft="459.62857165513,359.423529157723">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,34.7882353584651"
+              EndConnector="0,43.2000000569741"
               Start="0,0"
-              End="0,27.2882353584651">
+              End="0,35.7000000569741">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,27.2882353584651" />
+                    End="0,35.7000000569741" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -48089,18 +48099,98 @@ where [refTable].[Year] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 5]"
-          TopLeft="467.55714348588,454.164705676572">
+          TopLeft="420.11428613091,444.223529214698">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,26.3176468939316"
+              EndConnector="-229.077551198962,49.9142855287106"
               Start="0,0"
-              End="0,18.8176468939316">
+              End="-229.077551198962,42.4142855287106">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,18.8176468939316" />
+                    End="0,13.1532064820027" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,13.1532064820027"
+                    Point2="0,17.1532064820027"
+                    Point3="-4,17.1532064820027" />
+                  <mssgle:LineSegment
+                    End="-225.077551198962,17.1532064820027" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-225.077551198962,17.1532064820027"
+                    Point2="-229.077551198962,17.1532064820027"
+                    Point3="-229.077551198962,21.1532064820027" />
+                  <mssgle:LineSegment
+                    End="-229.077551198962,42.4142855287106" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 1]"
+          TopLeft="440.676192205029,65.0117645959543">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-128.876192332753,46.7529412743337"
+              Start="0,0"
+              End="-128.876192332753,39.2529412743337">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,15.0432712019847" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,15.0432712019847"
+                    Point2="0,19.0432712019847"
+                    Point3="-4,19.0432712019847" />
+                  <mssgle:LineSegment
+                    End="-124.876192332753,19.0432712019847" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-124.876192332753,19.0432712019847"
+                    Point2="-128.876192332753,19.0432712019847"
+                    Point3="-128.876192332753,23.0432712019847" />
+                  <mssgle:LineSegment
+                    End="-128.876192332753,39.2529412743337" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 8]"
+          TopLeft="601.575511148763,150.952941171779">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-120.204081771455,75.8117645503733"
+              Start="0,0"
+              End="-120.204081771455,68.3117645503733">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,40.9038913106057" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,40.9038913106057"
+                    Point2="0,44.9038913106057"
+                    Point3="-4,44.9038913106057" />
+                  <mssgle:LineSegment
+                    End="-116.204081771455,44.9038913106057" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-116.204081771455,44.9038913106057"
+                    Point2="-120.204081771455,44.9038913106057"
+                    Point3="-120.204081771455,48.9038913106057" />
+                  <mssgle:LineSegment
+                    End="-120.204081771455,68.3117645503733" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -48111,18 +48201,18 @@ where [refTable].[Year] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 6]"
-          TopLeft="466.321428972847,522.482352570504">
+          TopLeft="462.742857339005,444.223529214698">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,44.20000036464"
+              EndConnector="0,52.1058826056429"
               Start="0,0"
-              End="0,36.70000036464">
+              End="0,44.6058826056429">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,36.70000036464" />
+                    End="0,44.6058826056429" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -48133,18 +48223,30 @@ where [refTable].[Year] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 7]"
-          TopLeft="468.428571825429,608.682352935144">
+          TopLeft="500.91428613091,444.223529214698">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,32.929411603835"
+              EndConnector="191.685715156976,49.8000001595305"
               Start="0,0"
-              End="0,25.429411603835">
+              End="191.685715156976,42.3000001595305">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,25.429411603835" />
+                    End="0,13.1139319433681" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,13.1139319433681"
+                    Point2="0,17.1139319433681"
+                    Point3="4,17.1139319433681" />
+                  <mssgle:LineSegment
+                    End="187.685715156976,17.1139319433681" />
+                  <mssgle:CubicBezierSegment
+                    Point1="187.685715156976,17.1139319433681"
+                    Point2="191.685715156976,17.1139319433681"
+                    Point3="191.685715156976,21.1139319433681" />
+                  <mssgle:LineSegment
+                    End="191.685715156976,42.3000001595305" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -48626,7 +48728,7 @@ where [refTable].[Year] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\dimGame.Paths[Sort Output1]"
+          Id="Package\dimGame.Paths[Sort Output]"
           TopLeft="396.79999974668,124.600000193715">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -48662,7 +48764,7 @@ where [refTable].[Year] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\dimGame.Paths[Sort Output]"
+          Id="Package\dimGame.Paths[Sort Output1]"
           TopLeft="589.19999961257,122.600000283122">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -48854,7 +48956,7 @@ where [refTable].[Year] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\dimGame.Paths[Flat File Source Output2]"
+          Id="Package\dimGame.Paths[Flat File Source Output1]"
           TopLeft="750.099999575317,118.600000700355">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -48878,7 +48980,7 @@ where [refTable].[Year] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\dimGame.Paths[Flat File Source Output1]"
+          Id="Package\dimGame.Paths[Flat File Source Output]"
           TopLeft="590.299999590218,55.6000001937151">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -48902,7 +49004,7 @@ where [refTable].[Year] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\dimGame.Paths[Flat File Source Output]"
+          Id="Package\dimGame.Paths[Flat File Source Output2]"
           TopLeft="396.599999761581,57.6000001639128">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -49289,7 +49391,7 @@ where [refTable].[Year] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\dimPlayerInfo.Paths[Sort Output2]"
+          Id="Package\dimPlayerInfo.Paths[Sort Output]"
           TopLeft="433.457141818015,276.270589147359">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -49319,7 +49421,7 @@ where [refTable].[Year] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\dimPlayerInfo.Paths[Sort Output1]"
+          Id="Package\dimPlayerInfo.Paths[Sort Output2]"
           TopLeft="700.943310636188,474.112790186052">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -49349,7 +49451,7 @@ where [refTable].[Year] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\dimPlayerInfo.Paths[Sort Output]"
+          Id="Package\dimPlayerInfo.Paths[Sort Output1]"
           TopLeft="562.542857960596,474.811765746849">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -49451,7 +49553,7 @@ where [refTable].[Year] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\dimPlayerInfo.Paths[Lookup Match Output2]"
+          Id="Package\dimPlayerInfo.Paths[Lookup Match Output]"
           TopLeft="625.899991856516,705.799993428587">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -49475,7 +49577,7 @@ where [refTable].[Year] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\dimPlayerInfo.Paths[Lookup Match Output1]"
+          Id="Package\dimPlayerInfo.Paths[Lookup Match Output2]"
           TopLeft="631.699991826713,858.599993011355">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -49499,7 +49601,7 @@ where [refTable].[Year] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\dimPlayerInfo.Paths[Lookup Match Output]"
+          Id="Package\dimPlayerInfo.Paths[Lookup Match Output1]"
           TopLeft="630.699991945922,786.599993309379">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -50677,7 +50779,7 @@ where [refTable].[Year] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\FactPlayerSeason.Paths[Lookup Match Output3]"
+          Id="Package\FactPlayerSeason.Paths[Lookup Match Output]"
           TopLeft="500,588">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -50701,7 +50803,7 @@ where [refTable].[Year] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\FactPlayerSeason.Paths[Lookup Match Output2]"
+          Id="Package\FactPlayerSeason.Paths[Lookup Match Output1]"
           TopLeft="733,588">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -50725,7 +50827,7 @@ where [refTable].[Year] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\FactPlayerSeason.Paths[Lookup Match Output1]"
+          Id="Package\FactPlayerSeason.Paths[Lookup Match Output2]"
           TopLeft="906.5,608">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -50761,7 +50863,7 @@ where [refTable].[Year] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\FactPlayerSeason.Paths[Lookup Match Output]"
+          Id="Package\FactPlayerSeason.Paths[Lookup Match Output3]"
           TopLeft="1194.5,609">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -51470,7 +51572,7 @@ where [refTable].[Year] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\FactTeamGameStats.Paths[Sort Output1]"
+          Id="Package\FactTeamGameStats.Paths[Sort Output]"
           TopLeft="767.142858775903,315.211764447819">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -51506,7 +51608,7 @@ where [refTable].[Year] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\FactTeamGameStats.Paths[Sort Output]"
+          Id="Package\FactTeamGameStats.Paths[Sort Output1]"
           TopLeft="495.457143704076,311.388235039406">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -51614,7 +51716,7 @@ where [refTable].[Year] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\FactTeamGameStats.Paths[Lookup Match Output5]"
+          Id="Package\FactTeamGameStats.Paths[Lookup Match Output]"
           TopLeft="667.585715566758,978.976470295317">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -51638,7 +51740,7 @@ where [refTable].[Year] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\FactTeamGameStats.Paths[Lookup Match Output4]"
+          Id="Package\FactTeamGameStats.Paths[Lookup Match Output1]"
           TopLeft="670.328572703533,1051.04705848637">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -51662,7 +51764,7 @@ where [refTable].[Year] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\FactTeamGameStats.Paths[Lookup Match Output3]"
+          Id="Package\FactTeamGameStats.Paths[Lookup Match Output2]"
           TopLeft="656.800001266599,665.035293924602">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -51686,7 +51788,7 @@ where [refTable].[Year] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\FactTeamGameStats.Paths[Lookup Match Output2]"
+          Id="Package\FactTeamGameStats.Paths[Lookup Match Output5]"
           TopLeft="658.485715550793,745.223529191908">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -51710,7 +51812,7 @@ where [refTable].[Year] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\FactTeamGameStats.Paths[Lookup Match Output1]"
+          Id="Package\FactTeamGameStats.Paths[Lookup Match Output4]"
           TopLeft="659.600001255955,830.588235084986">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -51734,7 +51836,7 @@ where [refTable].[Year] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\FactTeamGameStats.Paths[Lookup Match Output]"
+          Id="Package\FactTeamGameStats.Paths[Lookup Match Output3]"
           TopLeft="663.371429834986,903.99999972652">
           <EdgeLayout.Curve>
             <mssgle:Curve
